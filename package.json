@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "run": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "run": "python3 -m http.server -d public",
+    "build": "npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch"
   },
   "keywords": [],
   "author": "",
