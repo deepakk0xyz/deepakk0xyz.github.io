@@ -3,6 +3,7 @@
   <tr>
     <td> {{ movie.title }} </td>
     <td> <img src="{{ movie.poster }}" /> </td>
+    <td> {{ "Watched" if movie.watched else "Unwatched" }} </td>
     <td> {{ movie.imdbID }} </td>
   </tr>
   {% endfor %}
