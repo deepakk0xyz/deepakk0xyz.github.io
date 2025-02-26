@@ -1,0 +1,10 @@
+<table>
+  {% for show in media.shows %}
+  <tr>
+    <td> {{ show.title }} </td>
+    <td> <img src="{{ show.poster }}" /> </td>
+    <td> {{ "Watched" if show.watched else "Unwatched" }} </td>
+    <td> {{ show.imdbID }} </td>
+  </tr>
+  {% endfor %}
+</table>

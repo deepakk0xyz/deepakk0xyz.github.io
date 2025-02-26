@@ -1,0 +1,10 @@
+<table>
+  {% for game in media.games %}
+  <tr>
+    <td> {{ game.title }} </td>
+    <td> <img src="{{ game.poster }}" /> </td>
+    <td> {{ "Finished" if game.watched else "To Play" }} </td>
+    <td> {{ game.imdbID }} </td>
+  </tr>
+  {% endfor %}
+</table>
