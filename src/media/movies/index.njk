@@ -1,0 +1,9 @@
+<table>
+  {% for movie in media.movies %}
+  <tr>
+    <td> {{ movie.title }} </td>
+    <td> <img src="{{ movie.poster }}" /> </td>
+    <td> {{ movie.imdbID }} </td>
+  </tr>
+  {% endfor %}
+</table>
