@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && python3 -m http.server -d public",
-    "build": "npx @11ty/eleventy && npx @tailwindcss/cli -i ./src/css/base.css -o ./public/css/base.css"
+    "start": "npx npm-run-all -p watch:* serve",
+    "build": "npx npm-run-all build:*",
+    "serve": "python3 -m http.server -d public",
+    "build:11ty": "npx @11ty/eleventy",
+    "build:css": "npx @tailwindcss/cli -i ./src/css/base.css -o ./public/css/base.css --minify",
+    "watch:11ty": "npx @11ty/eleventy --watch",
+    "watch:css": "npx @tailwindcss/cli -i ./src/css/base.css -o ./public/css/base.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +19,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@tailwindcss/cli": "^4.0.9",
+    "npm-run-all": "^4.1.5",
     "tailwindcss": "^4.0.9"
   }
 }
