@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "run": "python3 -m http.server -d public",
+    "run": "npx @11ty/eleventy && python3 -m http.server -d public",
     "build": "npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch"
   },
