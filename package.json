@@ -9,7 +9,7 @@
     "build:11ty": "npx @11ty/eleventy",
     "build:css": "npx @tailwindcss/cli -i ./src/css/base.css -o ./public/css/base.css --minify",
     "watch:11ty": "npx @11ty/eleventy --watch",
-    "watch:css": "npx @tailwindcss/cli -i ./src/css/base.css -o ./public/css/base.css --watch"
+    "watch:css": "npx @tailwindcss/cli -i ./src/css/base.css -o ./public/css/base.css --watch --minify"
   },
   "keywords": [],
   "author": "",
