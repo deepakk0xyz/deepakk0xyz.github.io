@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>Page Title</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    {% include 'components/navbar.njk' %}
     {{ content | safe }}
   </body>
 </html>
