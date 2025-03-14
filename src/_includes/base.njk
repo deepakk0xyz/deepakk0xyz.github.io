@@ -5,7 +5,11 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    {% include 'components/navbar.njk' %}
+
+    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+
+    <div class="flex justify-center">
     {{ content | safe }}
+    </div>
   </body>
 </html>
