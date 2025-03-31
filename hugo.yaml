@@ -5,4 +5,4 @@ theme: "hugo-book"
 publishDir: "docs"
 
 params:
-  BookSection: "pages"
+  BookSection: "*"

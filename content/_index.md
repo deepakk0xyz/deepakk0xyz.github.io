@@ -1,4 +1,5 @@
 ---
-title: Introduction
-type: docs
+title: Home
 ---
+
+# Main Page
