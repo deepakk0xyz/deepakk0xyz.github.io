@@ -1,7 +1,8 @@
-baseURL: 'https://example.org/'
-languageCode: = 'en-us'
-title: 'My New Hugo Site'
-theme: 'hugo-book'
+baseURL: "https://deepakk.xyz/"
+languageCode: = "en-us"
+title: "deepakk0xyz"
+theme: "hugo-book"
+publishDir: "docs"
 
 params:
-  BookSection: 'docs'
+  BookSection: "docs"
