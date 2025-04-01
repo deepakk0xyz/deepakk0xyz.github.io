@@ -2,4 +2,9 @@
 title: Home
 ---
 
-# Main Page
+# Home
+💤💤💤
+
+This page exists only in the future.
+
+💤💤💤
