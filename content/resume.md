@@ -1,4 +1,10 @@
 ---
 title: Resume
+weight: 1
 ---
-# Resume Page
+# Resume
+💤💤💤
+
+This page exists only in the future.
+
+💤💤💤
