@@ -1,0 +1,13 @@
+<h1>{{ .Page.Title }}</h1>
+
+
+{{ $data := index .Site.Data.fiction ( .Get "data" ) }}
+{{ $rating := .Get "rating" }}
+
+{{ range $data }}
+  {{ if (or (eq $rating "") (eq .rating $rating))}}
+    <img src="{{ .poster }}">
+    <p>{{ .title }}</p>
+    <hr>
+  {{ end }}
+{{ end }}
