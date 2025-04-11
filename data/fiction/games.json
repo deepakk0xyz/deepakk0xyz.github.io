@@ -1,5 +1,12 @@
 [
   {
+    "title": "Black Myth: Wukong",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528",
+    "rating": "Unplayed",
+    "status": "Unplayed",
+    "year": 2024
+  },
+  {
     "title": "Celeste",
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953",
     "rating": "Special",
@@ -63,6 +70,13 @@
     "year": 2022
   },
   {
+    "title": "Gris",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313",
+    "rating": "Amazing",
+    "status": "Finished",
+    "year": 2018
+  },
+  {
     "title": "Hollow Knight",
     "poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028",
     "rating": "Special",
@@ -103,5 +117,33 @@
     "rating": "Special",
     "status": "Finished",
     "year": 2017
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643",
+    "rating": "Unplayed",
+    "status": "Unplayed",
+    "year": 2018
+  },
+  {
+    "title": "Return of the Obra Dinn",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg?t=1686697594",
+    "rating": "Unplayed",
+    "status": "Unplayed",
+    "year": 2018
+  },
+  {
+    "title": "The Last of Us: Part I",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1741209545",
+    "rating": "Unplayed",
+    "status": "Unplayed",
+    "year": 2013
+  },
+  {
+    "title": "The Last of Us: Part II",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1743700473",
+    "rating": "Unplayed",
+    "status": "Unplayed",
+    "year": 2020
   }
 ]
