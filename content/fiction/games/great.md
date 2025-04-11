@@ -1,12 +1,6 @@
 ---
 title: Great
-weight: 2
+weight: 3
 ---
 
-# Great
-💤💤💤
-
-This page exists only in the future.
-
-💤💤💤
-
+{{< fiction data="games" >}}

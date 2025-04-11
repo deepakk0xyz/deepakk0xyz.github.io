@@ -1,12 +1,6 @@
 ---
 title: Bollywood
-weight: 4
+weight: 5
 ---
 
-# Bollywood
-
-💤💤💤
-
-This page exists only in the future.
-
-💤💤💤
+{{< fiction data="films" >}}

@@ -1,6 +1,6 @@
 ---
-title: Great
-weight: 3
+title: Special
+weight: 1
 ---
 
 {{< fiction data="books" >}}

@@ -1,6 +1,6 @@
 ---
-title: Amazing
-weight: 2
+title: Special
+weight: 1
 ---
 
 {{< fiction data="films" >}}

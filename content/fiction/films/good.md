@@ -1,11 +1,6 @@
 ---
 title: Good
-weight: 3
+weight: 4
 ---
 
-# Good
-💤💤💤
-
-This page exists only in the future.
-
-💤💤💤
+{{< fiction data="films" >}}

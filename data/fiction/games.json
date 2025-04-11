@@ -2,22 +2,22 @@
   {
     "title": "Celeste",
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953",
-    "rating": "amazing",
-    "status": "finished",
+    "rating": "Amazing",
+    "status": "Finished",
     "year": 2018
   },
   {
     "title": "Chants of Sennaar",
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1931770/header.jpg?t=1695809281",
     "rating": "good",
-    "status": "finished",
+    "status": "Finished",
     "year": 2023
   },
   {
     "title": "Cuphead",
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205",
-    "rating": "amazing",
-    "status": "ongoing",
+    "rating": "Amazing",
+    "status": "Ongoing",
     "year": 2017
   },
   {
@@ -31,42 +31,42 @@
     "title": "Gibbon - Beyond The Trees",
     "poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1837330/header.jpg?t=1688726905",
     "rating": "good",
-    "status": "finished",
+    "status": "Finished",
     "year": 2022
   },
   {
     "title": "Hollow Knight",
     "poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028",
-    "rating": "amazing",
-    "status": "finished",
+    "rating": "Amazing",
+    "status": "Finished",
     "year": 2017
   },
   {
     "title": "It Takes Two",
     "poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg?t=1691006466",
-    "rating": "great",
-    "status": "finished",
+    "rating": "Great",
+    "status": "Finished",
     "year": 2021
   },
   {
     "title": "Omori",
     "poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1150690/header.jpg?t=1671584768",
-    "rating": "to start",
-    "status": "to start",
+    "rating": "To Start",
+    "status": "To Start",
     "year": 2020
   },
   {
     "title": "Planet Of Lana",
     "poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787",
-    "rating": "great",
-    "status": "ongoing",
+    "rating": "Great",
+    "status": "Ongoing",
     "year": 2023
   },
   {
     "title": "Rain World",
     "poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/312520/header.jpg?t=1674137018",
-    "rating": "amazing",
-    "status": "finished",
+    "rating": "Amazing",
+    "status": "Finished",
     "year": 2017
   }
 ]
