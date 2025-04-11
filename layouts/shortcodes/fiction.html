@@ -18,7 +18,7 @@
 <div class="flex items-center m-10" data-rating="{{ .rating }}">
   <img class="w-24 sm:w-64" src="{{ .poster }}">
   <div class="flex flex-col ml-10 items-top">
-    <p class="text-md sm:text-xl">{{ .title }}</p>
+    <p class="text-md sm:text-xl">{{ .title }} ( {{ .year }} )</p>
     {{ if .genre }} <p class="text-md sm:text-xl"><b>Genre:</b> {{ .genre }}</p> {{ end }}
     {{ if .director }}  <p class="text-md sm:text-xl"><b>Director:</b> {{ .director }}</p>  {{ end }}
     {{ if .rating }}  <p class="text-md sm:text-xl"><b>My Rating:</b> {{ .rating }}</p>  {{ end }}
