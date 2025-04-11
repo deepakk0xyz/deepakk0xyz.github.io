@@ -1,6 +1,6 @@
 ---
 title: Good
-weight: 4
+weight: 5
 ---
 
-{{< fiction data="books" >}}
+{{< fiction data="books" key="rating" value="Good" >}}

@@ -1,6 +1,6 @@
 ---
 title: Bollywood
-weight: 5
+weight: 6
 ---
 
-{{< fiction data="films" >}}
+{{< fiction data="films" key="rating" value="Bollywood" >}}

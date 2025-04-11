@@ -1,6 +1,6 @@
 ---
 title: Special
-weight: 1
+weight: 2
 ---
 
-{{< fiction data="shows" >}}
+{{< fiction data="shows" key="rating" value="Special" >}}

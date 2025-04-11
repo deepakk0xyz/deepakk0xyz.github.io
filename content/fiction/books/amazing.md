@@ -1,6 +1,6 @@
 ---
 title: Amazing
-weight: 2
+weight: 3
 ---
 
-{{< fiction data="books" >}}
+{{< fiction data="books" key="rating" value="Amazing" >}}

@@ -2,38 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on deepakk0xyz</title>
-    <link>https://deepakk.xyz/fiction/books/</link>
+    <link>http://localhost:1313/fiction/books/</link>
     <description>Recent content in Books on deepakk0xyz</description>
     <generator>Hugo</generator>
     <language>= &#34;en-us&#34;</language>
-    <atom:link href="https://deepakk.xyz/fiction/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/fiction/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unread</title>
+      <link>http://localhost:1313/fiction/books/unread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fiction/books/unread/</guid>
+      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Unread&lt;/h1&gt;</description>
+    </item>
     <item>
       <title>Special</title>
-      <link>https://deepakk.xyz/fiction/books/special/</link>
+      <link>http://localhost:1313/fiction/books/special/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/special/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Special&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/fiction/books/special/</guid>
+      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Special&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Amazing</title>
-      <link>https://deepakk.xyz/fiction/books/amazing/</link>
+      <link>http://localhost:1313/fiction/books/amazing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/amazing/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Amazing&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/fiction/books/amazing/</guid>
+      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Amazing&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Great</title>
-      <link>https://deepakk.xyz/fiction/books/great/</link>
+      <link>http://localhost:1313/fiction/books/great/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/great/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Great&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/fiction/books/great/</guid>
+      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Great&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Good</title>
-      <link>https://deepakk.xyz/fiction/books/good/</link>
+      <link>http://localhost:1313/fiction/books/good/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/good/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Good&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/fiction/books/good/</guid>
+      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Good&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Did Not Finish</title>
+      <link>http://localhost:1313/fiction/books/dnf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fiction/books/dnf/</guid>
+      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Did Not Finish&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>
