@@ -2,60 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fiction/books/</loc>
+    <loc>https://deepakk.xyz/fiction/books/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/films/</loc>
+    <loc>https://deepakk.xyz/fiction/films/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>https://deepakk.xyz/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/books/special/</loc>
+    <loc>https://deepakk.xyz/fiction/games/unplayed/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/films/special/</loc>
+    <loc>https://deepakk.xyz/fiction/books/unread/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/games/special/</loc>
+    <loc>https://deepakk.xyz/fiction/films/unwatched/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/shows/special/</loc>
+    <loc>https://deepakk.xyz/fiction/shows/unwatched/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/books/amazing/</loc>
+    <loc>https://deepakk.xyz/fiction/games/ongoing/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/films/amazing/</loc>
+    <loc>https://deepakk.xyz/fiction/books/special/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/games/amazing/</loc>
+    <loc>https://deepakk.xyz/fiction/films/special/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/shows/amazing/</loc>
+    <loc>https://deepakk.xyz/fiction/shows/special/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/films/great/</loc>
+    <loc>https://deepakk.xyz/fiction/books/amazing/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/books/great/</loc>
+    <loc>https://deepakk.xyz/fiction/films/amazing/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/games/great/</loc>
+    <loc>https://deepakk.xyz/fiction/shows/amazing/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/shows/great/</loc>
+    <loc>https://deepakk.xyz/fiction/films/great/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/shows/</loc>
+    <loc>https://deepakk.xyz/fiction/shows/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/books/good/</loc>
+    <loc>https://deepakk.xyz/fiction/games/special/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/films/good/</loc>
+    <loc>https://deepakk.xyz/fiction/games/amazing/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/games/good/</loc>
+    <loc>https://deepakk.xyz/fiction/books/great/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/shows/good/</loc>
+    <loc>https://deepakk.xyz/fiction/shows/great/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/films/bollywood/</loc>
+    <loc>https://deepakk.xyz/fiction/books/good/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://deepakk.xyz/fiction/films/good/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://deepakk.xyz/fiction/shows/good/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/</loc>
+    <loc>https://deepakk.xyz/fiction/games/great/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://deepakk.xyz/fiction/films/bollywood/</loc>
   </url><url>
-    <loc>http://localhost:1313/study/</loc>
+    <loc>https://deepakk.xyz/fiction/books/dnf/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://deepakk.xyz/fiction/games/good/</loc>
   </url><url>
-    <loc>http://localhost:1313/fiction/games/</loc>
+    <loc>https://deepakk.xyz/fiction/games/dnf/</loc>
+  </url><url>
+    <loc>https://deepakk.xyz/blog/</loc>
+  </url><url>
+    <loc>https://deepakk.xyz/categories/</loc>
+  </url><url>
+    <loc>https://deepakk.xyz/fiction/</loc>
+  </url><url>
+    <loc>https://deepakk.xyz/</loc>
+  </url><url>
+    <loc>https://deepakk.xyz/study/</loc>
+  </url><url>
+    <loc>https://deepakk.xyz/tags/</loc>
+  </url><url>
+    <loc>https://deepakk.xyz/fiction/games/</loc>
   </url>
 </urlset>
