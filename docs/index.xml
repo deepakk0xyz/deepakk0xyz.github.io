@@ -1,179 +1,1834 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on deepakk0xyz</title>
-    <link>https://deepakk.xyz/</link>
-    <description>Recent content in Home on deepakk0xyz</description>
-    <generator>Hugo</generator>
-    <language>= &#34;en-us&#34;</language>
-    <atom:link href="https://deepakk.xyz/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Resume</title>
-      <link>https://deepakk.xyz/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/resume/</guid>
-      <description>&lt;h1 id=&#34;resume&#34;&gt;&#xA;  Resume&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#resume&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;💤💤💤&lt;/p&gt;&#xA;&lt;p&gt;This page exists only in the future.&lt;/p&gt;&#xA;&lt;p&gt;💤💤💤&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unplayed</title>
-      <link>https://deepakk.xyz/fiction/games/unplayed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/unplayed/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Unplayed&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Black Myth: Wukong ( 2024 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1738256985&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;God of War Ragnarök ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1150690/header.jpg?t=1671584768&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Omori ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Red Dead Redemption 2 ( 2018 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg?t=1686697594&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Return of the Obra Dinn ( 2018 )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unread</title>
-      <link>https://deepakk.xyz/fiction/books/unread/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/unread/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Unread&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Unwatched</title>
-      <link>https://deepakk.xyz/fiction/films/unwatched/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/films/unwatched/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Unwatched&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unwatched&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMWM2MDBkMTQtYWUxNS00NmI3LTg2ZGUtNjI4MzdiM2U1NTYwXkEyXkFqcGc@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;After Yang ( 2021 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unwatched&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BZDg1OGQ4YzgtM2Y2NS00NjA3LWFjYTctMDRlMDI3NWE1OTUyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Annie Hall ( 1977 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unwatched&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Braveheart ( 1995 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unwatched&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNWFjNWQ2ZTctZjY2Ny00OTQ0LTgwZTktODgzNWYwNzM5MzIwXkEyXkFqcGdeQXVyMjgyNjk3MzE@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Buffalo 66 ( 1998 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unwatched&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BYTdmZmY3Y2QtNjU5NC00OGUxLTg3MWQtMmE2ODM5Mzg3MzcyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Death Proof ( 2007 )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unwatched</title>
-      <link>https://deepakk.xyz/fiction/shows/unwatched/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/shows/unwatched/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Unwatched&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unwatched&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Breaking Bad ( 2008-2013 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Did Not Finish&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMTU3MDkzNzM5NF5BMl5BanBnXkFtZTgwMzEyNTgyMDI@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Dirk Gentlys Holistic Detective Agency ( 2016-2017 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Did Not Finish&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unwatched&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNTgxNDZlODQtNDcwOC00NWQ5LTljNWMtMDhjY2U5YTUzMTc4XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Mad Men ( 2007-2015 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unwatched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Modern Family ( 2009-2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ongoing</title>
-      <link>https://deepakk.xyz/fiction/games/ongoing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/ongoing/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Ongoing&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Cuphead ( 2017 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Outer Wilds ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Planet Of Lana ( 2023 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Special</title>
-      <link>https://deepakk.xyz/fiction/books/special/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/special/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Special&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Special</title>
-      <link>https://deepakk.xyz/fiction/films/special/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/films/special/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Special&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMmVhZjhlZDYtMDAwZi00MDcyLTgzOTItOWNiZjY0YmE0MGE0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;10 Things I Hate About You ( 1999 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMmRlZDQ1MmUtMzE2Yi00YTkxLTk1MGMtYmIyYWQwODcxYzRlXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;A Few Good Men ( 1992 )&lt;/p&gt;&#xA;     &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Genre:&lt;/b&gt; Thriller&lt;/p&gt; &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BOTFiNzRiOWEtYTQwNy00NmRiLWE0ZWYtNTE0YjExZjFmZjkwXkEyXkFqcGc@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;A Silent Voice ( 2016 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMzM4ZDJhYjYtZGY5Ny00NTk0LWI4ZTYtNjczZDFiMGI2ZjEzXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;All Quiet on the Western Front ( 2022 )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Special</title>
-      <link>https://deepakk.xyz/fiction/shows/special/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/shows/special/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Special&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Arcane ( 2021- )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Avatar The Last Airbender ( 2005-2008 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BZTgyNTBkNzctN2I3NC00NTA1LWJiMDMtYzA2MmYyZjc1NWQzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Black Mirror ( 2011- )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BZjg0YmNiZTAtZDI2Yi00MTVhLTk3ZTctM2JiNjQwY2ZhMzg4XkEyXkFqcGdeQXVyMzE1NjI3MjI@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Bo Burnham Make Happy ( 2016 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BZWI1YmY1YjctNTU3MS00MDFhLTkzNjUtMDgyYTEwYTkxZWJhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Bo Burnham what ( 2013 )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Amazing</title>
-      <link>https://deepakk.xyz/fiction/books/amazing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/amazing/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Amazing&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Amazing</title>
-      <link>https://deepakk.xyz/fiction/films/amazing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/films/amazing/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Amazing&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;21 ( 2008 )&lt;/p&gt;&#xA;     &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Genre:&lt;/b&gt; Thriller&lt;/p&gt; &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNDJkOTVkYTMtMTk2OC00YTkyLThjMGYtMTdiYWRjYTQ1YTYzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;AK vs AK ( 2020 )&lt;/p&gt;&#xA;     &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Genre:&lt;/b&gt; Thriller, Dark Comedy&lt;/p&gt; &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;About Time ( 2013 )&lt;/p&gt;&#xA;     &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Genre:&lt;/b&gt; Romance&lt;/p&gt; &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BZTg5ZTVmM2EtZjdhZC00MzBjLWEwZTYtNWIwZDczYzZkMzA4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Aladdin ( 1992 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Amazing</title>
-      <link>https://deepakk.xyz/fiction/shows/amazing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/shows/amazing/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Amazing&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BZjdjOWIxMDgtYTgwNS00MjE4LTliZWYtZGI1NDhhZmIyYjM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;After Life ( 2019-2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BODI0OGIxM2MtZTQ0YS00ZjhhLWE3YzYtYzE2N2JkNThmY2RkXkEyXkFqcGdeQXVyODkzMzE0Nzc@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Alice in Borderland ( 2020- )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMjNjNThmYTUtMjY2Ni00OGE4LTgzOTItYTgzMDllNDM5NTI5XkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Atypical ( 2017-2021 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNWM0ZGE0NGYtYmIwYi00NzBkLWExZDgtNThjMTUwYzA5ZjdkXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Blue Eye Samurai ( 2023 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMzdiYzRjZjctZDE0ZC00MGQ4LWEwYzAtZDEyNzJiYzI2YjM2XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Bodies ( 2023- )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Great</title>
-      <link>https://deepakk.xyz/fiction/films/great/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/films/great/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Great&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BY2JjNTA0OWItMjhlMC00ZTYzLTlhODktODFiNjg3ZTZmNTY4L2ltYWdlXkEyXkFqcGdeQXVyMzkwMTMxNDQ@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;100 Meters ( 2016 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;300 ( 2006 )&lt;/p&gt;&#xA;     &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Genre:&lt;/b&gt; Action&lt;/p&gt; &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BMTk5MjM4OTU1OV5BMl5BanBnXkFtZTcwODkzNDIzMw@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;500 Days of Summer ( 2009 )&lt;/p&gt;&#xA;     &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Genre:&lt;/b&gt; Romantic Comedy&lt;/p&gt; &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BZDUzYTRjMDAtNDkwMi00ZWY1LWI1OWEtM2VjY2NjNzNhOTRmXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Aligarh ( 2015 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Special</title>
-      <link>https://deepakk.xyz/fiction/games/special/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/special/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Special&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Celeste ( 2018 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1727256511&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Disco Elysium - The Final Cut ( 2019 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Hollow Knight ( 2017 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Outer Wilds ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/312520/header.jpg?t=1674137018&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Rain World ( 2017 )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Amazing</title>
-      <link>https://deepakk.xyz/fiction/games/amazing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/amazing/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Amazing&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Cuphead ( 2017 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Ghost of Tsushima ( 2024 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Gris ( 2018 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg?t=1691006466&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;It Takes Two ( 2021 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Great</title>
-      <link>https://deepakk.xyz/fiction/books/great/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/great/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Great&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Great</title>
-      <link>https://deepakk.xyz/fiction/shows/great/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/shows/great/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Great&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNmEzOWVkYjEtMTdjMy00OTljLWIzYzctNTg3ZTQ2Mzc0NTA2XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;A Suitable Boy ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Brooklyn Nine-Nine ( 2013-2021 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Friends ( 1994-2004 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BYTk0Nzk5ZWYtYTNlZi00YjBjLWJhYjctMWMwMmYyMDA5ZjJmXkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Its Okay to Not Be Okay ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BZGYzMTg2MzktOTc3Yi00ZThlLTkxN2MtY2YxNGE1MWNiYmMxXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Kaleidoscope ( 2023 )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Good</title>
-      <link>https://deepakk.xyz/fiction/books/good/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/good/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Good&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Good</title>
-      <link>https://deepakk.xyz/fiction/films/good/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/films/good/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Good&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNjZjYzRhMmEtMTU0Ny00YWI4LThiZjEtNWZjMDQ3MTgwZmVhXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Chhapaak ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BYjg2ZDI2YTYtN2EwYi00YWI5LTgyMWQtMWFkYmE3NmJkOGVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Chhichhore ( 2019 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BODk0MjFlY2YtOGFmMi00OTVjLTkwMzctOTdlYzYzNTZkMmRmXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Honor Society ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Good</title>
-      <link>https://deepakk.xyz/fiction/shows/good/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/shows/good/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Good&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://m.media-amazon.com/images/M/MV5BNjFkYmUxYzItMmMwYS00N2I3LWJlYWItZDM3Zjc3YTlhZjU4XkEyXkFqcGdeQXVyNDU4MDQ0MjM@._V1_SX300.jpg&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;More Than Friends ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Watched&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Great</title>
-      <link>https://deepakk.xyz/fiction/games/great/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/great/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Great&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.akamai.steamstatic.com/steam/apps/1931770/header.jpg?t=1695809281&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Chants of Sennaar ( 2023 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1729030762&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;God of War ( 2018 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Planet Of Lana ( 2023 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Did Not Finish</title>
-      <link>https://deepakk.xyz/fiction/books/dnf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/books/dnf/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Did Not Finish&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Good</title>
-      <link>https://deepakk.xyz/fiction/games/good/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/good/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Good&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Endling ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Did Not Finish&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1837330/header.jpg?t=1688726905&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Gibbon - Beyond The Trees ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Did Not Finish</title>
-      <link>https://deepakk.xyz/fiction/games/dnf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/dnf/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Did Not Finish&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Endling ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Did Not Finish&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on deepakk0xyz</title><link>https://deepakk.xyz/</link><description>Recent content in Home on deepakk0xyz</description><generator>Hugo</generator><language>= "en-us"</language><atom:link href="https://deepakk.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume</title><link>https://deepakk.xyz/resume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/resume/</guid><description>&lt;h1 id="resume">
+ Resume
+ &lt;a class="anchor" href="#resume">#&lt;/a>
+&lt;/h1>
+&lt;p>💤💤💤&lt;/p>
+&lt;p>This page exists only in the future.&lt;/p>
+&lt;p>💤💤💤&lt;/p></description></item><item><title>Unplayed</title><link>https://deepakk.xyz/fiction/games/unplayed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/unplayed/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Unplayed&lt;/h1>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unplayed">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Black Myth: Wukong ( 2024 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unplayed&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unplayed&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unplayed">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1738256985">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ God of War Ragnarök ( 2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unplayed&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unplayed&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unplayed">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1150690/header.jpg?t=1671584768">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Omori ( 2020 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unplayed&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unplayed&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unplayed">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Red Dead Redemption 2 ( 2018 )
+ 
+ &lt;/p></description></item><item><title>Unread</title><link>https://deepakk.xyz/fiction/books/unread/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/books/unread/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Unread&lt;/h1></description></item><item><title>Unwatched</title><link>https://deepakk.xyz/fiction/films/unwatched/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/films/unwatched/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Unwatched&lt;/h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unwatched">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMWM2MDBkMTQtYWUxNS00NmI3LTg2ZGUtNjI4MzdiM2U1NTYwXkEyXkFqcGc@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt8633464/">After Yang ( 2021 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unwatched&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unwatched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unwatched">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BZDg1OGQ4YzgtM2Y2NS00NjA3LWFjYTctMDRlMDI3NWE1OTUyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt0075686/">Annie Hall ( 1977 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unwatched&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unwatched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unwatched">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt0112573/">Braveheart ( 1995 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unwatched&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unwatched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unwatched">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNWFjNWQ2ZTctZjY2Ny00OTQ0LTgwZTktODgzNWYwNzM5MzIwXkEyXkFqcGdeQXVyMjgyNjk3MzE@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt0118789/">Buffalo 66 ( 1998 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unwatched&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unwatched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unwatched">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BYTdmZmY3Y2QtNjU5NC00OGUxLTg3MWQtMmE2ODM5Mzg3MzcyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt1028528/">Death Proof ( 2007 )&lt;/a>
+ 
+ &lt;/p></description></item><item><title>Unwatched</title><link>https://deepakk.xyz/fiction/shows/unwatched/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/shows/unwatched/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Unwatched&lt;/h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unwatched">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Breaking Bad ( 2008-2013 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unwatched&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unwatched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Did Not Finish">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMTU3MDkzNzM5NF5BMl5BanBnXkFtZTgwMzEyNTgyMDI@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Dirk Gentlys Holistic Detective Agency ( 2016-2017 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Did Not Finish&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unwatched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unwatched">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNTgxNDZlODQtNDcwOC00NWQ5LTljNWMtMDhjY2U5YTUzMTc4XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Mad Men ( 2007-2015 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unwatched&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unwatched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Modern Family ( 2009-2020 )
+ 
+ &lt;/p></description></item><item><title>Ongoing</title><link>https://deepakk.xyz/fiction/games/ongoing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/ongoing/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Ongoing&lt;/h1>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Cuphead ( 2017 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Outer Wilds ( 2020 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Planet Of Lana ( 2023 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item><item><title>Special</title><link>https://deepakk.xyz/fiction/books/special/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/books/special/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Special&lt;/h1></description></item><item><title>Special</title><link>https://deepakk.xyz/fiction/films/special/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/films/special/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Special&lt;/h1>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMmVhZjhlZDYtMDAwZi00MDcyLTgzOTItOWNiZjY0YmE0MGE0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt0147800/">10 Things I Hate About You ( 1999 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMmRlZDQ1MmUtMzE2Yi00YTkxLTk1MGMtYmIyYWQwODcxYzRlXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt0104257/">A Few Good Men ( 1992 )&lt;/a>
+ 
+ &lt;/p>
+ &lt;p class="text-md sm:text-xl">&lt;b>Genre:&lt;/b> Thriller&lt;/p> 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BOTFiNzRiOWEtYTQwNy00NmRiLWE0ZWYtNTE0YjExZjFmZjkwXkEyXkFqcGc@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt5323662/">A Silent Voice ( 2016 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMzM4ZDJhYjYtZGY5Ny00NTk0LWI4ZTYtNjczZDFiMGI2ZjEzXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt1016150/">All Quiet on the Western Front ( 2022 )&lt;/a>
+ 
+ &lt;/p></description></item><item><title>Special</title><link>https://deepakk.xyz/fiction/shows/special/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/shows/special/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Special&lt;/h1>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Arcane ( 2021- )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Avatar The Last Airbender ( 2005-2008 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BZTgyNTBkNzctN2I3NC00NTA1LWJiMDMtYzA2MmYyZjc1NWQzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Black Mirror ( 2011- )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BZjg0YmNiZTAtZDI2Yi00MTVhLTk3ZTctM2JiNjQwY2ZhMzg4XkEyXkFqcGdeQXVyMzE1NjI3MjI@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Bo Burnham Make Happy ( 2016 )
+ 
+ &lt;/p></description></item><item><title>Amazing</title><link>https://deepakk.xyz/fiction/books/amazing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/books/amazing/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Amazing&lt;/h1></description></item><item><title>Amazing</title><link>https://deepakk.xyz/fiction/films/amazing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/films/amazing/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Amazing&lt;/h1>
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt0478087/">21 ( 2008 )&lt;/a>
+ 
+ &lt;/p>
+ &lt;p class="text-md sm:text-xl">&lt;b>Genre:&lt;/b> Thriller&lt;/p> 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNDJkOTVkYTMtMTk2OC00YTkyLThjMGYtMTdiYWRjYTQ1YTYzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt11651796/">AK vs AK ( 2020 )&lt;/a>
+ 
+ &lt;/p>
+ &lt;p class="text-md sm:text-xl">&lt;b>Genre:&lt;/b> Thriller, Dark Comedy&lt;/p> 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt2194499/">About Time ( 2013 )&lt;/a>
+ 
+ &lt;/p>
+ &lt;p class="text-md sm:text-xl">&lt;b>Genre:&lt;/b> Romance&lt;/p> 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BZTg5ZTVmM2EtZjdhZC00MzBjLWEwZTYtNWIwZDczYzZkMzA4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt0103639/">Aladdin ( 1992 )&lt;/a>
+ 
+ &lt;/p></description></item><item><title>Amazing</title><link>https://deepakk.xyz/fiction/shows/amazing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/shows/amazing/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Amazing&lt;/h1>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BZjdjOWIxMDgtYTgwNS00MjE4LTliZWYtZGI1NDhhZmIyYjM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ After Life ( 2019-2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BODI0OGIxM2MtZTQ0YS00ZjhhLWE3YzYtYzE2N2JkNThmY2RkXkEyXkFqcGdeQXVyODkzMzE0Nzc@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Alice in Borderland ( 2020- )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMjNjNThmYTUtMjY2Ni00OGE4LTgzOTItYTgzMDllNDM5NTI5XkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Atypical ( 2017-2021 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNWM0ZGE0NGYtYmIwYi00NzBkLWExZDgtNThjMTUwYzA5ZjdkXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Blue Eye Samurai ( 2023 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p></description></item><item><title>Great</title><link>https://deepakk.xyz/fiction/films/great/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/films/great/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Great&lt;/h1>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BY2JjNTA0OWItMjhlMC00ZTYzLTlhODktODFiNjg3ZTZmNTY4L2ltYWdlXkEyXkFqcGdeQXVyMzkwMTMxNDQ@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt5089786/">100 Meters ( 2016 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt0416449/">300 ( 2006 )&lt;/a>
+ 
+ &lt;/p>
+ &lt;p class="text-md sm:text-xl">&lt;b>Genre:&lt;/b> Action&lt;/p> 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BMTk5MjM4OTU1OV5BMl5BanBnXkFtZTcwODkzNDIzMw@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt1022603/">500 Days of Summer ( 2009 )&lt;/a>
+ 
+ &lt;/p>
+ &lt;p class="text-md sm:text-xl">&lt;b>Genre:&lt;/b> Romantic Comedy&lt;/p> 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BZDUzYTRjMDAtNDkwMi00ZWY1LWI1OWEtM2VjY2NjNzNhOTRmXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt5121000/">Aligarh ( 2015 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p></description></item><item><title>Special</title><link>https://deepakk.xyz/fiction/games/special/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/special/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Special&lt;/h1>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Celeste ( 2018 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1727256511">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Disco Elysium - The Final Cut ( 2019 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Hollow Knight ( 2017 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Outer Wilds ( 2020 )
+ 
+ &lt;/p></description></item><item><title>Amazing</title><link>https://deepakk.xyz/fiction/games/amazing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/amazing/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Amazing&lt;/h1>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Cuphead ( 2017 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Ghost of Tsushima ( 2024 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Gris ( 2018 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg?t=1691006466">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ It Takes Two ( 2021 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p></description></item><item><title>Great</title><link>https://deepakk.xyz/fiction/books/great/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/books/great/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Great&lt;/h1></description></item><item><title>Great</title><link>https://deepakk.xyz/fiction/shows/great/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/shows/great/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Great&lt;/h1>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNmEzOWVkYjEtMTdjMy00OTljLWIzYzctNTg3ZTQ2Mzc0NTA2XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ A Suitable Boy ( 2020 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Brooklyn Nine-Nine ( 2013-2021 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Friends ( 1994-2004 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BYTk0Nzk5ZWYtYTNlZi00YjBjLWJhYjctMWMwMmYyMDA5ZjJmXkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Its Okay to Not Be Okay ( 2020 )
+ 
+ &lt;/p></description></item><item><title>Good</title><link>https://deepakk.xyz/fiction/books/good/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/books/good/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Good&lt;/h1></description></item><item><title>Good</title><link>https://deepakk.xyz/fiction/films/good/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/films/good/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Good&lt;/h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNjZjYzRhMmEtMTU0Ny00YWI4LThiZjEtNWZjMDQ3MTgwZmVhXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt9614460/">Chhapaak ( 2020 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BYjg2ZDI2YTYtN2EwYi00YWI5LTgyMWQtMWFkYmE3NmJkOGVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt9052870/">Chhichhore ( 2019 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BODk0MjFlY2YtOGFmMi00OTVjLTkwMzctOTdlYzYzNTZkMmRmXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ &lt;a target="_blank" href="https://imdb.com/title/tt16491324/">Honor Society ( 2022 )&lt;/a>
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item><item><title>Good</title><link>https://deepakk.xyz/fiction/shows/good/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/shows/good/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Good&lt;/h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://m.media-amazon.com/images/M/MV5BNjFkYmUxYzItMmMwYS00N2I3LWJlYWItZDM3Zjc3YTlhZjU4XkEyXkFqcGdeQXVyNDU4MDQ0MjM@._V1_SX300.jpg">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ More Than Friends ( 2020 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Watched&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item><item><title>Great</title><link>https://deepakk.xyz/fiction/games/great/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/great/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Great&lt;/h1>
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.akamai.steamstatic.com/steam/apps/1931770/header.jpg?t=1695809281">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Chants of Sennaar ( 2023 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1729030762">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ God of War ( 2018 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Planet Of Lana ( 2023 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item><item><title>Did Not Finish</title><link>https://deepakk.xyz/fiction/books/dnf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/books/dnf/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Did Not Finish&lt;/h1></description></item><item><title>Good</title><link>https://deepakk.xyz/fiction/games/good/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/good/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Good&lt;/h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Endling ( 2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Did Not Finish&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1837330/header.jpg?t=1688726905">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Gibbon - Beyond The Trees ( 2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item><item><title>Did Not Finish</title><link>https://deepakk.xyz/fiction/games/dnf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/dnf/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Did Not Finish&lt;/h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Endling ( 2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Did Not Finish&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item></channel></rss>

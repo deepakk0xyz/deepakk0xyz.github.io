@@ -1,60 +1,584 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Video Games on deepakk0xyz</title>
-    <link>https://deepakk.xyz/fiction/games/</link>
-    <description>Recent content in Video Games on deepakk0xyz</description>
-    <generator>Hugo</generator>
-    <language>= &#34;en-us&#34;</language>
-    <atom:link href="https://deepakk.xyz/fiction/games/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Unplayed</title>
-      <link>https://deepakk.xyz/fiction/games/unplayed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/unplayed/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Unplayed&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Black Myth: Wukong ( 2024 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1738256985&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;God of War Ragnarök ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1150690/header.jpg?t=1671584768&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Omori ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Red Dead Redemption 2 ( 2018 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Unplayed&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Unplayed&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg?t=1686697594&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Return of the Obra Dinn ( 2018 )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ongoing</title>
-      <link>https://deepakk.xyz/fiction/games/ongoing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/ongoing/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Ongoing&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Cuphead ( 2017 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Outer Wilds ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Planet Of Lana ( 2023 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Special</title>
-      <link>https://deepakk.xyz/fiction/games/special/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/special/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Special&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Celeste ( 2018 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1727256511&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Disco Elysium - The Final Cut ( 2019 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Hollow Knight ( 2017 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Outer Wilds ( 2020 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Special&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Special&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/312520/header.jpg?t=1674137018&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Rain World ( 2017 )&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Amazing</title>
-      <link>https://deepakk.xyz/fiction/games/amazing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/amazing/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Amazing&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Cuphead ( 2017 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Ghost of Tsushima ( 2024 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Gris ( 2018 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Amazing&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg?t=1691006466&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;It Takes Two ( 2021 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Amazing&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Great</title>
-      <link>https://deepakk.xyz/fiction/games/great/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/great/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Great&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.akamai.steamstatic.com/steam/apps/1931770/header.jpg?t=1695809281&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Chants of Sennaar ( 2023 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1729030762&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;God of War ( 2018 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Great&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Planet Of Lana ( 2023 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Great&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Ongoing&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Good</title>
-      <link>https://deepakk.xyz/fiction/games/good/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/good/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Good&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Endling ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Did Not Finish&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/1837330/header.jpg?t=1688726905&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Gibbon - Beyond The Trees ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Finished&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Did Not Finish</title>
-      <link>https://deepakk.xyz/fiction/games/dnf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://deepakk.xyz/fiction/games/dnf/</guid>
-      <description>&lt;head&gt;&#xA;  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1&gt;Did Not Finish&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;flex items-center m-10&#34; data-rating=&#34;Good&#34;&gt;&#xA;  &lt;img class=&#34;w-24 sm:w-64&#34; src=&#34;https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090&#34;&gt;&#xA;  &lt;div class=&#34;flex flex-col ml-10 items-top&#34;&gt;&#xA;    &lt;p class=&#34;text-md sm:text-xl&#34;&gt;Endling ( 2022 )&lt;/p&gt;&#xA;    &#xA;    &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;My Rating:&lt;/b&gt; Good&lt;/p&gt;  &#xA;      &lt;p class=&#34;text-md sm:text-xl&#34;&gt;&lt;b&gt;Status: &lt;/b&gt; Did Not Finish&lt;/p&gt;  &#xA;  &lt;/div&gt;&#xA;  &lt;hr&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Video Games on deepakk0xyz</title><link>https://deepakk.xyz/fiction/games/</link><description>Recent content in Video Games on deepakk0xyz</description><generator>Hugo</generator><language>= "en-us"</language><atom:link href="https://deepakk.xyz/fiction/games/index.xml" rel="self" type="application/rss+xml"/><item><title>Unplayed</title><link>https://deepakk.xyz/fiction/games/unplayed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/unplayed/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Unplayed&lt;/h1>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unplayed">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Black Myth: Wukong ( 2024 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unplayed&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unplayed&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unplayed">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1738256985">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ God of War Ragnarök ( 2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unplayed&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unplayed&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unplayed">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1150690/header.jpg?t=1671584768">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Omori ( 2020 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Unplayed&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Unplayed&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Unplayed">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Red Dead Redemption 2 ( 2018 )
+ 
+ &lt;/p></description></item><item><title>Ongoing</title><link>https://deepakk.xyz/fiction/games/ongoing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/ongoing/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Ongoing&lt;/h1>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Cuphead ( 2017 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Outer Wilds ( 2020 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Planet Of Lana ( 2023 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item><item><title>Special</title><link>https://deepakk.xyz/fiction/games/special/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/special/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Special&lt;/h1>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Celeste ( 2018 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1727256511">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Disco Elysium - The Final Cut ( 2019 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Hollow Knight ( 2017 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Special&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Special">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Outer Wilds ( 2020 )
+ 
+ &lt;/p></description></item><item><title>Amazing</title><link>https://deepakk.xyz/fiction/games/amazing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/amazing/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Amazing&lt;/h1>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Cuphead ( 2017 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Ghost of Tsushima ( 2024 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Gris ( 2018 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Amazing">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg?t=1691006466">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ It Takes Two ( 2021 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Amazing&lt;/p></description></item><item><title>Great</title><link>https://deepakk.xyz/fiction/games/great/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/great/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Great&lt;/h1>
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.akamai.steamstatic.com/steam/apps/1931770/header.jpg?t=1695809281">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Chants of Sennaar ( 2023 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1729030762">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ God of War ( 2018 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Great">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Planet Of Lana ( 2023 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Great&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Ongoing&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item><item><title>Good</title><link>https://deepakk.xyz/fiction/games/good/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/good/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Good&lt;/h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Endling ( 2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Did Not Finish&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1837330/header.jpg?t=1688726905">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Gibbon - Beyond The Trees ( 2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Finished&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item><item><title>Did Not Finish</title><link>https://deepakk.xyz/fiction/games/dnf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://deepakk.xyz/fiction/games/dnf/</guid><description>&lt;head>
+ &lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">&lt;/script>
+&lt;/head>
+
+
+
+
+
+
+
+
+&lt;h1>Did Not Finish&lt;/h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="flex items-center m-10" data-rating="Good">
+ &lt;img class="w-24 sm:w-64" src="https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090">
+ &lt;div class="flex flex-col ml-10 items-top">
+ &lt;p class="text-md sm:text-xl">
+ 
+ Endling ( 2022 )
+ 
+ &lt;/p>
+ 
+ 
+ &lt;p class="text-md sm:text-xl">&lt;b>My Rating:&lt;/b> Good&lt;/p> 
+ &lt;p class="text-md sm:text-xl">&lt;b>Status: &lt;/b> Did Not Finish&lt;/p> 
+ &lt;/div>
+ &lt;hr>
+&lt;/div></description></item></channel></rss>
