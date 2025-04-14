@@ -824,6 +824,14 @@
     "year": 2015
   },
   {
+    "title": "Lootera",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTUwNTYyMzk4Ml5BMl5BanBnXkFtZTcwMTY2Mzc4OQ@@._V1_SX300.jpg",
+    "imdbID": "tt2224317",
+    "rating": "Great",
+    "status": "Watched",
+    "year": 2013
+  },
+  {
     "title": "Love Actually",
     "poster": "https://m.media-amazon.com/images/M/MV5BNThkNjgxNGQtOTIxMy00ZTFmLWIwMDItYzE5YzM3ZDMzNDE3XkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_SX300.jpg",
     "imdbID": "tt0314331",
@@ -886,6 +894,14 @@
     "rating": "Amazing",
     "status": "Watched",
     "year": 2000
+  },
+  {
+    "title": "Mrs",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzFlZWMwN2EtMDYyYy00YmUxLWJhZmQtNjE2MDQwZTI0M2I2XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbID": "tt27032419",
+    "rating": "Unwatched",
+    "status": "Unwatched",
+    "year": 2023
   },
   {
     "title": "Mindhunters",
@@ -1277,6 +1293,14 @@
     "rating": "Special",
     "status": "Watched",
     "year": 2021
+  },
+  {
+    "title": "The Florida Project",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDBhM2MxYjAtMWFiYy00MWMwLThkMDYtN2M1ZWY3NjkxNGExXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbID": "tt5649144",
+    "rating": "Special",
+    "status": "Watched",
+    "year": 2017
   },
   {
     "title": "The Garden of Words",
