@@ -1,5 +1,6 @@
 let
   pkgs = import <nixpkgs> { };
+  lib = pkgs.lib;
 in
   pkgs.stdenv.mkDerivation {
     name = "deepakk.xyz";
@@ -11,7 +12,15 @@ in
 
     buildPhase = ''
       mkdir -p $out
-      cd $src
-      find . -type f | xargs -I {} pandoc {} -t html -s -o $out/{}.html
+
+      pushd $src
+      for file in $(find . -type f); do
+        base=$(basename $file)
+        name=''${base%.*}
+        extension=''${base##*.}
+        pandoc $file -t html -s -o $out/''${name}.html
+        pandoc $file -t pdf -s -o $out/''${name}.pdf
+      done
+      popd
     '';
   }
