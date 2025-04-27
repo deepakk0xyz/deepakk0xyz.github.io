@@ -1,12 +1,11 @@
 let
   pkgs = import <nixpkgs> { };
-  lib = pkgs.lib;
 in
   pkgs.stdenv.mkDerivation {
     name = "deepakk.xyz";
     src = ./src;
     buildInputs = with pkgs; [
-      texliveMedium
+      texliveFull
       pandoc
     ];
 
