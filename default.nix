@@ -11,15 +11,19 @@ in
 
     buildPhase = ''
       mkdir -p $out
+      for file in $(find $src -type f -not -path "$src/templates/*"); do
+        basename=$(basename $file)
+        name=''${basename%.*}
+        extension=''${file##*.}
+        outpath=$(dirname $out/$(realpath -s --relative-to="$src" $file))
+        mkdir -p $outpath
 
-      pushd $src
-      for file in $(find . -type f); do
-        base=$(basename $file)
-        name=''${base%.*}
-        extension=''${base##*.}
-        pandoc $file -t html -s -o $out/''${name}.html
-        pandoc $file -t pdf -s -o $out/''${name}.pdf
+        pandoc $file -t html -s -o $outpath/$name.html
+
+        if [ $extension = "tex" ]; then
+          pdflatex $file
+          cp $name.pdf $outpath/$name.pdf
+        fi
       done
-      popd
     '';
   }
