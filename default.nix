@@ -18,11 +18,11 @@ in
         outpath=$(dirname $out/$(realpath -s --relative-to="$src" $file))
         mkdir -p $outpath
 
-        pandoc $file -t html -s -o $outpath/$name.html
+        pandoc "$file" -t html -s -o "$outpath/$name.html"
 
         if [ $extension = "tex" ]; then
           pdflatex $file
-          cp $name.pdf $outpath/$name.pdf
+          cp $name.pdf "$outpath/$name.pdf"
         fi
       done
     '';
