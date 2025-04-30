@@ -1,7 +1,42 @@
 \chapter{Intuitive Proofs}
 
 
-\begin{principle}[The pigeonhole principle.]
- If $kn+1$ objects are placed into $n$ boxes,
+\begin{principle}[The Pigeonhole Principle]
+  \label{pigeonhole}
+If $kn+1$ objects are placed into $n$ boxes,
 then at least one box has at least $k+1$ objects.
 \end{principle}
+
+\begin{example} Given any $101$ integers frrom ${1, 2, 3, ..., 200}$, at least
+one of these numbers will divide another.
+\end{example}
+
+\begin{scratch}
+Since there are $101$ items, we can consider the pigeon hole principle with $k=1$ and $n=100$.
+
+Let us consider the following boxes. Create a box for each of the odd numbers ${1, 3, 5, ..., 199}$ and for any number $x$ if $x$ is of the form $x = 2^k \cdot m$, where $m$ is odd and $k >= 0$, we can put $x$ in the box $m$.
+
+There are $100$ odd numbers in the set so we have $100$ boxes. And any two numbers in a box only differ by $2^k$ for some $k$. Thus, for any two numbers in one box, the smaller number divides the larger one.
+
+For any odd number larger than $101$, it will be the only number in that box.
+\end{scratch}
+
+\begin{proof}
+  For each number $n$ from the set ${1, 2, 3, ..., 200}$, write it in the form of $n = 2^k \cdot m$ where $k >= 0$ and $m$ is an odd number.
+
+  Now, create a box for each odd number from $1$ to $199$. There will be $100$ such boxes. For each of the given $101$ integers, \\
+
+  If $n = 2^k \cdot m$ then put $n$ in the box numbered $m$. \\
+
+  Since $101$ integers are placed in $100$ boxes, there must be at least one box with more than $1$ integer by $\ref{pigeonhole}$.
+
+  Suppose the box $m$ contains two numbers of the form $n_1 = 2^k \cdot m$ and $n_2 = 2^l \cdot m$ where without loss of generality $k > l$. Then we can show that
+  $$\frac{n_1}{n_2} = \frac{2^k \cdot m}{2^l \cdot m} = 2^{k-l}$$
+
+  Here, $2^{k-l}$ is an integer since $k > l$, thus, $n_2$ divides $n_1$.
+
+  Thus, proved.
+\end{proof}
+
+
+
