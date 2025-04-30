@@ -7,4 +7,3 @@ result-*
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-src/**/*.pdf
