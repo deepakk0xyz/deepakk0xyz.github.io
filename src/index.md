@@ -7,4 +7,4 @@ title: Home
 - [Resume](/resume.pdf)
 - Study
   - Mathematics
-    - Proofs
+    - [Proofs: A Long Form Mathematics Textbook - Jay Cummins](/study/mathematics/proofs/main.pdf)
