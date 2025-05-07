@@ -1,0 +1,22 @@
+{
+    "title": "11ty-no-style-please",
+    "subtitle": "demo of a page made with 11ty-no-style-please",
+    "menu": [
+				{
+					"title": "Resume",
+					"url": "/resume/main.pdf"
+				},
+				{
+					"title": "Blog",
+					"post_list": "blog"
+				},
+				{
+					"title": "Media",
+					"post_list": "media"
+				},
+				{
+					"title": "Study",
+					"post_list": "study"
+				}
+    ]
+}
