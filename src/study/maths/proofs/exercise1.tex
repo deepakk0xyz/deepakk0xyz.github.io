@@ -52,4 +52,18 @@ x+y &= y \\
 \end{scratch}
 
 \begin{solution}[b]
+  Let us assume that the board has $x$ white cells and $x+1$ black cells. We can show that in this case all the corners must be black.
+
+  Since each domino must cover only $1$ white and $1$ black cell, we can start with a covering where all dominos are put horizontally starting from the left. \\
+  In this case, we will cover the entire chessboard except the last column.
+
+  For the last column, we can put the dominos vertically starting from the top, but since it has an odd number of cells, there will be the bottom right corner.
+
+  We can remove the remaining cell and get a perfect cover of the chess board.
+
+  Hence, proved.
 \end{solution}
+
+\begin{problem}
+  The game \emph{Tetris} is played with five different shapes
+\end{problem}
