@@ -65,5 +65,106 @@ x+y &= y \\
 \end{solution}
 
 \begin{problem}
-  The game \emph{Tetris} is played with five different shapes
+  The game \emph{Tetris} is played with five different shapes -- the five shapes that can be obtained by piecing together four squares.
+
+\bigbreak
+\resizebox{\textwidth}{!}{
+\begin{tikzpicture}
+	\draw[thick] (0,0) -- (1,0) -- (1,4) -- (0,4) -- (0,0);
+	\draw (0,1) -- (1,1);
+	\draw (0,2) -- (1,2);
+	\draw (0,3) -- (1,3);
+
+	\draw[thick] (2,0) -- (4,0) -- (4,2) -- (2,2) -- (2,0);
+	\draw (3,0) -- (3,2);
+	\draw (2,1) -- (4,1);
+
+	\draw[thick] (5,0) -- (8,0) -- (8,1) -- (7,1) -- (7,2) -- (6,2) -- (6,1) -- (5,1) -- (5,0);
+	\draw (6,0) -- (6,1) -- (7,1) -- (7,0);
+
+	\draw[thick] (9,0) -- (11,0) -- (11,1) -- (12,1) -- (12,2) -- (10,2) -- (10,1) -- (9,1) -- (9,0);
+	\draw (10,0) -- (10,1) -- (11,1) -- (11,2);
+
+	\draw[thick] (13,0) -- (13,3) -- (14,3) -- (14,1) -- (15,1) -- (15,0) -- (13,0);
+	\draw (13,1) -- (14,1) -- (14,0);
+	\draw (13,2) -- (14,2);
+\end{tikzpicture}
+}
+\bigbreak
+
+	For the questions below, we also allow these pieces to be "flipped over".
+
+	(a) Is it possible to perfectly cover a $4 \times 5$ chessboard using each of these shapes exactly once? Prove that it is impossible, or show by example that it is possible.
+
+	(b) Is it possible to perfectly cover an $8 \times 5$ chessboard using each of these shapes exactly twice? Prove that it is impossible, or show by example that it is possible.
 \end{problem}
+
+\begin{scratch}
+	Let's color the chessboard in black and white. Here, we can see that all the shapes will cover $2$ black cells and $2$ white cells except the third shape.
+
+	The third shape will cover either $3$ black and $1$ white cell or $1$ black and $3$ white cells.
+
+	Therefore, if we use each shape exactly once, we will get either get a total of $11$ black and $9$ white cells or $9$ black and $11$ white cells.
+\end{scratch}
+
+\begin{solution}[a]
+	Let's assume that it is possible to cover a $4 \times 5$ chessboard using these shapes exactly once.
+
+	The chess board has exactly $10$ black and $10$ white cells in it. Each shape will take up exactly $2$ white and $2$ black cells except the third shape. 
+
+	The third shape will either take up $3$ black and $1$ white cell or $3$ white or $1$ black cell. This is because all adjacent cells must be different color so if the center of the third shape is white, all the rest $3$ cells of that shape must be black and vice versa.
+
+	Let's place each shape one by one. \\
+	After placing the first shape, we will have $8$ black and $8$ white cells. \\
+	After placing the second shape, we will have $6$ black and $6$ white cells. \\
+	After placing the fourth shape, we will have $4$ black and $4$ white cells. \\
+	After placing the fifth shape, we will have $2$ black and $2$ white cells.
+
+	Now, we don't have enough white or black cells to place the third shape.
+	This is a contradiction. Therefore, it is impossible to cover a $4 \times 5$ chessboard using each of these shapes exactly once.
+
+	Hence, proved.
+\end{solution}
+
+\begin{solution}[b]
+Giving an example:
+
+
+\bigbreak
+\begin{tikzpicture}
+  \foreach \x in {0,1,2,3,4,5,6,7}
+    \foreach \y in {0,1,2,3,4}
+      {
+        \draw (\x,\y) -- (\x+1,\y) -- (\x+1,\y+1) -- (\x,\y+1) -- (\x,\y);
+			}
+
+	% Long
+	\draw[thick,red] (0.1,0.1) -- (0.1, 3.9) -- (0.9,3.9) -- (0.9,0.1) -- (0.1,0.1); 
+	\draw[thick,red] (7.1,1.1) -- (7.1, 4.9) -- (7.9,4.9) -- (7.9,1.1) -- (7.1,1.1); 
+
+	% Square
+	\draw[thick,blue] (1.1,0.1) -- (1.1,1.9) -- (2.9,1.9) -- (2.9,0.1) -- (1.1,0.1);
+	\draw[thick,blue] (5.1,4.9) -- (5.1,3.1) -- (6.9,3.1) -- (6.9,4.9) -- (5.1,4.9);
+
+	% L-Piece
+	\draw[thick,green] (0.1,4.9) -- (0.1,4.1) -- (1.1,4.1) -- (1.1,2.1) -- (1.9,2.1) -- (1.9, 4.9) -- (0.1,4.9);
+	\draw[thick,green] (7.9,0.1) -- (6.1,0.1) -- (6.1, 2.9) -- (6.9, 2.9) -- (6.9, 0.9) -- (7.9, 0.9) -- (7.9, 0.1);
+
+	% Z-Piece
+	\draw[thick,brown] (2.1,3.9) -- (2.9,3.9) -- (2.9,2.9) -- (3.9,2.9) -- (3.9,1.1) -- (3.1,1.1) -- (3.1,2.1) -- (2.1,2.1) -- (2.1,3.9);
+	\draw[thick,brown] (4.1,3.9) -- (4.9,3.9) -- (4.9,2.9) -- (5.9,2.9) -- (5.9,1.1) -- (5.1,1.1) -- (5.1,2.1) -- (4.1,2.1) -- (4.1,3.9);
+
+	% T-Piece
+	\draw[thick] (2.1,4.9) -- (2.1,4.1) -- (3.1,4.1) -- (3.1,3.1) -- (3.9,3.1) -- (3.9,4.1) -- (4.9,4.1) -- (4.9,4.9) -- (2.1,4.9);
+	\draw[thick] (3.1,0.1) -- (3.1,0.9) -- (4.1,0.9) -- (4.1,1.9) -- (4.9,1.9) -- (4.9,0.9) -- (5.9,0.9) -- (5.9,0.1) -- (3.1,0.1);
+\end{tikzpicture}
+
+Hence, proved.
+\end{solution}
+
+\begin{problem}
+	If I remove two squares of different colors from an $8 \times 8$ chessboard, must the result have a perfect square?
+\end{problem}
+
+\begin{solution}
+\end{solution}
