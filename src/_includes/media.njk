@@ -6,5 +6,8 @@ layout: base.njk
 <article>
   <h1>{{ title }}</h1>
   
-  {{ content | safe  }}
+	{% for item in entries %}
+		{{ item.title }} - {{ item.url }}
+	{% endfor %}
+
 </article>

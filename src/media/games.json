@@ -1,0 +1,151 @@
+{
+	"entries": [
+		{
+			"title": "Black Myth: Wukong",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2024
+		},
+		{
+			"title": "Celeste",
+			"poster": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953",
+			"rating": "Special",
+			"status": "Finished",
+			"year": 2018
+		},
+		{
+			"title": "Chants of Sennaar",
+			"poster": "https://cdn.akamai.steamstatic.com/steam/apps/1931770/header.jpg?t=1695809281",
+			"rating": "Great",
+			"status": "Finished",
+			"year": 2023
+		},
+		{
+			"title": "Cuphead",
+			"poster": "https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205",
+			"rating": "Amazing",
+			"status": "Ongoing",
+			"year": 2017
+		},
+		{
+			"title": "Disco Elysium - The Final Cut",
+			"poster": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1727256511",
+			"rating": "Special",
+			"status": "Finished",
+			"year": 2019
+		},
+		{
+			"title": "Endling",
+			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090",
+			"rating": "Good",
+			"status": "Did Not Finish",
+			"year": 2022
+		},
+		{
+			"title": "God of War",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1729030762",
+			"rating": "Great",
+			"status": "Finished",
+			"year": 2018
+		},
+		{
+			"title": "God of War Ragnarök",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1738256985",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2022
+		},
+		{
+			"title": "Ghost of Tsushima",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883",
+			"rating": "Amazing",
+			"status": "Finished",
+			"year": 2024
+		},
+		{
+			"title": "Gibbon - Beyond The Trees",
+			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1837330/header.jpg?t=1688726905",
+			"rating": "Good",
+			"status": "Finished",
+			"year": 2022
+		},
+		{
+			"title": "Gris",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313",
+			"rating": "Amazing",
+			"status": "Finished",
+			"year": 2018
+		},
+		{
+			"title": "Hollow Knight",
+			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028",
+			"rating": "Special",
+			"status": "Finished",
+			"year": 2017
+		},
+		{
+			"title": "It Takes Two",
+			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg?t=1691006466",
+			"rating": "Amazing",
+			"status": "Finished",
+			"year": 2021
+		},
+		{
+			"title": "Omori",
+			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1150690/header.jpg?t=1671584768",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2020
+		},
+		{
+			"title": "Outer Wilds",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431",
+			"rating": "Special",
+			"status": "Ongoing",
+			"year": 2020
+		},
+		{
+			"title": "Planet Of Lana",
+			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787",
+			"rating": "Great",
+			"status": "Ongoing",
+			"year": 2023
+		},
+		{
+			"title": "Rain World",
+			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/312520/header.jpg?t=1674137018",
+			"rating": "Special",
+			"status": "Finished",
+			"year": 2017
+		},
+		{
+			"title": "Red Dead Redemption 2",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2018
+		},
+		{
+			"title": "Return of the Obra Dinn",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg?t=1686697594",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2018
+		},
+		{
+			"title": "The Last of Us: Part I",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1741209545",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2013
+		},
+		{
+			"title": "The Last of Us: Part II",
+			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1743700473",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2020
+		}
+	]
+}
