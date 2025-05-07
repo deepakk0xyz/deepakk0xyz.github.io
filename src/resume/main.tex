@@ -1,0 +1,228 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\small #2} \\
+      \textit{\small#3} & \textbf{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape Deepak Kar}
+\end{center}
+\vspace{-12pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+%-----------META-----------
+
+    \resumeSubheading
+      {Meta Inc. / Facebook}{London, UK}
+      {Software Development Engineer}{Jan. 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Lead and Delivered on \textbf{EntryPoint Discovery} which allowed teams to run discovery jobs and discover assets being used by their web pages and mobile app screens.}
+        \resumeItem{Lead the road mapping efforts for \textbf{EntryPoint Discovery}} and communicated with other teams regarding progress and updates.
+        \resumeItem{Developed the \textbf{GraphQL EntryPoint Discovery} which discovered all the GraphQL queries and methods being called from a particular web-page or mobile screen.}
+        \resumeItem{Mentored and on-boarded new joiners into the company and the team.}
+      \resumeItemListEnd
+%-----------APPDYNAMICS-----------
+    \resumeSubheading
+      {AppDynamics}{Bengaluru, India}
+      {Software Development Engineer II}{Jun. 2021 -- Dec. 2022}
+      \resumeItemListStart
+        \resumeItem{Collaborated on \textbf{API Monitoring}, a new offering for customers, which monitors health of REST API Endpoints \& alerts on failure}
+      \resumeItemListEnd
+    \vspace{-15pt}
+    \resumeSubheading
+      {}{}
+      {Software Development Engineer}{Jul. 2019 -- Jun. 2021}
+      \resumeItemListStart
+        \resumeItem{Volunteered for a cross-team project to integrate \textbf{ThousandEyes'} into \textbf{AppDynamics'} platform which was presented in \textbf{Cisco Live, 2021} and allowed customers to monitor network health as well.}
+        \resumeItem{Enhanced the \textbf{Simple Synthetics Agent} to support \textbf{JavaScript} for Browser Automation using \textbf{Puppeteer}.}
+        \resumeItem{Developed a scalable Synthetics Agent, called \textbf{Simple Synthetics}, on top of \textbf{Kubernetes}, slashing the infrastructure costs by \textbf{60-70\%}.}
+        \resumeItem{Participated In Internal Hackathon to demonstrate POC of \textbf{Simple Synthetics} on top of \textbf{Kubernetes} which led to the \textbf{full re-architecture of Synthetics Agent}.}
+        \resumeItem{Migrated current Synthetics code base from \textbf{Python2 to Python3} and automated installation of python on Windows Server.}
+      \resumeItemListEnd
+%-----------SEARCE-----------
+    \resumeSubheading
+      {Searce Inc.}{Bengaluru, India}
+      {Software Developer Intern}{Jan. 2019 -- Jun. 2019}
+      \resumeItemListStart
+        \resumeItem{Created \textbf{Data Lake} \& \textbf{Elastic Search Index} for Tata Steel Limited for faster and centralized access of data for Data Scientists which was not possible earlier.}
+        \resumeItem{Collaborated on \textbf{Data lake} project with a team of 15 people who developed the pipeline for data ingestion using \textbf{Google Cloud Dataflow} for \textbf{20+ TB} of data and \textbf{300+ tables.}}
+    \resumeItemListEnd
+%-----------MICROSOFT-----------
+    \resumeSubheading
+      {Microsoft IDC}{Bengaluru, India}
+      {Software Developer Intern}{May 2018 -- Jul. 2018}
+      \resumeItemListStart
+        \resumeItem{Refined \textbf{Treadmill}, an automated testing system, to exclude \textbf{2000+ unnecessary tests} when specified by the user.}
+        \resumeItem{Improved the time taken for tests for each code change by \textbf{50\%} which saved \textbf{50+ man hours per day}.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Birla Institute of Technology \& Science, Pilani Campus}{Pilani, Rajasthan}
+            {Bachelor of Engineering in Computer Science \& Engineering}{Aug. 2015 -- Jul. 2019}
+
+            \small
+            \textbf{Electives}{: Cryptography, Quantum Information \& Computing, Network Programming, Advanced Algorithms \& Analysis}
+
+            \textbf{Teaching Assistant} for Course Data Structure \& Algorithms from Aug. 2018 -- Dec. 2018
+    \resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, JavaScript, C, C++, SQL, Kotlin, Hack} \\
+     \textbf{Developer Tools}{: AWS, Google Cloud, IntelliJ, VS Code, Gradle} \\
+     \textbf{Technologies/Frameworks}{: DataSwarm Pipelines, Spring Framework, DropWizard, Django, Kubernetes} \\
+    }}
+ \end{itemize}
+% \vspace{-15pt}
+
+%-----------ADDITIONAL POINTS---------------
+% \section{Additional Information}
+% \textbf{Languages}{: English, Hindi }\\
+% \textbf{Interests}{: Piano, Bouldering }
+
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%     \vspace{-5pt}
+%     \resumeSubHeadingListStart
+%           \resumeProjectHeading
+%             {\textbf{Event Management System For College Festivals} $|$ \emph{Python, Django}}{Mar. 2017 -- May 2017}
+%             \resumeItemListStart
+%                 \resumeItem{Developed \textbf{Event Management System} for college festivals managing \textbf{5000+} participants for \textbf{70+} events.}
+%                 \resumeItem{Developed \textbf{Registrations, Payments \& Admin Portal} for college festivals used by \textbf{5000+} people.}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+%-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{World Record Society}{Birla Institute of Technology \& Science}{Technical Head}{Jan. 2018 -- Apr. 2018}
+%             \resumeItemListStart
+%                 \resumeItem{Created Website for our \textbf{Official Guinness World Record Attempt for ‘Most People Solving Rubik’s Cube’}.}
+%                 \resumeItem{Developed \textbf{Barcode based Entry System} for On-site event for \textbf{3000+} people.}
+%                 % \resumeItem{Taught \textbf{4000+ people} solving Rubik’s cube along side a team of 23 people in 20 days.}
+%             \resumeItemListEnd
+%
+%         \resumeSubheading{Department of Visual Media}{Birla Institute of Technology \& Science}{Coordinator for APOGEE ( Technical Festival )}{Aug. 2017 -- May 2018}
+%             \resumeItemListStart
+%                 \resumeItem{Directed a team of \textbf{5 developers} for the development of \textbf{Official Wallet App} to facilitate cashless transactions during college technical fest resulting in \textbf{2500+ downloads} and transactions over \textbf{300,000 INR}.}
+%                 \resumeItem{Directed a team of \textbf{5 developers} for the development of Official Website for event registration, management and approval during college technical fest.}
+%             \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+\end{document}

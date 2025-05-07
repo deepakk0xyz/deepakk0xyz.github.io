@@ -1,0 +1,26 @@
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{thmtools}
+
+\declaretheorem[numberwithin=chapter]{theorem}
+\declaretheorem[numberwithin=chapter]{principle}
+\declaretheorem[numberwithin=chapter]{proposition}
+
+\declaretheorem[numberwithin=chapter]{example}
+\declaretheorem[numberwithin=chapter]{problem}
+
+\declaretheorem[numbered=no,name=Scratch Work,style=definition]{scratch}
+\declaretheorem[numbered=no,name=Proof Idea,style=definition]{proof idea}
+\declaretheorem[numbered=no,style=definition]{solution}
+
+\declaretheoremstyle[
+  notefont=\bfseries,
+  notebraces={}{},
+  headformat=\NOTE]{named}
+
+\declaretheorem[numbered=no,style=named]{named}
+
+% \declaretheoremstyle[
+%   headfont=\bgseries
+% ]{proof}
+% \declaretheorem[numbered=no,style=proof]{proof}

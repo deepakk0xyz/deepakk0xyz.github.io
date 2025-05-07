@@ -1,0 +1,112 @@
+\chapter{Intuitive Proofs}
+
+
+\begin{principle}[The Pigeonhole Principle]
+  \label{pigeonhole}
+If $kn+1$ objects are placed into $n$ boxes,
+then at least one box has at least $k+1$ objects.
+\end{principle}
+
+\begin{proposition}
+  Given any $101$ integers frrom ${1, 2, 3, ..., 200}$, at least one of these numbers will divide another.
+\end{proposition}
+
+\begin{scratch}
+Since there are $101$ items, we can consider the pigeon hole principle with $k=1$ and $n=100$.
+
+Let us consider the following boxes. Create a box for each of the odd numbers ${1, 3, 5, ..., 199}$ and for any number $x$ if $x$ is of the form $x = 2^k \cdot m$, where $m$ is odd and $k >= 0$, we can put $x$ in the box $m$.
+
+There are $100$ odd numbers in the set so we have $100$ boxes. And any two numbers in a box only differ by $2^k$ for some $k$. Thus, for any two numbers in one box, the smaller number divides the larger one.
+
+For any odd number larger than $101$, it will be the only number in that box.
+\end{scratch}
+
+\begin{proof}
+  For each number $n$ from the set ${1, 2, 3, ..., 200}$, write it in the form of $n = 2^k \cdot m$ where $k >= 0$ and $m$ is an odd number.
+
+  Now, create a box for each odd number from $1$ to $199$. There will be $100$ such boxes. For each of the given $101$ integers, \\
+
+  If $n = 2^k \cdot m$ then put $n$ in the box numbered $m$. \\
+
+  Since $101$ integers are placed in $100$ boxes, there must be at least one box with more than $1$ integer by $\ref{pigeonhole}$.
+
+  Suppose the box $m$ contains two numbers of the form $n_1 = 2^k \cdot m$ and $n_2 = 2^l \cdot m$ where without loss of generality $k > l$. Then we can show that
+  $$\frac{n_1}{n_2} = \frac{2^k \cdot m}{2^l \cdot m} = 2^{k-l}$$
+
+  Here, $2^{k-l}$ is an integer since $k > l$, thus, $n_2$ divides $n_1$.
+
+  Thus, proved.
+\end{proof}
+
+\begin{proposition}
+  Suppose $G$ is a graph with $n \geq 2$ vertices. Then, $G$ contains two vertices which have the same degree.
+\end{proposition}
+
+\begin{proof idea}
+  The possible degrees of a vertex is any number between $0$ and $n-1$.
+  Thus, there are $n$ boxes for each possible value for the degree of a vertex and $n$ vertices.
+
+  We can show that at least one box must be empty. Therefore, we need to put $n$ vertices in $n-1$ boxes and by The Pigeonhole Principe (\ref{pigeonhole}), there must be at least two vertices in the same box, i.e., have the same degree.
+
+  We can show that both box $0$ and box $n-1$ cannot have a vertex because if vertex $v_1$ is in box $n-1$ then it has an edge connecting it to every other vertex.
+
+  Thus, every other vertex has an edge connecting it to $v_1$ which implies that every other vertex has at least a degree of $1$ and box $0$ must be empty.
+
+  If there is no vertex in box $n-1$ then we have box $n-1$ that is empty.
+
+  Thus, at least one box is empty in both scenarios.
+\end{proof idea}
+
+\begin{proof}
+  Let $G$ be a graph with $n \geq 2$ vertices. Create boxes numbered from $0$ to $n-1$.
+
+  Now, for each vertex, let us say it's degree is $d$, then put that vertex in box $d$. Let us take box $0$ and $n-1$. Both of these boxes are either empty or have some vertex in them.
+
+  \bigbreak
+  \underline{Case 1}. Box $n-1$ is empty. \\
+  Since box $n-1$ is empty, we have $n$ vertices being placed into $n-1$ boxes.
+  Therefore, by The Pigeonhole Principle (\ref{pigeonhole}), there are at least one box with at least two vertices.
+
+  Thus, there are at least two vertices with the same degrees.
+
+  \bigbreak
+  \underline{Case 2}. Box $n-1$ is not empty. \\
+  The vertex in box $n-1$ must have a degree of $n-1$ which implies it has an edge connecting to $n-1$ vertices. \\
+  Therefore, all $n$ vertices have at least one edge connecting them to another edge and all $n$ vertices have a degree of at least $1$.
+
+  This implies that box $0$ must be empty since all vertices have a degree of at least $1$.
+
+Since box $0$ is empty, there are $n$ vertices placed into $n-1$ boxes.
+
+Therefore, by The Pigeonhole Principle (\ref{pigeonhole}), there are at least two vertices in the same box and have the same degree.
+\bigbreak
+Thus, proved.
+
+\end{proof}
+
+
+\begin{proposition}
+  If you draw five points on the surface of an orange in marker, then there is always a way to cut the orange in half so that four points ( or some part of each of those points ) all lie on one of the halves.
+\end{proposition}
+
+\begin{scratch}
+There are two subtle statements in the propsition. First it asserts that "always a way to cut the orange in half so that...".
+If doesn't assert that \emph{any} such cut has this property.
+
+Second, it is important that we say "or some part of each of those points". When you use a marker to make the points, the points are big enough that when you slice through any point, part of the point appears on \emph{both} halves.
+\end{scratch}
+
+\begin{named}[Classical Geometry Theorem]
+  Given any two points on the sphere, there is a great circle that passes through those two points.
+\end{named}
+
+
+\begin{proof}
+  Take $2$ out of $5$ given points. By Classical Geometry Theorem, there is a great circle passing through these points. Thus, this great circle divides that sphere in two halves.
+
+  The remaining three points are placed among these two halves. Thus, by The Pigeonhole Principle (\ref{pigeonhole}), there are at least two points on one of the havles.
+
+  Adding the two initially chosen points to both halves, we have one half with atleast four points.
+
+  Hence, proved.
+\end{proof}

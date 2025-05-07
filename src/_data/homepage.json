@@ -1,6 +1,5 @@
 {
-    "title": "11ty-no-style-please",
-    "subtitle": "demo of a page made with 11ty-no-style-please",
+    "title": "deepakk.xyz",
     "menu": [
 				{
 					"title": "Resume",
@@ -16,7 +15,17 @@
 				},
 				{
 					"title": "Study",
-					"post_list": "study"
+					"entries": [
+						{
+							"title": "Maths",
+							"entries": [
+								{
+									"title": "Proofs: A Long Form Mathematics Textbook",
+									"url": "/study/maths/proofs/main.pdf"
+								}
+							]
+						}
+					]
 				}
     ]
 }
