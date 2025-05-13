@@ -19,7 +19,6 @@ module.exports = function(eleventyConfig) {
     };
     let markdownLib = new markdownIt(markdownOptions);
 
-    //Add div around tables
     markdownLib.renderer.rules.table_open = () => '<div class="table-wrapper">\n<table>\n',
     markdownLib.renderer.rules.table_close = () => '</table>\n</div>',
 
