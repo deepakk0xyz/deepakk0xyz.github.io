@@ -6,8 +6,22 @@ layout: base.njk
 <article>
   <h1>{{ title }}</h1>
   
+	<div class="container-column">
 	{% for item in entries %}
-		{{ item.title }} - {{ item.url }}
+	<div class="container">
+		<div class="media">
+			<img src="{{ item.poster }}">
+		</div>
+		<div class="container-column">
+			<span>
+				<a href="{{ item.url }}" target="_blank"> {{ item.title }}</a>
+				{% if item.year %} ({{ item.year }}) {% endif %}
+			</span>
+			<span>Rating: {{ item.rating }}</span>
+			<span>Status: {{ item.status }}</span>
+		</div>
+	</div>
 	{% endfor %}
+	</div>
 
 </article>

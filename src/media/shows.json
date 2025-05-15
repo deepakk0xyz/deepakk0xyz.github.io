@@ -3,23 +3,23 @@
 		{
 			"title": "A Suitable Boy",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNmEzOWVkYjEtMTdjMy00OTljLWIzYzctNTg3ZTQ2Mzc0NTA2XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SX300.jpg",
-			"imdbID": "tt10795574",
+			"url": "https://imdb.com/title/tt10795574/",
 			"rating": "Great",
 			"status": "Watched",
 			"year": 2020
 		},
 		{
 			"title": "After Life",
-			"poster": "https://m.media-amazon.com/images/M/MV5BZjdjOWIxMDgtYTgwNS00MjE4LTliZWYtZGI1NDhhZmIyYjM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-			"imdbID": "tt8398600",
+			"poster": "https://m.media-amazon.com/images/M/MV5BNDVkNzU5ZjAtNjE5MC00YjBmLTk0NjAtYmFiOTk3MGIwZDlmXkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://imdb.com/title/tt8398600/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2019-2022"
 		},
 		{
 			"title": "Alice in Borderland",
-			"poster": "https://m.media-amazon.com/images/M/MV5BODI0OGIxM2MtZTQ0YS00ZjhhLWE3YzYtYzE2N2JkNThmY2RkXkEyXkFqcGdeQXVyODkzMzE0Nzc@._V1_SX300.jpg",
-			"imdbID": "tt10795658",
+			"poster": "https://m.media-amazon.com/images/M/MV5BZDdhMTAwMmQtOTVlYi00OTcwLTllZGMtMjc4NGU0NzFhODM3XkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://imdb.com/title/tt10795658/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2020-"
@@ -27,7 +27,7 @@
 		{
 			"title": "Arcane",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
-			"imdbID": "tt11126994",
+			"url": "https://imdb.com/title/tt11126994/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2021-"
@@ -35,7 +35,7 @@
 		{
 			"title": "Atypical",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjNjNThmYTUtMjY2Ni00OGE4LTgzOTItYTgzMDllNDM5NTI5XkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_SX300.jpg",
-			"imdbID": "tt6315640",
+			"url": "https://imdb.com/title/tt6315640/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2017-2021"
@@ -43,7 +43,7 @@
 		{
 			"title": "Avatar The Last Airbender",
 			"poster": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_SX300.jpg",
-			"imdbID": "tt0417299",
+			"url": "https://imdb.com/title/tt0417299/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2005-2008"
@@ -51,7 +51,7 @@
 		{
 			"title": "Black Mirror",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZTgyNTBkNzctN2I3NC00NTA1LWJiMDMtYzA2MmYyZjc1NWQzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
-			"imdbID": "tt2085059",
+			"url": "https://imdb.com/title/tt2085059/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2011-"
@@ -59,7 +59,7 @@
 		{
 			"title": "Blue Eye Samurai",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNWM0ZGE0NGYtYmIwYi00NzBkLWExZDgtNThjMTUwYzA5ZjdkXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_SX300.jpg",
-			"imdbID": "tt13309742",
+			"url": "https://imdb.com/title/tt13309742/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2023
@@ -67,7 +67,7 @@
 		{
 			"title": "Bo Burnham Make Happy",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZjg0YmNiZTAtZDI2Yi00MTVhLTk3ZTctM2JiNjQwY2ZhMzg4XkEyXkFqcGdeQXVyMzE1NjI3MjI@._V1_SX300.jpg",
-			"imdbID": "tt5192124",
+			"url": "https://imdb.com/title/tt5192124/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": 2016
@@ -75,7 +75,7 @@
 		{
 			"title": "Bo Burnham what",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZWI1YmY1YjctNTU3MS00MDFhLTkzNjUtMDgyYTEwYTkxZWJhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-			"imdbID": "tt3210258",
+			"url": "https://imdb.com/title/tt3210258/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": 2013
@@ -83,7 +83,7 @@
 		{
 			"title": "Bodies",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzdiYzRjZjctZDE0ZC00MGQ4LWEwYzAtZDEyNzJiYzI2YjM2XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_SX300.jpg",
-			"imdbID": "tt18347622",
+			"url": "https://imdb.com/title/tt18347622/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2023-"
@@ -91,7 +91,7 @@
 		{
 			"title": "Breaking Bad",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg",
-			"imdbID": "tt0903747",
+			"url": "https://imdb.com/title/tt0903747/",
 			"rating": "Unwatched",
 			"status": "Unwatched",
 			"year": "2008-2013"
@@ -99,7 +99,7 @@
 		{
 			"title": "Brooklyn Nine-Nine",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_SX300.jpg",
-			"imdbID": "tt2467372",
+			"url": "https://imdb.com/title/tt2467372/",
 			"rating": "Great",
 			"status": "Watched",
 			"year": "2013-2021"
@@ -107,7 +107,7 @@
 		{
 			"title": "Crash Landing on You",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzRiZWUyN2YtNDI4YS00NTg2LTg0OTgtMGI2ZjU4ODQ4Yjk3XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_SX300.jpg",
-			"imdbID": "tt10850932",
+			"url": "https://imdb.com/title/tt10850932/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2019-2020"
@@ -115,7 +115,7 @@
 		{
 			"title": "Criminal France",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzBiOWM2MDQtZmRiMC00YjFiLTk5OWUtNjQ3Mzg1NzMzOGZjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-			"imdbID": "tt10986052",
+			"url": "https://imdb.com/title/tt10986052/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2019
@@ -123,7 +123,7 @@
 		{
 			"title": "Criminal Germany",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDkyZTcwMWItYjFmNS00NDA2LWIwYWUtMzcwYzBlYzI2ODEwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-			"imdbID": "tt10986056",
+			"url": "https://imdb.com/title/tt10986056/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2019
@@ -131,7 +131,7 @@
 		{
 			"title": "Criminal Spain",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNGNmMjEyODMtMGFlYi00MjJkLWIyYTAtMzBmZmRiZWFmYTY4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-			"imdbID": "tt10986050",
+			"url": "https://imdb.com/title/tt10986050/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2019
@@ -139,15 +139,15 @@
 		{
 			"title": "Criminal UK",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZGJiOTUwOWYtNDcxZC00YzY3LThhNjgtNzYxNmZmOWZkMWEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-			"imdbID": "tt9348692",
+			"url": "https://imdb.com/title/tt9348692/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2019-2020"
 		},
 		{
 			"title": "Cunk on Earth",
-			"poster": "https://m.media-amazon.com/images/M/MV5BMDJiZjM0YWItZWIzMi00MDFhLTg4YjgtYmFkOTUzODlmMzhmXkEyXkFqcGdeQXVyNjI2OTgxNzY@._V1_SX300.jpg",
-			"imdbID": "tt16867040",
+			"poster": "https://m.media-amazon.com/images/M/MV5BOGEwMjNlZTYtNWRkNi00MTc0LWJlZWUtNjMyOWU3N2ZiMzZjXkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://imdb.com/title/tt16867040/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2022-"
@@ -155,7 +155,7 @@
 		{
 			"title": "Dark",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_SX300.jpg",
-			"imdbID": "tt5753856",
+			"url": "https://imdb.com/title/tt5753856/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2017-2020"
@@ -163,7 +163,7 @@
 		{
 			"title": "Dirk Gentlys Holistic Detective Agency",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTU3MDkzNzM5NF5BMl5BanBnXkFtZTgwMzEyNTgyMDI@._V1_SX300.jpg",
-			"imdbID": "tt4047038",
+			"url": "https://imdb.com/title/tt4047038/",
 			"rating": "Did Not Finish",
 			"status": "Unwatched",
 			"year": "2016-2017"
@@ -171,7 +171,7 @@
 		{
 			"title": "Farzi",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNThlNGZjZDQtYzJjMi00MzM4LWFkNjctNDMwZmFjNWJkM2I4XkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_SX300.jpg",
-			"imdbID": "tt15477488",
+			"url": "https://imdb.com/title/tt15477488/",
 			"rating": "Amazing",
 			"status": "Finished",
 			"year": "2023-"
@@ -179,7 +179,7 @@
 		{
 			"title": "Fleabag",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjA4MzU5NzQxNV5BMl5BanBnXkFtZTgwOTg3MDA5NzM@._V1_SX300.jpg",
-			"imdbID": "tt5687612",
+			"url": "https://imdb.com/title/tt5687612/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2016-2019"
@@ -187,7 +187,7 @@
 		{
 			"title": "Friends",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
-			"imdbID": "tt0108778",
+			"url": "https://imdb.com/title/tt0108778/",
 			"rating": "Great",
 			"status": "Watched",
 			"year": "1994-2004"
@@ -195,7 +195,7 @@
 		{
 			"title": "How I Met Your Mother",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_SX300.jpg",
-			"imdbID": "tt0460649",
+			"url": "https://imdb.com/title/tt0460649/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2005-2014"
@@ -203,15 +203,15 @@
 		{
 			"title": "Inside",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOGNjZGYwYWItNTFkZi00Mjg2LWE5YzQtNGQwNDVlYWMyNjk1XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_SX300.jpg",
-			"imdbID": "tt14544192",
+			"url": "https://imdb.com/title/tt14544192/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": 2021
 		},
 		{
 			"title": "Itaewon Class",
-			"poster": "https://m.media-amazon.com/images/M/MV5BODY1NWE2OTctOTU5MC00NTlmLWI2MzktMmYzMTUzYjk4YjEzXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_SX300.jpg",
-			"imdbID": "tt11239552",
+			"poster": "https://m.media-amazon.com/images/M/MV5BODEyZmVlMWEtYjNmNS00MTQ5LThlMzgtZjM4YjNhMGVkZWI4XkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://imdb.com/title/tt11239552/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2020
@@ -219,7 +219,7 @@
 		{
 			"title": "Its Okay to Not Be Okay",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYTk0Nzk5ZWYtYTNlZi00YjBjLWJhYjctMWMwMmYyMDA5ZjJmXkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_SX300.jpg",
-			"imdbID": "tt12451520",
+			"url": "https://imdb.com/title/tt12451520/",
 			"rating": "Great",
 			"status": "Watched",
 			"year": 2020
@@ -227,7 +227,7 @@
 		{
 			"title": "Kaleidoscope",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZGYzMTg2MzktOTc3Yi00ZThlLTkxN2MtY2YxNGE1MWNiYmMxXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
-			"imdbID": "tt15438246",
+			"url": "https://imdb.com/title/tt15438246/",
 			"rating": "Great",
 			"status": "Watched",
 			"year": 2023
@@ -235,7 +235,7 @@
 		{
 			"title": "Little Things",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZWI4NjY1MmQtN2QwNS00YTQwLWJlNDItMjZjMjE1ODk3MzI4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-			"imdbID": "tt6522580",
+			"url": "https://imdb.com/title/tt6522580/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2016-"
@@ -243,7 +243,7 @@
 		{
 			"title": "Love Death & Robots",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYTNiYTNkNTAtYzE3ZS00ZDQ1LWEwZTYtZjI1NzYzMWJjY2U4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
-			"imdbID": "tt9561862",
+			"url": "https://imdb.com/title/tt9561862/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2019-"
@@ -251,7 +251,7 @@
 		{
 			"title": "Lucifer",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-			"imdbID": "tt4052886",
+			"url": "https://imdb.com/title/tt4052886/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2016-2021"
@@ -259,7 +259,7 @@
 		{
 			"title": "Mad Men",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNTgxNDZlODQtNDcwOC00NWQ5LTljNWMtMDhjY2U5YTUzMTc4XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
-			"imdbID": "tt0804503",
+			"url": "https://imdb.com/title/tt0804503/",
 			"rating": "Unwatched",
 			"status": "Unwatched",
 			"year": "2007-2015"
@@ -267,7 +267,7 @@
 		{
 			"title": "Modern Family",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_SX300.jpg",
-			"imdbID": "tt1442437",
+			"url": "https://imdb.com/title/tt1442437/",
 			"rating": "Amazing",
 			"status": "Unwatched",
 			"year": "2009-2020"
@@ -275,7 +275,7 @@
 		{
 			"title": "Modern Love",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYzg4ZmYyMDMtOWU2NS00MzE2LWJkYzktY2Q0MDM1ZGNhMDQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
-			"imdbID": "tt8543390",
+			"url": "https://imdb.com/title/tt8543390/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2019-2021"
@@ -283,7 +283,7 @@
 		{
 			"title": "Money Heist",
 			"poster": "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_SX300.jpg",
-			"imdbID": "tt6468322",
+			"url": "https://imdb.com/title/tt6468322/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2017-2021"
@@ -291,15 +291,15 @@
 		{
 			"title": "More Than Friends",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjFkYmUxYzItMmMwYS00N2I3LWJlYWItZDM3Zjc3YTlhZjU4XkEyXkFqcGdeQXVyNDU4MDQ0MjM@._V1_SX300.jpg",
-			"imdbID": "tt12879170",
+			"url": "https://imdb.com/title/tt12879170/",
 			"rating": "Good",
 			"status": "Watched",
 			"year": 2020
 		},
 		{
 			"title": "Only Murders in the Building",
-			"poster": "https://m.media-amazon.com/images/M/MV5BMWVkNDMzNTctNTQ0Yy00YmFiLTliNTEtMDM1ZTZjMTk1ZmM0XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_SX300.jpg",
-			"imdbID": "tt11691774",
+			"poster": "https://m.media-amazon.com/images/M/MV5BZjNlZjRhMmMtMzUyYy00NmQxLThlZmQtZDAyMzBlMTAzMTcxXkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://imdb.com/title/tt11691774/",
 			"rating": "Amazing",
 			"status": "Unwatched",
 			"year": "2021-"
@@ -307,7 +307,7 @@
 		{
 			"title": "Pantheon",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNGM2NjRjMzAtZjY5Ni00MWVkLWJlMTQtMWVmOWE1N2M2ZWM0XkEyXkFqcGc@._V1_SX300.jpg",
-			"imdbID": "tt11680642",
+			"url": "https://imdb.com/title/tt11680642/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2022-2023"
@@ -315,7 +315,7 @@
 		{
 			"title": "Patriot Act with Hasan Minhaj",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZDUzZmIwYzMtMTNiNS00OTRlLTliYTgtZjljNjNjNTdkNDc4XkEyXkFqcGdeQXVyNjAxNDcwNzY@._V1_SX300.jpg",
-			"imdbID": "tt8080054",
+			"url": "https://imdb.com/title/tt8080054/",
 			"rating": "Great",
 			"status": "Watched",
 			"year": "2018-2020"
@@ -323,7 +323,7 @@
 		{
 			"title": "Rick and Morty",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SX300.jpg",
-			"imdbID": "tt2861424",
+			"url": "https://imdb.com/title/tt2861424/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2013-"
@@ -331,7 +331,7 @@
 		{
 			"title": "Scott Pilgrim Takes Off",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOGFmYTcyY2MtYzZmOC00NmQwLWIwMDYtNjljNjk2ZDE5NDA5XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_SX300.jpg",
-			"imdbID": "tt16969708",
+			"url": "https://imdb.com/title/tt16969708/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2023
@@ -339,7 +339,7 @@
 		{
 			"title": "Something in the Rain",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNmM4ZjUwZDctZTlhYS00NDM3LTgxOTMtNDU0ZmM2YmY4M2I4XkEyXkFqcGdeQXVyMzE4MDkyNTA@._V1_SX300.jpg",
-			"imdbID": "tt8078816",
+			"url": "https://imdb.com/title/tt8078816/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": 2018
@@ -347,7 +347,7 @@
 		{
 			"title": "Start-Up",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZGEzMjMxNmItYWM2MC00MGU3LTk2YmQtYjUyOTVjYTRlZDQ3XkEyXkFqcGdeQXVyNDU4MDQ0MjM@._V1_SX300.jpg",
-			"imdbID": "tt12867810",
+			"url": "https://imdb.com/title/tt12867810/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2020-"
@@ -355,7 +355,7 @@
 		{
 			"title": "Stranger Things",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-			"imdbID": "tt4574334",
+			"url": "https://imdb.com/title/tt4574334/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2016-2024"
@@ -363,7 +363,7 @@
 		{
 			"title": "Taylor Tomlinson Look at You",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZjhkZmMzYzctNWZkZC00MGExLWEyNzktMTA4NDVjZmMyZTBjXkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_SX300.jpg",
-			"imdbID": "tt18096250",
+			"url": "https://imdb.com/title/tt18096250/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2022
@@ -371,7 +371,7 @@
 		{
 			"title": "Taylor Tomlinson Quarter-Life Crisis",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMWI1YzRiZDUtMzZhMC00Yzk0LWI4MGItMmRjZTI1MjY0NzYyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-			"imdbID": "tt11738792",
+			"url": "https://imdb.com/title/tt11738792/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2020
@@ -379,7 +379,7 @@
 		{
 			"title": "That 70s Show",
 			"poster": "https://m.media-amazon.com/images/M/MV5BN2RkZGE0MjAtZGVkOS00MzVhLTg0OWItZTc4OGRjOTQ1ZTM4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
-			"imdbID": "tt0165598",
+			"url": "https://imdb.com/title/tt0165598/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "1998-2006"
@@ -387,7 +387,7 @@
 		{
 			"title": "The Boys",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
-			"imdbID": "tt1190634",
+			"url": "https://imdb.com/title/tt1190634/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2019-"
@@ -395,7 +395,7 @@
 		{
 			"title": "The Good Place",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYmMxNjM0NmItNGU1Mi00OGMwLTkzMzctZmE3YjU1ZDE4NmFjXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_SX300.jpg",
-			"imdbID": "tt4955642",
+			"url": "https://imdb.com/title/tt4955642/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2016-2020"
@@ -403,7 +403,7 @@
 		{
 			"title": "The Last of Us",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_SX300.jpg",
-			"imdbID": "tt3581920",
+			"url": "https://imdb.com/title/tt3581920/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": "2023-"
@@ -411,15 +411,15 @@
 		{
 			"title": "The Newsroom",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZDI0OWIwMTgtZGIyOC00ODRhLWIwNjAtOWViZmMwOWYwOGViXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
-			"imdbID": "tt1870479",
+			"url": "https://imdb.com/title/tt1870479/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2012-2014"
 		},
 		{
 			"title": "The Railwaymen",
-			"poster": "https://m.media-amazon.com/images/M/MV5BZjg2YjU0MTEtMGYyNy00OWI1LTk2MDgtMDFkNmMwYWFjZTY5XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UY1750_.jpg",
-			"imdbID": "tt2318721",
+			"poster": "https://m.media-amazon.com/images/M/MV5BZDBkZjhhYWEtZTgwZS00OWY3LWJkNzYtNTkxNWY1MDhjMDk2XkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://imdb.com/title/tt2318721/",
 			"rating": "Unwatched",
 			"status": "Unwatched",
 			"year": 2002
@@ -427,7 +427,7 @@
 		{
 			"title": "The Spy",
 			"poster": "https://m.media-amazon.com/images/M/MV5BM2ZmYjUxZDYtMmZlMi00YjlkLTkwNTItMjcxZDRlOTI3ZTNmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-			"imdbID": "tt5952634",
+			"url": "https://imdb.com/title/tt5952634/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": 2019
@@ -435,15 +435,15 @@
 		{
 			"title": "The Umbrella Academy",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTdlODM0MTAtMzRiZi00MTQxLWE0MGUtNTNjOGZjNjAzN2E0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-			"imdbID": "tt1312171",
+			"url": "https://imdb.com/title/tt1312171/",
 			"rating": "Great",
 			"status": "Watched",
 			"year": "2019-2023"
 		},
 		{
 			"title": "Twenty Five Twenty One",
-			"poster": "https://m.media-amazon.com/images/M/MV5BNWYzODM2NGEtOWUyZi00MmEyLWFmYmItZDI3NDYzMGI0NWI2XkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_SX300.jpg",
-			"imdbID": "tt17513352",
+			"poster": "https://m.media-amazon.com/images/M/MV5BYTdjZWExZmMtZTY0Yy00N2U3LTkyYmYtMGNjZjUyZTM0Njg0XkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://imdb.com/title/tt17513352/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2022
@@ -451,15 +451,15 @@
 		{
 			"title": "Undone",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjk3NTcwYTMtZTY0Zi00NjBlLWJjZjAtMjA1M2MwZWZlOWExXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
-			"imdbID": "tt8101850",
+			"url": "https://imdb.com/title/tt8101850/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": "2019-2022"
 		},
 		{
 			"title": "Vir Das Outside in - The Lockdown Special",
-			"poster": "https://m.media-amazon.com/images/M/MV5BM2NjZjE2MzctZTE2NC00OTk1LTlkYWQtNmNhMmY5YTc3NTQ4XkEyXkFqcGdeQXVyNjU0NTI0Nw@@._V1_SX300.jpg",
-			"imdbID": "tt13529992",
+			"poster": "https://m.media-amazon.com/images/M/MV5BMTAxZjE1M2UtMTczNi00NGVmLTlkNjctYTZlYWM3ZTYzNTQ2XkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://imdb.com/title/tt13529992/",
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2020
@@ -467,7 +467,7 @@
 		{
 			"title": "Whats Wrong with Secretary Kim",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTgxYzZlMmYtZDJiMy00MjMxLWFmNjQtZDg4YjJhYjQzNjBjXkEyXkFqcGc@._V1_SX300.jpg",
-			"imdbID": "tt8242904",
+			"url": "https://imdb.com/title/tt8242904/",
 			"rating": "Special",
 			"status": "Watched",
 			"year": 2018
@@ -475,7 +475,7 @@
 		{
 			"title": "Who Is America",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYmVkMmMzMzYtMjU0ZS00OTY5LThlMTctZDg1OWNhMTAzZTMzXkEyXkFqcGdeQXVyOTA3MTMyOTk@._V1_SX300.jpg",
-			"imdbID": "tt8679236",
+			"url": "https://imdb.com/title/tt8679236/",
 			"rating": "Unwatched",
 			"status": "Unwatched",
 			"year": 2018

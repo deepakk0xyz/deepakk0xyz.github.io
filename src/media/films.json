@@ -95,14 +95,6 @@
 			"year": 1992
 		},
 		{
-			"title": "Aligarh",
-			"poster": "https://m.media-amazon.com/images/M/MV5BZDUzYTRjMDAtNDkwMi00ZWY1LWI1OWEtM2VjY2NjNzNhOTRmXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SX300.jpg",
-			"url": "https://imdb.com/title/tt5121000/",
-			"rating": "Great",
-			"status": "Watched",
-			"year": 2015
-		},
-		{
 			"title": "Alita Battle Angel",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTQzYWYwYjctY2JhZS00NTYzLTllM2UtZWY5ZTk0NmYwYzIyXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0437086/",
@@ -248,8 +240,8 @@
 			"year": 1995
 		},
 		{
-			"title": "Buffalo 66",
-			"poster": "https://m.media-amazon.com/images/M/MV5BNWFjNWQ2ZTctZjY2Ny00OTQ0LTgwZTktODgzNWYwNzM5MzIwXkEyXkFqcGdeQXVyMjgyNjk3MzE@._V1_SX300.jpg",
+			"title": "Buffalo '66",
+			"poster": "https://m.media-amazon.com/images/M/MV5BMjQzYzEwZWItMGE2Ny00YTg2LTgyMjUtMjNjZDUzMGE2ZGE5XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0118789/",
 			"rating": "Unwatched",
 			"status": "Unwatched",
@@ -265,7 +257,7 @@
 		},
 		{
 			"title": "Chungking Express",
-			"poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_SX300.jpg",
+			"poster": "https://m.media-amazon.com/images/M/MV5BNDQ4ZmYxODctZDVlZC00OTcxLWJjOGItZjRlMzk4MDA1Yjg1XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt31193180/",
 			"director": "Wong Kar-Wai",
 			"rating": "Special",

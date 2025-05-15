@@ -56,3 +56,18 @@ table, th, td {
 .table-wrapper {
     overflow-x: auto;
 }
+
+.container-column {
+	display:flex;
+	flex-direction: column;
+	align-content: start;
+	gap: 1em;
+}
+
+.container, .container-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: start;
+	gap: 5em;
+}

@@ -380,7 +380,8 @@ Hence, proved.
 This definition will be used in the following exercise.
 
 \begin{problem}
-Prove that if one chooses $31$ numbers from the set $\{1,2,3,...,60\}$, that two of the numbers must be relatively prime.
+Prove that if one chooses $31$ numbers from the set $\{1,2,3,...,60\}$, 
+that two of the numbers must be relatively prime.
 \end{problem}
 
 \begin{solution}
@@ -394,3 +395,27 @@ Prove that if one chooses $31$ numbers from the set $\{1,2,3,...,60\}$, that two
 
 	Hence, proved.
 \end{solution}
+
+\begin{problem}
+	Assume that $n$ is a positive integer. Prove that if one chooses $n+1$ distince odd integers from $\{1, 2, 3, ..., 3n\}$, then atleast one of these numbers will divide another.
+
+	Also, before your proof, check all possible selection of $4$ odd numbers from $\{1, 2, 3, ..., 9\}$, and for each selection locate two of the numbers for which one divdes the other.
+\end{problem}
+
+\begin{scratch}
+	The following are the selections:
+	\begin{itemize}
+	\item $\{1, 3, 5, 7\}$ : $1$ divides $3$.
+	\item $\{1, 3, 5, 9\}$ : $1$ divides $3$.
+	\item $\{1, 3, 7, 9\}$ : $1$ divides $3$.
+	\item $\{1, 5, 7, 9\}$ : $1$ divides $5$.
+	\item $\{3, 5, 7, 9\}$ : $3$ divides $9$.
+	\end{itemize}
+
+	Since there are $\lfloor \frac{3n+1}{2} \rfloor$ odd numbers in the given setand we are choosing $n+1$, we need to put these numbers in $n$ boxes.
+
+	Let us take the boxes as follows: $(1,), (3,9), (5,15), ... $
+\end{scratch}
+
+
+\begin{solution}
