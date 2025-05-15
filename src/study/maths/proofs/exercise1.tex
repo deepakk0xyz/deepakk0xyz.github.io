@@ -414,8 +414,142 @@ that two of the numbers must be relatively prime.
 
 	Since there are $\lfloor \frac{3n+1}{2} \rfloor$ odd numbers in the given setand we are choosing $n+1$, we need to put these numbers in $n$ boxes.
 
-	Let us take the boxes as follows: $(1,), (3,9), (5,15), ... $
+	Now, we want to choose $n$ boxes such that in each box the smaller number divides the larger number or the box has only one number.
+
+	Let us say that for any selected number $x$, it can be written in the format $x = 3^k \cdot m$ where $k \geq 0$ and $m$ is not divisible by $3$.
+
+	Now there are two cases:
+
+	\underline{Case 1.} $n$ is odd.
+
+	Now if $n$ is odd, The odd numbers are $\{1, 3, 5, 7, 9,..., 3n\}$. 
+	There are $\frac{3n+1}{2}$ odd numebrs out of which $\frac{n+1}{2}$ are divisible by $3$. Now,
+	$$\frac{3n+1}{2} - \frac{n+1}{2} = \frac{2n}{2} = n$$
+
+	Thus, there are $n$ numbers not divisble by $3$.
+
+	\underline{Case 2.} $n$ is even.
+
+	Now, the odd numbers are $\{1, 3, 5, 7, 9, ..., 3n-1\}$.
+	There are $\frac{3n}{2}$ odd numbers out of which $\frac{n}{2}$ are divisble by $3$. 
+
+	Therefore, $n$ numbers are not divisble by $3$.
+
+	Thus, if we create a box of $n$ numbers that are not divisble by $3$. 
+	And place $n+1$ numbers in those boxes, such that if $x = 3^k \cdot m$ then put $x$ in box $m$.
+
+	Then by Principle \ref{pigeonhole}, we will have atleast one box with two numbers in it. 
+
+	Let us say $x_1 = 3^{k_1} \cdot m$ and $x_2 = 3^{k_2} \cdot m$ are both in box $m$ such that $k_1 < k_2$. Then,
+	$$\frac{x_1}{x_2} = \frac{3^{k_1} \cdot m}{3^{k_2} \cdot m} = 3^{k_1-k_2}$$
+
+	Since $k_1 > k_2$, we have shown that $x_2$ divides $x_1$.
+
+	Thus, if we have two numbers in the same box, the smaller one divides the larger one.
+
+	With that, let us move on to the solution.
 \end{scratch}
 
+\begin{solution}
+There are two cases that we define:
+
+\underline{Case 1.} $n$ is even.
+
+In this case, the odd numbers are as follows: $\{1, 3, 5, ..., 3n-1\}$. 
+By counting them, we can say that there are $\frac{3n}{2}$ odd numbers.
+
+The numbers in the above set that are divisible by $3$ are as follows:
+$\{3, 9, 15, ..., 3n-3\}$. This ends at $3n-3$ because $3n$ is even.
+This set contains all the numbers from the set $\{1, 3, 5, ..., n-1\}$ multiplied by $3$.
+Thus, by counting them, we get that there are $\frac{n}{2}$ numbers divisble by $3$.
+
+Subtracting the first two counts, we get,
+$$\frac{3n}{2} - \frac{n}{2} = \frac{2n}{2} = n$$
+Thus, there are $n$ numbers in the set of odd numbers between $1$ to $3n$ such that they are not divisble by $3$.
+
+
+\underline{Case 2.} $n$ is odd.
+
+Since $n$ is odd $3n$ is also odd.
+
+In this case, the odd numbers are as follows: $\{1, 3, 5, ..., 3n\}$. 
+By counting them, we can say that there are $\frac{3n+1}{2}$ odd numbers.
+
+The numbers in the above set that are divisible by $3$ are as follows:
+$\{3, 9, 15, ..., 3n\}$.
+This set contains all the numbers from the set $\{1, 3, 5, ..., n\}$ multiplied by $3$.
+Thus, by counting them, we get that there are $\frac{n+1}{2}$ numbers divisble by $3$.
+
+Subtracting the first two counts, we get,
+$$\frac{3n+1}{2} - \frac{n+1}{2} = \frac{2n}{2} = n$$
+Thus, there are $n$ numbers in the set of odd numbers between $1$ to $3n$ such that they are not divisble by $3$.
+
+
+Hence, we have proved that for any $n$, the count of odd numbers not divisble by $3$ in the set $\{1, 2, 3, ..., 3n\}$ is $n$.
+
+Now, let us take any number $x$ from the set of selected $n+1$ numbers. We can write $x$ in the form of $x = 3^k \cdot m$ where $k \geq 0$ and $m$ is an odd number which is not divisble by $3$.
+
+Since $x$ is an odd number, therefore, all its factors must be odd as well. This implies that we can take out all the factors that are $3$ and will be left with an odd number $m$.
+
+Now, let us define $n$ boxes for each odd number in $\{1, 2, 3, ..., 3n\}$ which is not divisible by $3$.
+
+Now, we can put all $n+1$ numbers of the format $x = 3^k \cdot m$ in box $m$ since $m$ is not divisble by $3$.
+
+By Principle \ref{pigeonhole}, since there are $n$ boxes and $n+1$ numbers, there must be a box $m$ with atleast two numbers.
+
+Let us say that the numbers are $x_1 = 3^{k_1} \cdot m$ and $x_2 = 3^{k_2} \cdot m$ such that $k_1 > k_2$. ( Note: Since they are in the same box they have the same $m$. )
+
+Now, we can show that,
+$$\frac{x_1}{x_2} = \frac{3^{k_1} \cdot m}{3^{k_2} \cdot m} = 3^{k_1 - k_2}$$
+Since $k_1 > k_2$, we can say that $x_1$ is divisble by $x_2$.
+
+Hence, proved.
+
+\end{solution}
+
+\begin{problem}
+	Give an example of $100$ numbers from $\{1, 2, 3, ..., 200\}$ such that none of your selected numbers divides any of the others.
+\end{problem}
 
 \begin{solution}
+	$$\{101,102,103,...,200\}$$
+	In the above set, none of the numbers divide another since any multiple for a number greater than $100$ will be greater than $200$.
+\end{solution}
+
+\begin{problem}
+	Prove that any set of seven integers contains a pair whose sum or difference is divisible by $10$. 
+
+	Also, give three examples of this before your proof. Have your sets contain a diverse set collection of integers.
+\end{problem}
+
+\begin{scratch}
+	Examples:
+	\begin{itemize}
+		\item $\{ 1, 4, 5, 9, 19, 38, 42 \}$ : $38+42=80$ is divisble by $10$.
+		\item $\{ 786, 124, 213, 468, 109, 309, 5876 \}$ : $786+124=910$ is divisble by $10$.
+		\item $\{ 16, 27, 12, 70, 29, 45, 74 \}$ : $16+74=90$ is divisble by $10$.
+	\end{itemize}
+\end{scratch}
+
+\begin{solution}
+	Let us define $6$ boxes as follows: $(0), (1,9), (2,8), (3,7), (4,6), (5)$.
+
+	Now, for each selected number we take its remainder when divided by $10$.
+	For negative numbers, we can add $10$ until the remainder isn't positive.
+
+	Now, since there are $7$ boxes atleast one box must have $2$ or more numbers by Principle \ref{pigeonhole}
+
+	Now, we can show that we any box contains two or more numbers then those two numbers must either add or subtract to give a number divisible by $10$. We have the following cases for the box that contains two or more numbers:
+
+	\underline{Case 1.} Box is $(0)$. \\
+	Both numbers are divisble by $10$ so their sum is also divisible by $10$.
+
+	\underline{Case 2.} Box is one of $(1,9),(2,8),(3,7),(4,6)$. \\
+	If both numbers have the same remainder then their difference is divisble by $10$. \\
+	If they have different remainders, then in all the cases, their remainders will add to make $10$, so their sum will be divisible by $10$.
+
+	\underline{Case 3.} Box is $(5)$. \\
+	Here, they both have a same remainder so their difference will be divisible by $10$.
+
+	Hence, proved. 
+\end{solution}
