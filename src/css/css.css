@@ -61,7 +61,7 @@ table, th, td {
 	display:flex;
 	flex-direction: column;
 	align-content: start;
-	gap: 1em;
+	gap: .5em;
 }
 
 .container, .container-row {
