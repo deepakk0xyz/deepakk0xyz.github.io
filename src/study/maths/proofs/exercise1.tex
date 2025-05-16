@@ -553,3 +553,207 @@ Hence, proved.
 
 	Hence, proved. 
 \end{solution}
+
+\begin{problem}
+	Prove that if one chooses any $19$ points from the interior of a $6 \times 4$ rectangle such that no three points are colinear, then there must exit four of these points which form a quadilateral of area at most $4$.
+\end{problem}
+
+\begin{solution}
+	The area of the rectangle is $24$. Let us divide it into $6$ rectangles of are $4$ and dimensions $1 \times 4$.
+	And let us define that if a point lies on a line that is shared between two rectangles 
+	then that point is part of the upper rectangle that has a line as its edge.
+
+	Since we are choosing $19$ points and we have $6$ rectangles that they can be placed in.
+	By Principle \ref{pigeonhole} ( The Pigoenhole Principle ), there must be a rectangle with at least $4$ points.
+
+	Since these four points lie inside the rectangle of an areaa $4$ and no three of them are colinear, therefore, they form a quadilateral and their area is at most $4$. 
+
+	Hence, proved.
+\end{solution}
+
+\begin{problem}
+	Assume that $9$ points are choses from the right triangle with base and height of $2$. Assume that no three points are colinear. Prove that there exists three points which form a triangle whose area is less than $\frac{1}{2}$.
+\end{problem}
+
+\begin{solution}
+	Here, the total area of the triangle is $2$.
+	
+	In this, the base is $2$, which can be divided into $4$ segments of $\frac{1}{2}$ each and we can connect them to the opposite vertex.
+
+	Here, we have $4$ triangles with the same base and height. Note: Height is same because they will all have the same perpendicular from the opposite vertex.
+	Thus, the area of these triangles is $\frac{1}{2}$.
+
+	Now, selecting $9$ points that can be placed in these trianges, we will have atleast $1$ triangle with $3$ or more points by Principle \ref{pigeonhole}. 
+
+	Since no $3$ points are colinear, these $3$ points form a triangle within another triangle of area $\frac{1}{2}$. Thus, the area of this triangle is less than or equal to $\frac{1}{2}$.
+
+	The area is equal to $\frac{1}{2}$ only when the three points lie on the vertices of the triangle that they contain in.
+
+\end{solution}
+
+
+\begin{problem}
+	At a party, each person is acquainted with a certain number of others at the party and is a stranger to everyone else. Suppose there are $n \geq 2$ people at a party. Prove that atleast two people at this party have the same number of acquaintances at the party.
+
+	Note: Being Acquaintances is symmetric. Every person is acquainted with atleast one person at the party.
+\end{problem}
+
+\begin{solution}
+Since every person is acquainted with atleast one person at the party and no person can obviously be acquainted with themselves, therefore, the number of acquaintances of each person must lie between $1$ and $n-1$.
+
+Let us create $n-1$ boxes and put each person in the box with the number of acquaintances that they have.
+
+By Principle \ref{pigeonhole}, since there are $n$ people and $n-1$ boxes, there is atleast $1$ box with atleast $2$ people in it.
+
+Therefore, there are atleast $2$ people at the party with the same number of acquaintances.
+\end{solution}
+
+\begin{problem}
+	(a) Determine the population of your hometown and how many non-balding people in your homwtown, if any, are guaranteed to have the same number of hairs on their head, according to the pigeonhole principle.
+
+	(b) Determine, as best you can, the number of students who attended your high school while you were a senior. Then, determine how many of them, if any, are guaranteed to have the same birthday according to the pigeonhole principle.
+\end{problem}
+
+\begin{solution} Not Interested. Not Valueable. \end{solution}
+
+\begin{problem} 
+	The following conjectures are all false. Prove that they are false by finding a counter example to each.
+
+(a) \underline{Conjecture 1:} If $x$ and $y$ are real numbers, then $|x+y| = |x| + |y|$.
+
+\begin{solution}
+	$x = 1, y = -1 \implies |x+y| = 0 \neq |x| + |y| = 2$
+\end{solution}
+
+(b) \underline{Conjecture 2:} If $x$ is a real number, then $x^2 < x^4$.
+
+\begin{solution}
+	$x = 0.1 \implies x^2 = 0.01, x^4 = 0.00001 \implies x^2 > x^4$
+\end{solution}
+
+(c) \underline{Conjecture 3:} Suppose $x$ and $y$ are real numbers. If $|x+y| = |x-y|$, then $y = 0$.
+
+\begin{solution}
+	$x = 0, y = 1, |x+y| = 1 = |x-y|$
+\end{solution}
+\end{problem}
+
+
+\begin{problem}
+	Suppose you deal a pile of cards, face down, from a shuffled deck of cards ( only 13 cards of each suit ). How many must you deal out until you are guaranteed...
+
+	(a) five of the same suit?
+
+	\begin{solution}
+		By Principle \ref{pigeonhole}, we have $n = 4$ boxes as suits. 
+		We want atleast $k + 1 = 5 (\implies k = 4)$ in some box/suit.
+
+		Thus, we must atleast have $kn+1 = 17$ cards.
+	\end{solution}
+
+	(b) two of the same rank?
+	\begin{solution}
+		By Principle \ref{pigeonhole}, we have $n = 13$ boxes as ranks. 
+		We want atleast $k + 1 = 2 (\implies k = 1)$ in some box/rank.
+
+		Thus, we must atleast have $kn+1 = 14$ cards.
+	\end{solution}
+
+	(c) three of the same rank?
+	\begin{solution}
+		By Principle \ref{pigeonhole}, we have $n = 13$ boxes as ranks. 
+		We want atleast $k + 1 = 3 (\implies k = 2)$ in some box/rank.
+
+		Thus, we must atleast have $kn+1 = 27$ cards.
+	\end{solution}
+
+	(d) four of the same rank?
+	\begin{solution}
+		By Principle \ref{pigeonhole}, we have $n = 13$ boxes as ranks. 
+		We want atleast $k + 1 = 4 (\implies k = 3)$ in some box/rank.
+
+		Thus, we must atleast have $kn+1 = 40$ cards.
+	\end{solution}
+
+	(e) two of one rank and three of another?
+	\begin{solution}
+		For $3$ cards of the same rank, we need atleast $40$ cards.
+		
+		In this case, we will already have another rank having two cards. 
+		In the worst case, scenario, there will be $2$ cards in each rank/box for us to get to $40$ cards for $3$ cards in some rank/box.
+
+		Thus, we need atleast $40$ cards.
+	\end{solution}
+\end{problem}
+
+
+\begin{problem}
+	Determine the U.S. population at the time you are reading this.
+	
+	(a) Does the pigeonhole principle guarantee that $1$ million U.S.  residents have the same birthday?
+	\begin{solution}
+		There are $340$ million people in the U.S. There are $366$ days in the year.
+
+		Thus, $n = 366$ and $k = 1000000$ which means we only need $366$ million and $1$ people ( $kn+1$ ) for atleast one day where $1$ million people have thier birthday.
+
+		We clearly have more people than neeeded for this to be guaranteed. Hence, yes.
+	\end{solution}
+
+
+	(b) If the principle does not guarantee this, how many people are neede until that miltsone is reached? If the USA grows by $2$ million people per year, in what year will this occur?
+	\begin{solution} The current population does guarantee it. \end{solution}
+\end{problem}
+
+
+\begin{problem}
+Imagine a friend gives you a deck of cards (a standard $52$-card deck) and lets you shuffle it a few times. They then ask you to slowly deal out the cards, one at a time, into a new pile on the table. The entire time the cards are face-down, so they have no idea which cards you are deailing.
+
+At a certain point thisn procedure, they ask you to stop, and declare with confidence that the two stacks (hand and table) are in perfect balance.
+They say the number of red cards in the stack in your hand is equal to the number of black cards in the stack on the table.
+They let you count, and sure enough, they were correct.
+
+There were no gimmicks in this procedure -- no trick cards or hidden cameras or outside help. How did your friend do it?
+\end{problem}
+
+\begin{solution}
+	There are $23$ red and black cards each in a standard deck. 
+	Let us divide the deck randomly into two decks of $23$ each and say that the first deck has $r$ red cards and $b$ black cards.
+
+	Now, since there are $23$ red and black cards each, we have $23-r$ red and $23-b$ black cards in the second deck.
+
+	Now, since each deck size is $23$, we know that 
+	$$r + b = 23 \implies r = 23 - b$$
+	Thus, number of red cards, $r$, in the first deck is the same as number of black cards, $23-b$, in the second deck.
+
+	Thus, he only had to wait till I had dealt $23$ cards and stop me to make the claim.
+\end{solution}
+
+\begin{problem}
+	An alien creature has three legs, and on each o fhis three alien feet he wears an alien sock. Suppose he just washed $n$ triplets of alien socks ( $3n$ individual socks), and each triplet is a different color. If this alien pulls out his alien socks out of his alien dryer one-at-a-time, how many must he pull out to be guaranteed to have a matching triplet?
+\end{problem}
+
+\begin{solution}
+	Here, we have $n$ colored triplets or boxes. We want atleast one box/color to have atleast $k+1 = 3$ socks which implies $k = 2$
+
+	Thus, by Principle \ref{pigeonhole}, we need atleast $kn+1 = 2n+1$ socks.
+\end{solution}
+
+\begin{problem}
+	A magic square is an $n \time n$ matrix where teh sum of the entries in each row, column and diagonal equal the same value.
+
+	An \textbf{anitmagic square} is an $n \times n$ matrix where each row, column and diagonal sums to a distinct value.
+
+	Prove that, for every $n$, there does not exist an $n \times n$ antimagic square where each entry is $-1,0$ or $1$.
+\end{problem}
+
+\begin{solution}
+	For each $n \times n$ matrix with entries $-1, 0$ or $1$, the sum of its rows, columns and diagonals can only be between $-n$ and $n$.
+
+	Let us create $2n+1$ boxes labelled from $-n$ to $n$.
+
+	Now, there are $n$ rows, $n$ columns and $2$ diagonals. Therefore, there are $2n+2$ sums that need to be distinct.
+
+	But each sum must be placed in one of the $2n+1$ boxes. Therefore, by Principle \ref{pigeonhole}, there must be a box with two sums in it. This implies that the square cannot have distinct sum of rows, columns and diagonals.
+
+	Thus, the antimagic square of size $n \times n$ with entries $-1,0$ or $1$ is not possible.
+\end{solution}
