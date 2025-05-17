@@ -1,10 +1,12 @@
 \chapter{Direct Proofs}
 
 \begin{definition}
+	\label{divisibility}
 	A nonzero integer $a$ is said to \emph{divide} an integer $b$ if $b = ak$ for some integer $k$. When $a$ divides $b$, we write $a \mid b$ and when $a$ does not divide $b$, we write $a \nmid b$.
 \end{definition}
 
 \begin{theorem}[The Division Algorithm]
+	\label{divalgo}
 	For all integers $a$ and $m$ witht $m > 0$, there exist unique integers $q$ and $r$ such that 
 	$$a = mq+r$$
 	where $0 \leq r < m$.
@@ -15,3 +17,133 @@
 
 	The \emph{greatest common divisor} of $a$ and $b$ is the largest $d$ such that $d \mid a$ and $d \mid b$. This number is denoted $\gcd(a,b)$.
 \end{definition}
+
+\begin{theorem}[Bezout's Identity]
+	If $a$ and $b$ are positive integers, then tehre exist integers $k$ and $l$ such that $$\gcd(a,b) = ak + bl$$
+\end{theorem}
+
+\begin{scratch}
+Let's jot down an example. Let $a = 12$ and $b = 20$, making $\gcd(a, b) = 4$.
+Then indeed we get, $$4 = 12*2 + 20*(-1)$$
+Or maybe $$4 = 12*(-3) + 20*2$$
+\end{scratch}
+
+\begin{proof}
+	Assume $a$ and $b$ are fixed positive integers. Then the expression $ax+by$ can take infinitely many integer values for any integers $x$ and $y$. It can even be $0$ for $x = y = 0$. 
+
+	Let $d$ be the smallest positive integers that the expression $ax+by$ can take. And let $k$ and $l$ be integers for which 
+	\begin{equation} \label{eq:1}
+		d = ak + bl
+	\end{equation}
+
+	Now, we need to prove that $d = \gcd(a,b)$. We will do this in two parts. First, we will show that $d$ is a common divisor of $a$ and $b$. Then, we will show that $d = \gcd(a,b)$.
+
+	\underline{Part 1: $d$ is a common divisor of $a$ and $b$.}
+
+	Since $d > 0$, therefore, by Theorem \ref{divalgo}, there exists integers $q$ and $r$ such that 
+	$$a = dq + r$$
+	with $0 \leq r < d$. By rewriting this, we get,
+	$$
+	\begin{align}
+		r &= a - dq \\
+			&= a - (ak+bl)q \\
+			&= a - akq - blq \\
+			&= a(1-kq) + b(-lq)
+	\end{align}
+	$$
+
+	Since $1-kq$ and $-lq$ are integers, we have found another expression of the form $ax + by$. But since $0 \leq r < d$ and $d$ was the smallest posititve integer of the form $ax+by$ then it must be true that $r = 0$.
+
+	Therefore, we have the equation $a = dq + r$ which simplifies to $a = dq$. And thus, by Definition \ref{divisibility}, $d \mid a$.
+
+	Similarly, we can also prove that $d \mid b$.
+	Thus, $d$ is a common divisor of $a$ and $b$.
+
+	\bigbreak
+
+	\underline{Part 2: $d$ is the greatest common divisor of $a$ and $b$.}
+
+	Suppose that $d'$ is another common divisor of $a$ and $b$. Here, we must show that $d' \leq d$ for all such $d'$.
+	
+	By Definition \ref{divisibility}, we have $$a = d'm \text{ and } b = d'n$$
+	for some integers $m$ and $n$. Then, applying the above to Equation \ref{eq:1}, 
+	$$
+	\begin{align}
+		d &= ak + bl \\
+			&= d'mk + d'nl \\
+			&= d'(mk+nl) \\
+		\implies d' &= \frac{d}{mk+nl}
+	\end{align}
+	$$
+
+	Since $mk + nl$ is an integer and $d$ is positive, this implies that $d' \leq d$.
+
+	Note: If $mk+nl$ is negative then $d'$ is negative and it is trivial that $d' \leq d$. If $mk+nl$ is positive then $d' = \frac{d}{mk+nl}$ implies that $d' \leq d$.
+
+	Thus, $d$ is in fact the greatest common divisor of $a$ and $b$, i.e., $$\gcd(a, b) = d = ak + bl$$
+
+	Hence, proved.
+\end{proof}
+
+\begin{definition} \label{mod}
+	For integers $a$, $r$ and $m$, we say that $a$ \emph{is congruent to $r$ modulo $m$}, and we write $a \equiv r \pmod m$, if $m \mid (a-r)$.
+\end{definition}
+
+\begin{proposition}[Properties of Modular Arithmetic]
+	Assume that $a$, $b$, $c$, $d$ and $m$ are integers, $a \equiv b \pmod m$ and $c \equiv d \pmod m$. Then,
+
+	\begin{enumerate}
+		\item $a + c \equiv b + d \pmod m$
+		\item $a - c \equiv b - d \pmod m$
+		\item $a \cdot c \equiv b \cdot d \pmod m$
+	\end{enumerate}
+\end{proposition}
+
+\begin{definition}
+	An integer $p \geq 2$ is \emph{prime} if its only positive divisors are $1$ and $p$. An integer $p \geq 2$ is \emph{composite} if it is not prime.
+
+	Equivalently, $n$ is composite if it can be written as $n = st$, where $s$ and $t$ are integers and $1 < s,t < n$.
+\end{definition}
+
+\begin{lemma} \label{modprime}
+	Let $a$, $b$ and $c$ be integers, and let $p$ be a prime.
+	\begin{enumerate}
+		\item If $p \nmid a$, then $\gcd(p, a) = 1$.
+		\item If $a \mid bc$ and $\gcd(a, b) = 1$, then $a \mid c$.
+		\item If $p \mid bc$, then $p \mid b$ or $p \mid c$.
+	\end{enumerate}
+\end{lemma}
+
+\begin{proposition}[Modular Cancellation Law]
+	Le $a, b, k$ and $m$ be integers, with $k \neq 0$. If $ak \equiv bk \pmod m$ and $\gcd(k,m) = 1$, then $a \equiv b \pmod m$.
+\end{proposition}
+
+\begin{scratch}
+	Here, we have the following:
+	$$
+	\begin{align}
+		ak &\equiv bk \pmod m \\
+		\implies (ak - bk) &= mq \\
+		\implies (a-b)k &= mq \\
+		\implies k &\mid mq
+	\end{align}
+	$$
+	By Lemma \ref{modprime}(2), since $\gcd(k,m)=1$, we get $k \mid q$, therefore, $q = kl$ for some integer $l$.
+	$$(a-b)k = mkl \implies a-b = ml \implies m \mid (a-b) \implies a \equiv b \pmod m$$
+\end{scratch}
+
+\begin{proof}
+	Since $ak \equiv bk \pmod m$, by Definition \ref{mod} and \ref{divisibility}, we have, $ak - bk = mp$ for some integer $p$.
+	$$ak-bk = mp \implies (a-b)k = mp \implies k \mid mp$$
+	Now, since $\gcd(k,m) = 1$, by Lemma \ref{modprime}(2), we get $k \mid p \implies p = kq$ for some integer $q$.
+	$$(a-b)k = mp \implies (a-b)k = mkq \implies (a-b) = mq \implies m \mid (a-b)$$
+	Now, by Definition \ref{mod}, we can say that $a \equiv b \pmod m$.
+
+	Hence, proved.
+\end{proof}
+
+
+\begin{theorem}[Fermat's Little Theorem]
+	If $a$ is an integer and $p$ is a prime which does not divide $a$, then 
+	$$a^{p-1} \equiv 1 \pmod p.$$
+\end{theorem}

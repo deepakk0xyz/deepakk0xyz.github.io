@@ -1,0 +1,128 @@
+\section*{Exercises}
+
+\begin{problem}
+	List $5$ skills that are important for someone to be successful in a college math class. Which skills seem most important for an upper-division math class? Which skills do you want to work to improve?
+\end{problem}
+\begin{solution}Not Interested.\end{solution}
+
+\begin{problem}
+	The following are the squares of four numbers, each ending in $5$.
+	$$15^2 = 225, 25^2 = 625, 35^2 = 1225, 45^2 = 2025$$
+	Lookiung at these four squares, do you see anythign interesting about their answers. Once you have noticed a pattern, answer the following.
+
+	(a) Write down a conjecture that explains that the answer is for the square of any integer ending in $5$.
+
+	\begin{solution}
+		\begin{named}[Conjecture]
+			Any integer ending in $5$ has a square which ends in $25$.
+		\end{named}
+	\end{solution}
+
+	(b) Give four more examples illustrating your conjecture.
+	\begin{solution}
+		$$5^2 = 25, 55^2 = 3025, (-15)^2 = 225, (-25)^2 = 625$$
+	\end{solution}
+
+	(c) Prove your conjecture.
+	\begin{solution}
+		For any integer ending in $5$ would be of the form $10a+5$ for some integer $a$. Now, we can show that,
+		$$
+		\begin{align}
+			(10a+5)^2 &= (10a)^2 + 2 \cdot 10a \cdot 5 + 5^2 \\
+				&= 100a^2 + 100a + 25 \\
+				&= 100(a^2+a) + 25
+		\end{align}
+		$$
+		Since $a$ is an integer, therefore, $a^2 + a$ is also an integer.
+		Thus, the square is of the form $100k+25$ where $k = a^2+a$ is an integer.
+
+		This proves that the square of the number ends in $25$.
+
+		Hence, proved.
+	\end{solution}
+\end{problem}
+
+\begin{problem}
+	For each of the following, prove that it is true.
+
+	(a) The sum of an even integer and an odd integer is odd.
+
+	\begin{solution}
+		Let $a$ be an even integer and $b$ be an odd integer. By definition, there exist some integers $k$ and $l$ such that $a = 2k$ and $b = 2l+1$.
+
+		Now, 
+		$$a + b = 2k + 2l + 1 = 2(k+l) + 1$$
+		Since $k$ and $l$ are integers, therefore, $k+l$ is also an integer. Thus, for $a+b$ there exist an integer $m=k+l$ such that $a+b = 2m+1$.
+		This proves that $a+b$ is odd.
+
+		Hence, proved.
+	\end{solution}
+
+	(b) The product of two even integers is even.
+
+	\begin{solution}
+		Let $a = 2k$ and $b = 2l$ be two even integers such that $k$ and $l$ are integers. Now, 
+		$$a \cdot b = 2k \cdot 2l = 4kl = 2 \cdot ( 2kl )$$
+		Since $k$ and $l$ are integers, therefore, $2kl$ is also an integers. This proves that $a \cdot b = 2m$ for some integer $m$. 
+		Hence, proved.
+	\end{solution}
+
+	(c) The product of two odd integers is odd.
+	\begin{solution}
+		Let $a = 2k+1$ and $b = 2l+1$ be two odd integers for some integers $k$ and $l$. Now,
+		$$
+		\begin{align}
+			a \cdot b &= (2k+1) \cdot (2l + 1) \\
+								&= 2k \cdot 2l + 2k \cdot 1 + 1 \cdot 2l + 1 \cdot 1 \\
+								&= 4kl + 2k + 2l + 1 \\
+								&= 2(2kl + k + l) + 1
+		\end{align}
+		$$
+		Here, $2kl+k+l$ is an integer since $k$ and $l$ are integers. This proves that $a \cdot b = 2m+1$ for some integer $m$ and thus, $a \cdot b$ is odd.
+
+		Hence, proved.
+	\end{solution}
+
+	(d) The product of an even integer and an odd integer is even.
+	\begin{solution}
+		Let $a = 2k$ and $b = 2l+1$ be an even and odd integer respectively for some integers $k$ and $l$. Now,
+		$$ a \cdot b = 2k \cdot b = 2 \cdot (kb)$$
+		Here, since $k$ and $b$ are integers, we have shown that $a \cdot b = 2m$ for some integer $m$ and thus, $a \cdot b$ is even.
+
+		Hence, proved.
+	\end{solution}
+	
+	(e) An even integer squaredd is an even integer.
+	\begin{solution}
+		Let $a = 2k$ be an even integer for some integer $k$. Now,
+		$$a^2 = a \cdot a = 2k \cdot 2k = 2 \cdot (2k^2)$$
+		Here $2k^2$ is an integer since $k$ is an integer. Thus, we have shown that $a^2 = 2m$ for some integer $m$ and thus, $a^2$ is even.
+
+		Hence, proved.
+	\end{solution}
+
+\end{problem}
+
+
+\begin{problem}
+	For each of the following, prove that it is true.
+
+	(a) If $n$ is an even integer, then $-n$ is an even integer.
+	\begin{solution}
+		Let $n = 2k$ be an even integer for some integer $k$. Now, $-n = -2k = 2 \cdot (-k)$. Since $k$ is an integer, $-k$ is also an integer. Thus, we have shown that $-n$ is an even integer. Hence, proved.
+	\end{solution}
+
+	(b) If $n$ is an odd integer, then $-n$ is an odd integer.
+	\begin{solution}
+		Let $n = 2k+1$ be an odd integer for some integer $k$. Now, $-n = -(2k+1) =-2k-1 = -2k-2+1 = 2(-k-1) + 1$.
+
+		Since $k$ is an integer, $-k-1$ is also an integer. Thus, we have shown that $-n$ is an odd integer. Hence, proved.
+	\end{solution}
+
+	(c) If $n$ is an even integer, then $(-1)^n = 1$.
+	\begin{solution}
+		Let $n = 2k$ be an even ingger for some integer $k$. Now, 
+		$$(-1)^n = (-1)^{2k} = ((-1)^2)^k = 1^k = 1$$
+		Hence, proved.
+	\end{solution}
+\end{problem}
