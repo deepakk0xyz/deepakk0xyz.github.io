@@ -26,13 +26,11 @@
 	(c) Prove your conjecture.
 	\begin{solution}
 		For any integer ending in $5$ would be of the form $10a+5$ for some integer $a$. Now, we can show that,
-		$$
 		\begin{align}
 			(10a+5)^2 &= (10a)^2 + 2 \cdot 10a \cdot 5 + 5^2 \\
 				&= 100a^2 + 100a + 25 \\
 				&= 100(a^2+a) + 25
 		\end{align}
-		$$
 		Since $a$ is an integer, therefore, $a^2 + a$ is also an integer.
 		Thus, the square is of the form $100k+25$ where $k = a^2+a$ is an integer.
 
@@ -70,14 +68,12 @@
 	(c) The product of two odd integers is odd.
 	\begin{solution}
 		Let $a = 2k+1$ and $b = 2l+1$ be two odd integers for some integers $k$ and $l$. Now,
-		$$
 		\begin{align}
 			a \cdot b &= (2k+1) \cdot (2l + 1) \\
 								&= 2k \cdot 2l + 2k \cdot 1 + 1 \cdot 2l + 1 \cdot 1 \\
 								&= 4kl + 2k + 2l + 1 \\
 								&= 2(2kl + k + l) + 1
 		\end{align}
-		$$
 		Here, $2kl+k+l$ is an integer since $k$ and $l$ are integers. This proves that $a \cdot b = 2m+1$ for some integer $m$ and thus, $a \cdot b$ is odd.
 
 		Hence, proved.
@@ -126,3 +122,280 @@
 		Hence, proved.
 	\end{solution}
 \end{problem}
+
+\begin{problem}
+	Prove the following:
+
+	(a) If $n$ is odd, then $n^2 + 4n + 9$ is even.
+	\begin{solution}
+		Let $n = 2k+1$ be an odd integer for some integer $k$.
+		$$n^2 = (2k+1)^2 = 4k^2 + 4k + 1$$
+		$$4n = 4(2k+1) = 8k + 4$$
+		$$n^2 + 4n + 9 = 4k^2 + 4k + 1 + 8k + 4 + 9 = 4k^2 + 12k + 10 = 2(2k^2+6k+5)$$
+		Since $k$ is an integer, therefore, $2k^2+6k+5$ is also an integer. Thus, we have shown that $n^2 + 4n + 9 = 2m$ for some integer $m$ and therefore, $n^2 + 4n + 9$ is even.
+
+		Hence, proved.
+	\end{solution}
+	
+	(b) If $n$ is odd, then $n^3$ is odd.
+	\begin{solution}
+		Let $n = 2k+1$ for some integer $k$. Then,
+		$$n^3 = (2k+1)^3 = (2k+1)(4k^2+4k+1)$$
+		$$n^3 = 8k^3+8k^2+2k+4k^2+4k+1 = 8k^3 + 12k^2 + 6k + 1$$
+		$$n^3 = 2(4k^3+6k^2+3k) + 1$$
+		Hence, proved.
+	\end{solution}
+
+	(c) If $n$ is even, then $n+1$ is odd.
+	\begin{solution}
+		Let $n = 2k$ for some integer $k$, then $n+1 = 2k+1$ which is odd by definition. Hence, proved.
+	\end{solution}
+\end{problem}
+
+\begin{problem}
+	Prove the following. For each $m$ and $n$ are integers.
+
+	(a) If $m$ and $n$ are odd, then $5m-3n$ is even.
+	\begin{solution}
+		Let $m = 2k+1$ and $n = 2l+1$ by definition of odd numbers.
+		$$5m-3n = 5(2k+1)-3(2l+1) = 10k+5-6l-3 = 10k-6l+2 = 2(5k-3l+1)$$
+		Hence, proved.
+	\end{solution}
+
+	(b) If $m$ and $n$ are even, then $3mn$ is divisible by $4$.
+	\begin{solution}
+		Let $m = 2k$ and $n = 2l$ by definition of even numbers.
+		$$3mn = 3 \cdot 2k \cdot 2l = 12kl = 4 \cdot  3kl$$
+		By Definition \ref{div}, $4 \mid 3mn$. Hence, proved.
+	\end{solution}
+\end{problem}
+
+\begin{problem}Skipped.\end{problem}
+\begin{problem}Skipped.\end{problem}
+\begin{problem}Skipped.\end{problem}
+
+\begin{problem}
+	Prove the following. For each $m$, $n$ and $l$ are integers.
+
+	(a) If $m \mid n$, then $m^2 \mid n^2$
+	\begin{solution}
+		By Definition \ref{div}, since $m \mid n$, there exists an integer $k$ such that $n = mk$ which implies that $n^2 = m^2 \cdot k^2$.
+		Again by definition \ref{div}, $m^2 \mid n^2$. 
+		Hence, proved.
+	\end{solution}
+
+	(b) If $m \mid n$, then $m \mid (7n^3 + 13n^2 - n)$
+	\begin{solution}
+		We can show that $7n^3 + 13n^2 - n = n \cdot (7n^2 + 13n - 1)$ which by definition \ref{div} implies that $n \mid (7n^3 + 13n^2 - n)$.
+		Now, by Proposition \ref{transdiv}, since $n \mid n$, we can say that $m \mid (7n^3 + 13n^2 - n)$
+	\end{solution}
+
+	(c) If $m \mid n$ and $m \mid l$, then $m \mid (n+l)$.
+	\begin{solution}
+		By Definition \ref{div}, we get $n = ma$ and $l = mb$ for some integers $a$ and $b$.
+		Therefore, $n+l = ma + mb = m(a+b)$ which by definition \ref{div} implies that $m \mid (n+l)$. 
+		Hence, proved.
+	\end{solution}
+
+	(d) If $3 \mid 2n$, then $3 \mid n$
+	\begin{solution}
+		Since $\gcd(3,2) = 1$, then by Lemma \ref{modprime}(2), $3 \mid n$.
+	\end{solution}
+
+	(e) If $9 \mid 6n$, then $3 \mid n$.
+	\begin{solution}
+		By Definition \ref{div}, for some integer $a$, $6n = 9a \implies 2n = 3a$. Thus, by (d), $3 \mid n$.
+	\end{solution}
+
+	(f) If $m^3 \mid n$ and $n^4 \mid t$ then $m^12 \mid t$.
+	\begin{solution}
+		By Definition \ref{div}, $t = n^4 \cdot k$ and $n = m^3 \cdot l$ for some integers $k$ and $l$. This implies that $t = (m^3 \cdot l)^4 \cdot k = m^12  \cdot l^4 \cdot k$. Thus, by Definition \ref{div}, $m^12 \mid t$. Hence, proved.
+	\end{solution}
+
+\end{problem}
+
+
+\begin{problem}Skipped.\end{problem}
+
+\begin{problem}
+	Prove that if $m$ and $n$ are positive real numbers and $m < n$, then $m^2 < n^2$. You may use the fact that if $a < b$ and $c$ is positive, then $ac < bc$.
+\end{problem}
+
+\begin{solution}
+	\begin{align}
+		m < n, m > 0 &\implies m^2 < mn \\
+		m < n, n > 0 &\implies mn < n^2 \\
+		m^2 < mn, mn < n^2 &\implies m^2 < n^2
+	\end{align}
+\end{solution}
+
+\begin{problem}
+	Define the absolute value of a real number $x$ in this way:
+	$$ 
+	|x| = 
+	\begin{cases}
+		x &\text{ if } x \geq 0 \\
+		-x &\text{ if } x < 0
+	\end{cases}
+	$$
+	Prove that $|xy| = |x| \cdot |y|$.
+\end{problem}
+
+\begin{solution}
+	Let us take 4 cases:
+
+	\underline{Case 1.} $x = 0$ or $y = 0$. 
+
+	Without loss of generality, let us assume that $x = 0$.
+
+	This implies that $xy = 0$. Thus, $|xy| = 0$ and $|x| = 0$, therefore, $|x|\cdot|y| = 0 = |xy|$. Hence, proved.
+
+	\underline{Case 2.} $x > 0$ and $y > 0$.
+
+	This implies that $xy > 0$ so $|xy| = xy, |x| = x$ and $|y| = y$.
+	Thus, $|xy| = xy = |x|\cdot|y|$. Hence, proved.
+
+	\underline{Case 3.} $x < 0$ and $y < 0$.
+
+	This implies that $xy > 0$ so $|xy| = xy, |x| = -x$ and $|y| = -y$. 
+	Thus, $|x|\cdot|y| = (-x) \cdot (-y) = xy = |xy|$. Hence, proved.
+
+	\underline{Case 4.} Without loss of generality, $x < 0$ and $y > 0$.
+
+	This implies that $xy < 0$. Here, $|xy| = -xy, |x| = -x$ and $|y| = y$.
+	Therefore, $|x| \cdot |y| = (-x) \cdot y = -xy = |xy|$.
+	Hence, proved.
+\end{solution}
+
+\begin{problem}
+	Prove that if $m$, $n$ and $t$ are integers, then at least one of $m-n$, $n-t$ and $m-t$ is even. Also write down three example, and show which of $m-n$, $n-t$ or $m-t$ are even.
+\end{problem}
+
+\begin{scratch}
+	$$m = 1, n = 2, t = 3 \implies m-n = -1, n-t = -1, m-t = -2 \implies m-t \text { is even.}$$
+	$$m = 54, n = 29, t = 20 \implies m-n = 25, n-t = 9, m-t = 34 \implies m-t \text { is even.}$$
+	$$m = 19, n = 45, t = 77 \implies m-n = -26, n-t = -32, m-t = -58 \implies m-n \text { is even.}$$
+\end{scratch}
+
+\begin{proof}
+	Since all integers are either even or odd, by The Pigeonhole Principle ( \ref{pigeonhole} ), we know that atleast two of $m, n$ or $t$ have the same parity, i.e., two of them are either both odd or both even.
+
+	\begin{lemma} \label{paritydiff}
+		If $a$ and $b$ are integers that have the same parity then $a-b$ is even.
+	\end{lemma}
+	\begin{proof}[Lemma Proof]
+		\underline{Case 1.} $a$ and $b$ are even.
+
+		By definition, $a = 2k$ and $b = 2l$ then $a-b = 2k-2l = 2(k-l)$. Thus, $a-b$ is even by definition.
+
+		\underline{Case 2.} $a$ and $b$ are odd.
+
+		By definition, $a = 2k+1$ and $b = 2l+1$ then $a-b = (2k+1)-(2l+1) = 2k-2l = 2(k-l)$. Thus, $a-b$ is even by definition.
+
+		Hence, proved.
+	\end{proof}
+
+	Since atleast two of $m, n$ or $t$ have the same parity then there is atleast one even number in $m-n$, $n-t$ and $m-t$ by Lemma \ref{paritydiff}.
+\end{proof}
+
+
+\begin{problem}
+	Prove the following:
+
+	(a) Prove that if $n$ is a positive integer, then $4$ divides $1 + (-1)^n(2n-1)$.
+	\begin{solution}
+		Given $n > 0$, we know that $n$ is either even or odd. Let us define two cases:
+
+		\underline{Case 1.} $n$ is even.
+
+		By Definition, $n = 2k$ for some integer $k$. 
+		Therefore, we know that $(-1)^n = (-1)^{2k} = ((-1)^2)^k = (1)^k = 1$. Thus, 
+		$$1 + (-1)^n(2n-1) = 1 + 2n-1 = 2n = 2 \cdot 2k = 4k$$
+		Thus, by Defintion \ref{div}, $4 \mid 1 + (-1)^n(2n-1)$
+		
+		\underline{Case 2.} $n$ is odd.
+
+		By Definition, $n = 2k+1$ for some integer $k$. 
+		Therefore, we know that $(-1)^n = (-1)^{2k+1} = (-1)^{2k} \cdot (-1) = -1$ since $(-1)^{2k} = 1$.
+		Thus, we get,
+		\begin{align}
+			1 + (-1)^n(2n-1) &= 1 + (-1)(2n-1) \\
+											 &= 1 - 2n + 1 = 2 - 2n \\
+											 &= 2 - 2(2k+1) \\
+											 &= 2 - 4k - 2 = -4k
+		\end{align}
+
+		Thus, by Defintion \ref{div}, $4 \mid 1 + (-1)^n(2n-1)$
+
+
+		Hence, proved.
+	\end{solution}
+
+	(b) Prove that every multiple of $4$ is equal to $1 + (-1)^n(2n-1)$ for some positive integer $n$.
+	\begin{solution}
+		Let us take a multiple of $4$ as $4k$. We have two cases:
+		
+		\underline{Case 1.} $k \geq 0$
+
+		Since $(-1)^{2k} = 1$, we can show,
+		$$4k = 2 \cdot 2k = 1 + 2 \cdot 2k - 1 = 1 + (-1)^{2k}(2 \cdot 2k - 1)$$
+		If we substitute, $n = 2k$, we get, 
+		$$4k = 1 + (-1)^n(2n-1)$$
+		Thus, $k \geq 0$ satisfies the condition.
+
+		\underline{Case 2.} $k < 0$
+		Let us define $l = -k$ which implies that $l > 0$.
+		$$4k = -4l =  2 - 4l - 2 = 2 - 2(2l+1)$$
+		Let us substitute $n = 2l+1$.
+		$$4k = 2 - 2n = 1 - 2n + 1 = 1 - (2n-1) = 1 + (-1)(2n-1)$$
+		Since $(-1)^{2l} = 1 \implies (-1)^{2l+1} = (-1)^n = -1$, we get that
+		$$4k = 1 + (-1)^n(2n-1)$$
+
+		Thus, proved.
+	\end{solution}
+\end{problem}
+
+
+\begin{problem}Skipped.\end{problem}
+\begin{problem}Skipped.\end{problem}
+\begin{problem}Skipped.\end{problem}
+
+\begin{problem}
+	Let $a$ and $b$ be positive integers, and suppose $r$ is the nonzero remainder when $b$ is divided by $a$. Prove that when $-b$ is divided by $a$, the remainder is $a-r$.
+\end{problem}
+
+\begin{solution}
+	By Theorem \ref{divalgo}, we can say that $b = aq + r$ such that $0 \leq r < a$.
+	But we are given that $r$ is nonzero, therefore, $0 < r < a$. Now,
+
+	$$-b = -aq-r = -a-aq+a-r = a(-1-q) + (a-r)$$
+	
+	Since $0 < r < a$, we can show that 
+	$$r < a \implies a - r > 0, r > 0 \implies r > a-a \implies a > a-r$$
+
+	Thus, we have $0 < a-r < a$. By applying Theorem \ref{divalgo}, we get that the remainder on dividing $-b$ by $a$ is $a-r$.
+
+	Hence, proved.
+
+\end{solution}
+
+\begin{problem}
+	Determine the remainder when $3^302$ is divided by $28$, and show without a calculator how you found the answer.
+\end{problem}
+
+\begin{solution}
+	\begin{align}
+		3^{302} &= 3^{2} \cdot 3^{300} \pmod{28} \\
+						&= 9 \cdot (3^3)^{100}  \pmod{28} \\
+						&= 9 \cdot 27^{100} \pmod{28} \\
+	\end{align}
+	Since $27 \equiv -1 \pmod{28}$, then by Proposition \ref{modprop}(3), we get that $27^{100} \equiv (-1)^{100} \pmod{28}$ since exponentiation is just repeated multiplication.
+	\begin{align}
+		3^{302} &= 9 \cdot (-1)^{100} \pmod{28} \\
+		3^{302} &= 9 \cdot 1 \pmod{28} \\
+		3^{302} &= 9 \pmod{28}
+	\end{align}
+
+	Thus, the answer is $9$.
+
+\end{solution}

@@ -1,12 +1,15 @@
 \chapter{Direct Proofs}
 
 \begin{definition}
-	\label{divisibility}
+	\label{div}
 	A nonzero integer $a$ is said to \emph{divide} an integer $b$ if $b = ak$ for some integer $k$. When $a$ divides $b$, we write $a \mid b$ and when $a$ does not divide $b$, we write $a \nmid b$.
 \end{definition}
 
-\begin{theorem}[The Division Algorithm]
-	\label{divalgo}
+\begin{proposition} \label{transdiv}
+	Let $a$, $b$ and $c$ be intgers. If $a \mid b$ and $b \mid c$, then $a \mid c$.
+\end{proposition}
+
+\begin{theorem}[The Division Algorithm] \label{divalgo}
 	For all integers $a$ and $m$ witht $m > 0$, there exist unique integers $q$ and $r$ such that 
 	$$a = mq+r$$
 	where $0 \leq r < m$.
@@ -43,18 +46,16 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 	Since $d > 0$, therefore, by Theorem \ref{divalgo}, there exists integers $q$ and $r$ such that 
 	$$a = dq + r$$
 	with $0 \leq r < d$. By rewriting this, we get,
-	$$
 	\begin{align}
 		r &= a - dq \\
 			&= a - (ak+bl)q \\
 			&= a - akq - blq \\
 			&= a(1-kq) + b(-lq)
 	\end{align}
-	$$
 
 	Since $1-kq$ and $-lq$ are integers, we have found another expression of the form $ax + by$. But since $0 \leq r < d$ and $d$ was the smallest posititve integer of the form $ax+by$ then it must be true that $r = 0$.
 
-	Therefore, we have the equation $a = dq + r$ which simplifies to $a = dq$. And thus, by Definition \ref{divisibility}, $d \mid a$.
+	Therefore, we have the equation $a = dq + r$ which simplifies to $a = dq$. And thus, by Definition \ref{div}, $d \mid a$.
 
 	Similarly, we can also prove that $d \mid b$.
 	Thus, $d$ is a common divisor of $a$ and $b$.
@@ -65,16 +66,14 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 
 	Suppose that $d'$ is another common divisor of $a$ and $b$. Here, we must show that $d' \leq d$ for all such $d'$.
 	
-	By Definition \ref{divisibility}, we have $$a = d'm \text{ and } b = d'n$$
+	By Definition \ref{div}, we have $$a = d'm \text{ and } b = d'n$$
 	for some integers $m$ and $n$. Then, applying the above to Equation \ref{eq:1}, 
-	$$
 	\begin{align}
 		d &= ak + bl \\
 			&= d'mk + d'nl \\
 			&= d'(mk+nl) \\
 		\implies d' &= \frac{d}{mk+nl}
 	\end{align}
-	$$
 
 	Since $mk + nl$ is an integer and $d$ is positive, this implies that $d' \leq d$.
 
@@ -89,7 +88,7 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 	For integers $a$, $r$ and $m$, we say that $a$ \emph{is congruent to $r$ modulo $m$}, and we write $a \equiv r \pmod m$, if $m \mid (a-r)$.
 \end{definition}
 
-\begin{proposition}[Properties of Modular Arithmetic]
+\begin{proposition}[Properties of Modular Arithmetic] \label{modprop}
 	Assume that $a$, $b$, $c$, $d$ and $m$ are integers, $a \equiv b \pmod m$ and $c \equiv d \pmod m$. Then,
 
 	\begin{enumerate}
@@ -99,7 +98,7 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 	\end{enumerate}
 \end{proposition}
 
-\begin{definition}
+\begin{definition} \label{prime}
 	An integer $p \geq 2$ is \emph{prime} if its only positive divisors are $1$ and $p$. An integer $p \geq 2$ is \emph{composite} if it is not prime.
 
 	Equivalently, $n$ is composite if it can be written as $n = st$, where $s$ and $t$ are integers and $1 < s,t < n$.
@@ -114,26 +113,24 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 	\end{enumerate}
 \end{lemma}
 
-\begin{proposition}[Modular Cancellation Law]
+\begin{proposition}[Modular Cancellation Law] \label{modcancel}
 	Le $a, b, k$ and $m$ be integers, with $k \neq 0$. If $ak \equiv bk \pmod m$ and $\gcd(k,m) = 1$, then $a \equiv b \pmod m$.
 \end{proposition}
 
 \begin{scratch}
 	Here, we have the following:
-	$$
 	\begin{align}
 		ak &\equiv bk \pmod m \\
 		\implies (ak - bk) &= mq \\
 		\implies (a-b)k &= mq \\
 		\implies k &\mid mq
 	\end{align}
-	$$
 	By Lemma \ref{modprime}(2), since $\gcd(k,m)=1$, we get $k \mid q$, therefore, $q = kl$ for some integer $l$.
 	$$(a-b)k = mkl \implies a-b = ml \implies m \mid (a-b) \implies a \equiv b \pmod m$$
 \end{scratch}
 
 \begin{proof}
-	Since $ak \equiv bk \pmod m$, by Definition \ref{mod} and \ref{divisibility}, we have, $ak - bk = mp$ for some integer $p$.
+	Since $ak \equiv bk \pmod m$, by Definition \ref{mod} and \ref{div}, we have, $ak - bk = mp$ for some integer $p$.
 	$$ak-bk = mp \implies (a-b)k = mp \implies k \mid mp$$
 	Now, since $\gcd(k,m) = 1$, by Lemma \ref{modprime}(2), we get $k \mid p \implies p = kq$ for some integer $q$.
 	$$(a-b)k = mp \implies (a-b)k = mkq \implies (a-b) = mq \implies m \mid (a-b)$$
@@ -147,3 +144,58 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 	If $a$ is an integer and $p$ is a prime which does not divide $a$, then 
 	$$a^{p-1} \equiv 1 \pmod p.$$
 \end{theorem}
+
+\begin{scratch}
+	The all-important observation is the following, which we explain through the example $a = 4$ and $p = 7$. Consider two sets:
+	$$\{a, 2a, 3a, 4a, 5a, 6a\} \text{ and } \{1, 2, 3, 4, 5, 6\}$$
+	In this example, since $a = 4$, this is the same as 
+	$$\{4, 8, 12, 16, 20, 24\} \text{ and } \{1, 2, 3, 4, 5, 6\}$$
+	These look like completely different sets. But look what happens when you consider each of the numbers module $p$; the second set stays the same but the numbers in the first set change.
+	$$\{4, 1, 5, 2, 6, 3\} \text{ and } \{1, 2, 3, 4, 5, 6\}$$
+	Now, these two sets are the same. Since the order doesn't matter in multiplication, this means that
+	$$a \cdot 2a \cdot 3a \cdot 4a \cdot 5a \cdot 6a \equiv 1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 \cdot 6 \pmod 7$$
+\end{scratch}
+
+\begin{proof}
+	Assume that $a$ is an integer and $p$ is prime which does not divide $a$. We begin by proving that when taking module $p$
+	$$\{a, 2a, 3a, ..., (p-1)a\} \equiv \{1, 2, 3, ..., p-1\} \pmod p$$
+
+	To do this observe that set on the right has every module except $0$. Thus, if we can show that no number on the left hand side is $0$ module $p$ and all of them are unique module $p$, then both sets must have the same elements module $p$.
+
+	\underline{Step 1.} No element in the set $\{a, 2a, 3a, ..., (p-1)a\}$ is congruent to $0$ module $p$.
+
+	Let us take an element $ia$ from the set and assume that it is congruent to $0$ modulo $p$. By Definition \ref{mod}, we get that $p \mid ia$.
+
+	Since $p \nmid a$, by Lemma \ref{modprime}, we get that $\gcd(p, a) = 1$.
+
+	By Lemma \ref{modprime}(2), we get that $p \mid i$. This is a contradiction since for all $i \in \{1, 2, 3, ..., p-1\}$, $p \nmid i$.
+
+	Thus, our initial assumption that $ia \equiv 0 \pmod p$ must be wrong.
+
+	Hence, proved.
+
+	\bigbreak
+
+	\underline{Step 2.} All elements in the set $\{a, 2a, 3a, ..., (p-1)a$ are unique modulo $p$.
+
+		Let us take two elements $ia$ and $ja$ from the above set such that $ia \equiv ja \pmod p$.
+
+		Since $\gcd(a, p) = 1$ as shown before, by Proposition \ref{modcancel}, we get that $i \equiv j \pmod p$.
+
+		Since $i$ and $j$ are in the set $\{1, 2, 3, ..., (p-1)\}$, we can say that $i = j$ since no two elements in the set are congruent to each other module $p$.
+	
+		Thus, we get that $ia \equiv ja \pmod p \implies i = j$ and that all the elements are unique in the given set module $p$.
+
+
+		These two steps complete the proof that
+		$$\{a, 2a, 3a, ..., (p-1)a\} \equiv \{1, 2, 3, ..., p-1\} \pmod p$$
+
+		Now, since the order doesn't matter in multiplication we can say that 
+		$$a \cdot 2a \cdot 3a \cdot ... \cdot (p-1)a \equiv 1 \cdot 2 \cdot 3 \cdot ... \cdot (p-1) \pmod p$$
+
+		Since for each $i$ such that $2 \leq i \leq p-1$, we know that $p \nmid i$, we get that $\gcd(p, i) = 1$. Therefore, by Proposition \ref{modcancel}, we get
+		$$\underbrace{a \cdot a \cdot a \cdot ... \cdot a}_{p-1 \text{ times}} \equiv 1 \pmod p$$ 
+		$$ \implies a^{p-1} \equiv 1 \pmod p$$
+
+		Hence, proved.
+	\end{proof}
