@@ -9,7 +9,7 @@
 	The following are the squares of four numbers, each ending in $5$.
 	$$15^2 = 225, 25^2 = 625, 35^2 = 1225, 45^2 = 2025$$
 	Lookiung at these four squares, do you see anythign interesting about their answers. Once you have noticed a pattern, answer the following.
-
+	\bigbreak
 	(a) Write down a conjecture that explains that the answer is for the square of any integer ending in $5$.
 
 	\begin{solution}
@@ -43,6 +43,7 @@
 \begin{problem}
 	For each of the following, prove that it is true.
 
+	\bigbreak
 	(a) The sum of an even integer and an odd integer is odd.
 
 	\begin{solution}
@@ -102,7 +103,7 @@
 
 \begin{problem}
 	For each of the following, prove that it is true.
-
+	\bigbreak
 	(a) If $n$ is an even integer, then $-n$ is an even integer.
 	\begin{solution}
 		Let $n = 2k$ be an even integer for some integer $k$. Now, $-n = -2k = 2 \cdot (-k)$. Since $k$ is an integer, $-k$ is also an integer. Thus, we have shown that $-n$ is an even integer. Hence, proved.
@@ -125,7 +126,7 @@
 
 \begin{problem}
 	Prove the following:
-
+	\bigbreak
 	(a) If $n$ is odd, then $n^2 + 4n + 9$ is even.
 	\begin{solution}
 		Let $n = 2k+1$ be an odd integer for some integer $k$.
@@ -154,7 +155,7 @@
 
 \begin{problem}
 	Prove the following. For each $m$ and $n$ are integers.
-
+	\bigbreak
 	(a) If $m$ and $n$ are odd, then $5m-3n$ is even.
 	\begin{solution}
 		Let $m = 2k+1$ and $n = 2l+1$ by definition of odd numbers.
@@ -176,7 +177,7 @@
 
 \begin{problem}
 	Prove the following. For each $m$, $n$ and $l$ are integers.
-
+	\bigbreak
 	(a) If $m \mid n$, then $m^2 \mid n^2$
 	\begin{solution}
 		By Definition \ref{div}, since $m \mid n$, there exists an integer $k$ such that $n = mk$ which implies that $n^2 = m^2 \cdot k^2$.
@@ -301,7 +302,7 @@
 
 \begin{problem}
 	Prove the following:
-
+	\bigbreak
 	(a) Prove that if $n$ is a positive integer, then $4$ divides $1 + (-1)^n(2n-1)$.
 	\begin{solution}
 		Given $n > 0$, we know that $n$ is either even or odd. Let us define two cases:
@@ -399,3 +400,241 @@
 	Thus, the answer is $9$.
 
 \end{solution}
+
+\begin{problem}
+	Assume that $a, b, c, d$ and $n$ are integers. Also assume that $a \equiv b \pmod{n}$ and $c \equiv d \pmod n$. Prove the following
+
+	(i) $a-c \equiv b-d \pmod{n}$
+	\begin{solution}
+		By Definition \ref{mod}, we get that $n \mid (a-b)$ and $n \mid (c-d)$ which implies that $a-b = nk$ and $c-d = nl$ for some integers $k$ and $l$. Now,
+		$$(a-c)-(b-d) = a-c-b+d = (a-b)-(c-d) = nk-nl = n(k-l)$$
+		Thus, $n \mid ((a-c)-(b-d))$ and by Definition \ref{mod}, $a-c \equiv b-d \pmod{n}$
+	\end{solution}
+
+	(ii) $a \cdot c \equiv b \cdot d \pmod{n}$
+	\begin{solution}
+		As shown above, we have $a-b = nk$ and $c-d = nl$ for some integers $k$ and $l$. This gives us $a = b+nk$ and $c = d+nl$. Now,
+		\begin{align}
+			a \cdot c &= (b + nk) \cdot (d + nl) \\
+								&= bd + bnl + dnk + n^2 kl \\
+								&= bd + n(bl+dk+nkl) \\
+			\implies (ac - bd) &= n(bl+dk+nkl) \\
+			\implies n \mid (ac - bd)
+		\end{align}
+		Thus, by Definition \ref{mod}, $ac \equiv bd \pmod{n}$.
+	\end{solution}
+\end{problem}
+
+\begin{problem}
+	Assume that $a$ is an integer and $p$ and $q$ are distint primes. Prove that if $p \mid a$ and $q \mid a$, then $pq \mid a$.
+\end{problem}
+
+\begin{solution}
+	By Definition \ref{div}, we get that $a = pk$ for some integer $k$. Now, $q \mid a \implies q \mid pk$.
+
+	Since $p$ and $q$ are distinct primes their only factors are $1,p$ and $1,q$ respectively. Therefore, $\gcd(p, q) = 1$. Thus, by Lemma \ref{modprime}(2), we get $q \mid k$.
+
+	Thus, by Definition \ref{div}, $k = ql$ for some integer $l$ and we get that $a = pql$ which by Definiton \ref{div} implies that $pq \mid a$.
+
+	Hence, proved.
+\end{solution}
+
+\begin{problem}
+Prove that if $abc$ is a multiple of $10$ then atleast one of $ab$, $bc$ or $ac$ is a multiple of $10$.
+\end{problem}
+
+\begin{solution}
+	By Proposition \ref{transdiv}, since $2 \mid 10$ and $5 \mid 10$, we get that $2 \mid abc$ and $5 \mid abc$.
+
+	Now, by Lemma \ref{modprime}(3), we get that atleast one of the following is true: $2 \mid a$ or $2 \mid b$ or $2 \mid c$ since $2$ is a prime.
+
+	Similarly, since $5$ is a prime atleast one of these is true: $5 \mid a$ or $5 \mid b$ or $5 \mid c$.
+
+	There are two cases:
+	
+	\underline{Case 1.} $2$ and $5$ divide the same number among $a, b$ or $c$.
+
+	Without loss of generality, let us assume that $2 \mid a$ and $5 \mid a$. Then by previous problem, we can say that $10 \mid a$ which implies $a = 10k$ for some integer $k$.
+	
+	Since $a = 10k$, we have $ab = 10kb$ which by Definition \ref{div} means $10 \div ab$. 
+
+	\underline{Case 2.} $2$ and $5$ divide different numbers among $a, b$ or $c$.
+
+	Without loss of generality, let us assume that $2 \mid a$ and $5 \mid b$. Thus, by Definition \ref{div}, we have $a = 2k$ and $b = 5l$ for some integers $k$ and $l$.
+
+	Now, $ab = 10kl$ which by Definition \ref{div} means $10 \mid ab$.
+
+	Thus, in both cases there exists atleast one number among $ab, bc$ or $ac$ divisible by $10$.
+
+	Hence, proved.
+\end{solution}
+
+\begin{problem}
+	Assume that $a, b$ and $c$ are integers and $a^2 \mid b$ and $b^3 \mid c$. Prove that $a^6 \mid c$.
+\end{problem}
+\begin{solution}
+	By Definition \ref{div}, we have $b = a^2 \cdot k$ and $c =  b^3 \cdot l$ for some integers $k$ and $l$. Thus,
+	$$c = b^3 \cdot l = (a^2 \cdot k)^3 \cdot l = a^6 \cdot k^3 \cdot l$$
+Hence, by Definiton \ref{div}, $a^6 \mid c$. Hence, proved.
+\end{solution}
+
+\begin{problem}
+	Prove that for every integer $n$, either $n^2 \equiv 0 \pmod{4}$ or $n^2 \equiv 1 \pmod{4}$.
+\end{problem}
+
+\begin{scratch}
+	$$n^2 = 4k \implies 4 \mid n^2 \implies 2 \mid n \implies n = 2l$$
+	$$n^2 = 4k + 1 \implies 4 \mid (n^2-1) \mid 4 \mid (n-1)(n+1)$$
+	Since $n-1$ and $n+1$ are $2$ apart, they are either both odd or both even.
+	Since product of odd numbers is always odd, they must be even.
+	Thus, $n$ is odd.
+
+	Here, we see that if $n^2 \equiv 0 \pmod{4}$ then $n$ must be even. And otherwise $n$ must be odd.
+\end{scratch}
+
+\begin{solution}
+	Let us take two cases:
+
+	\underline{Case 1.} $n$ is even.
+
+	By Definition, $n = 2k$ for some integer $k$. Thus, $n^2 = 4k^2$ which by Definition \ref{div} and \ref{mod} means that $4 \mid n^2 \implies n^2 \equiv 0 \pmod{4}$.
+
+	\underline{Case 2.} $n$ is odd.
+
+	By Definition, $n = 2k+1$ for some integer $k$. Thus, 
+	$$n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 4(k^2+k) + 1$$
+	$$\implies n^2 - 1 = 4(k^2+k)$$
+
+	Thus, by Definition \ref{mod},  we get that $n^2 \equiv 1 \pmod{4}$.
+
+	Hence, proved.
+\end{solution}
+
+
+\begin{problem}Skipped.\end{problem}
+
+\begin{problem}
+	The Pythagorean theorem involves integers $a, b$ and $c$ for which $a^2 + b^2 = c^2$. Prove that if three integers satisfy this relationship, then either $a$ or $b$ will be divisible by $3$.
+\end{problem}
+
+\begin{scratch}
+	For every integer $n$, we know $n \pmod{3}$ is either $0,1$ or $2$.
+	This implies that $n^2 \pmod{3}$ is either $0, 1$ or $4$ which is the same as $0$ or $1$.
+
+	Thus, $a^2, b^2$ and $c^2$ are either $0$ or $1$ modulo $3$.
+
+	Let us assume that both $a^2$ and $b^2$ are $1$ modulo $3$. Then, $c^2$ must be $2$ modulo $3$ which is a contradiction.
+	Therefore, either $a^2$ or $b^2$ must be divisible by $3$ which implies either $a$ or $b$ must be divisible by $3$.
+\end{scratch}
+
+\begin{solution}
+	\begin{lemma} \label{sqmod3}
+		For any integer $n$, either $n^2 \equiv 0 \pmod{3}$ or $n^2 \equiv 0 \pmod{3}$.
+	\end{lemma}
+	\begin{proof} 
+		For any integer $n$, we have $3$ cases:
+
+		\underline{Case 1.} $n \equiv 0 \pmod 3 \implies n^2 \equiv 0 \pmod{3}$ by Proposition \ref{modprop}(3).
+
+		\underline{Case 2.} $n \equiv 1 \pmod 3 \implies n^2 \equiv 1 \pmod{3}$ by Proposition ref{modprop}(3).
+
+		\underline{Case 3.} $n \equiv 2 \pmod 3 \implies n^2 \equiv 4 \equiv 1 \pmod{3}$ by Proposition \ref{modprop}(3).
+
+		Hence, proved.
+	\end{proof}
+
+	Since $a$ and $b$ are integers, by Lemma \ref{sqmod3}, $a^2$ and $b^2$ are either $0$ or $1$ modulo $3$.
+
+	Let us assume both $a^2$ and $b^2$ are $1$ modulo $3$. Thus, by Proposition \ref{modprop}(3), we get that $c^2 \equiv a^2 + b^2 \equiv 2 \pmod{3}$. 
+
+	But by Lemma \ref{sqmod3}, we know that $c^2 \not\equiv 2 \pmod{3}$. This is a contradiction. Therefore, either $a^2$ or $b^2$ is congruent to $0$ modulo $3$ which by Definition \ref{mod} means that either $3 \mid a^2$ or $3 \mid b^2$.
+
+	Without loss of generality, let us assume that $3 \mid a^2$.
+	By Lemma \ref{modprime}(3), since $3 \mid a \cdot a$ and $3$ is prime, we get either $3 \mid a$ or $3 \mid a$ which impiles $3 \mid a$.
+
+	Therefore, either $a$ or $b$ must be divisible by $3$. Hence, proved.
+\end{solution}
+
+
+\begin{problem} Skipped. \end{problem}
+
+\begin{problem} Suppose that $a$ and $b$ are positive integers, and $\gcd(a, b) = d$. Prove that $a \mid b$ if and only if $d = a$. To do this, here are the two things you should prove:
+	
+	(i) If $a \mid b$, then $d = a$.
+	\begin{solution}
+		Since $a \mid a$ and $a \mid b$, $a$ is a common divisor of $a$ and $b$.
+
+		For any other common divisor $d' > 0$, we must have $d' \mid a$. Thus, $a = d'k$ for some integer $k$. Since $a$ and $d'$ are positive, then $k$ must be positive as well. This implies that $d' = \frac{a}{k}$ where $k$ is a positive intger. Hence, $d' \leq a$.
+
+		Thus, $a$ is greater than any other common divisor of $a$ and $b$ which by Definition \ref{gcd} implies that $d = a$.
+
+		Hence, proved.
+	\end{solution}
+
+	(ii) If $d = a$, then $a \mid b$.
+	\begin{solution}
+		Since $a$ is the greatest common divisor of $a$ and $b$, then by Definition \ref{gcd}, $a \mid b$.
+
+		Hence, proved.
+	\end{solution}
+
+\end{problem}
+
+\begin{problem}
+	Prove that $m \equiv n \pmod{15}$ if and only if $m \equiv n \pmod{3}$ and $m \equiv n \pmod{5}$. To do that, prove the following,
+
+	\bigbreak
+	(a) If $m \equiv n \pmod{15}$, then $m \equiv n \pmod{3}$ and $m \equiv n \pmod{5}$
+	\begin{solution}
+		By Defintion \ref{mod}, we have 
+		\begin{align}
+			15 \mid (m-n) &\implies m-n = 15k \\
+			\implies m-n = 5 \cdot 3k &\implies 5 \mid (m-n) \\
+			\implies m-n = 3 \cdot 5k &\implies 3 \mid (m-n)
+		\end{align}
+		By Definition \ref{mod}, $m \equiv n \pmod{3}$ and $m \equiv n \pmod{5}$.
+	\end{solution}
+
+	(b) If $m \equiv n \pmod{3}$ and $m \equiv n \pmod{5}$, then $m \equiv n \pmod{15}$.
+	\begin{solution}
+		By Definition \ref{mod},  we have
+		\begin{align}
+			3 \mid (m-n) &\implies m - n = 3k \\
+			5 \mid (m-n) &\implies 5 \mid 3k
+		\end{align}
+		By Lemma \ref{modprime}, since $\gcd(3,5)=1$, we get $5 \mid k$. Therefore, $k = 5l$ for some integer $l$ and $m-n = 15l \implies 15 \mid (m-n)$.
+
+		Thus, by Definition \ref{mod}, $m \equiv n \pmod{15}$.
+
+		Hence, proved.
+	\end{solution}
+\end{problem}
+
+
+\begin{problem}
+	Suppose that $a$ and $b$ are positive integers and $d = \gcd(a, b)$.
+
+	\bigbreak
+	(a) Prove that $\gcd(\frac{a}{d}, \frac{b}{d}) = 1$.
+	\begin{solution}
+		Let $g = \gcd(\frac{a}{d}, \frac{b}{d})$. Now, since $g$ is a divisor, we get
+		$$\frac{a}{d} = gk \implies a = dgk$$
+		$$\frac{b}{d} = gl \implies b = dgl$$
+		for some integers $k$ and $l$.
+
+		Now, by Definition \ref{div}, we know that $dg \mid a$ and $dg \mid b$. Therefore, $dg$ is a common divisor of $a$ and $b$.
+
+		Since $d$ is the \emph{greatest common divisor} of $a$ and $b$, we can say that 
+		$$dg \leq d \implies g \leq 1$$
+		Since $g$ is a \emph{greatest common divisor} for $\frac{a}{d}$ and $\frac{b}{d}$, it must be atleast $1$ which means $g \geq 1$.
+
+		The only number that satisfies both these conditions is $g = 1$.
+
+		Hence, proved.
+	\end{solution}
+
+	(b) Prove that $\gcd(an, bn) = dn$ for every positive integer $n$.
+	\begin{solution}
+		
+	\end{solution}
+\end{problem}
