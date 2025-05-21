@@ -635,6 +635,138 @@ Hence, by Definiton \ref{div}, $a^6 \mid c$. Hence, proved.
 
 	(b) Prove that $\gcd(an, bn) = dn$ for every positive integer $n$.
 	\begin{solution}
+		Since $d$ is the \emph{greatest common divisor} of $a$ and $b$, we know that $a = dk$ and $b = dl$ for some integers $k$ and $l$.
 		
+		This implies that $an = dnk$ and $bn = dnl$. Therefore, by Definition \ref{div} and \ref{gcd}, $dn$ is a common divisor of $an$ and $bn$.
+
+		Let us say $g = \gcd(an,bn)$. Now, by Theorem \ref{gcdalgo}, we know that $g = anx + any$ for some integers $x$ and $y$.
+		This implies that $$g = n \cdot (ax + ay) \implies n \mid g$$
+
+		Thus, we can say that $g = nq$ for some integer $q$. Now, by Definition \ref{div} anb \ref{gcd}, we have
+		$$an = nqk', bn = nql' \implies a = qk', b = ql'$$
+		Thus, $q$ is a common divisor of $a$ and $b$. Since $d$ is the \emph{greatest common divisor} of $a$ and $b$, we have
+		$$q \leq d \implies qn \leq dn \implies g \leq dn$$
+
+		But also, $dn$ is a common divisor of $an$ and $bn$, therefore, $dn \leq \gcd(an, bn)$. \\
+		The only way both these conditions are satisified is when $dn = \gcd(an, bn)$.
+
+		Hence, proved.
 	\end{solution}
 \end{problem}
+
+
+\begin{problem}
+	Assume that $a, b$ and $c$ are integers for which $\gcd(a, b) = 1$ and $\gcd(a, c) = 1$. Prove that $\gcd(a, bc) = 1$.
+\end{problem}
+
+\begin{solution}
+	Let $g = \gcd(a, bc)$. Now, by Definition \ref{div} and \ref{gcd}, we have $g \mid a$ and $g \mid bc$.
+
+	By Bezout's Identity ( \ref{gcdalgo} ), we know that for some integers $k$, $l$, $m$ and $n$, we have 
+	\begin{align}
+		ak + bl = 1 &\implies bl = 1 - ak \\
+		am + cn = 1 &\implies cn = 1 - am \\
+		\implies bl \cdot cn &= (1-ak) \cdot (1-am) \\
+		\implies bc \cdot ln &= 1 - ak - am +a^2 km \\
+		\implies a \cdot(k + m - akm) + bc \cdot ln &= 1
+\end{align}
+	
+Thus, we have $ax + bcy = 1$ for some integers $x$ and $y$.
+Since $\gcd(a, bc)$ must be the smallest positive integer with this property, by Bezout's Identity ( \ref{gcdalgo} , See Proof ), we get $\gcd(a, bc) \leq 1$. 
+
+But also, since $1$ is a common divisor of $a$ and $bc$, we have $\gcd(a, bc) \geq 0$.
+
+The only value that satisfies this is $\gcd(a, bc) = 1$.
+
+Hence, proved.
+\end{solution}
+
+
+\begin{problem}Skipped.\end{problem}
+
+\begin{problem}
+	If $\gcd(a, b) = 1$, then we say that $\frac{a}{b}$ is in \emph{reduced form}. Prove that if $n$ is an integer then $$\frac{21n+4}{14n+3}$$ is in reduced form.
+\end{problem}
+
+\begin{solution}
+	Here, we only need to show that $\gcd(21n+4, 14n+3) = 1$.
+
+	We can easily show that 
+	$$3 \cdot (14n+3) + (-2) \cdot (21n+4) = 42n + 9 - 42n - 8 = 1$$
+	But since $\gcd(21n+4, 14n+3)$ is the smallest positive integer of the form $(21n+4)x + (14n+3)y$, we get that $\gcd(21n+4, 14n+3) \leq 1$.
+
+	But also, $1$ is a common divisor of both so $\gcd(21n+4, 14n+3) \geq = 1$.
+	
+	This implies that $\gcd(21n+4, 14n+3) = 1$.
+
+	Hence, proved.
+\end{solution}
+
+
+\begin{problem} 
+	Prove that $3 \mid (4^n - 1)$ for any $n \in \mathbb{N}$ in two different ways.
+
+	(a) First, prove it using modular arithmetic.
+	\begin{solution}
+		Since $4 \equiv 1 \pmod{3}$ and $n$ is an integer greater than or equal to $1$, we can say that $4^n \equiv 1^n \pmod{3}$ by repeated application of Proposition \ref{modprop}(3) as exponentiation is just repeated multiplication.
+
+		This gives us $4^n \equiv 1 \pmod{3}$ for any $n \in \mathbb{N}$.
+		By Definition \ref{mod}, we get that $3 \mid (4^n-1)$.
+		Hence, proved.
+	\end{solution}
+	
+	(b) Second, prove it using the fact
+	$$x^n - y^n = (x-y)(x^{n-1} + x^{n-2}y + x^{n-3}y^2+ ... + xy^{n-2} + y^{n-1})$$ 
+	for any real numbers $x$ and $y$.
+	\begin{solution}
+		Since $4$ and $1$ are real numbers, we can show that 
+		\begin{align}
+			4^n - 1^n &= (4-1)(4^{n-1} + 4^{n-2} \cdot 1 + ... + 4 \cdot 1^{n-2} + 1^{n-1}) \\
+			\implies 4^n - 1 &= 3 \cdot (4^{n-1} + 4^{n-2} \cdot 1 + ... + 4 \cdot 1^{n-2} + 1^{n-1})
+		\end{align}
+		Since $4$ and $1$ are integers, the expression in parenthesis is also an integer. Thus, by Definition \ref{div}, we have $3 \mid (4^n - 1)$. Hence, proved.
+	\end{solution}
+\end{problem}
+
+
+\begin{problem}
+	Prove that every odd integer is a difference of two squares.
+\end{problem}
+
+\begin{scratch}
+	$$5 = 3^2 - 2^2$$
+	$$7 = 4^2 - 3^2$$
+	$$9 = 5^2 - 4^2$$
+	Here, we see a pattern that $2k+1 = (k+1)^2 - k^2$.
+\end{scratch}
+
+\begin{solution}
+	Let $2k+1$ be an odd integer. Here, we can show that
+	$$(k+1)^2 - k^2 = k^2 + 2k + 1 - k^2 = 2k + 1$$
+	Thus, $2k+1$ is difference of squares of $k+1$ and $k$.
+	Hence, proved.
+\end{solution}
+
+
+\begin{problem}
+	Prove that for every positive integer $n$, there exist a string of $n$ consecutive intgers none of which are prime.
+\end{problem}
+
+\begin{solution}
+	If we take the following numbers:
+	$$(n+1)! + 2, (n+1)! + 3, (n+1)! + 4, ..., (n+1)! + (n+1)$$
+	Here, the first number must be divisible by $2$, the second number must be divisible by $3$ and so on.
+	There are in total $n$ integers in this sequence, all of which have a divisor other than $1$ and itself.
+
+	Hence, proved.
+\end{solution}
+
+\begin{problem}Skipped.\end{problem}
+
+\begin{problem}
+	Suppose $n$ is an integer. Prove that if $n^2 \mid n$, then $n$ is either $-1, 0$ or $1$.
+\end{problem}
+
+\begin{solution}
+	
+\end{solution}
