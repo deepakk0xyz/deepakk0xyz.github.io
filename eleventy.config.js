@@ -14,6 +14,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("src/**/*.css");
     eleventyConfig.addPassthroughCopy("src/**/*.pdf");
+    eleventyConfig.addPassthroughCopy("src/CNAME"); // Github Pages Domain
 
     eleventyConfig.addFilter("formatDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toISODate();
