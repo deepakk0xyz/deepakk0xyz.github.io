@@ -1,0 +1,11 @@
+---
+layout: base.njk
+---
+
+<a href="/">{{ site.back_home_text }}</a>
+
+<article>
+  <h1>{{ title }}</h1>
+	{% set entries = media.categoriesMenuList %}
+	{% include "menu.njk" %}
+</article>

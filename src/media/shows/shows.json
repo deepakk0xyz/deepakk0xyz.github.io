@@ -1,4 +1,6 @@
 {
+	"title": "Shows",
+	"keys": ["rating", "status", "genre"],
 	"entries": [
 		{
 			"title": "A Suitable Boy",

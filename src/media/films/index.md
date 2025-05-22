@@ -1,7 +1,5 @@
 ---
-title: Films
+layout: categories.njk
 tags:
-  - media
+    - media
 ---
-
-Hello, World!

@@ -1,5 +1,5 @@
 ---
-title: Shows
+layout: categories.njk
 tags:
   - media
 ---

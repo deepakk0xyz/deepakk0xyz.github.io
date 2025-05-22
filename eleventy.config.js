@@ -1,6 +1,13 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 
+
+function filterEntries(entries, key, value) {
+	return entries
+		.filter(entry => entry[key])
+		.filter(entry => entry[key] === value || entry[key].includes(value));
+}
+
 module.exports = function(eleventyConfig) {
     eleventyConfig.setInputDirectory("src");
     eleventyConfig.setOutputDirectory("docs");
@@ -12,6 +19,11 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toISODate();
     });     
 
+    eleventyConfig.addFilter("debug", (obj) => JSON.stringify(obj));
+
+		eleventyConfig.addFilter("filterEntries", filterEntries);
+		eleventyConfig.addNunjucksGlobal("filterEntries", filterEntries);
+	
     let markdownOptions = {
         html: true,
         breaks: true,

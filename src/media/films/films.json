@@ -1,4 +1,6 @@
 {
+	"title": "Films",
+	"keys": ["rating", "status", "genre"],
 	"entries": [
 		{
 			"title": "10 Things I Hate About You",
@@ -64,7 +66,7 @@
 			"title": "AK vs AK",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDJkOTVkYTMtMTk2OC00YTkyLThjMGYtMTdiYWRjYTQ1YTYzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt11651796/",
-			"genre": "Thriller, Dark Comedy",
+			"genre": [ "Thriller", "Dark Comedy" ],
 			"rating": "Amazing",
 			"status": "Watched",
 			"year": 2020

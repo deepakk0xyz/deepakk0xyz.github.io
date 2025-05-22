@@ -1,4 +1,6 @@
 {
+	"title": "Video Games",
+	"keys": ["rating", "status"],
 	"entries": [
 		{
 			"title": "Black Myth: Wukong",

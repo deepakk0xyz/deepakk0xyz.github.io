@@ -1,0 +1,28 @@
+---js
+{
+	layout: "base.njk",
+	pagination: {
+		data: "collections.all",
+		size: 1,
+		alias: "subpage",
+		before(paginationData, { entries, keys }) {
+			if(entries == null || keys == null) {
+				return [];
+			}
+			return keys.flatMap(key => {
+					return [...new Set(
+							entries
+							.filter(entry => entry[key])
+							.flatMap(entry => entry[key])
+							)].map(entry => ({key: key, value: entry}));
+					});
+		}
+	},
+	permalink: "{{ root }}/{{ subpage.key }}/{{ subpage.value }}/index.html"
+}
+---
+
+{%- for item in pagination.items %}
+  {% set entries = filterEntries(entries, item.key, item.value) %}
+	{% include "media.njk" %}
+{% endfor -%}
