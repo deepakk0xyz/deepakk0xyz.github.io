@@ -768,5 +768,75 @@ Hence, proved.
 \end{problem}
 
 \begin{solution}
-	
+	Since $n^2 \mid n$, we get that $n = kn^2$ for some integer $k$. Thus, 
+	$$n = kn^2 \implies kn^2 - n = 0 \implies n(kn-1) = 0$$
+	Therefore, either $n = 0$ or $k = \frac{1}{n}$. Since $k$ is an integer, the only value of $n$ for which $\frac{1}{n}$ is an integer is $1$ and $-1$.
+
+	Thus, $n$ is either $-1, 0$ or $1$.
+
+	Hence, proved.
 \end{solution}
+
+\begin{problem}
+	As Evelyn Lamb pointed out,
+
+	\bigbreak
+	\emph{Every prime larger than $3$ is precisely $1$ off from a multiple of $3!$.}
+	\bigbreak
+
+	The above statement is true whether the "!" symbol is an exclamation or a factorial. Prove this.
+\end{problem}
+
+\begin{solution}
+	For every prime $p > 3$, we must have $p \equiv 1 \pmod{3}$ or $p \equiv 2 \pmod{3}$ since it cannot be divisible by $3$.
+
+	\underline{Case 1.} $p \equiv = 1 \pmod{3} \implies 3 \mid (p-1)$ by Definition \ref{mod}.
+
+	\underline{Case 2.} $p \equiv = 2 \pmod{3} \implies p+1 \equiv 3 \equiv 0 \implies 3 \mid (p+1)$ by Definition \ref{mod}.
+
+	Hence, proved.
+	\bigbreak
+
+	For every $p > 3$, we must have $p \in {1, 2, 3, 4, 5} \pmod{6}$ since $p \pmod{6}$ cannot be zero.
+
+	\underline{Case 1.} $p \equiv 1 \pmod{6} \implies 6 \mid (p-1) \implies 3 \mid (p-1)$ by Definition \ref{mod} and Proposition \ref{transdiv} since $3 \mid 6$.
+	
+	\underline{Case 2.} $p \equiv 2 \implies 6 \mid (p-2) \implies 2 \mid (p-2) \implies 2 \mid p$ by Definition \ref{mod} and Proposition \ref{transdiv} and Lemma \ref{modprop}(1), thus, $p$ is not prime. \\
+	This case is not possible.
+
+	\underline{Case 3.} Similar to Case 2, $p \equiv 3 \implies 6 \mid (p-3) \implies 3 \mid (p-3) \implies 3 \mid p$, thus, $p$ is not prime. \\
+	This case is not possible.
+
+	\underline{Case 4.} $p \equiv 4 \implies 6 \mid (p-4) \implies 4 \mid (p-4) \implies 4 \mid p$, thus, $p$ is not prime. \\
+	This case is not possible.
+
+	\underline{Case 5.} $p \equiv 5 \pmod{6} \implies 6 \mid (p-5) \implies 6 \mid (p+1) \implies 3 \mid (p+1)$ by Definition \ref{mod} and Lemma \ref{modprop}(1).
+\end{solution}
+
+\begin{problem}
+	Prove that $n \geq 2$ is not prime if and only if $n = st$ for some integers $s$ and $t$ where $1 < s, t < n$.
+\end{problem}
+
+\begin{solution}
+	\underline{Case 1.} If $n \geq 2$ is not prime, then $n = st$ for some integers $s$ and $t$ where $1 < s, t < n$.
+	
+	Since $n$ is not prime, there must be a positive integer $s$ such that $s \mid n$, $s \neq 1$ and $s \neq n$ by Definition \ref{prime}.
+
+	Now, since $s$ is a positive integer and $s \neq 1$, we must have $s > 1$.
+
+	Since $s \mid n$, by Definition \ref{div}, we have $n = st$ for some integer $t$. Since both $s$ and $n$ are positive, $t$ must be positive as well.
+
+	Now, since $s \neq n$, therefore, $t \neq 1$ which implies $t > 1$. Also, since $t > 1$, we must have $s = \frac{n}{t} < n$. 
+	Similarly, since $s > 1$, we must have $t = \frac{n}{s} < n$. 
+
+	Thus, we have $n = st$ for some integers $s$ and $t$ such that $1 < s,t < n$.
+
+	\underline{Case 2.} If for some $n \geq 2$, $n = st$ for some integers $s$ and $t$ where $1 < s, t < n$, then $n$ is not prime.
+
+	By Definition \ref{div}, we have $s \mid t$, $s > 0$, $s \neq 1$ and $s \neq n$. Therefore, by Definition \ref{prime}, $n$ is not a prime number.
+
+
+	Hence, proved.
+\end{solution}
+
+\begin{problem}Skippped.\end{problem}
