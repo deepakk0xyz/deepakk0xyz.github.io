@@ -6,7 +6,8 @@
 			"title": "10 Things I Hate About You",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMmVhZjhlZDYtMDAwZi00MDcyLTgzOTItOWNiZjY0YmE0MGE0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0147800/",
-			"rating": "Special",
+			"genre": "Romantic Comedy",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1999
 		},
@@ -14,7 +15,8 @@
 			"title": "100 Meters",
 			"poster": "https://m.media-amazon.com/images/M/MV5BY2JjNTA0OWItMjhlMC00ZTYzLTlhODktODFiNjg3ZTZmNTY4L2ltYWdlXkEyXkFqcGdeQXVyMzkwMTMxNDQ@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5089786/",
-			"rating": "Great",
+			"genre": ["Sports", "Drama", "Real Life"],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2016
 		},
@@ -23,7 +25,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0478087/",
 			"genre": "Thriller",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2008
 		},
@@ -32,7 +34,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0416449/",
 			"genre": "Action",
-			"rating": "Great",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2006
 		},
@@ -41,7 +43,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTk5MjM4OTU1OV5BMl5BanBnXkFtZTcwODkzNDIzMw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1022603/",
 			"genre": "Romantic Comedy",
-			"rating": "Great",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2009
 		},
@@ -49,8 +51,8 @@
 			"title": "A Few Good Men",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMmRlZDQ1MmUtMzE2Yi00YTkxLTk1MGMtYmIyYWQwODcxYzRlXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0104257/",
-			"genre": "Thriller",
-			"rating": "Special",
+			"genre": [ "Thriller", "Drama" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1992
 		},
@@ -58,7 +60,8 @@
 			"title": "A Silent Voice",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTFiNzRiOWEtYTQwNy00NmRiLWE0ZWYtNTE0YjExZjFmZjkwXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5323662/",
-			"rating": "Special",
+			"genre": [ "Drama", "Anime" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2016
 		},
@@ -67,7 +70,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDJkOTVkYTMtMTk2OC00YTkyLThjMGYtMTdiYWRjYTQ1YTYzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt11651796/",
 			"genre": [ "Thriller", "Dark Comedy" ],
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -76,7 +79,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2194499/",
 			"genre": "Romance",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -92,7 +95,8 @@
 			"title": "Aladdin",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZTg5ZTVmM2EtZjdhZC00MzBjLWEwZTYtNWIwZDczYzZkMzA4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0103639/",
-			"rating": "Amazing",
+			"genre": [ "Animation", "Musical", "Comedy" ],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1992
 		},
@@ -100,7 +104,8 @@
 			"title": "Alita Battle Angel",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTQzYWYwYjctY2JhZS00NTYzLTllM2UtZWY5ZTk0NmYwYzIyXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0437086/",
-			"rating": "Great",
+			"genre": [ "Animation", "Action" ],
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2019
 		},
@@ -108,7 +113,8 @@
 			"title": "All Quiet on the Western Front",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzM4ZDJhYjYtZGY5Ny00NTk0LWI4ZTYtNjczZDFiMGI2ZjEzXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1016150/",
-			"rating": "Special",
+			"genre": [ "Action", "War" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -116,7 +122,8 @@
 			"title": "American Beauty",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0169547/",
-			"rating": "Amazing",
+			"genre": "Drama",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1999
 		},
@@ -124,7 +131,8 @@
 			"title": "American Psycho",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0144084/",
-			"rating": "Amazing",
+			"genre": [ "Satire", "Psychological Thriller", "Thriller" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2000
 		},
@@ -132,7 +140,8 @@
 			"title": "An Action Hero",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDJiOTdmMGItMmM5MC00ZTRiLWIzNjctNDE4ZTZkMWMzZTg0XkEyXkFqcGdeQXVyOTI3MzI4MzA@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt15600222/",
-			"rating": "Amazing",
+			"genre": "Action",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -140,7 +149,8 @@
 			"title": "Andhadhun",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZWZhMjhhZmYtOTIzOC00MGYzLWI1OGYtM2ZkN2IxNTI4ZWI3XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt8108198/",
-			"rating": "Amazing",
+			"genre": [ "Romance", "Thriller" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2018
 		},
@@ -156,7 +166,8 @@
 			"title": "Arrival",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2543164/",
-			"rating": "Special",
+			"genre": "Science Fiction",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2016
 		},
@@ -164,7 +175,7 @@
 			"title": "Barbie",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1517268/",
-			"rating": "Great",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2023
 		},
@@ -173,7 +184,8 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0372784/",
 			"director": "Christopher Nolan",
-			"rating": "Amazing",
+			"genre": [ "Superhero", "Action" ],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2005
 		},
@@ -181,7 +193,8 @@
 			"title": "Beauty and the Beast",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzE5MDM1NDktY2I0OC00YWI5LTk2NzUtYjczNDczOWQxYjM0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0101414/",
-			"rating": "Amazing",
+			"genre": [ "Animation", "Romance" ],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1991
 		},
@@ -189,7 +202,8 @@
 			"title": "Before Midnight",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjA5NzgxODE2NF5BMl5BanBnXkFtZTcwNTI1NTI0OQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2209418/",
-			"rating": "Special",
+			"genre": "Romance",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -197,7 +211,8 @@
 			"title": "Before Sunrise",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZDdiZTAwYzAtMDI3Ni00OTRjLTkzN2UtMGE3MDMyZmU4NTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0112471/",
-			"rating": "Special",
+			"genre": "Romance",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1995
 		},
@@ -205,7 +220,8 @@
 			"title": "Before Sunset",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0381681/",
-			"rating": "Special",
+			"genre": "Romance",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2004
 		},
@@ -213,7 +229,8 @@
 			"title": "Big Hero 6",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDliOTIzNmUtOTllOC00NDU3LWFiNjYtMGM0NDc1YTMxNjYxXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2245084/",
-			"rating": "Great",
+			"genre": [ "Animation", "Superhero" ],
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -221,7 +238,8 @@
 			"title": "Black Swan",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0947798/",
-			"rating": "Special",
+			"genre": [ "Psychological Thriller" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2010
 		},
@@ -229,7 +247,8 @@
 			"title": "Brave",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1217209/",
-			"rating": "Amazing",
+			"genre": [ "Animation" ],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2012
 		},
@@ -253,7 +272,8 @@
 			"title": "Call Me by Your Name",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDk3NTEwNjc0MV5BMl5BanBnXkFtZTgwNzYxNTMwMzI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5726616/",
-			"rating": "Special",
+			"genre": [ "Romance", "Slice Of Life" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2017
 		},
@@ -262,7 +282,8 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDQ4ZmYxODctZDVlZC00OTcxLWJjOGItZjRlMzk4MDA1Yjg1XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt31193180/",
 			"director": "Wong Kar-Wai",
-			"rating": "Special",
+			"genre": [ "Romance", "Slice Of Life" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1994
 		},
@@ -270,7 +291,8 @@
 			"title": "Chhapaak",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjZjYzRhMmEtMTU0Ny00YWI4LThiZjEtNWZjMDQ3MTgwZmVhXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt9614460/",
-			"rating": "Good",
+			"genre": ["Real Life", "Drama"],
+			"rating": "2⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -278,7 +300,8 @@
 			"title": "Chhichhore",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYjg2ZDI2YTYtN2EwYi00YWI5LTgyMWQtMWFkYmE3NmJkOGVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt9052870/",
-			"rating": "Good",
+			"genre": "Drama",
+			"rating": "2⭐",
 			"status": "Watched",
 			"year": 2019
 		},
@@ -286,7 +309,8 @@
 			"title": "Coherence",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNzQ3ODUzNDY2M15BMl5BanBnXkFtZTgwNzg0ODY2MTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2866360/",
-			"rating": "Amazing",
+			"genre": [ "Science Fiction", "Thriller" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -294,7 +318,8 @@
 			"title": "Crazy Stupid Love",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTg2MjkwMTM0NF5BMl5BanBnXkFtZTcwMzc4NDg2NQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1570728/",
-			"rating": "Amazing",
+			"genre": "Romantic Comedy",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2011
 		},
@@ -303,7 +328,8 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BZDY4Mzc2YTQtZDg4ZS00OGIzLWJhOGMtOTQ2OThmNzg4NTc4XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0838221/",
 			"director": "Wes Anderson",
-			"rating": "Amazing",
+			"genre": [ "Comedy", "Drama" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1989
 		},
@@ -311,7 +337,8 @@
 			"title": "Dead Poets Society",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOGYwYWNjMzgtNGU4ZC00NWQ2LWEwZjUtMzE1Zjc3NjY3YTU1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0097165/",
-			"rating": "Amazing",
+			"genre": "Drama",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1989
 		},
@@ -319,7 +346,8 @@
 			"title": "Dear Zindagi",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZWQzYWI3ZGMtYzgyYy00OWZkLWEwODYtNGNiMTZhODBkNzUyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5946128/",
-			"rating": "Amazing",
+			"genre": "Drama",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2016
 		},
@@ -335,7 +363,8 @@
 			"title": "Decision to Leave",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTEzYTljMTMtODU0ZC00ZWI0LTlhOGEtYjE3MjI3NTI1YmNhXkEyXkFqcGdeQXVyNjgxODk1MTM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt12477480/",
-			"rating": "Great",
+			"genre": "Mystery",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -343,7 +372,8 @@
 			"title": "Definitely Maybe",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTc1Mzc1ODMxMF5BMl5BanBnXkFtZTcwNDY1MzU1MQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0832266/",
-			"rating": "Great",
+			"genre": "Romantic Comedy",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2008
 		},
@@ -351,7 +381,8 @@
 			"title": "Dirty Dancing",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTc3MDY3ODQ2OV5BMl5BanBnXkFtZTgwOTQ2NTYxMTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0092890/",
-			"rating": "Amazing",
+			"genre": "Romance",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1987
 		},
@@ -359,7 +390,8 @@
 			"title": "Django Unchained",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1853728/",
-			"rating": "Amazing",
+			"genre": "Action",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2012
 		},
@@ -367,7 +399,8 @@
 			"title": "Drishyam",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYmY3MzYwMGUtOWMxYS00OGVhLWFjNmUtYzlkNGVmY2ZkMjA3XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt3417422/",
-			"rating": "Amazing",
+			"genre": "Thriller",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -375,7 +408,8 @@
 			"title": "Drishyam 2",
 			"poster": "https://m.media-amazon.com/images/M/MV5BM2RiZDVjYWEtZGNhYy00ZGU0LTgwZjMtZTJmNmMyNGQ5NGYyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt12361178/",
-			"rating": "Amazing",
+			"genre": "Thriller",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -383,7 +417,8 @@
 			"title": "Dune",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1160419/",
-			"rating": "Special",
+			"genre": "Science Fiction",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -391,7 +426,8 @@
 			"title": "Dune: Part Two",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1160419/",
-			"rating": "Special",
+			"genre": "Science Fiction",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2024
 		},
@@ -407,7 +443,8 @@
 			"title": "Easy A",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjE1MzU1Mjg1OF5BMl5BanBnXkFtZTcwNDc3NDQ2Mw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1282140/",
-			"rating": "Amazing",
+			"genre": "Romantic Comedy",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2010
 		},
@@ -415,7 +452,8 @@
 			"title": "Escape from Pretoria",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOWRhYWFkMDEtNTFjZC00OWJkLWJmMWQtNzI2OWRjZjVjOGYyXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5797184/",
-			"rating": "Amazing",
+			"genre": [ "Crime", "Real Life", "Thriller" ],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -423,7 +461,8 @@
 			"title": "Eternal Sunshine of the Spotless Mind",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0338013/",
-			"rating": "Amazing",
+			"genre": ["Romance", "Science Fiction"],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2004
 		},
@@ -431,7 +470,8 @@
 			"title": "EuroTrip",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMWRmYjY1NTUtNjNlMC00MDFjLTk0MTYtZWVlMTFhMjllYjUzXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0356150/",
-			"rating": "Amazing",
+			"genre": "Comedy",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2004
 		},
@@ -439,7 +479,8 @@
 			"title": "Everything Everywhere All at Once",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt6710474/",
-			"rating": "Special",
+			"genre": ["Comedy", "Drama", "Science Fiction"],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -447,7 +488,8 @@
 			"title": "Ex Machina",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0470752/",
-			"rating": "Special",
+			"genre": ["Thriller", "Science Fiction" ],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -455,7 +497,8 @@
 			"title": "Ferris Buellers Day Off",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDA0NjZhZWUtNmI2NC00MmFjLTgwZDYtYzVjZmNhMDVmOTBkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0091042/",
-			"rating": "Amazing",
+			"genre": "Comedy",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1986
 		},
@@ -463,7 +506,8 @@
 			"title": "Fight Club",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0137523/",
-			"rating": "Special",
+			"genre": "Action",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1999
 		},
@@ -471,7 +515,8 @@
 			"title": "Finding Fanny",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjE1Nzk2Mjk2OF5BMl5BanBnXkFtZTgwMTE5NTYxMjE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt3142688/",
-			"rating": "Great",
+			"genre": ["Slice Of Life"],
+			"rating": "2⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -479,7 +524,8 @@
 			"title": "Freedom Writers",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZDFjNWQ5MzktOThjZS00NmY5LWEwNTMtNGFhZGNhYjc3NzBmXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0463998/",
-			"rating": "Special",
+			"genre": ["Drama", "Real Life"],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2007
 		},
@@ -487,7 +533,8 @@
 			"title": "Frozen",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2294629/",
-			"rating": "Great",
+			"genre": ["Animation", "Musical", "Fantasy"],
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -495,7 +542,8 @@
 			"title": "Gangs of Wasseypur",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTc5NjY4MjUwNF5BMl5BanBnXkFtZTgwODM3NzM5MzE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1954470/",
-			"rating": "Great",
+			"genre": "Action",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2012
 		},
@@ -519,7 +567,8 @@
 			"title": "Gone Girl",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2267998/",
-			"rating": "Amazing",
+			"genre": ["Crime", "Thriller"],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -527,7 +576,7 @@
 			"title": "Good Will Hunting",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0119217/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1997
 		},
@@ -543,7 +592,8 @@
 			"title": "Hacksaw Ridge",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2119532/",
-			"rating": "Special",
+			"genre": ["Real Life", "War"],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2016
 		},
@@ -551,7 +601,8 @@
 			"title": "Hamilton",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt8503618/",
-			"rating": "Special",
+			"genre": ["Musical", "Historical Fiction"],
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -559,7 +610,8 @@
 			"title": "Harry Potter Series",
 			"poster": "https://i.imgur.com/JWqyWSR.png",
 			"url": "https://imdb.com/title/tt0241527/",
-			"rating": "Special",
+			"genre": "Fantasy",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2001
 		},
@@ -567,7 +619,8 @@
 			"title": "Haseen Dillruba",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNWYyMzg3N2EtNTQ5MC00MWZlLWI3YWEtMmU2ZWNhZWZiNGIzXkEyXkFqcGdeQXVyMTI1NDAzMzM0._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt11027830/",
-			"rating": "Amazing",
+			"genre": ["Crime", "Thriller"],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -575,7 +628,8 @@
 			"title": "He's Just Not That Into You",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTY5MTUyNDgwMF5BMl5BanBnXkFtZTcwNzYzMDQyMg@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1001508/",
-			"rating": "Amazing",
+			"genre": "Romantic Comedy",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2009
 		},
@@ -583,7 +637,8 @@
 			"title": "Honor Society",
 			"poster": "https://m.media-amazon.com/images/M/MV5BODk0MjFlY2YtOGFmMi00OTVjLTkwMzctOTdlYzYzNTZkMmRmXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt16491324/",
-			"rating": "Good",
+			"genre": "Drama",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -591,7 +646,8 @@
 			"title": "Hotel Transylvania",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTM3NjQyODI3M15BMl5BanBnXkFtZTcwMDM4NjM0OA@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0837562/",
-			"rating": "Great",
+			"genre": ["Animation", "Comedy"],
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2012
 		},

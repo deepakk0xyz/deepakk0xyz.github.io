@@ -14,7 +14,7 @@ export default {
 						entries
 						.filter(entry => entry[key])
 						.flatMap(entry => entry[key])
-					)].map(entry => ({title: entry, url: `${key}/${entry}/`, }));
+					)].sort().map(entry => ({title: entry, url: `${key}/${entry}/`, }));
 
 					return {title: capitalize(key), entries: subentries};
 				});

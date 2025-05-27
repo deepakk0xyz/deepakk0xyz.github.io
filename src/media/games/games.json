@@ -1,10 +1,11 @@
 {
 	"title": "Video Games",
-	"keys": ["rating", "status"],
+	"keys": ["rating", "status", "genre"],
 	"entries": [
 		{
 			"title": "Black Myth: Wukong",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528",
+			"genre": "Action",
 			"rating": "Unplayed",
 			"status": "Unplayed",
 			"year": 2024
@@ -12,42 +13,48 @@
 		{
 			"title": "Celeste",
 			"poster": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953",
-			"rating": "Special",
+			"genre": "Platformer",
+			"rating": "5⭐",
 			"status": "Finished",
 			"year": 2018
 		},
 		{
 			"title": "Chants of Sennaar",
 			"poster": "https://cdn.akamai.steamstatic.com/steam/apps/1931770/header.jpg?t=1695809281",
-			"rating": "Great",
+			"genre": "Puzzle",
+			"rating": "3⭐",
 			"status": "Finished",
 			"year": 2023
 		},
 		{
 			"title": "Cuphead",
 			"poster": "https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205",
-			"rating": "Amazing",
+			"genre": "Action",
+			"rating": "5⭐",
 			"status": "Ongoing",
 			"year": 2017
 		},
 		{
 			"title": "Disco Elysium - The Final Cut",
 			"poster": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1727256511",
-			"rating": "Special",
+			"genre": "RPG",
+			"rating": "5⭐",
 			"status": "Finished",
 			"year": 2019
 		},
 		{
 			"title": "Endling",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090",
-			"rating": "Good",
+			"genre": "Survival",
+			"rating": "2⭐",
 			"status": "Did Not Finish",
 			"year": 2022
 		},
 		{
 			"title": "God of War",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1729030762",
-			"rating": "Great",
+			"genre": [ "Action", "Story-Based", "Open World" ],
+			"rating": "4⭐",
 			"status": "Finished",
 			"year": 2018
 		},
@@ -61,35 +68,40 @@
 		{
 			"title": "Ghost of Tsushima",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883",
-			"rating": "Amazing",
+			"genre": [ "Action", "Story-Based", "Open World" ],
+			"rating": "4⭐",
 			"status": "Finished",
 			"year": 2024
 		},
 		{
 			"title": "Gibbon - Beyond The Trees",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1837330/header.jpg?t=1688726905",
-			"rating": "Good",
+			"genre": "Arcade",
+			"rating": "2⭐",
 			"status": "Finished",
 			"year": 2022
 		},
 		{
 			"title": "Gris",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313",
-			"rating": "Amazing",
+			"genre": "Puzzle",
+			"rating": "4⭐",
 			"status": "Finished",
 			"year": 2018
 		},
 		{
 			"title": "Hollow Knight",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028",
-			"rating": "Special",
+			"genre": [ "Action", "Adventure", "Metroidvania", "Souls-Like" ],
+			"rating": "5⭐",
 			"status": "Finished",
 			"year": 2017
 		},
 		{
 			"title": "It Takes Two",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg?t=1691006466",
-			"rating": "Amazing",
+			"rating": "4⭐",
+			"genre": ["Co-op", "Puzzle" ],
 			"status": "Finished",
 			"year": 2021
 		},
@@ -103,21 +115,24 @@
 		{
 			"title": "Outer Wilds",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431",
-			"rating": "Special",
+			"genre": [ "Adventure", "Puzzle" ],
+			"rating": "5⭐",
 			"status": "Ongoing",
 			"year": 2020
 		},
 		{
 			"title": "Planet Of Lana",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787",
-			"rating": "Great",
+			"genre": "Puzzle",
+			"rating": "3⭐",
 			"status": "Ongoing",
 			"year": 2023
 		},
 		{
 			"title": "Rain World",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/312520/header.jpg?t=1674137018",
-			"rating": "Special",
+			"genre": "Survival",
+			"rating": "5⭐",
 			"status": "Finished",
 			"year": 2017
 		},
@@ -136,15 +151,26 @@
 			"year": 2018
 		},
 		{
+			"title": "Split Fiction",
+			"poster": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg?t=1747683986",
+			"genre": ["Action", "Adventure", "Co-op", "Puzzle" ],
+			"rating": "5⭐",
+			"status": "Finished",
+			"year": 2025
+		},
+		{
 			"title": "The Last of Us: Part I",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1741209545",
-			"rating": "Special",
+			"genre": ["Action", "Adventure", "Story-Based"],
+			"rating": "5⭐",
+			"status": "Finished",
 			"status": "Finished",
 			"year": 2013
 		},
 		{
 			"title": "The Last of Us: Part II",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1743700473",
+			"genre": ["Action", "Adventure", "Story-Based"],
 			"rating": "Unplayed",
 			"status": "Unplayed",
 			"year": 2020
