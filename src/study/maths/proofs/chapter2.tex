@@ -10,7 +10,7 @@
 \end{proposition}
 
 \begin{theorem}[The Division Algorithm] \label{divalgo}
-	For all integers $a$ and $m$ witht $m > 0$, there exist unique integers $q$ and $r$ such that 
+	For all integers $a$ and $m$ witht $m > 0$, there exist unique integers $q$ and $r$ such that
 	$$a = mq+r$$
 	where $0 \leq r < m$.
 \end{theorem}
@@ -26,15 +26,15 @@
 \end{theorem}
 
 \begin{scratch}
-Let's jot down an example. Let $a = 12$ and $b = 20$, making $\gcd(a, b) = 4$.
-Then indeed we get, $$4 = 12*2 + 20*(-1)$$
-Or maybe $$4 = 12*(-3) + 20*2$$
+	Let's jot down an example. Let $a = 12$ and $b = 20$, making $\gcd(a, b) = 4$.
+	Then indeed we get, $$4 = 12*2 + 20*(-1)$$
+	Or maybe $$4 = 12*(-3) + 20*2$$
 \end{scratch}
 
 \begin{proof}
-	Assume $a$ and $b$ are fixed positive integers. Then the expression $ax+by$ can take infinitely many integer values for any integers $x$ and $y$. It can even be $0$ for $x = y = 0$. 
+	Assume $a$ and $b$ are fixed positive integers. Then the expression $ax+by$ can take infinitely many integer values for any integers $x$ and $y$. It can even be $0$ for $x = y = 0$.
 
-	Let $d$ be the smallest positive integers that the expression $ax+by$ can take. And let $k$ and $l$ be integers for which 
+	Let $d$ be the smallest positive integers that the expression $ax+by$ can take. And let $k$ and $l$ be integers for which
 	\begin{equation} \label{eq:1}
 		d = ak + bl
 	\end{equation}
@@ -43,14 +43,14 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 
 	\underline{Part 1: $d$ is a common divisor of $a$ and $b$.}
 
-	Since $d > 0$, therefore, by Theorem \ref{divalgo}, there exists integers $q$ and $r$ such that 
+	Since $d > 0$, therefore, by Theorem \ref{divalgo}, there exists integers $q$ and $r$ such that
 	$$a = dq + r$$
 	with $0 \leq r < d$. By rewriting this, we get,
 	\begin{align}
-		r &= a - dq \\
-			&= a - (ak+bl)q \\
-			&= a - akq - blq \\
-			&= a(1-kq) + b(-lq)
+		r & = a - dq           \\
+		  & = a - (ak+bl)q     \\
+		  & = a - akq - blq    \\
+		  & = a(1-kq) + b(-lq)
 	\end{align}
 
 	Since $1-kq$ and $-lq$ are integers, we have found another expression of the form $ax + by$. But since $0 \leq r < d$ and $d$ was the smallest posititve integer of the form $ax+by$ then it must be true that $r = 0$.
@@ -65,14 +65,14 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 	\underline{Part 2: $d$ is the greatest common divisor of $a$ and $b$.}
 
 	Suppose that $d'$ is another common divisor of $a$ and $b$. Here, we must show that $d' \leq d$ for all such $d'$.
-	
+
 	By Definition \ref{div}, we have $$a = d'm \text{ and } b = d'n$$
-	for some integers $m$ and $n$. Then, applying the above to Equation \ref{eq:1}, 
+	for some integers $m$ and $n$. Then, applying the above to Equation \ref{eq:1},
 	\begin{align}
-		d &= ak + bl \\
-			&= d'mk + d'nl \\
-			&= d'(mk+nl) \\
-		\implies d' &= \frac{d}{mk+nl}
+		d           & = ak + bl         \\
+		            & = d'mk + d'nl     \\
+		            & = d'(mk+nl)       \\
+		\implies d' & = \frac{d}{mk+nl}
 	\end{align}
 
 	Since $mk + nl$ is an integer and $d$ is positive, this implies that $d' \leq d$.
@@ -120,10 +120,10 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 \begin{scratch}
 	Here, we have the following:
 	\begin{align}
-		ak &\equiv bk \pmod m \\
-		\implies (ak - bk) &= mq \\
-		\implies (a-b)k &= mq \\
-		\implies k &\mid mq
+		ak                 & \equiv bk \pmod m \\
+		\implies (ak - bk) & = mq              \\
+		\implies (a-b)k    & = mq              \\
+		\implies k         & \mid mq
 	\end{align}
 	By Lemma \ref{modprime}(2), since $\gcd(k,m)=1$, we get $k \mid q$, therefore, $q = kl$ for some integer $l$.
 	$$(a-b)k = mkl \implies a-b = ml \implies m \mid (a-b) \implies a \equiv b \pmod m$$
@@ -141,14 +141,14 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 
 
 \begin{theorem}[Fermat's Little Theorem]
-	If $a$ is an integer and $p$ is a prime which does not divide $a$, then 
+	If $a$ is an integer and $p$ is a prime which does not divide $a$, then
 	$$a^{p-1} \equiv 1 \pmod p.$$
 \end{theorem}
 
 \begin{scratch}
 	The all-important observation is the following, which we explain through the example $a = 4$ and $p = 7$. Consider two sets:
 	$$\{a, 2a, 3a, 4a, 5a, 6a\} \text{ and } \{1, 2, 3, 4, 5, 6\}$$
-	In this example, since $a = 4$, this is the same as 
+	In this example, since $a = 4$, this is the same as
 	$$\{4, 8, 12, 16, 20, 24\} \text{ and } \{1, 2, 3, 4, 5, 6\}$$
 	These look like completely different sets. But look what happens when you consider each of the numbers module $p$; the second set stays the same but the numbers in the first set change.
 	$$\{4, 1, 5, 2, 6, 3\} \text{ and } \{1, 2, 3, 4, 5, 6\}$$
@@ -178,24 +178,29 @@ Or maybe $$4 = 12*(-3) + 20*2$$
 
 	\underline{Step 2.} All elements in the set $\{a, 2a, 3a, ..., (p-1)a$ are unique modulo $p$.
 
-		Let us take two elements $ia$ and $ja$ from the above set such that $ia \equiv ja \pmod p$.
+	Let us take two elements $ia$ and $ja$ from the above set such that $ia \equiv ja \pmod p$.
 
-		Since $\gcd(a, p) = 1$ as shown before, by Proposition \ref{modcancel}, we get that $i \equiv j \pmod p$.
+	Since $\gcd(a, p) = 1$ as shown before, by Proposition \ref{modcancel}, we get that $i \equiv j \pmod p$.
 
-		Since $i$ and $j$ are in the set $\{1, 2, 3, ..., (p-1)\}$, we can say that $i = j$ since no two elements in the set are congruent to each other module $p$.
-	
-		Thus, we get that $ia \equiv ja \pmod p \implies i = j$ and that all the elements are unique in the given set module $p$.
+	Since $i$ and $j$ are in the set $\{1, 2, 3, ..., (p-1)\}$, we can say that $i = j$ since no two elements in the set are congruent to each other module $p$.
+
+	Thus, we get that $ia \equiv ja \pmod p \implies i = j$ and that all the elements are unique in the given set module $p$.
 
 
-		These two steps complete the proof that
-		$$\{a, 2a, 3a, ..., (p-1)a\} \equiv \{1, 2, 3, ..., p-1\} \pmod p$$
+	These two steps complete the proof that
+	$$\{a, 2a, 3a, ..., (p-1)a\} \equiv \{1, 2, 3, ..., p-1\} \pmod p$$
 
-		Now, since the order doesn't matter in multiplication we can say that 
-		$$a \cdot 2a \cdot 3a \cdot ... \cdot (p-1)a \equiv 1 \cdot 2 \cdot 3 \cdot ... \cdot (p-1) \pmod p$$
+	Now, since the order doesn't matter in multiplication we can say that
+	$$a \cdot 2a \cdot 3a \cdot ... \cdot (p-1)a \equiv 1 \cdot 2 \cdot 3 \cdot ... \cdot (p-1) \pmod p$$
 
-		Since for each $i$ such that $2 \leq i \leq p-1$, we know that $p \nmid i$, we get that $\gcd(p, i) = 1$. Therefore, by Proposition \ref{modcancel}, we get
-		$$\underbrace{a \cdot a \cdot a \cdot ... \cdot a}_{p-1 \text{ times}} \equiv 1 \pmod p$$ 
-		$$ \implies a^{p-1} \equiv 1 \pmod p$$
+	Since for each $i$ such that $2 \leq i \leq p-1$, we know that $p \nmid i$, we get that $\gcd(p, i) = 1$. Therefore, by Proposition \ref{modcancel}, we get
+	$$\underbrace{a \cdot a \cdot a \cdot ... \cdot a}_{p-1 \text{ times}} \equiv 1 \pmod p$$
+	$$ \implies a^{p-1} \equiv 1 \pmod p$$
 
-		Hence, proved.
-	\end{proof}
+	Hence, proved.
+\end{proof}
+
+\begin{theorem}[Euler's Theorem]
+	If $a$ and $N$ are positive integers which are relatively prime then
+	$$a^{\phi(N)} \equiv 1 \pmod{N}$$
+\end{theorem}

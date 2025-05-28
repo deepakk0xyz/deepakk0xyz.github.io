@@ -1,0 +1,60 @@
+\chapter{Sets}
+
+\begin{definition} 
+	A \emph{set} is ann unordered collection of distinct objects, which are called \emph{elements}.
+	If $x$ is an element of a set $S$, we write $x \in S$. This is read "$x$ in $S$".
+\end{definition}
+
+\begin{definition}
+	Common Sets:
+
+	\begin{itemize}
+		\item The set of \emph{natural numbers}, denoted $\mathbb{N}$, is the set $\{1, 2, 3, ...\}$.
+		\item The set of \emph{integers}, denoted $\mathbb{Z}$, is the set $\{..., -3, -2, -1, 0, 1, 2, 3, ...\}$.
+		\item The set without any elements, denoted $\phi$ or $\{\}$, is called the \emph{empty set}.
+	\end{itemize}
+\end{definition}
+
+\begin{definition}
+	The set $$\mathbb{Q} = \{ \frac{a}{b} : a, b \in \mathbb{Z}, b \neq 0 \}$$ is called the set of \emph{rational numbers}.
+\end{definition}
+
+
+The set of real numbers, denoted $\mathbb{R}$, is more difficult to define, so for now rely on your intuition. (Note to Self: We will define this in Real Analysis. )
+
+\begin{definition}
+	Suppose $A$ and $B$ are sets. If every element in $A$ is also an element of $B$, then $A$ is \emph{subset} of $B$, which is denoted $A \subseteq B$.
+\end{definition}
+
+
+\emph{Strategy To Prove $A \subseteq B$}: We can start with some element $x \in A$ and the condition for $A$. Now, we can apply logic and reasoning to show that this is the same as condition for $B$. Therefore, $x \in B$. 
+
+Since we chose a arbitrary element of $A$, therefore, this is true for all elements of $A$. Hence, proved.
+Moreover, we are not allowed to assume anything about $x$ beyond that it is in $A$. This is the reason that we can say that since it applies to an \emph{arbitrary} element of $A$, therefore, it applies to every element of $A$.
+
+
+Notice that if $A = B$ then $A \subseteq B$. In the case, $A \subseteq B$ and $A \neq B$, we say that $A$ is a \emph{proper subset} of $B$, denoted by $A \subset B$. But we will not use this notation in this text.
+
+\break
+\emph{Strategy To Prove $A = B$}: To prove this, you will have to show that:
+\begin{enumerate}
+	\item Every element of $A$ is also in $B$ which means $A \subseteq B$.
+	\item Every element of $B$ is also in $A$ which means $B \subseteq A$.
+\end{enumerate}
+
+\begin{definition}
+	Set Operations:
+	\begin{itemize}
+		\item The \emph{union} of sets $A$ and $B$ is the set $A \cup B = \{ x : x \in A \text{ or } x \in B \}$.
+
+		\item The \emph{intersection} of sets $A$ and $B$ is the set $A \cap B = \{ x : x \in A \text{ and } x \in B \}$.
+
+		\item Likewise, if $A_1, A_2, A_3, ..., A_n$ are all sets, then the union of all of them is the set 
+			$A_1 \cup A_2 \cup A_3 \cup ... \cup A_n = \{ x : x \in A_i \text{ for some } i \}$. 
+			This set is also denoted as $$\bigcup_{i=1}^{n} A_i$$
+
+		\item Likewise, if $A_1, A_2, A_3, ..., A_n$ are all sets, then the intersection of all of them is the set 
+			$A_1 \cap A_2 \cap A_3 \cap ... \cap A_n = \{ x : x \in A_i \text{ for all } i \}$. 
+			This set is also denoted as $$\bigcap_{i=1}^{n} A_i$$
+	\end{itemize}
+\end{definition}
