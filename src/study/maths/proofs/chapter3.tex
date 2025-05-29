@@ -1,6 +1,6 @@
 \chapter{Sets}
 
-\begin{definition} 
+\begin{definition}\label{set}
 	A \emph{set} is ann unordered collection of distinct objects, which are called \emph{elements}.
 	If $x$ is an element of a set $S$, we write $x \in S$. This is read "$x$ in $S$".
 \end{definition}
@@ -15,14 +15,14 @@
 	\end{itemize}
 \end{definition}
 
-\begin{definition}
+\begin{definition}\label{rational}
 	The set $$\mathbb{Q} = \{ \frac{a}{b} : a, b \in \mathbb{Z}, b \neq 0 \}$$ is called the set of \emph{rational numbers}.
 \end{definition}
 
 
 The set of real numbers, denoted $\mathbb{R}$, is more difficult to define, so for now rely on your intuition. (Note to Self: We will define this in Real Analysis. )
 
-\begin{definition}
+\begin{definition}\label{subset}
 	Suppose $A$ and $B$ are sets. If every element in $A$ is also an element of $B$, then $A$ is \emph{subset} of $B$, which is denoted $A \subseteq B$.
 \end{definition}
 
@@ -58,3 +58,45 @@ Notice that if $A = B$ then $A \subseteq B$. In the case, $A \subseteq B$ and $A
 			This set is also denoted as $$\bigcap_{i=1}^{n} A_i$$
 	\end{itemize}
 \end{definition}
+
+\begin{definition}[Subtraction and Complements]\label{subtract}\label{complement}
+Assume $A$ and $B$ are sets and $x \not\in B$means that $x$ is not an element of $B$.
+\begin{itemize}
+	\item The \emph{subtraction} of $B$ from $A$ is $A \\ B = \{ x : x \in A \text{ and } x \not\in B \}$.
+	\item If $A \subseteq U$, then $U$ is called a \emph{universal set} of $A$. The \emph{complement} of $A$ in $U$ is $A^c = U \\ A$.
+\end{itemize}
+\end{definition}
+
+\begin{definition}[Power Sets and Cardinality]\label{powerset}\label{cardinality}
+	Assume $A$ is a set:
+	\begin{itemize}
+		\item The \emph{power set} of $A$ is $\mathcal{P}(A) = \{ X : X \subseteq A \}$.
+		\item The \emph{cardinality} of $A$ is the number of elements ion $A$, and is denoted $|A|$.
+	\end{itemize}
+\end{definition}
+
+
+\begin{definition}[Cartesian Product]
+	Assume $A$ and $B$ are sets. The \emph{Cartesian Product} of $A$ and $B$ is $A \times B = \{(a, b) : a \in A \text{ and } b \in B \}$.
+\end{definition}
+
+\begin{proposition}
+	Suppose $A$ and $B$ are sets. If $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, then $A \subseteq B$.
+\end{proposition}
+\begin{proof}
+	Assume $x \in A$ be an arbitrary element of $A$.
+
+	Then by Definition \ref{powerset}, $\{ x \} \subseteq A$ and $\{ x \} \in \mathcal{P}(A)$. 
+	Since $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, by Definition \ref{subset}, we get that $\{ x \} \in \mathcal{P}(B)$. 
+	Now, by Definition \ref{powerset}, we get that $\{ x \} \subseteq B$.
+	And finally, by Definition \ref{subset}, we get that $x \in B$.
+
+	Hence, proved that any arbitrary element of $A$ is also in $B$. Therefore, $A \subseteq B$.
+\end{proof}
+
+
+\begin{theorem}[De Morgan's Laws]
+	Suppose $A$ and $B$ are subsets of a universal set $U$. Then, 
+	$$(A \cup B)^c = A^c \cap B^c \text{ and } (A \cap B)^c = A^c \cup B^c$$
+\end{theorem}
+
