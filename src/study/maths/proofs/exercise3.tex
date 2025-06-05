@@ -1,33 +1,33 @@
 \section*{Exercises}
 
 
-\begin{problem}Skipped.\end{problem}
+\bp Skipped.\ep 
 
-\begin{problem}
+\bp 
 	Suppose $A$ and $B$ are two boxes. Describe the following in terms of boxes: $A \\ B$, $\mc{P}(A)$ and $|A|$.
-\end{problem}
-\begin{solution}
+\ep 
+\bs
 	$A \\ B$: This is a box with all the objects in $A$ that are not in $B$.
 
 	$\mc{P}(A)$: This is a box with many boxes such that each box in this box has objects from $A$.
 
 	$|A|$: Number of objects in $A$.
-\end{solution}
+\es
 
 
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
+\bp Skipped.\ep 
+\bp Skipped.\ep 
+\bp Skipped.\ep 
+\bp Skipped.\ep 
+\bp Skipped.\ep 
+\bp Skipped.\ep 
+\bp Skipped.\ep 
 
-\begin{problem}
+\bp 
 	The set $\{5a+3b: a, b \in \mb{Z}\}$ is equal to a familiar set. By examining which elements are possible, determine the familiar set.
-\end{problem}
+\ep 
 
-\begin{solution}
+\bs
 	For $a = b = 0$, we get $5a + 3b = 0$. \\
 	For $a = -1$ and $b = 2$, we get $5a + 3b = -5+6 = 1$.
 
@@ -42,13 +42,13 @@
 
 	Therefore, both sets are equal.
 
-\end{solution}
+\es
 
-\begin{problem}
+\bp 
 	Suppose $A, B$ and $C$ are sets. Is there a difference between $(A \times B) \times C$ and $A \times (B \times C)$? Explain your answer.
-\end{problem}
+\ep 
 
-\begin{solution}
+\bs
 	Let $(a, b, c) \in (A \times B) \times C$ such that $a \in A$, $b \in B$ and $c \in C$. All elements of $(A \times B) \times C$ are like this by Definition \ref{cartesian}.
 
 	Also, by defintion \ref{cartesian}, $(a, b, c) \in A \times (B \times C)$.
@@ -57,16 +57,16 @@
 	Similarly, we can show that $A \times (B \times C) \subseteq (A \times B) \times C$.
 
 	Hence, proved that these two sets are the same.
-\end{solution}
+\es
 
 
-\begin{problem}
+\bp 
 	Prove the second identity in De Morgan's Law ( Theorem \ref{demorgan} ).
 	That is, suppose $A$ and $B$ are subsets of $U$. Using $U$ as our universal set, show that
 	$$(A \cap B)^c  = A^c \cup B^c$$
-\end{problem}
+\ep 
 
-\begin{solution}
+\bs
 	Let $x \in (A \cap B)^c$ be any arbitrary element. By Definition \ref{complement}, we have that 
 	\begin{align}
 		x &\in (A \cap B)^c \\
@@ -89,17 +89,17 @@
 	Hence, proved that $A^c \cup B^c \subseteq (A \cap B)^c$.
 
 	Therefore, these two sets must be equal.
-\end{solution}
+\es
 
 
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
+\bp Skipped.\ep 
+\bp Skipped.\ep 
 
-\begin{problem} Suppse $A$ and $B$ are sets. Prove that
+\bp  Suppse $A$ and $B$ are sets. Prove that
 	$$\mc{P}(A) \cup \mc{P}(B) \subseteq \mc{P}(A \cup B)$$
-\end{problem}
+\ep 
 
-\begin{solution}
+\bs
 	Let $X \in \mc{P}(A) \cup \mc{P}(B)$ be any arbitrary element. Then by Definition of union, we have
 	\begin{align}
 		X &\in \mc{P}(A) \cup \mc{P}(B) \\
@@ -110,16 +110,16 @@
 	$$X \subseteq A \cup B \implies X \in \mc{P}(A \cup B)$$
 
 	Thus, proved that $\mc{P}(A) \cup \mc{P}(B) \subseteq \mc{P}(A \cup B)$.
-\end{solution}
+\es
 
 
-\begin{problem}
+\bp 
 	Let $A = \{n \in \mb{Z} : 2 \mid n\}$, $B = \{ n \in \mb{Z} : 3 \mid n \}$ and $C = \{ n \in \mb{Z} : 6 \mid n \}$.
 
 	Show that $A \cap B = C$.
-\end{problem}
+\ep 
 
-\begin{solution}
+\bs
 	Let $n \in A \cap B$ be any arbitrary element. Then, we have
 	\begin{align}
 		n &\in A \cap B \\
@@ -142,13 +142,13 @@
 	Hence, proved that $C \subseteq A \cap B$.
 
 	Therefore, $A \cap B = C$.
-\end{solution}
+\es
 
-\begin{problem}
+\bp 
 	Let $A$ and $B$ are two sets. Prove that if $A \subseteq B$ then $\mc{P}(A) \subseteq \mc{P}(B)$.
-\end{problem}
+\ep 
 
-\begin{solution}
+\bs
 	Let us assume that $A$ and $B$ are two sets such that $A \subseteq B$.
 
 	Now, let $X \in \mc{P}(A)$ be any arbitrary element.
@@ -157,14 +157,14 @@
 	Since $A \subseteq B$, we get that $X \subseteq B$. Thus, by Definition \ref{powerset}, we get that $X \in \mc{P}(B)$.
 
 	Hence, proved.
-\end{solution}
+\es
 
-\begin{problem}
+\bp 
 	Suppose $A, B$ and $C$ are sets with $C \neq \phi$.
 	\begin{enumerate}
 	\item Prove that if $A \times C = B \times C$, then $A = B$.
 
-	\begin{solution}
+	\bs
 		Let $a \in A$ be any arbitrary element. Since $C \neq \phi$, there exists $c \in C$. Thus, by Definition \ref{cartesian}, $(a, c) \in A \times C$.
 
 		This implies that $(a, c) \in B \times C$ which means $a \in B$. Therefore, $A \subseteq B$.
@@ -172,25 +172,25 @@
 		Similarly, for any arbitrary element $b \in B$, we have $(b, c) \in B \times C \implies (b, c) \in A \times C \implies b \in A$. Therefore, $B \subseteq A$.
 
 		Hence, proved that $A = B$.
-	\end{solution}
+	\es
 	
 	\item Explain why the condition $C \neq \phi$ is necessary.
 
-	\begin{solution}
+	\bs
 		If $C = \phi$ then catesian product is always $\phi$ and thus, any two sets can have equal cartesian products with $C$ and not be equal.
 
 		Also, if $C = \phi$, then there exists no element $c \in C$ and the argument above doesn't work.
-	\end{solution}
+	\es
 
 	\end{enumerate}
-\end{problem}
+\ep 
 
-\begin{problem}
+\bp 
 	Suppose $A, B$ and $C$ are sets. Prove that 
 	$$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$$
-\end{problem}
+\ep 
 
-\begin{solution}
+\bs
 	Let $x \in A \cap (B \cup C)$ be any arbitrary element. Then, we have,
 	\begin{align}
 		&x \in A \cap (B \cup C) \\
@@ -207,20 +207,20 @@
 	$(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C)$.
 
 	Hence, proved.
-\end{solution}
+\es
 
 
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
-\begin{problem}Skipped.\end{problem}
+\bp Skipped.\ep 
+\bp Skipped.\ep 
+\bp Skipped.\ep 
+\bp Skipped.\ep 
 
-\begin{problem}
+\bp 
 	Prove the following
 	\begin{enumerate}
 		\item $\{5k+1 : k \in \mb{z} \} = \{ 5k + 6 : k \in \mb{Z} \}$
 			
-		\begin{solution}
+		\bs
 			For any element $5k+1$ in the first set, we have 
 			$$5k + 1 = 5k+6-5 = 5(k-1) + 6$$
 			Now, by definition $5(k-1)+6$ is in the second set.
@@ -232,11 +232,11 @@
 			Therfore, the second set is a subset of the first set.
 
 			Hence, proved.
-		\end{solution}
+		\es
 		
 	\item $\{ 12a + 3b : a, b \in \mb{Z} \} = \{ 3k : k \in \mb{Z} \}$
 
-		\begin{solution}
+		\bs
 			Since $\gcd(12, 3) = 3$, by Theorem \ref{gcdalgo}, there exists $m, n \in \mb{Z}$ such that $12m+3n = 3$.
 
 			Now, let $3k$ be any element in the second set. Since $3 = 12m + 3n$, we get $3k = (12m+3n)k = 12mk + 3nk$ which by definition is in the first set.
@@ -246,11 +246,11 @@
 			Thus, the first set is a subset of the second set.
 
 			Hence, proved.
-		\end{solution}
+		\es
 
 	\item $\{8a+17b: a, b \in \mb{Z} \} = \mb{Z}$
 
-		\begin{solution}
+		\bs
 			Since $\gcd(8, 17) = 1$, by Theorem \ref{gcdalgo}, there exists $m, n \in \mb{Z}$ such that $8m+17n = 1$.
 
 			Now, let $k \in \mb{Z}$. Since $1 = 8m + 17n$, we get $k = (8m+17n)k = 8mk + 17nk$ which by definition is in the first set.
@@ -259,58 +259,58 @@
 			Now, since every element in the first set is an integer, we know that, the first set is a subset of the second set.
 
 			Hence, proved.
-		\end{solution}
+		\es
 	\end{enumerate}
-\end{problem}
+\ep 
 
 
-\begin{problem}
+\bp 
 	Prove or find counterexample for the following:
 	\begin{enumerate}
 		\item If $A \subseteq B \cup C$, then $A \cup B = B$ or $A \cup C = C$.
 		
-			\begin{solution}
+			\bs
 				Let $A = \{1, 2, 3\}$ and $B = \{ 1, 3, 5 \}$ and $C = \{ 2, 4, 6 \}$.
 
 				Here, $B \cup C = \{1, 2, 3, 4, 5, 6\}$ and $A \subseteq B \cup C$.
 
 				But, $A \cup B = \{1, 2, 3, 5\} \neq B$ and $A \cup C = \{1, 2, 3, 4, 6\} \neq C$.
-			\end{solution}
+			\es
 		
 		\item If $A \subseteq B \cup C$, then $A \cap B \subseteq B \cap C$.
-			\begin{solution}
+			\bs
 				Let us take the example from the previous problem. 
 
 				Here, $A \cap B = \{1, 3\}$ and $B \cap C = \phi$. Thus, $A \cap B \not\subseteq B \cap C$.
-			\end{solution}
+			\es
 
 		\item If $A \subseteq B \cup C$, then $A \cap B \subseteq C$.
-			\begin{solution}
+			\bs
 				Let us take the example from the previous problem. 
 
 				Here, $A \cap B = \{1, 3\} \not\subseteq C$.
-			\end{solution}
+			\es
 
 
 		\item If $A = B \setminus C$, then $B = A \cup C$.
-			\begin{solution}
+			\bs
 				Let $B = \{1, 2, 3\}$ and $C = \{2, 3, 4\}$. Therefore, $A = B \setminus C = \{1\}$.
 
 				Here, $A \cup C = \{1, 2, 3, 4\} \neq B$.
-			\end{solution}
+			\es
 
 
 		\item $A \setminus (B \cap C) = (A \setminus B) \cap (A \setminus C)$
-			\begin{solution}
+			\bs
 				Let $A = \{1, 2, 3, 4, 5\}$, $B = \{2\}$ and $C = \{2, 3\}$.
 
 				Here, $B \cap C = \{2\}$, $A \setminus B = \{1, 3, 4, 5\}$ and $A \setminus C = \{ 1, 4, 5 \}$.
 
 				Thus, $A \setminus (B \cap C) = \{1, 3, 4, 5\}$ and $(A \setminus B) \cap (A \setminus C) = \{1, 4, 5\}$ are not the same.
-			\end{solution}
+			\es
 			
 		\item $(A \times B) \cup (C \times D) = (A \cup C) \times (B \cup D)$
-			\begin{solution}
+			\bs
 				Let $A = \{1\}, B = \{2\}, C = \{3\}$ and $D = \{4\}$.
 
 				Here, $A \times B = \{(1, 2)\}, C \times D = \{(3,4)\}, 
@@ -320,10 +320,10 @@
 				$(A \cup C) \times (B \cup D) = \{(1, 2),(1, 4), (3, 2), (3, 4)\}$.
 
 				Hence, proved that these are not the same.
-			\end{solution}
+			\es
 
 		\item $(A \times B) \cap (C \times D) = (A \cap C) \times (B \cap D)$
-			\begin{solution}
+			\bs
 				Let $(x, y) \in (A \times B) \cap (C \times D)$ be an arbitrary element. Thus, we can show that
 
 				\begin{align}
@@ -347,11 +347,11 @@
 				\end{align}
 
 				Hence, proved.
-			\end{solution}
+			\es
 
 
 		\item $\mc{P}(A) \cap \mc{P}(B) = \mc{P}(A \cap B)$
-			\begin{solution}
+			\bs
 				\begin{lemma}\label{intersub}
 					For any sets $X, A$ and $B$, if $X \subseteq A$ and $X \subseteq B$, then $X \subseteq A \cap B$.
 				\end{lemma}
@@ -390,15 +390,15 @@
 				Thus, proved that $\mc{P}(A \cap B) \subseteq \mc{P}(A) \cap \mc{P}(B)$.
 
 				Hence, proved.
-			\end{solution}
+			\es
 
 		\item $\mc{P}(A) \setminus \mc{P}(B) = \mc{P}(A \setminus B)$
-			\begin{solution}
+			\bs
 				Let $A = B = \phi$. Now, $\mc{P}(A) = \mc{P}(B) = \{\phi\}$ and $A \setminus B = \phi$.
 
 				Therefore, $\mc{P}(A) \setminus \mc{P}(B) = \phi$ and $\mc{P}(A \setminus B) = \{\phi\}$ are not the same set.
-			\end{solution}
+			\es
 
 	\end{enumerate}
-\end{problem}
+\ep 
 
