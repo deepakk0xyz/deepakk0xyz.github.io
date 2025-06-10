@@ -628,94 +628,287 @@ Let $C$ be any set
 
 	      \bs
 	      \begin{named}[Part 1]
-		      Let $x \in (A \Delta B) \cup C$. By Definition of Unions, we have three cases:
+		      Let $x \in (A \Delta B) \cup C$. By Definition of Unions, we have two cases:
 
-		      \underline{Case 1.} $x \in A \Delta B, x \not\in C$
+		      \underline{Case 1.} $x \in A \Delta B$
 
 		      Here, we have two subcases for $x \in A \Delta B$:
 
 		      \underline{Case 1.1.} $x \in A, x \not\in B$
-
-		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
 		      \begin{align*}
-			               & x \in A, x \not\in B, x \not\in C          \\
-			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
-			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
+			               & x \in A, x \not\in B \\
+			      \implies & x \in A \cup C, x \not\in B \setminus C
+							&& \quad \text{(Definition \ref{complement})} \\
+			      \implies & x \in (A \cup C) \setminus (B \setminus C)
+							&& \quad \text{(Definition \ref{complement})} \\
 			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+							&& \quad \text{(Equation \ref{eq:2})}
 		      \end{align*}
 
 		      \underline{Case 1.2.} $x \not\in A, x \in B$
 
-		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
+					Here, we will need two sub-subcases:
+
+					\underline{Case 1.2.1.} $x \in C$
 		      \begin{align*}
-			               & x \not\in A, x \in B, x \not\in C          \\
+			               & x \not\in A, x \in B, x \in C \\
+			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
+			      \implies & x \in (A \cup C) \setminus (B \setminus C)
+							&& \quad \text{(Definition \ref{complement})} \\
+			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+							&& \quad \text{(Equation \ref{eq:2})}
+		      \end{align*}
+
+					\underline{Case 1.2.2.} $x \not\in C$
+		      \begin{align*}
+			               & x \not\in A, x \in B, x \not\in C \\
 			      \implies & x \not\in A \cup C, x \in B \setminus C    \\
 			      \implies & x \in (B \setminus C) \setminus (A \cup C) \\
 			      \implies & x \in (A \cup C) \Delta (B \setminus C)
 		      \end{align*}
 
 
-		      \underline{Case 2.} $x \not\in A \Delta B, x \in C$
-
-		      By Lemma \ref{lsd}, we have two subcases for $x \not\in A \Delta B$:
-
-		      \underline{Case 2.1} $x \not\in A, x \not\in B$
-
-		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
+		      \underline{Case 2.} $x \in C$
 		      \begin{align*}
-			               & x \not\in A, x \not\in B, x \in C          \\
-			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
-			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
+			               & x \in C \\
+			      \implies & x \in A \cup C, x \not\in B \setminus C
+							&& \quad \text{(Definition \ref{complement})} \\
+			      \implies & x \in (A \cup C) \setminus (B \setminus C)
+							&& \quad \text{(Definition \ref{complement})} \\
 			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+							&& \quad \text{(Equation \ref{eq:2})}
 		      \end{align*}
 
-		      \underline{Case 2.2} $x \in A, x \in B$
-
-		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
-		      \begin{align*}
-			               & x \in A, x \in B, x \in C                  \\
-			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
-			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
-			      \implies & x \in (A \cup C) \Delta (B \setminus C)
-		      \end{align*}
-
-
-		      \underline{Case 3.} $x \in A \Delta B, x \in C$
-
-		      By Lemma \ref{lsd}, we have two subcases for $x \in A \Delta B$:
-
-		      \underline{Case 3.1.} $x \in A, x \not\in B$
-
-		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
-		      \begin{align*}
-			               & x \in A, x \not\in B, x \in C              \\
-			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
-			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
-			      \implies & x \in (A \cup C) \Delta (B \setminus C)
-		      \end{align*}
-
-		      \underline{Case 3.2.} $x \not\in A, x \in B$
-
-		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
-		      \begin{align*}
-			               & x \not\in A, x \in B, x \in C              \\
-			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
-			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
-			      \implies & x \in (A \cup C) \Delta (B \setminus C)
-		      \end{align*}
-
-		      Hence, proved that $(A \Delta B) \cup C \subseteq (A \cup C) \Delta (B \setminus C)$.
+					Hence, proved that $$(A \Delta B) \cup C \subseteq (A \cup C) \Delta (B \setminus C)$$
 	      \end{named}
 
 	      \begin{named}[Part 2]
-					TODO
+					Let $x \in (A \cup C) \Delta (B \setminus C)$. By Lemma \ref{lsd}, we have two cases:
 
+					\underline{Case 1.} $x \in A \cup C, x \not\in B \setminus C$
 
+					Here, we have $x \in A \cup C \implies x \in A$ or $x \in C$.
+					And $x \not\in B \setminus C \implies x \not\in B$ or $x \in C$.
+
+					Thus, we have four subscases:
+
+					\underline{Case 1.1.} $x \in A, x \not\in B$
+					\begin{align*}
+						&x \in A, x \not\in B \\
+						\implies &x \in A \Delta B
+										 && \quad \text{(Lemma \ref{lsd})} \\
+						\implies &x \in (A \Delta B) \cup C
+					\end{align*}
+
+					\underline{Case 1.2.} $x \in A, x \in C$
+					$$x \in C \implies x \in (A \Delta B) \cup C$$
+
+					\underline{Case 1.3.} $x \in C, x \not\in B$
+					$$x \in C \implies x \in (A \Delta B) \cup C$$
+
+					\underline{Case 1.4.} $x \in C, x \in C$
+					$$x \in C \implies x \in (A \Delta B) \cup C$$
+
+					\underline{Case 2.} $x \not\in A \cup C, x \in B \setminus C$
+
+					Here, $x \not\in A \cup C \implies x \not\in A$ and $x \not\in C$.
+					And, $x \in B \setminus C \implies x \in B$ and $x \not\in C$.
+
+					\begin{align*}
+						&x \not\in A, x \in B \\
+						\implies &x \in A \Delta B
+										 && \quad \text{(Lemma \ref{lsd})} \\
+						\implies &x \in (A \Delta B) \cup C
+					\end{align*}
+
+					Hence, proved $$(A \cup C) \Delta (B \setminus C) \subseteq (A \Delta B) \cup C$$.
 	      \end{named}
+				Hence, proved.
 	      \es
 
 	\item $(A \Delta B) \cap C = (A \cap C) \Delta (B \cap C)$
+		\bs
+		\begin{named}[Part 1]
+			Let $x \in (A \Delta B) \cap C$. This implies that $x \in A \Delta B$ and $x \in C$.
+			Here, we have two cases for $x \in A \Delta B$ by Lemma \ref{lsd},
 
+			\underline{Case 1.} $x \in A, x \not\in B$
+			\begin{align*}
+				& x \in A, x \not\in B, x \in C \\
+				\implies & x \in A \cap C, x \not\in B \cap C \\
+				\implies & x \in (A \cap C) \setminus (B \cap C) 
+					&& \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in (A \cap C) \Delta (B \cap C)
+					&& \quad \text{(Equation \ref{eq:2})} \\
+			\end{align*}
+
+			\underline{Case 2.} $x \not\in A, x \in B$
+			\begin{align*}
+				& x \not\in A, x \in B, x \in C \\
+				\implies & x \not\in A \cap C, x \in B \cap C \\
+				\implies & x \in (B \cap C) \setminus (A \cap C) 
+					&& \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in (A \cap C) \Delta (B \cap C)
+					&& \quad \text{(Equation \ref{eq:2})} \\
+			\end{align*}
+
+			Hence, proved $$(A \Delta B) \cap C \subseteq (A \cap C) \Delta (B \cap C)$$
+		\end{named}
+		\begin{named}[Part 2]
+			Let $x \in (A \cap C) \Delta (B \cap C)$. Here, we have two cases by Lemma \ref{lsd},
+
+			\underline{Case 1.} $x \in A \cap C, x \not\in B \cap C$
+			\begin{align*}
+				& x \in A \cap C, x \not\in B \cap C \\
+				\implies & x \in A, x \in C, x \not\in B \cap C \\
+				\implies & x \in A, x \in C, x \not\in B \\
+				\implies & x \in A \setminus B, x \in C 
+					&& \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in A \Delta B, x \in C 
+					&& \quad \text{(Equation \ref{eq:2})} \\
+				\implies & x \in (A \Delta B) \cap C
+			\end{align*}
+
+			\underline{Case 1.} $x \not\in A \cap C, x \in B \cap C$
+			\begin{align*}
+				& x \not\in A \cap C, x \in B \cap C \\
+				\implies & x \not\in A \cap C, x \in B, x \in C \\
+				\implies & x \not\in A, x \in C, x \in B \\
+				\implies & x \in B \setminus A, x \in C 
+					&& \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in A \Delta B, x \in C 
+					&& \quad \text{(Equation \ref{eq:2})} \\
+				\implies & x \in (A \Delta B) \cap C
+			\end{align*}
+
+			Hence, proved $$(A \cap C) \Delta (B \cap C) \subseteq (A \Delta B) \cap C$$
+		\end{named}
+		Hence, proved.
+		\es
+
+
+	\item $(A \cup B) \Delta C = (A \Delta C) \Delta (B \setminus A)$
+		\bs
+		\begin{named}[Part 1]
+			Let $x \in (A \cup B) \Delta C$. By Lemma \ref{lsd}, we have two cases:
+
+			\underline{Case 1.} $x \in A \cup B, x \not\in C$
+
+			Here, by Definition of Unions, we have two subcases:
+
+			\underline{Case 1.1.} $x \in A$
+			\begin{align*}
+				& x \in A, x \not\in C \\
+				\implies & x \in A \setminus C, x \not\in B \setminus A 
+					&& \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in A \Delta C, x \not\in B \setminus A
+					&& \quad \text{(Equation \ref{eq:2})} \\
+				\implies & x \in (A \Delta C) \setminus (B \setminus A)
+								 && \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in (A \Delta C) \Delta (B \setminus A) 
+					&& \quad \text{(Equation \ref{eq:2})}
+			\end{align*}
+
+			\underline{Case 1.2.} $x \in B$
+
+			Here, we must consider two sub-subcases:
+
+			\underline{Case 1.2.1.} $x \in A$: This can be proved in the same way as Case 1.1.
+
+			\underline{Case 1.2.2.} $x \not\in A$
+			\begin{align*}
+				& x \not\in A, x \in B, x \not\in C \\
+				\implies & x \not\in A \setminus C, x \not\in C \setminus A, x \in B \setminus A 
+								 && \quad \text{(Definition \ref{complement})} \\
+				\implies & x \not\in A \Delta C, x \in B \setminus A
+					&& \quad \text{(Equation \ref{eq:2})} \\
+				\implies & x \in (B \setminus A) \setminus (A \Delta C)
+								 && \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in (A \Delta C) \Delta (B \setminus A)
+					&& \quad \text{(Equation \ref{eq:2})}
+			\end{align*}
+
+			\underline{Case 2.} $x \not\in A \cup B, x \in C$
+
+			By Definition of Unions, $x \not\in A \cup B$ implies that $x \not\in A$ and $x \not\in B$.
+			\begin{align*}
+				& x \not\in A, x \not\in B, x \in C \\
+				\implies & x \in C \setminus A, x \not\in B \setminus A 
+								 && \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in A \Delta C, x \not\in B \setminus A
+								 && \quad \text{(Equation \ref{eq:2})} \\
+				\implies & x \in (A \Delta C) \setminus (B \setminus A)
+								 && \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in (A \Delta C) \Delta (B \setminus A)
+								 && \quad \text{(Definition \ref{complement})}
+			\end{align*}
+
+			Hence, proved $$(A\cup B) \Delta C \subseteq (A \Delta C) \Delta (B \setminus A)$$
+		\end{named}
+		\begin{named}[Part 2]
+			Let $x \in (A \Delta C) \Delta (B \setminus A)$. By Lemma \ref{lsd}, we have two subcases:
+
+			\underline{Case 1.} $x \in A \Delta C, x \not\in B \setminus A$
+
+			We have two subcases for $x \in A \Delta C$ by Lemma \ref{lsd}: $x \in A, x \not\in C$ or $x \not\in A, x \in C$.
+
+			\underline{Case 1.1.} $x \in A, x \not\in C$
+			\begin{align*}
+				& x \in A, x \not\in C \\
+				\implies & x \in A \cup B, x \not\in C \\
+				\implies & x \in (A \cup B) \setminus C
+								 && \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in (A \cup B) \Delta C
+								 && \quad \text{(Equation \ref{eq:2})}
+			\end{align*}
+
+			\underline{Case 1.2} $x \not\in A, x \in C$
+
+			Since $x \not\in A$ and $x \not\in B \setminus A$, then by Definition \ref{complement}, we must have $x \not\in B$.
+			\begin{align*}
+				& x \not\in A, x \not\in B, x \in C \\
+				\implies & x \not\in A \cup B, x \in C \\
+				\implies & x \in C \setminus (A \cup B)
+								 && \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in (A \cup B) \Delta C
+								 && \quad \text{(Equation \ref{eq:2})}
+			\end{align*}
+
+			\underline{Case 2.} $x \not\in A \Delta C, x \in B \setminus A$
+
+			By Definition \ref{complement}, $x \in B \setminus A$ implies $x \in B$ and $x \not\in A$.
+
+			Since $x \not\in A$, by Lemma \ref{lsd}, $x \not\in A \Delta C$ implies $x \not\in C$.
+			\begin{align*}
+				& x \not\in A, x \in B, x \not\in C \\
+				\implies & x \in A \cup B, x \not\in C \\
+				\implies & x \in (A \cup B) \setminus C
+								 && \quad \text{(Definition \ref{complement})} \\
+				\implies & x \in (A \cup B) \Delta C
+								 && \quad \text{(Equation \ref{eq:2})}
+			\end{align*}
+
+			Hence, proved that $$(A \Delta C) \Delta (B \setminus A) \subseteq (A \cup B) \Delta C$$
+		\end{named}
+		Hence, proved.
+		\es
+
+	\item $(A \Delta B) \Delta C = (A \Delta C) \Delta (A \setminus B)$
+		\bs
+		Let $A = \{1, 2, 4, 5\}, B = \{2, 3, 5, 6\}$ and $C = \{ 4, 5, 6, 7 \}$.
+		
+		Here, $A \cup B = \{1, 2, 3, 4, 5, 6\}$ and $A \cap B = \{2, 5\}$. Therefore, $A \Delta B = \{1, 3, 4, 6\}$
+
+		Then, $(A \Delta B) \cup C = \{1, 3, 4, 5, 6, 7 \}$ and $(A \Delta B) \cap C = \{4, 6\}$. Therefore, $(A \Delta B) \Delta C = \{1, 3, 5, 7\}$.
+
+		Here, $A \cup C = \{1, 2, 4, 5, 6, 7\}$ and $A \cap C = \{4, 5\}$. Therefore, $A \Delta C = \{1, 2, 6, 7\}$.
+
+		And $A \setminus B = \{1, 4\}$.
+
+		Thus, $(A \Delta C) \cup (A \setminus B) = \{1, 2, 4, 6, 7\}$ and $(A \Delta C) \cap (A \setminus B) = \{1\}$. Therefore, $(A \Delta C) \Delta (A \setminus B) = \{2, 4, 6, 7\}$.
+
+		Here, we can see that $(A \Delta B) \Delta C \neq (A \Delta C) \Delta (A \setminus B)$.
+		\es
 
 \end{enumerate}
 \ep
