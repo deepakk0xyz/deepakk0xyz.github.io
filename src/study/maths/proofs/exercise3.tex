@@ -1,428 +1,428 @@
 \section*{Exercises}
 
 
-\bp Skipped.\ep 
+\bp Skipped.\ep
 
-\bp 
-	Suppose $A$ and $B$ are two boxes. Describe the following in terms of boxes: $A \\ B$, $\mc{P}(A)$ and $|A|$.
-\ep 
+\bp
+Suppose $A$ and $B$ are two boxes. Describe the following in terms of boxes: $A \\ B$, $\mc{P}(A)$ and $|A|$.
+\ep
 \bs
-	$A \\ B$: This is a box with all the objects in $A$ that are not in $B$.
+$A \\ B$: This is a box with all the objects in $A$ that are not in $B$.
 
-	$\mc{P}(A)$: This is a box with many boxes such that each box in this box has objects from $A$.
+$\mc{P}(A)$: This is a box with many boxes such that each box in this box has objects from $A$.
 
-	$|A|$: Number of objects in $A$.
+$|A|$: Number of objects in $A$.
 \es
 
 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
+\bp Skipped.\ep
+\bp Skipped.\ep
+\bp Skipped.\ep
+\bp Skipped.\ep
+\bp Skipped.\ep
+\bp Skipped.\ep
+\bp Skipped.\ep
 
-\bp 
-	The set $\{5a+3b: a, b \in \mb{Z}\}$ is equal to a familiar set. By examining which elements are possible, determine the familiar set.
-\ep 
+\bp
+The set $\{5a+3b: a, b \in \mb{Z}\}$ is equal to a familiar set. By examining which elements are possible, determine the familiar set.
+\ep
 
 \bs
-	For $a = b = 0$, we get $5a + 3b = 0$. \\
-	For $a = -1$ and $b = 2$, we get $5a + 3b = -5+6 = 1$.
+For $a = b = 0$, we get $5a + 3b = 0$. \\
+For $a = -1$ and $b = 2$, we get $5a + 3b = -5+6 = 1$.
 
-	Since we have $0$ and $1$, we can build any integers $k$ by setting $a = -1 \cdot k$ and $b = 2 \cdot k$ which gives us $-5k+6k = k$.
+Since we have $0$ and $1$, we can build any integers $k$ by setting $a = -1 \cdot k$ and $b = 2 \cdot k$ which gives us $-5k+6k = k$.
 
-	Thus, our set is the set of integers, $\mb{Z}$.
+Thus, our set is the set of integers, $\mb{Z}$.
 
-	It is trivial that all elements of the given set are integers to the given set is a subset of integers.
+It is trivial that all elements of the given set are integers to the given set is a subset of integers.
 
-	Now, for any $x \in \mb{Z}$, we can take $a = -x$ and $b = 2x$ since $-x, 2x \in \mb{Z}$ and get $5a + 3b = -5x + 6x = x$ which is an element of the given set.
-	Thus, $\mb{Z}$ is a subset of the given set.
+Now, for any $x \in \mb{Z}$, we can take $a = -x$ and $b = 2x$ since $-x, 2x \in \mb{Z}$ and get $5a + 3b = -5x + 6x = x$ which is an element of the given set.
+Thus, $\mb{Z}$ is a subset of the given set.
 
-	Therefore, both sets are equal.
+Therefore, both sets are equal.
 
 \es
 
-\bp 
-	Suppose $A, B$ and $C$ are sets. Is there a difference between $(A \times B) \times C$ and $A \times (B \times C)$? Explain your answer.
-\ep 
+\bp
+Suppose $A, B$ and $C$ are sets. Is there a difference between $(A \times B) \times C$ and $A \times (B \times C)$? Explain your answer.
+\ep
 
 \bs
-	Let $(a, b, c) \in (A \times B) \times C$ such that $a \in A$, $b \in B$ and $c \in C$. All elements of $(A \times B) \times C$ are like this by Definition \ref{cartesian}.
+Let $(a, b, c) \in (A \times B) \times C$ such that $a \in A$, $b \in B$ and $c \in C$. All elements of $(A \times B) \times C$ are like this by Definition \ref{cartesian}.
 
-	Also, by defintion \ref{cartesian}, $(a, b, c) \in A \times (B \times C)$.
+Also, by defintion \ref{cartesian}, $(a, b, c) \in A \times (B \times C)$.
 
-	Therefore, $(A \times B) \times C \subseteq A \times (B \times C)$.
-	Similarly, we can show that $A \times (B \times C) \subseteq (A \times B) \times C$.
+Therefore, $(A \times B) \times C \subseteq A \times (B \times C)$.
+Similarly, we can show that $A \times (B \times C) \subseteq (A \times B) \times C$.
 
-	Hence, proved that these two sets are the same.
+Hence, proved that these two sets are the same.
 \es
 
 
-\bp 
-	Prove the second identity in De Morgan's Law ( Theorem \ref{demorgan} ).
-	That is, suppose $A$ and $B$ are subsets of $U$. Using $U$ as our universal set, show that
-	$$(A \cap B)^c  = A^c \cup B^c$$
-\ep 
+\bp
+Prove the second identity in De Morgan's Law ( Theorem \ref{demorgan} ).
+That is, suppose $A$ and $B$ are subsets of $U$. Using $U$ as our universal set, show that
+$$(A \cap B)^c  = A^c \cup B^c$$
+\ep
 
 \bs
-	Let $x \in (A \cap B)^c$ be any arbitrary element. By Definition \ref{complement}, we have that 
-	\begin{align}
-		x &\in (A \cap B)^c \\
-		x &\not\in A \cap B \\
-		x \not\in A &\text{ or } x \not\in B \\
-		x \in A^c &\text{ or } x \in B^c \\
-		x &\in A^c \cup B^c
-	\end{align}
-	Hence, proved that $(A \cap B)^c \subseteq A^c \cup B^c$.
+Let $x \in (A \cap B)^c$ be any arbitrary element. By Definition \ref{complement}, we have that
+\begin{align}
+	x           & \in (A \cap B)^c        \\
+	x           & \not\in A \cap B        \\
+	x \not\in A & \text{ or } x \not\in B \\
+	x \in A^c   & \text{ or } x \in B^c   \\
+	x           & \in A^c \cup B^c
+\end{align}
+Hence, proved that $(A \cap B)^c \subseteq A^c \cup B^c$.
 
-	Now, let $x \in A^c \cup B^c$ be any arbitrary element.
-	\begin{align}
-		x &\in A^c \cup B^c \\
-		x \in A^c &\text{ or } x \in B^c \\
-		x \not\in A &\text{ or } x \not\in B \\
-		x &\not\in A \cap B \\
-		x \in (A \cap B)^c
-	\end{align}
+Now, let $x \in A^c \cup B^c$ be any arbitrary element.
+\begin{align}
+	x           & \in A^c \cup B^c        \\
+	x \in A^c   & \text{ or } x \in B^c   \\
+	x \not\in A & \text{ or } x \not\in B \\
+	x           & \not\in A \cap B        \\
+	x \in (A \cap B)^c
+\end{align}
 
-	Hence, proved that $A^c \cup B^c \subseteq (A \cap B)^c$.
+Hence, proved that $A^c \cup B^c \subseteq (A \cap B)^c$.
 
-	Therefore, these two sets must be equal.
+Therefore, these two sets must be equal.
 \es
 
 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
+\bp Skipped.\ep
+\bp Skipped.\ep
 
 \bp  Suppse $A$ and $B$ are sets. Prove that
-	$$\mc{P}(A) \cup \mc{P}(B) \subseteq \mc{P}(A \cup B)$$
-\ep 
+$$\mc{P}(A) \cup \mc{P}(B) \subseteq \mc{P}(A \cup B)$$
+\ep
 
 \bs
-	Let $X \in \mc{P}(A) \cup \mc{P}(B)$ be any arbitrary element. Then by Definition of union, we have
-	\begin{align}
-		X &\in \mc{P}(A) \cup \mc{P}(B) \\
-		X &\in \mc{P}(A) \text{ or } X \in \mc{P}(B) \\
-		X &\subseteq A \text{ or } X \subseteq B
-	\end{align}
-	By definition of union, we have $A \subseteq A \cup B$. Therefore, we can show that 
-	$$X \subseteq A \cup B \implies X \in \mc{P}(A \cup B)$$
+Let $X \in \mc{P}(A) \cup \mc{P}(B)$ be any arbitrary element. Then by Definition of union, we have
+\begin{align}
+	X & \in \mc{P}(A) \cup \mc{P}(B)              \\
+	X & \in \mc{P}(A) \text{ or } X \in \mc{P}(B) \\
+	X & \subseteq A \text{ or } X \subseteq B
+\end{align}
+By definition of union, we have $A \subseteq A \cup B$. Therefore, we can show that
+$$X \subseteq A \cup B \implies X \in \mc{P}(A \cup B)$$
 
-	Thus, proved that $\mc{P}(A) \cup \mc{P}(B) \subseteq \mc{P}(A \cup B)$.
+Thus, proved that $\mc{P}(A) \cup \mc{P}(B) \subseteq \mc{P}(A \cup B)$.
 \es
 
 
-\bp 
-	Let $A = \{n \in \mb{Z} : 2 \mid n\}$, $B = \{ n \in \mb{Z} : 3 \mid n \}$ and $C = \{ n \in \mb{Z} : 6 \mid n \}$.
+\bp
+Let $A = \{n \in \mb{Z} : 2 \mid n\}$, $B = \{ n \in \mb{Z} : 3 \mid n \}$ and $C = \{ n \in \mb{Z} : 6 \mid n \}$.
 
-	Show that $A \cap B = C$.
-\ep 
-
-\bs
-	Let $n \in A \cap B$ be any arbitrary element. Then, we have
-	\begin{align}
-		n &\in A \cap B \\
-		n \in A &\text{ and } n \in B \\
-		2 \mid n &\text{ and } 3 \mid n \\
-		6 &\mid n \\
-		n \in C
-	\end{align}
-	Hence, proved that $A \cap B \subseteq C$.
-
-	Let $n \in C$ be any arbitrary element. Then, we have
-	\begin{align}
-		n \in C \implies 6 \mid n &\implies n = 6k \text{ for some } k \in \mb{Z} \\
-		n = 2(3k) &\text{ and } n = 3(2k) \\
-		2 \mid n &\text{ and } 3 \mid n \\
-		n \in A &\text{ and } n \in B \\
-		n &\in A \cap B
-	\end{align}
-
-	Hence, proved that $C \subseteq A \cap B$.
-
-	Therefore, $A \cap B = C$.
-\es
-
-\bp 
-	Let $A$ and $B$ are two sets. Prove that if $A \subseteq B$ then $\mc{P}(A) \subseteq \mc{P}(B)$.
-\ep 
+Show that $A \cap B = C$.
+\ep
 
 \bs
-	Let us assume that $A$ and $B$ are two sets such that $A \subseteq B$.
+Let $n \in A \cap B$ be any arbitrary element. Then, we have
+\begin{align}
+	n        & \in A \cap B          \\
+	n \in A  & \text{ and } n \in B  \\
+	2 \mid n & \text{ and } 3 \mid n \\
+	6        & \mid n                \\
+	n \in C
+\end{align}
+Hence, proved that $A \cap B \subseteq C$.
 
-	Now, let $X \in \mc{P}(A)$ be any arbitrary element.
-	By Definiton \ref{powerset}, we have $X \subseteq A$. 
+Let $n \in C$ be any arbitrary element. Then, we have
+\begin{align}
+	n \in C \implies 6 \mid n & \implies n = 6k \text{ for some } k \in \mb{Z} \\
+	n = 2(3k)                 & \text{ and } n = 3(2k)                         \\
+	2 \mid n                  & \text{ and } 3 \mid n                          \\
+	n \in A                   & \text{ and } n \in B                           \\
+	n                         & \in A \cap B
+\end{align}
 
-	Since $A \subseteq B$, we get that $X \subseteq B$. Thus, by Definition \ref{powerset}, we get that $X \in \mc{P}(B)$.
+Hence, proved that $C \subseteq A \cap B$.
 
-	Hence, proved.
+Therefore, $A \cap B = C$.
 \es
 
-\bp 
-	Suppose $A, B$ and $C$ are sets with $C \neq \phi$.
-	\begin{enumerate}
+\bp
+Let $A$ and $B$ are two sets. Prove that if $A \subseteq B$ then $\mc{P}(A) \subseteq \mc{P}(B)$.
+\ep
+
+\bs
+Let us assume that $A$ and $B$ are two sets such that $A \subseteq B$.
+
+Now, let $X \in \mc{P}(A)$ be any arbitrary element.
+By Definiton \ref{powerset}, we have $X \subseteq A$.
+
+Since $A \subseteq B$, we get that $X \subseteq B$. Thus, by Definition \ref{powerset}, we get that $X \in \mc{P}(B)$.
+
+Hence, proved.
+\es
+
+\bp
+Suppose $A, B$ and $C$ are sets with $C \neq \phi$.
+\begin{enumerate}
 	\item Prove that if $A \times C = B \times C$, then $A = B$.
 
-	\bs
-		Let $a \in A$ be any arbitrary element. Since $C \neq \phi$, there exists $c \in C$. Thus, by Definition \ref{cartesian}, $(a, c) \in A \times C$.
+	      \bs
+	      Let $a \in A$ be any arbitrary element. Since $C \neq \phi$, there exists $c \in C$. Thus, by Definition \ref{cartesian}, $(a, c) \in A \times C$.
 
-		This implies that $(a, c) \in B \times C$ which means $a \in B$. Therefore, $A \subseteq B$.
+	      This implies that $(a, c) \in B \times C$ which means $a \in B$. Therefore, $A \subseteq B$.
 
-		Similarly, for any arbitrary element $b \in B$, we have $(b, c) \in B \times C \implies (b, c) \in A \times C \implies b \in A$. Therefore, $B \subseteq A$.
+	      Similarly, for any arbitrary element $b \in B$, we have $(b, c) \in B \times C \implies (b, c) \in A \times C \implies b \in A$. Therefore, $B \subseteq A$.
 
-		Hence, proved that $A = B$.
-	\es
-	
+	      Hence, proved that $A = B$.
+	      \es
+
 	\item Explain why the condition $C \neq \phi$ is necessary.
 
-	\bs
-		If $C = \phi$ then catesian product is always $\phi$ and thus, any two sets can have equal cartesian products with $C$ and not be equal.
+	      \bs
+	      If $C = \phi$ then catesian product is always $\phi$ and thus, any two sets can have equal cartesian products with $C$ and not be equal.
 
-		Also, if $C = \phi$, then there exists no element $c \in C$ and the argument above doesn't work.
-	\es
+	      Also, if $C = \phi$, then there exists no element $c \in C$ and the argument above doesn't work.
+	      \es
 
-	\end{enumerate}
-\ep 
+\end{enumerate}
+\ep
 
-\bp 
-	Suppose $A, B$ and $C$ are sets. Prove that 
-	$$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$$
-\ep 
+\bp
+Suppose $A, B$ and $C$ are sets. Prove that
+$$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$$
+\ep
 
 \bs
-	Let $x \in A \cap (B \cup C)$ be any arbitrary element. Then, we have,
-	\begin{align}
-		&x \in A \cap (B \cup C) \\
-		&x \in A \text{ and } x \in B \cup C \\
-		&x \in A \text{ and } ( x \in B \text{ or } x \in C ) \\
-		&(x \in A \text{ and } x \in B) \text{ or } (x \in A \text{ and } x \in C) \\
-		&x \in A \cap B \text{ or } x \in A \cap C \\
-		&x \in (A \cap B) \cup (A \cap C)
-	\end{align}
+Let $x \in A \cap (B \cup C)$ be any arbitrary element. Then, we have,
+\begin{align}
+	 & x \in A \cap (B \cup C)                                                   \\
+	 & x \in A \text{ and } x \in B \cup C                                       \\
+	 & x \in A \text{ and } ( x \in B \text{ or } x \in C )                      \\
+	 & (x \in A \text{ and } x \in B) \text{ or } (x \in A \text{ and } x \in C) \\
+	 & x \in A \cap B \text{ or } x \in A \cap C                                 \\
+	 & x \in (A \cap B) \cup (A \cap C)
+\end{align}
 
-	Hence, proved that $A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C)$.
+Hence, proved that $A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C)$.
 
-	Since all the above steps are reversible, we can show that 
-	$(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C)$.
+Since all the above steps are reversible, we can show that
+$(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C)$.
 
-	Hence, proved.
+Hence, proved.
 \es
 
 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
-\bp Skipped.\ep 
+\bp Skipped.\ep
+\bp Skipped.\ep
+\bp Skipped.\ep
+\bp Skipped.\ep
 
-\bp 
-	Prove the following
-	\begin{enumerate}
-		\item $\{5k+1 : k \in \mb{z} \} = \{ 5k + 6 : k \in \mb{Z} \}$
-			
-		\bs
-			For any element $5k+1$ in the first set, we have 
-			$$5k + 1 = 5k+6-5 = 5(k-1) + 6$$
-			Now, by definition $5(k-1)+6$ is in the second set.
-			Therfore, the first set is a subset of the second set.
+\bp
+Prove the following
+\begin{enumerate}
+	\item $\{5k+1 : k \in \mb{z} \} = \{ 5k + 6 : k \in \mb{Z} \}$
 
-			For any element $5k+6$ in the second set, we have
-			$$5k+6 = 5k+5+1 = 5(k+1)+1$$
-			Now, by definition $5(k+1)+1$ is in the first set.
-			Therfore, the second set is a subset of the first set.
+	      \bs
+	      For any element $5k+1$ in the first set, we have
+	      $$5k + 1 = 5k+6-5 = 5(k-1) + 6$$
+	      Now, by definition $5(k-1)+6$ is in the second set.
+	      Therfore, the first set is a subset of the second set.
 
-			Hence, proved.
-		\es
-		
+	      For any element $5k+6$ in the second set, we have
+	      $$5k+6 = 5k+5+1 = 5(k+1)+1$$
+	      Now, by definition $5(k+1)+1$ is in the first set.
+	      Therfore, the second set is a subset of the first set.
+
+	      Hence, proved.
+	      \es
+
 	\item $\{ 12a + 3b : a, b \in \mb{Z} \} = \{ 3k : k \in \mb{Z} \}$
 
-		\bs
-			Since $\gcd(12, 3) = 3$, by Theorem \ref{gcdalgo}, there exists $m, n \in \mb{Z}$ such that $12m+3n = 3$.
+	      \bs
+	      Since $\gcd(12, 3) = 3$, by Theorem \ref{gcdalgo}, there exists $m, n \in \mb{Z}$ such that $12m+3n = 3$.
 
-			Now, let $3k$ be any element in the second set. Since $3 = 12m + 3n$, we get $3k = (12m+3n)k = 12mk + 3nk$ which by definition is in the first set.
-			Thus, the second set is a subset of the first set.
+	      Now, let $3k$ be any element in the second set. Since $3 = 12m + 3n$, we get $3k = (12m+3n)k = 12mk + 3nk$ which by definition is in the first set.
+	      Thus, the second set is a subset of the first set.
 
-			Now, let $12a + 3b$ be any element in the first set. Then, we get $12a+3b = 3(4a+b)$ which by definition is in the second set.
-			Thus, the first set is a subset of the second set.
+	      Now, let $12a + 3b$ be any element in the first set. Then, we get $12a+3b = 3(4a+b)$ which by definition is in the second set.
+	      Thus, the first set is a subset of the second set.
 
-			Hence, proved.
-		\es
+	      Hence, proved.
+	      \es
 
 	\item $\{8a+17b: a, b \in \mb{Z} \} = \mb{Z}$
 
-		\bs
-			Since $\gcd(8, 17) = 1$, by Theorem \ref{gcdalgo}, there exists $m, n \in \mb{Z}$ such that $8m+17n = 1$.
+	      \bs
+	      Since $\gcd(8, 17) = 1$, by Theorem \ref{gcdalgo}, there exists $m, n \in \mb{Z}$ such that $8m+17n = 1$.
 
-			Now, let $k \in \mb{Z}$. Since $1 = 8m + 17n$, we get $k = (8m+17n)k = 8mk + 17nk$ which by definition is in the first set.
-			Thus, the second set is a subset of the first set.
+	      Now, let $k \in \mb{Z}$. Since $1 = 8m + 17n$, we get $k = (8m+17n)k = 8mk + 17nk$ which by definition is in the first set.
+	      Thus, the second set is a subset of the first set.
 
-			Now, since every element in the first set is an integer, we know that, the first set is a subset of the second set.
+	      Now, since every element in the first set is an integer, we know that, the first set is a subset of the second set.
 
-			Hence, proved.
-		\es
-	\end{enumerate}
-\ep 
+	      Hence, proved.
+	      \es
+\end{enumerate}
+\ep
 
 
 \bp\label{conjectures}
-	Prove or find counterexample for the following:
-	\begin{enumerate}
-		\item If $A \subseteq B \cup C$, then $A \cup B = B$ or $A \cup C = C$.
-		
-			\bs
-				Let $A = \{1, 2, 3\}$ and $B = \{ 1, 3, 5 \}$ and $C = \{ 2, 4, 6 \}$.
+Prove or find counterexample for the following:
+\begin{enumerate}
+	\item If $A \subseteq B \cup C$, then $A \cup B = B$ or $A \cup C = C$.
 
-				Here, $B \cup C = \{1, 2, 3, 4, 5, 6\}$ and $A \subseteq B \cup C$.
+	      \bs
+	      Let $A = \{1, 2, 3\}$ and $B = \{ 1, 3, 5 \}$ and $C = \{ 2, 4, 6 \}$.
 
-				But, $A \cup B = \{1, 2, 3, 5\} \neq B$ and $A \cup C = \{1, 2, 3, 4, 6\} \neq C$.
-			\es
-		
-		\item If $A \subseteq B \cup C$, then $A \cap B \subseteq B \cap C$.
-			\bs
-				Let us take the example from the previous problem. 
+	      Here, $B \cup C = \{1, 2, 3, 4, 5, 6\}$ and $A \subseteq B \cup C$.
 
-				Here, $A \cap B = \{1, 3\}$ and $B \cap C = \phi$. Thus, $A \cap B \not\subseteq B \cap C$.
-			\es
+	      But, $A \cup B = \{1, 2, 3, 5\} \neq B$ and $A \cup C = \{1, 2, 3, 4, 6\} \neq C$.
+	      \es
 
-		\item If $A \subseteq B \cup C$, then $A \cap B \subseteq C$.
-			\bs
-				Let us take the example from the previous problem. 
+	\item If $A \subseteq B \cup C$, then $A \cap B \subseteq B \cap C$.
+	      \bs
+	      Let us take the example from the previous problem.
 
-				Here, $A \cap B = \{1, 3\} \not\subseteq C$.
-			\es
+	      Here, $A \cap B = \{1, 3\}$ and $B \cap C = \phi$. Thus, $A \cap B \not\subseteq B \cap C$.
+	      \es
 
+	\item If $A \subseteq B \cup C$, then $A \cap B \subseteq C$.
+	      \bs
+	      Let us take the example from the previous problem.
 
-		\item If $A = B \setminus C$, then $B = A \cup C$.
-			\bs
-				Let $B = \{1, 2, 3\}$ and $C = \{2, 3, 4\}$. Therefore, $A = B \setminus C = \{1\}$.
-
-				Here, $A \cup C = \{1, 2, 3, 4\} \neq B$.
-			\es
+	      Here, $A \cap B = \{1, 3\} \not\subseteq C$.
+	      \es
 
 
-		\item $A \setminus (B \cap C) = (A \setminus B) \cap (A \setminus C)$
-			\bs
-				Let $A = \{1, 2, 3, 4, 5\}$, $B = \{2\}$ and $C = \{2, 3\}$.
+	\item If $A = B \setminus C$, then $B = A \cup C$.
+	      \bs
+	      Let $B = \{1, 2, 3\}$ and $C = \{2, 3, 4\}$. Therefore, $A = B \setminus C = \{1\}$.
 
-				Here, $B \cap C = \{2\}$, $A \setminus B = \{1, 3, 4, 5\}$ and $A \setminus C = \{ 1, 4, 5 \}$.
-
-				Thus, $A \setminus (B \cap C) = \{1, 3, 4, 5\}$ and $(A \setminus B) \cap (A \setminus C) = \{1, 4, 5\}$ are not the same.
-			\es
-			
-		\item $(A \times B) \cup (C \times D) = (A \cup C) \times (B \cup D)$
-			\bs
-				Let $A = \{1\}, B = \{2\}, C = \{3\}$ and $D = \{4\}$.
-
-				Here, $A \times B = \{(1, 2)\}, C \times D = \{(3,4)\}, 
-				A \cup C = \{1, 3\}$ and $B \cup D \{2, 4\}$.
-
-				Thus, $(A \times B) \cup (C \times D) = \{(1, 2), (3, 4)\}$ and 
-				$(A \cup C) \times (B \cup D) = \{(1, 2),(1, 4), (3, 2), (3, 4)\}$.
-
-				Hence, proved that these are not the same.
-			\es
-
-		\item $(A \times B) \cap (C \times D) = (A \cap C) \times (B \cap D)$ \label{cart-inter}
-			\bs
-				Let $(x, y) \in (A \times B) \cap (C \times D)$ be an arbitrary element. Thus, we can show that
-
-				\begin{align}
-					(x, y) \in (A \times B) \cap (C \times D) \\
-					\implies (x, y) \in A \times B \text{ and } (x, y) \in C \times D \\
-					\implies x \in A, y \in B, x \in C \text{ and } y \in D \\
-					\implies x \in A \cap C \text{ and } y \in B \cap D \\
-					\implies (x, y) \in (A \cap C) \times (B \cap D)
-				\end{align}
-
-				This proves that the first set is the subset of the second.
-				Now, to prove the inverse, let $x \in (A \cap C) \times (B \cap D)$ be an arbitrary element. Then, we can show,
-
-				\begin{align}
-					(x, y) \in (A \cap C) \times (B \cap D) \\
-					\implies x \in A \cap C \text{ and } y \in B \cap D \\
-					\implies x \in A, x \in C, y \in B \text{ and } y \in D \\
-					\implies x \in A, y \in B \text{ and } x \in C, y \in D \\
-					\implies (x, y) \in A \times B \text{ and } (x, y) \in C \times D \\
-					\implies (x, y) \in (A \times B) \cap (C \times D)
-				\end{align}
-
-				Hence, proved.
-			\es
+	      Here, $A \cup C = \{1, 2, 3, 4\} \neq B$.
+	      \es
 
 
-		\item $\mc{P}(A) \cap \mc{P}(B) = \mc{P}(A \cap B)$
-			\bs
-				\begin{lemma}\label{intersub}
-					For any sets $X, A$ and $B$, if $X \subseteq A$ and $X \subseteq B$, then $X \subseteq A \cap B$.
-				\end{lemma}
-				\begin{proof}
-					Let $x \in X$ be any arbitrary element.
-					Since $X \subseteq A$, we know that $x \in A$.
-					Similarly, we know that $x \in B$.
+	\item $A \setminus (B \cap C) = (A \setminus B) \cap (A \setminus C)$
+	      \bs
+	      Let $A = \{1, 2, 3, 4, 5\}$, $B = \{2\}$ and $C = \{2, 3\}$.
 
-					Thus, by definition of intersection, $x \in A \cap B$. 
-					Therefore, $X \subseteq A \cap B$. Hence, proved.
-				\end{proof}
+	      Here, $B \cap C = \{2\}$, $A \setminus B = \{1, 3, 4, 5\}$ and $A \setminus C = \{ 1, 4, 5 \}$.
 
+	      Thus, $A \setminus (B \cap C) = \{1, 3, 4, 5\}$ and $(A \setminus B) \cap (A \setminus C) = \{1, 4, 5\}$ are not the same.
+	      \es
 
-				Now, let $X \in \mc{P}(A) \cap \mc{P}(B)$ be an abitrary element. Then we have 
-				\begin{align}
-					X \in \mc{P}(A) \cap \mc{P}(B) \\
-					X \in \mc{P}(A) \text{ and } X \in \mc{P}(B) && \quad \text{(Definition \ref{powerset})}\\
-					X \subseteq A \text{ and } X \subseteq B && \quad \text{(Lemma \ref{intersub})} \\
-					X \subseteq A \cap B \\
-					X \in \mc{P}(A \cap B)
-				\end{align}
+	\item $(A \times B) \cup (C \times D) = (A \cup C) \times (B \cup D)$
+	      \bs
+	      Let $A = \{1\}, B = \{2\}, C = \{3\}$ and $D = \{4\}$.
 
-				Thus, proved that $\mc{P}(A) \cap \mc{P}(B) \subseteq \mc{P}(A \cap B)$.
+	      Here, $A \times B = \{(1, 2)\}, C \times D = \{(3,4)\},
+		      A \cup C = \{1, 3\}$ and $B \cup D \{2, 4\}$.
 
-				Now, let $X \in \mc{P}(A \cap B)$ be an abitrary element. Then by Definition \ref{powerset}, we have
-				$$X \in \mc{P}(A \cap B) \implies X \subseteq A \cap B$$
+	      Thus, $(A \times B) \cup (C \times D) = \{(1, 2), (3, 4)\}$ and
+	      $(A \cup C) \times (B \cup D) = \{(1, 2),(1, 4), (3, 2), (3, 4)\}$.
 
-				Since $A \cap B \subseteq A$ and $A \cap B \subseteq B$, we have,
+	      Hence, proved that these are not the same.
+	      \es
 
-				\begin{align}
-					X \subseteq A \text{ and } X \subseteq B \\
-					X \in \mc{P}(A) \text{ and } X \in \mc{P}(B) \\
-					X \in \mc{P}(A) \cap \mc{P}(B)
-				\end{align}
+	\item $(A \times B) \cap (C \times D) = (A \cap C) \times (B \cap D)$ \label{cart-inter}
+	      \bs
+	      Let $(x, y) \in (A \times B) \cap (C \times D)$ be an arbitrary element. Thus, we can show that
 
-				Thus, proved that $\mc{P}(A \cap B) \subseteq \mc{P}(A) \cap \mc{P}(B)$.
+	      \begin{align}
+		      (x, y) \in (A \times B) \cap (C \times D)                         \\
+		      \implies (x, y) \in A \times B \text{ and } (x, y) \in C \times D \\
+		      \implies x \in A, y \in B, x \in C \text{ and } y \in D           \\
+		      \implies x \in A \cap C \text{ and } y \in B \cap D               \\
+		      \implies (x, y) \in (A \cap C) \times (B \cap D)
+	      \end{align}
 
-				Hence, proved.
-			\es
+	      This proves that the first set is the subset of the second.
+	      Now, to prove the inverse, let $x \in (A \cap C) \times (B \cap D)$ be an arbitrary element. Then, we can show,
 
-		\item $\mc{P}(A) \setminus \mc{P}(B) = \mc{P}(A \setminus B)$
-			\bs
-				Let $A = B = \phi$. Now, $\mc{P}(A) = \mc{P}(B) = \{\phi\}$ and $A \setminus B = \phi$.
+	      \begin{align}
+		      (x, y) \in (A \cap C) \times (B \cap D)                           \\
+		      \implies x \in A \cap C \text{ and } y \in B \cap D               \\
+		      \implies x \in A, x \in C, y \in B \text{ and } y \in D           \\
+		      \implies x \in A, y \in B \text{ and } x \in C, y \in D           \\
+		      \implies (x, y) \in A \times B \text{ and } (x, y) \in C \times D \\
+		      \implies (x, y) \in (A \times B) \cap (C \times D)
+	      \end{align}
 
-				Therefore, $\mc{P}(A) \setminus \mc{P}(B) = \phi$ and $\mc{P}(A \setminus B) = \{\phi\}$ are not the same set.
-			\es
-
-		\item $(A \times B) \times C = A \times (B \times C)$
-			\bs
-				Let us define $((a, b), c)$ to be the same as $(a, (b, c))$ as they are ordered pairs and write it as $(a, b, c)$.
-				
-				Let $(a, b, c) \in (A \times B) \times C$ be any arbitrary element such that $a \in A, b \in B$ and $c \in C$. 
-
-				By Definition \ref{cartesian}, we get $(b, c) \in (B \times C)$ which implies $(a, b, c) \in A \times (B \times C)$.
-
-				Thus, we have $(A \times B) \times C \subseteq A \times (B \times C)$.
+	      Hence, proved.
+	      \es
 
 
-				Now, let $(a, b, c) \in A \times (B \times C)$ be any arbitrary element such that $a \in A, b \in B$ and $c \in C$.
+	\item $\mc{P}(A) \cap \mc{P}(B) = \mc{P}(A \cap B)$
+	      \bs
+	      \begin{lemma}\label{intersub}
+		      For any sets $X, A$ and $B$, if $X \subseteq A$ and $X \subseteq B$, then $X \subseteq A \cap B$.
+	      \end{lemma}
+	      \begin{proof}
+		      Let $x \in X$ be any arbitrary element.
+		      Since $X \subseteq A$, we know that $x \in A$.
+		      Similarly, we know that $x \in B$.
 
-				By Definition \ref{cartesian}, we have $(a, b) \in A \times B$ which implies $(a, b, c) \in (A \times B) \times C$.
-
-				Thus, we have $A \times (B \times C) \subseteq (A \times B) \times C$.
-
-				Hence, proved.
-			\es
-	\end{enumerate}
-\ep 
+		      Thus, by definition of intersection, $x \in A \cap B$.
+		      Therefore, $X \subseteq A \cap B$. Hence, proved.
+	      \end{proof}
 
 
-\bp 
+	      Now, let $X \in \mc{P}(A) \cap \mc{P}(B)$ be an abitrary element. Then we have
+	      \begin{align}
+		      X \in \mc{P}(A) \cap \mc{P}(B)                                                             \\
+		      X \in \mc{P}(A) \text{ and } X \in \mc{P}(B) &  & \quad \text{(Definition \ref{powerset})} \\
+		      X \subseteq A \text{ and } X \subseteq B     &  & \quad \text{(Lemma \ref{intersub})}      \\
+		      X \subseteq A \cap B                                                                       \\
+		      X \in \mc{P}(A \cap B)
+	      \end{align}
+
+	      Thus, proved that $\mc{P}(A) \cap \mc{P}(B) \subseteq \mc{P}(A \cap B)$.
+
+	      Now, let $X \in \mc{P}(A \cap B)$ be an abitrary element. Then by Definition \ref{powerset}, we have
+	      $$X \in \mc{P}(A \cap B) \implies X \subseteq A \cap B$$
+
+	      Since $A \cap B \subseteq A$ and $A \cap B \subseteq B$, we have,
+
+	      \begin{align}
+		      X \subseteq A \text{ and } X \subseteq B     \\
+		      X \in \mc{P}(A) \text{ and } X \in \mc{P}(B) \\
+		      X \in \mc{P}(A) \cap \mc{P}(B)
+	      \end{align}
+
+	      Thus, proved that $\mc{P}(A \cap B) \subseteq \mc{P}(A) \cap \mc{P}(B)$.
+
+	      Hence, proved.
+	      \es
+
+	\item $\mc{P}(A) \setminus \mc{P}(B) = \mc{P}(A \setminus B)$
+	      \bs
+	      Let $A = B = \phi$. Now, $\mc{P}(A) = \mc{P}(B) = \{\phi\}$ and $A \setminus B = \phi$.
+
+	      Therefore, $\mc{P}(A) \setminus \mc{P}(B) = \phi$ and $\mc{P}(A \setminus B) = \{\phi\}$ are not the same set.
+	      \es
+
+	\item $(A \times B) \times C = A \times (B \times C)$
+	      \bs
+	      Let us define $((a, b), c)$ to be the same as $(a, (b, c))$ as they are ordered pairs and write it as $(a, b, c)$.
+
+	      Let $(a, b, c) \in (A \times B) \times C$ be any arbitrary element such that $a \in A, b \in B$ and $c \in C$.
+
+	      By Definition \ref{cartesian}, we get $(b, c) \in (B \times C)$ which implies $(a, b, c) \in A \times (B \times C)$.
+
+	      Thus, we have $(A \times B) \times C \subseteq A \times (B \times C)$.
+
+
+	      Now, let $(a, b, c) \in A \times (B \times C)$ be any arbitrary element such that $a \in A, b \in B$ and $c \in C$.
+
+	      By Definition \ref{cartesian}, we have $(a, b) \in A \times B$ which implies $(a, b, c) \in (A \times B) \times C$.
+
+	      Thus, we have $A \times (B \times C) \subseteq (A \times B) \times C$.
+
+	      Hence, proved.
+	      \es
+\end{enumerate}
+\ep
+
+
+\bp
 Find counterexample of the conjecture $A \cup (B \cap C) = (A \cup B) \cap C$.
 
 Note: This shows that parenthesis matter for this operation! Writing "$A \cup B \cap C$" is ambiguous.
@@ -439,45 +439,45 @@ Thus, the conjecture is false.
 
 
 \bp
-	Supppse somone conjectured that for any sets $A$ and $B$ with finitely many elements, we have $$|A \cup B| = |A| + |B|$$
-	If it is true, prove it. If it is false, find a counterexample and then conjecture a different formula for $|A \cup B|$.
+Supppse somone conjectured that for any sets $A$ and $B$ with finitely many elements, we have $$|A \cup B| = |A| + |B|$$
+If it is true, prove it. If it is false, find a counterexample and then conjecture a different formula for $|A \cup B|$.
 \ep
 \bs
-Let $A = B = \{1\}$ then $A \cup B = \{1\}$. 
-Here, $|A \cup B| = 1$ and $|A| + |B| = 2$. 
+Let $A = B = \{1\}$ then $A \cup B = \{1\}$.
+Here, $|A \cup B| = 1$ and $|A| + |B| = 2$.
 Thus, the conjecture is false.
 
 The correct formula is $$|A \cup B| = |A| + |B| - |A \cap B|$$
 \es
 
 \bp
-Let $A, B$ and $C$ be sets. Prove that if $A \cup B = A \cup C$ and $A \cap B = A \cap C$, then $B = C$. 
+Let $A, B$ and $C$ be sets. Prove that if $A \cup B = A \cup C$ and $A \cap B = A \cap C$, then $B = C$.
 \ep
 \bs
-	Let $x \in B$ be any arbtrary element. Now, we have,
-	\begin{align*}
-		x \in B \implies x \in A \cup B \\
-		\implies x \in A \cup C \\
-		\implies x \in A \text{ or } x \in C
-	\end{align*}
+Let $x \in B$ be any arbtrary element. Now, we have,
+\begin{align*}
+	x \in B \implies x \in A \cup B \\
+	\implies x \in A \cup C         \\
+	\implies x \in A \text{ or } x \in C
+\end{align*}
 
-	Let us take two cases:
-	
-	\underline{Case 1.} $x \in A$
-	\begin{align*}
-		x \in A \implies x \in A \cap B && \quad \because x \in B \\
-		\implies x \in A \cap C && \quad \because A \cap B = A \cap C \\
-		\implies x \in C
-	\end{align*}
+Let us take two cases:
 
-	\underline{Case 2.} $x \in C$ is trivial.
-	\bigbreak
+\underline{Case 1.} $x \in A$
+\begin{align*}
+	x \in A \implies x \in A \cap B &  & \quad \because x \in B             \\
+	\implies x \in A \cap C         &  & \quad \because A \cap B = A \cap C \\
+	\implies x \in C
+\end{align*}
 
-	Thus, in both cases, we have shown that $x \in C$ and we can say that $B \subseteq C$.
+\underline{Case 2.} $x \in C$ is trivial.
+\bigbreak
 
-	The above steps are the same to show that $C \subseteq B$ since we can interchange $B$ and $C$ in the above.
+Thus, in both cases, we have shown that $x \in C$ and we can say that $B \subseteq C$.
 
-	Hence, proved.
+The above steps are the same to show that $C \subseteq B$ since we can interchange $B$ and $C$ in the above.
+
+Hence, proved.
 \es
 
 \bp Skipped. \ep
@@ -487,18 +487,18 @@ Let $A, B$ and $C$ be sets. Prove that if $A \cup B = A \cup C$ and $A \cap B = 
 
 \bp Suppse $A$ and $B$ are sets. Prove that $A \subseteq B$ if and only if $A \setminus B = \phi$. \ep
 \bs
-	Let us assume that $A \subseteq B$. Then let us take any arbitrary element $x \in A \setminus B$, which gives us
-		$$x \in A \setminus B \implies x \in A \text{ and } x \not\in B$$
-		
-	Since $A \subseteq B$, we know that $x \in A \implies x \in B$. So we have $x \in B$ and $x \not\in B$.
+Let us assume that $A \subseteq B$. Then let us take any arbitrary element $x \in A \setminus B$, which gives us
+$$x \in A \setminus B \implies x \in A \text{ and } x \not\in B$$
 
-	No element can satisfy that condition, therefore, $A \setminus B = \phi$.
+Since $A \subseteq B$, we know that $x \in A \implies x \in B$. So we have $x \in B$ and $x \not\in B$.
 
-	Now, let us assume that $A \setminus B = \phi$. Thus, we have that for all $x \in A$, $x \not\in B$ is false which implies for all $x \in A$, $x \in B$.
+No element can satisfy that condition, therefore, $A \setminus B = \phi$.
 
-	Thus, $A \subseteq B$.
+Now, let us assume that $A \setminus B = \phi$. Thus, we have that for all $x \in A$, $x \not\in B$ is false which implies for all $x \in A$, $x \in B$.
 
-	Hence, proved.
+Thus, $A \subseteq B$.
+
+Hence, proved.
 \es
 
 \bp Skipped. \ep
@@ -507,10 +507,10 @@ Let $A, B$ and $C$ be sets. Prove that if $A \cup B = A \cup C$ and $A \cap B = 
 \bs
 Since $\mb{N} \subseteq \mb{Z}$, we have $\mb{N} \cap \mb{Z} = \mb{N}$.
 
-Using Problem \ref{conjectures} Conjecture \ref{cart-inter}, we can say that 
-	$$(\mb{N} \times \mb{Z}) \cap (\mb{Z} \times \mb{N}) 
-		= (\mb{N} \cap \mb{Z}) \cap (\mb{Z} \cap \mb{N})
-		= \mb{N} \times \mb{N}$$
+Using Problem \ref{conjectures} Conjecture \ref{cart-inter}, we can say that
+$$(\mb{N} \times \mb{Z}) \cap (\mb{Z} \times \mb{N})
+	= (\mb{N} \cap \mb{Z}) \cap (\mb{Z} \cap \mb{N})
+	= \mb{N} \times \mb{N}$$
 
 Hence, proved.
 \es
@@ -528,29 +528,29 @@ Thus, the set $(\mb{Q} \times \mb{Q})^c$ contains all order pairs $(x,y) \in \mb
 \bp Let $A$ and $B$ be sets. Prove that $\mc{P}(A \cap B) = \mc{P}(A) \cap \mc{P}(B)$. \ep
 \bs
 Let $X \in \mc{P}(A \cap B)$ be any arbitrary element. Then, by Definition \ref{powerset},
-	\begin{align*}
-		X &\in \mc{P}(A \cap B) \\
-		\implies X &\subseteq A \cap B \\
-		\implies X &\subseteq A \text{ and } X \subseteq B 
-							 && \quad \because A \cap B \subseteq A \text{ and } A \cap B \subseteq B \\
-		\implies X &\in \mc{P}(A) \text{ and } X \in \mc{P}(B) \\
-		\implies X &\in \mc{P}(A) \cap \mc{P}(B)
-	\end{align*}
+\begin{align*}
+	X          & \in \mc{P}(A \cap B)                                                                                               \\
+	\implies X & \subseteq A \cap B                                                                                                 \\
+	\implies X & \subseteq A \text{ and } X \subseteq B
+	           &                                            & \quad \because A \cap B \subseteq A \text{ and } A \cap B \subseteq B \\
+	\implies X & \in \mc{P}(A) \text{ and } X \in \mc{P}(B)                                                                         \\
+	\implies X & \in \mc{P}(A) \cap \mc{P}(B)
+\end{align*}
 
-	Thus, we have $\mc P(A \cap B) \subseteq \mc P(A) \cap \mc P(B)$.
+Thus, we have $\mc P(A \cap B) \subseteq \mc P(A) \cap \mc P(B)$.
 
-	Now, let $X \in \mc P(A) \cap \mc P(B)$ be any arbitrary element. Then, by Defintion \ref{powerset}, we  have
-	\begin{align*}
-		X &\in \mc P(A) \cap \mc P(B) \\
-		\implies X &\in \mc P(A) \text{ and } X \in \mc P(B) \\
-		\implies X &\subseteq A \text{ and } X \subseteq B \\
-		\implies X &\subseteq A \cap B && \quad \text{(Lemma \ref{intersub})} \\
-		\implies X &\in \mc P(A \cap B)
-	\end{align*}
-	
-	Thus, we have $\mc P(A) \cap \mc P(B) \subseteq \mc P(A \cap B)$.
+Now, let $X \in \mc P(A) \cap \mc P(B)$ be any arbitrary element. Then, by Defintion \ref{powerset}, we  have
+\begin{align*}
+	X          & \in \mc P(A) \cap \mc P(B)                                                        \\
+	\implies X & \in \mc P(A) \text{ and } X \in \mc P(B)                                          \\
+	\implies X & \subseteq A \text{ and } X \subseteq B                                            \\
+	\implies X & \subseteq A \cap B                       &  & \quad \text{(Lemma \ref{intersub})} \\
+	\implies X & \in \mc P(A \cap B)
+\end{align*}
 
-	Hence, proved.
+Thus, we have $\mc P(A) \cap \mc P(B) \subseteq \mc P(A \cap B)$.
+
+Hence, proved.
 \es
 
 \bp
@@ -558,59 +558,65 @@ Let $C$ be any set
 \begin{enumerate}
 	\item Prove that there is a unique set $A \in \mc P(C)$ such that for every $B \in \mc P(C)$ we have $A \cup B = B$.
 
-		\bs
-		Let $B = \phi \in \mc P(C)$. Now, we have $A \cup \phi = A = B \phi$. Thus, we have $A = \phi$ as the only set that satisfies this propery.
-		\es
+	      \bs
+	      Let $B = \phi \in \mc P(C)$. Now, we have $A \cup \phi = A = B \phi$. Thus, we have $A = \phi$ as the only set that satisfies this propery.
+	      \es
 
 	\item Prove that there is a unique set $A \in \mc P(C)$ such that for every set $B \in \mc P(C)$ we have $A \cup B = A$
 
-		\bs
-		Let $B = C$. Now, we have $A \cup B = A \cup C$.
-		Since $A \in \mc P(C)$, we know that $A \subseteq C$, and therefore, $A \cup C = C$.
+	      \bs
+	      Let $B = C$. Now, we have $A \cup B = A \cup C$.
+	      Since $A \in \mc P(C)$, we know that $A \subseteq C$, and therefore, $A \cup C = C$.
 
-		Thus, we get $A \cup B = A \cup C = C = A$. Thus, $A = C$ is the only set that satisfies this.
-		\es
+	      Thus, we get $A \cup B = A \cup C = C = A$. Thus, $A = C$ is the only set that satisfies this.
+	      \es
 
 	\item Prove that there is a unique set $A \in \mc P(C)$ such that for every set $B \in \mc P(C)$ we have $A \cap B = B$
 
-		\bs
-		Let $B = C$. Now, since $A \subseteq C$, we have $A \cap B = A \cap C = A = B = C$.
+	      \bs
+	      Let $B = C$. Now, since $A \subseteq C$, we have $A \cap B = A \cap C = A = B = C$.
 
-		Thus, $A = C$ is the only set that satisfies this.
-		\es
+	      Thus, $A = C$ is the only set that satisfies this.
+	      \es
 
 	\item Prove that there is a unique set $A \in \mc P(C)$ such that for every set $B \in \mc P(C)$ we have $A \cap B = A$
 
-		\bs
-		Let $B = \phi$. Now, $A \cap B = A \cap \phi = \phi = A$. 
-		Thus, $A = \phi$ is the only set that satisfies this.
-		\es
+	      \bs
+	      Let $B = \phi$. Now, $A \cap B = A \cap \phi = \phi = A$.
+	      Thus, $A = \phi$ is the only set that satisfies this.
+	      \es
 \end{enumerate}
 \ep
 
 \begin{definition}
-	The \emph{symmetric difference} of sets $A$ and $B$ is the set 
+	The \emph{symmetric difference} of sets $A$ and $B$ is the set
 	$$A \Delta B = (A \cup B) \setminus (A \cap B)$$
 \end{definition}
 \begin{scratch}
 	The definition above gives us:
-\begin{align*}
-	x &\in A \Delta B \\
-	\implies x &\in (A \cup B) \setminus (A \cap B) \\
-	\implies x &\in A \cup B \text{ and } x \not\in A \cap B
-\end{align*}
+	\begin{align*}
+		x          & \in A \Delta B                               \\
+		\implies x & \in (A \cup B) \setminus (A \cap B)          \\
+		\implies x & \in A \cup B \text{ and } x \not\in A \cap B
+	\end{align*}
 
-Thus, ($x \in A$ or $x \in B$) but $x \not\in A \cap B$.
+	Thus, ($x \in A$ or $x \in B$) but $x \not\in A \cap B$.
 
-If $x \in A$ and $x \not\in A \cap B$, then we have $x \not\in B$.
-Similarly, if $x \in B$ and $x \not\in A \cap B$, then $x \not\in A$.
+	If $x \in A$ and $x \not\in A \cap B$, then we have $x \not\in B$.
+	Similarly, if $x \in B$ and $x \not\in A \cap B$, then $x \not\in A$.
 
-Thus, we can say $x \in A, x  \not\in B$ or $x \in B, x \not\in A$.
+	Thus, we can say $x \in A, x  \not\in B$ or $x \in B, x \not\in A$.
 
-Hence, we have 
-$$A \Delta B = (A \setminus B) \cup (B \setminus A)$$
+	Hence, we have
+	\begin{equation} \label{eq:2}
+		A \Delta B = (A \setminus B) \cup (B \setminus A)
+	\end{equation}
 
-Or similarly, $x \in A \text{ xor } x \in B$. Here "xor" means "exclusive or", that is, exactly one of these two is true.
+	Or similarly, $x \in A \text{ xor } x \in B$. Here "xor" means "exclusive or", that is, exactly one of these two is true.
+
+	\begin{lemma}[Symmetric Difference]\label{lsd}
+		If $x \in A \Delta B$, then either $x \in A$ or $x \in B$ but not both and not neither. In other words, $x \in A$ xor $x \in B$ where "xor" means "exclusive or".
+	\end{lemma}
 
 \end{scratch}
 
@@ -618,11 +624,98 @@ Or similarly, $x \in A \text{ xor } x \in B$. Here "xor" means "exclusive or", t
 \begin{enumerate}
 	\item Skipped.
 
-	\item
-		$(A \Delta B) \cup C = (A \cup C) \Delta (B \setminus C)$
+	\item $(A \Delta B) \cup C = (A \cup C) \Delta (B \setminus C)$
+
+	      \bs
+	      \begin{named}[Part 1]
+		      Let $x \in (A \Delta B) \cup C$. By Definition of Unions, we have three cases:
+
+		      \underline{Case 1.} $x \in A \Delta B, x \not\in C$
+
+		      Here, we have two subcases for $x \in A \Delta B$:
+
+		      \underline{Case 1.1.} $x \in A, x \not\in B$
+
+		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
+		      \begin{align*}
+			               & x \in A, x \not\in B, x \not\in C          \\
+			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
+			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
+			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+		      \end{align*}
+
+		      \underline{Case 1.2.} $x \not\in A, x \in B$
+
+		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
+		      \begin{align*}
+			               & x \not\in A, x \in B, x \not\in C          \\
+			      \implies & x \not\in A \cup C, x \in B \setminus C    \\
+			      \implies & x \in (B \setminus C) \setminus (A \cup C) \\
+			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+		      \end{align*}
 
 
-	\bs TODO \es
+		      \underline{Case 2.} $x \not\in A \Delta B, x \in C$
+
+		      By Lemma \ref{lsd}, we have two subcases for $x \not\in A \Delta B$:
+
+		      \underline{Case 2.1} $x \not\in A, x \not\in B$
+
+		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
+		      \begin{align*}
+			               & x \not\in A, x \not\in B, x \in C          \\
+			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
+			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
+			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+		      \end{align*}
+
+		      \underline{Case 2.2} $x \in A, x \in B$
+
+		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
+		      \begin{align*}
+			               & x \in A, x \in B, x \in C                  \\
+			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
+			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
+			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+		      \end{align*}
+
+
+		      \underline{Case 3.} $x \in A \Delta B, x \in C$
+
+		      By Lemma \ref{lsd}, we have two subcases for $x \in A \Delta B$:
+
+		      \underline{Case 3.1.} $x \in A, x \not\in B$
+
+		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
+		      \begin{align*}
+			               & x \in A, x \not\in B, x \in C              \\
+			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
+			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
+			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+		      \end{align*}
+
+		      \underline{Case 3.2.} $x \not\in A, x \in B$
+
+		      By Equation \ref{eq:2} and Definition \ref{complement}, we have,
+		      \begin{align*}
+			               & x \not\in A, x \in B, x \in C              \\
+			      \implies & x \in A \cup C, x \not\in B \setminus C    \\
+			      \implies & x \in (A \cup C) \setminus (B \setminus C) \\
+			      \implies & x \in (A \cup C) \Delta (B \setminus C)
+		      \end{align*}
+
+		      Hence, proved that $(A \Delta B) \cup C \subseteq (A \cup C) \Delta (B \setminus C)$.
+	      \end{named}
+
+	      \begin{named}[Part 2]
+					TODO
+
+
+	      \end{named}
+	      \es
+
+	\item $(A \Delta B) \cap C = (A \cap C) \Delta (B \cap C)$
+
 
 \end{enumerate}
 \ep
@@ -631,29 +724,29 @@ Or similarly, $x \in A \text{ xor } x \in B$. Here "xor" means "exclusive or", t
 Make a conjecture for the following sets are equal to. No need to prove your answer but explain your reasoning.
 \begin{enumerate}
 
-	\item 
-		$$\bigcup_{n \in \mb{N}} \left[ 2 - \frac{1}{n}, 4 + \frac{1}{n} \right]$$
-		\bs
-		The number $2 - \frac{1}{n} \geq 1$ and $4 + \frac{1}{n} \leq 5$ for all $n \in \mb{N}$. Thus, the union is the closed interval $[1, 5]$.
-		\es
+	\item
+	      $$\bigcup_{n \in \mb{N}} \left[ 2 - \frac{1}{n}, 4 + \frac{1}{n} \right]$$
+	      \bs
+	      The number $2 - \frac{1}{n} \geq 1$ and $4 + \frac{1}{n} \leq 5$ for all $n \in \mb{N}$. Thus, the union is the closed interval $[1, 5]$.
+	      \es
 
 
-	\item 
-		$$\bigcap_{n \in \mb{N}} \left[ 2 - \frac{1}{n}, 4 + \frac{1}{n} \right]$$
-		\bs
-		The number $2 - \frac{1}{n} < 2$ and $4 + \frac{1}{n} > 4$ for all $n \in \mb{N}$. Thus, the intersecion is the open interval $[2, 4]$. 
+	\item
+	      $$\bigcap_{n \in \mb{N}} \left[ 2 - \frac{1}{n}, 4 + \frac{1}{n} \right]$$
+	      \bs
+	      The number $2 - \frac{1}{n} < 2$ and $4 + \frac{1}{n} > 4$ for all $n \in \mb{N}$. Thus, the intersecion is the open interval $[2, 4]$.
 
-		For any number $x < 2$, we can find an $n$ such that $2 - \frac{1}{n} > x$ and thus, $x$ cannot be in the intersection. Similarly, for any number $x > 4$.
-		\es
+	      For any number $x < 2$, we can find an $n$ such that $2 - \frac{1}{n} > x$ and thus, $x$ cannot be in the intersection. Similarly, for any number $x > 4$.
+	      \es
 
 	\item $$\bigcup_{n \in \mb{N}} \left[ 2 + \frac{1}{n}, 4 - \frac{1}{n} \right]$$
-		\bs
-		The number $2 + \frac{1}{n} > 2$ and $4 - \frac{1}{n} < 4$ for all $n \in \mb{N}$. Therefore, the union is the open interval $(2, 4)$.
-		\es
+	      \bs
+	      The number $2 + \frac{1}{n} > 2$ and $4 - \frac{1}{n} < 4$ for all $n \in \mb{N}$. Therefore, the union is the open interval $(2, 4)$.
+	      \es
 
 
 	\item $$\bigcap_{n \in \mb{N}} \left[ 2 + \frac{1}{n}, 4 - \frac{1}{n} \right]$$
-		\bs The intersection is $\{3\}$ since for $n = 1$, the interval becomse $[3,3]$. \es
+	      \bs The intersection is $\{3\}$ since for $n = 1$, the interval becomse $[3,3]$. \es
 
 \end{enumerate}
 \ep

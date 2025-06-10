@@ -100,3 +100,68 @@ Assume $A$ and $B$ are sets and $x \not\in B$means that $x$ is not an element of
 	$$(A \cup B)^c = A^c \cap B^c \text{ and } (A \cap B)^c = A^c \cup B^c$$
 \end{theorem}
 
+\section{Topology}
+
+In topology, the sphere, the cube and the long snake are considered topologically equivalent. In fact, any other shape that you are able to knead the play-dough into would also be considered topologically equivalent, provided you follow these rules:
+\begin{enumerate}
+	\item You are not allowed to rip the play-dough into two pieces or poke any holes into it.
+	\item You are not allowed to make any new connections that cannot be obtained with simple kneading.
+\end{enumerate}
+
+For example, it would be impossible to create a torus ( doughnut shape ) with your sphere shaped play-dough.
+
+Topologists talk about \emph{genus} of a surface, where if a shape has $n$ holes in it,then it has genus $n$. If two ( orientable\footnote{This is a technical term to make this statement \emph{correct}.} ) surfaces have the same genuses, then one can be legally transformed into the other.
+
+Leonard Euler discovered an important invariant for convex polyhedra. In his honour, it was named \emph{Euler Characteristic}.
+
+What he noticed and proved was that given \emph{any} convex polyhedron, $V - E + F = 2$ where $V$ is number of vertices, $E$ is the number of edges and $F$ is the number of faces.
+
+Notice that the formula starts with the $0$-dimensional object, then subtracts the $1$-dimensional object, then adds the $2$-dimensional object.
+
+In a more general topological space, called a \emph{CW-Complex}, if $k_n$ is the number of $n$-diemensional "cells" in the CW-Complex, then the alternating sum
+$$k_0 - k_1 + k_2 - k_3 + k_4 ... $$
+is always a fixed constant. This constant is the topological invariant called the Euler Characteristic.
+
+\begin{definition}\label{opensets}
+	A set $V \subseteq \mb{R}$ is \emph{open} if every point in $V$ has an open interval around it that is also contained entirely in $V$.
+	That is, for every, $x \in V$, there is a $\delta > 0$ such that the open interval $(x - \delta, x + \delta) \subseteq V$.
+\end{definition}
+
+\begin{theorem}
+	Asssume all of the following sets are subsets of $\mb{R}$, and "open" is as  defined in Definition \ref{opensets}.
+	\begin{enumerate}
+		\item If $\{ V_{\alpha} \}$ is a family of open sets, then $\displaystyle \bigcup_{\alpha} V_{\alpha}$ is also an open set.
+
+
+		\item If $\{V_1, V_2, ..., V_n\}$ is a family of finitely many open sets, then $\displaystyle \bigcap_{k=1}^n V_k$ is also an open set.
+	\end{enumerate}
+\end{theorem}
+
+
+\begin{definition} 
+	Let $X$ be a set. A \emph{topology} on $X$ is a family $\mc{T}$ of subsets of $X$ having the following properties:
+	\begin{enumerate}
+		\item $\phi$ and $X$ are in $\mc{T}$;
+
+		\item The union of the sets in any subfamily of $\mc{T}$ is also in $\mc{T}$; and
+
+		\item The intersection of the sets in any finite subfamily of $\mc{T}$ is also in $\mc{T}$.
+
+	\end{enumerate}
+
+\end{definition}
+
+
+\subsection*{Manifolds}
+
+Initially, topology is based on a lot of set theory which is called \emph{point-set topology}. After this, you may study \emph{algebraic topology} which will feel \emph{very} different than the point-set topology. And then \emph{geometric topology} fells different than both.
+
+Here, we will talk a little about geometric topology.
+
+One important are of topology is the study of so-called \emph{manifolds}, which are topological spaces with a few more bells and whistles.
+
+\begin{itemize}
+	\item If the topological space locally resembles real $n$-dimensional Euclidean space then it is called a \emph{topological manifold}.
+	\item If that topological manifold is also equipped with a differentiable structure allowing one to do calculus on the manifold just like we do calculus on $\mb{R}$, then it is called a \emph{differentiable manifold}.
+	\item If the differentiable manifold is also equipped with a function that allows you to determine distance and angles ( and hence notions of area, volume and "hyper-volume" ), then it is called a \emph{Reimannian manifold}.
+\end{itemize}
