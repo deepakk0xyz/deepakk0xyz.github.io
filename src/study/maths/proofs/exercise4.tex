@@ -1,0 +1,78 @@
+\section*{Exercises}
+
+\bp Prove that sum of the first $n$ odd natural numbers equals $n^2$ by induction or strong induction \ep
+
+\bs 
+We need to prove the following:
+$$S_n : 1 + 3 + 5 + ... + (2n-1) = n^2$$
+
+\underline{Base Case.} For $n = 1$, we have $1 = 1^2$ which is true.
+
+\underline{Inductive Hypothesis.} Let $k \in \mb{N}$ and assume that 
+$$1 + 3 + 5 + ... + (2k - 1) = k^2$$
+
+\underline{Induction Step.} For $k+1$, we can show that 
+\begin{align*}
+	1 + 3 + 5 + ... + (2k - 1) + (2(k+1) - 1)
+		&= k^2 + (2(k+1)-1) \\
+		&= k^2 + 2k + 1 \\
+		&= (k+1)^2
+\end{align*}
+
+Thus, we have prove that $S_k \implies S_{k+1}$.
+
+\underline{Conclusion.} By induction, $S_n$ holds for every $n \in \mb{N}$, that is, sum of first $n$ odd natural numbers is $n^2$ for every $n \in \mb{N}$.
+\es
+
+
+\bp Prove thre proofs that if $n \in \mb{N}$, then $n^2 - n$ is even.
+\begin{enumerate}
+	\item Prove it by cases: considering $n$ is even or $n$ is odd.
+		\bs
+		Let $n \in \mb{N}$. Here, we have two cases:
+
+		\underline{Case 1.} $n$ is even. 
+
+		Since $n$ is even, then $n = 2k$ for some $k \in \mb{N}$. 
+		Thus, we can show
+		$$n^2 - n = (2k)^2 - 2k = 4k^2 - 2k = 2(2k^2-k)$$
+		Thus, $n^2 - n$ is even if $n$ is even.
+
+		\underline{Case 2.} $n$ is odd. 
+
+		Since $n$ is even, then $n = 2k+1$ for some $k \in \mb{N}$. 
+		Thus, we can show
+		$$n^2 - n = (2k+1)^2 - (2k+1) = 4k^2 + 4k + 1 - 2k - 1 = 4k^2 + 2k = 2(2k^2 + k)$$
+		Thus, $n^2 - n$ is even if $n$ is odd.
+
+		Hence, proved.
+		\es
+
+
+	\item Prove it by applying Proposition \ref{triangular} to the sum $1 + 2 + 3 + ... + (n-1)$
+		\bs
+		By Proposition \ref{triangular}, we know that 
+		$$1 + 2 + 3 + ... + (n-1) = \frac{(n-1)((n-1)+1)}{2} = \frac{n(n-1)}{2}$$
+		$$\implies n^2 - n = 2 \cdot (1 + 2 + 3 + ... + (n-1))$$
+
+		Thus, $n^n - n$ is even.
+		\es
+		
+	\item Prove it by induction.
+		\bs
+		\underline{Base Case.} For $n = 1$, $1^2 - 1 = 0$ is even.
+
+		\underline{Inductive Hypothesis.} Let $k \in \mb{N}$ and assume that $k^2 - k$ is even.
+
+		\underline{Induction Step.} Here, we can show that 
+		$$(k+1)^2 - (k+1) = k^2 + 2k + 1 - k - 1 = k^2 - k + 2k$$
+
+		Since $k^2 - k$ is even and $2k$ is even, therefore, $k^2 - k + 2k$ is also even.
+		Thus, $(k+1)^2 - (k+1)$ is even.
+
+		\underline{Conclusion.} By Induction, $n^2 - n$ is even for all $n \in \mb{N}$.
+		\es
+\end{enumerate}
+\ep
+
+
