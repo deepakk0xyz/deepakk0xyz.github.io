@@ -556,3 +556,94 @@ $$F_0 \cdot F_1 \cdot F_2 \cdot \ldots \cdot F_n = F_{n+1} - 2$$
 
 \bp Skipped. \ep
 \bp Skipped. \ep
+
+\bp Determine the smallest $M$ such that every $n \in \mb{N}$ with $n \geq M$ can be written as $3a + 7b$ for some $a, b \in \mb{N}$. Then, prove that you are correct. \ep
+
+\begin{scratch}
+	If $n = 3a+7b$ then $n+3 = 3(a+1)+7b$ and $a+1, b \in \mb{N}$.
+
+	Thus, if we can find three numbers $n, n+1$ and $n+2$ which can be written as $3a+7b$ for some $a, b \in \mb{N}$. Then, we can prove the rest by induction.
+
+	Since $a, b \in \mb{N}$, then $a, b \geq 1$. Therefore, the smallest candidate for $M$ is $3 \cdot 1 + 7 \cdot 1 = 10$.
+
+	Now, since $a, b \in \mb{N}$, that means, you can only increase $n$ by either $3$ or $7$. So starting with $3$, we get the set $\{10, 13, 16, 19, 22, 25, 28...\}$. Now, adding $7$ to all these, we get the set 
+	\begin{align*}
+	&\{10, 17, 24, 31, \ldots \} \cup \\
+	&\{13, 20, 27, 34, \ldots \} \cup \\
+	&\{16, 23, 30, 37, \ldots \} \cup \\
+	&\{19, 26, 33, 40, \ldots \} \cup \\
+	&\{22, 29, \ldots \} \cup \ldots \\
+	&= \{10, 13, 16, 17, 19, 20, 22, 23, 24, 25, \ldots \}
+	\end{align*}
+
+	Here, we have found $22, 23, 24$ for our use case. Thus, $M = 22$.
+
+\end{scratch}
+
+\bs
+\underline{Base Case.} Here, we have
+\begin{align*}
+	22 &= 3 \cdot 5 + 7 \cdot 1 \\
+	23 &= 3 \cdot 3 + 7 \cdot 2 \\
+	24 &= 3 \cdot 1 + 7 \cdot 3
+\end{align*}
+
+\underline{Induction Step.} Let $k \in \mb{N}$ with $k \geq 25$ and assume that the for all $x \in \mb{N}$ with $22 \leq x \leq k$, we can write $x = 3a_x + 7b_x$ for some $a_x, b_x \in \mb{N}$. 
+
+Note: it is true for $22 \leq x < 25$ by base case.
+
+Now, since $k+1 \geq 25 \implies k-2 \geq 22$ and we can show that
+$$k+1 = (k-2) + 3 = 3 \cdot a_{k-2} + 7 \cdot b_{k-2} + 3 = 3 \cdot (a_{k-2}+1) + 7 \cdot b_{k-2}$$
+\es
+
+	\underline{Conclusion.} By Strong Induction, for all $n \in \mb{N}$ with $n \geq 22$, we can write $n = 3a + 7b$ for some $a, b \in \mb{N}$.
+
+
+\bp Skipped. \ep
+\bp Skipped. \ep
+
+\bp Use induction to prove that if $A$ is a set and $|A| = n$, then $|\mc{P}(A)| = 2^n$. \ep
+\bs
+\underline{Base Case.} For $A = \phi$ and $|A| = 0$, we have $\mc{P}(A) = \{\phi\}$. Thus, $|\mc{P}(A)| = 1 = 2^0$ holds.
+
+\underline{Inductive Step.} Let $A$ be a set with $|A| = k$ for some $k \in \mb{N}$ and assume that $|\mc{P}(A)| = 2^k$. 
+
+Now, for $B = A \cup \{ x \}$ where $x \not\in A$, we get $|B| = k+1$. 
+Here, for all subsets of $B$, it can either have $x$ or not have $x$. All other elements of its subset will also be elements of $A$. Thus, we can write
+
+$$\mc{P}(B) = \{ S : S \subseteq A \} \cup \{ S \cup \{ x \} : S \subseteq A \} = \mc{P}(A) \cup \{ S \cup \{ x \} : S \in \mc{P}(A) \}$$
+
+Since these $x \not\in A$, the first set and second set will never have a the same subset in it. Thus, they are disjoint which means
+
+$$|\mc{P}(B)| = |\mc{P}(A)| + |\{S \cup \{x\} : S \in \mc{P}(A)\}|$$
+
+Now, both sets are the same in size so we get, 
+$$|\mc{P}(B)| = 2^k + 2^k = 2^{k+1}$$
+
+\underline{Conclusion.} Thus, by Induciton, for a set $A$ with $|A|=n$, $|\mc{P}(A)| = 2^n$.
+\es
+
+
+\bp Suppose $x \in \mb{R}$ with $x > -1$. Prove that for every $n \in \mb{N}$
+$$1+nx \leq (1+x)^n$$
+\ep
+
+\bs
+Since $x > -1$, this implies $1 + x > 0$.
+
+\underline{Base Case.} For $n = 1$, we have $1 + x \leq (1 + x)^1$ which is true by default.
+
+\underline{Inductive Step.} Let $k \in \mb{N}$ and assume that $1+kx \leq (1+x)^k$. Now, for $k+1$, we have
+
+\begin{align*}
+	(1+x)^{k+1} &= (1+x)^k \cdot (1+x) \\
+							&\geq (1+kx)(1+x) \quad ( \because 1+x > 0 ) \\
+							&= 1+(k+1)x + x^2 \\
+							&\geq 1+(k+1)x \quad ( \because x^2 \geq 0 )
+\end{align*}
+
+Hence, proved for $k+1$.
+
+\underline{Conclusion.} By Induction, $1+nx \leq (1+x)^n$ for all $n \in \mb{N}$.
+
+\es
