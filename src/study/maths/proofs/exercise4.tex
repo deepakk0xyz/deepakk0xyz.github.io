@@ -647,3 +647,64 @@ Hence, proved for $k+1$.
 \underline{Conclusion.} By Induction, $1+nx \leq (1+x)^n$ for all $n \in \mb{N}$.
 
 \es
+
+\bp Prove that for every $n \in \mb{N}$, there are $n$ distint natural numbers $a_1, a_2, a_3, \ldots, a_n$ such that $a_1^2 + a_2^2 + a_3^2 + \ldots + a_n^2$ is a perfect square.
+\ep
+
+\bs
+
+For this we will add an extra condition that the such of squares is a perfect square of an odd number.
+
+\underline{Base Case.}
+
+For $n = 1$, we have $a_1 = 1$ and $a_1^2 = 1^2$ which is a perfect square of an odd number.
+
+For $n = 2$, we have $a_1 = 3, a_2 = 4$ and $a_1^2 + a_2^2 = 3^2 + 4^2 = 9 + 16 = 25$ which is a perfect square of an odd number.
+
+\underline{Induction Hypothesis.} Let $k \in \mb{N}$ with $k \geq 2$ and assume that there exists distinct natural numbers $a_1, a_2, a_3, \ldots, a_n$ such that
+
+$$a_1^2 + a_2^2 + a_3^2 + \ldots + a_k^2 = s^2$$
+
+for some $s \in \mb{N}$ and $s$ is an odd number.
+
+Thus, we get that $s > a_i$ for all $1 \leq i \leq n$ since $s$ is the sum of their squares.
+
+Also, since $a_i \geq 1$ and $k \geq 2$, we have $s^2 \geq 2 \implies s \geq \sqrt{2}$. 
+Since $s$ is odd natural number, we can say that $s \geq 3$.
+
+\underline{Induction Step.} Now, for $k+1$, we can choose $\displaystyle a_{k+1} = \frac{s^2-1}{2}$. Note, since $s$ is odd, $s^2 - 1$ is even and therefore $a_{k+1}$ is an integer.
+
+Also since $s \geq 3$, we can say that $s^2 - 1 \geq 8$ which means that $a_{k+1} \geq 1.5$ and thus, a natural number.
+
+\begin{align*}
+a_1^2 + a_2^2 + \ldots +a_k^2 + a_{k+1}^2 
+ &= s^2 + \left( \frac{s^2-1}{2} \right)^2 \\
+ &= \frac{4s^2 + (s^2-1)^2}{4} \\
+ &= \frac{4s^2 + s^4 - 2s^2 + 1}{4} \\
+ &= \frac{(s^2+1)^2}{4} \\
+ &= \left( \frac{s^2+1}{2} \right)^2
+\end{align*}
+
+Now, we have two show that $a_{k+1}$ is distinct from $a_1, a_2, a_3, \ldots, a_k$ and that $\displaystyle \frac{s^2+1}{2}$ is odd.
+
+$$\frac{s^2-1}{2} - s = \frac{s^2-1-2s}{2} = \frac{(s-1)^2 - 2}{2}$$
+
+Since $s \geq 3 \implies s-1 \geq 2 \implies (s-1)^2 \geq 4 \implies (s-1)^2 - 2 \geq 2$, we get
+$$\frac{s^2-1}{2} - s \geq 1 \implies \frac{s^2-1}{2} \geq s+1 > s$$
+
+And since $s > a_i$ for all $1 \leq i \leq k$, we can say that $a_{k+1} > s > a_i$ for all $1 \leq i \leq k$.
+
+Therefore, $a_{k+1}$ is distinct from $a_1, a_2, a_3, \ldots, a_k$.
+
+Now, since $s$ is odd, we can say that $s = 2t+1$ for some integer $t$. Thus, we get
+
+$$\frac{s^2+1}{2} = \frac{(2t+1)^2+1}{2} = \frac{4t^2 + 4t + 2}{2} = 2t^2  + 2t + 1 = 2(t^2+t)+1$$
+
+Hence, proved that $\displaystyle \frac{s^2+1}{2}$ is an odd number.
+
+\underline{Conclusion.} By Induction, for every $n \in \mb{N}$, there exists $n$ distinct natural numbers $a_1, a_2, a_3, \ldots, a_n$ such that $a_1^2 + a_2^2 + a_3^2 + \ldots + a_n^2$ is a perfect square.
+
+\es
+
+\bp Skipped. \ep
+\bp Skipped. \ep
