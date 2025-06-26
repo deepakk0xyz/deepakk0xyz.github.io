@@ -708,3 +708,185 @@ Hence, proved that $\displaystyle \frac{s^2+1}{2}$ is an odd number.
 
 \bp Skipped. \ep
 \bp Skipped. \ep
+\bp Skipped. \ep
+
+\bp
+Prove the following:
+
+\begin{enumerate}
+	\item Suppose $n \in \mb{N}$, $a_1, a_2, a_3, \ldots a_n$ are positive integers at least $2$, and $p$ is a prime. Then using Lemma \ref{modprime}, prove that if 
+		$$p \mid (a_1 \cdot a_2 \cdot a_3 \cdot \ldots \cdot a_n)$$
+	then $p \mid a_i$ for some $i$.
+
+	\bs
+	\underline{Base Case.} For $n = 1$, if $p \mid a_1$, then $i = 1$.
+
+	\underline{Induction Step.} Let $k \in \mb{N}$ and assume that if $p \mid (a_1 \cdot a_2 \cdot \ldots \cdot a_k)$ then $p \mid a_i$ for some $i$.
+
+	Now, let's assume that 
+	$$p \mid (a_1 \cdot a_2 \cdot \ldots \cdot a_k \cdot a_{k+1}$$
+	Then by Lemma \ref{modprime} (c), we have either
+	$$p \mid (a_1 \cdot a_2 \cdot \ldots \cdot a_k) \text{ or } p \mid a_{k+1}$$
+	$$\implies p \mid a_i \text{ for some } 1 \leq i \leq k \text{ or } p \mid a_{k+1}$$
+	$$\implies p \mid a_i \text{ for some } 1 \leq i \leq k+1$$
+
+	Hence, proved.
+	
+	\underline{Conclusion.} By Induction, for all $n \in \mb{N}$ and $a_1, a_2, a_3, \ldots, a_n$ postive integers greater than $2$ with a prime $p$, we can say that
+	$$p \mid (a_1 \cdot a_2 \cdot a_3 \cdot \ldots \cdot a_n) \implies p \mid a_i \text{ for some } 1 \leq i \leq n$$
+	Hence, proved.
+	\es
+
+\item Prove that if $n \geq 2$ is an integer, then it has a \emph{unique} prime factorization in the sense that if 
+	$$n = p_1 p_2 \cdots p_k \text{ and } n = q_1 q_2 \cdots q_l$$
+	where each $p_i$ and $q_i$ is a prime, then there are the same number of primes in each list ($k=l$) and in fact the primes $p_1, p_2, \ldots, p_k$ are the same as primes $q_1, q_2, \ldots, q_k$, perhaps just in a different order.
+
+	\bs
+	Without loss of generality, let's assume that the primes are sorted, that is
+	$$p_1 \leq p_2 \leq p_3 \leq \cdots \leq p_k \text{ and } q_1 \leq q_2 \leq q_3 \leq \cdots \leq q_l$$.
+
+	\underline{Base Case.} For $n = 2$, we only have one prime factorization with $p_1 = 2$. Thus, the statement is true for $n = 2$.
+
+	\underline{Induction Step.} Let $k \in \mb{N}$ and assume that all integers $2, 3, 4, \ldots k$ have a unique prime factorization.
+
+	Now, for $k+1$, we have two cases:
+
+	\underline{Case 1.} $k+1$ is prime.
+
+	If $k+1$ is prime, we only have one prime factorization with $p_1 = k+1$. Thus, proved.
+
+	\underline{Case 2.} $k+1$ is composite.
+
+	This implies that there exists $1 < s,t < k+1$ such that $k+1 = st$.
+
+	Now, since $s$ and $t$ have a unique prime factorization like $s = a_1 a_2 \cdots a_x$ and $t = b_1 b_2 \cdots b_y$ where $a_i$ and $b_i$ are primes for each $i$. 
+
+	Then we have,
+	$$k+1 = st = (a_1 a_2 \cdots a_x) \cdot (b_1 b_2 \cdots b_y)$$
+
+	Now, let's assume that $k+1$ has a different divisors with $1 < s', t' < k+1$ and $k+1 = s't'$ with their own unique prime factorization like $s' = c_1 c_2 \cdots c_z$ and $t' = d_1 d_2 \cdots d_w$ where $c_i$ and $d_i$ are primes for each $i$.
+
+	Now, we have
+	$$(a_1 a_2 \cdots a_x) \cdot (b_1 b_2 \cdots b_y) = (c_1 c_2 \cdots c_z) \cdot (d_1 d_2 \cdots d_w)$$
+	$$\implies b_y \mid ((c_1 c_2 \cdots c_z) \cdot (d_1 d_2 \cdots d_w))$$
+
+	Now, by Part (a), we must have some $b_y \mid c_i$ or $b_y \mid d_i$. But since $b_y$, $c_i$ and $d_i$, then we must have either $b_y = c_i$ or $b_y = d_i$ for some $i$.
+
+	\underline{Case 1.} $b_y = c_i$
+
+	Now, since $b_y$ is a prime, that means, $b_y \geq 2$,
+	$$(a_1 a_2 \cdots a_x) \cdot (b_1 b_2 \cdots b_{y-1}) = (c_1 c_2 \cdots c_{i-1} \cdot c_{i+1} \cdots c_{z}) \cdot (d_1 d_2 \cdots d_w)$$
+	$$= \frac{k+1}{b_y} < k+1$$
+
+	By Inductive Hypothesis, we can say that $\displaystyle \frac{k+1}{b_y}$ has a unique prime factorization. Therefore, the numbers
+	$$a_1, a_2, \ldots, a_x, b_1, b_2, \ldots b_{y-1}$$
+	are the same as 
+	$$c_1, c_2, \ldots, c_{i-1}, c_{i+1}, \ldots c_z, d_1, d_2, \ldots, d_w$$
+
+	And since $b_y = c_i$, adding $b_y$ and $c_i$ to the above lists of numbers, we get that the numbers 
+	$$a_1, a_2, \ldots, a_x, b_1, b_2, \ldots, b_y$$
+	are the same as 
+	$$c_1, c_2, \ldots c_{i-1}, c_i, c_{i+1}, \ldots c_z, d_1, d_2, \ldots, d_w$$
+
+	\underline{Case 2.} $b_y = d_i$: This case has a very similar proof.
+
+	Thus, $k+1$ has a unique factorization.
+	
+	\underline{Conclusion.} For all $n \geq 2$, $n$ has a unique prime factorization.
+
+	\es
+\end{enumerate}
+\ep}
+
+\bp Skipped. \ep
+
+\bp In this exercise you will use strong induction to study sequences which are defined \emph{recursively}.
+\bnum
+\item Define a sequence $a_1, a_2, a_3, \ldots$ recursively where $a_1 = 1, a_2 = 3$, and for $n \geq 3$, $a_n \geq 2a_{n-1} - a_{n-2}$.
+	Prove that $a_n = 2n-1$ for all $n \in \mb{N}$
+
+	\bs
+	\underline{Base Case.} For $n = 1$, $a_1 = 1 = 2 \cdot 1 - 1$. And for $n = 2$, $a_2 = 3 = 2 \cdot 2 - 1$. Thus, it holds.
+
+	\underline{Inductive Hypothesis.} Let $k \in \mb{N}$ and assume that $a_i = 2i-1$ for all $i \in \mb{N}$ with $i \leq k$.
+
+	\underline{Indcution Step.} For $k+1$, we can show that
+	$$a_k = 2a_{k-1} - a_{k-2} = 2(2(k-1)-1) - (2(k-2)-1)$$
+	$$\implies a_k = 2(2k-3) - (2k-5) = 4k-6 -2k+5 = 2k-1$$
+	Hence, proved.
+
+	\underline{Conclusion.} By Strong Induction, $a_n = 2n-1$ for all $n \in \mb{N}$.
+	\es
+
+\item Define a sequence where $a_1 = 1$, $a_2 = 4$, and for $n \geq 3$, $a_n = 2a_{n-1} - a_{n-2} + 2$. 
+	Through scratch work, conjecture a formula for $a_n$ and prove that.
+
+	\begin{scratch}
+		For the first few numbers, we can get
+		\begin{align*}
+			&a_3 = 2a_2 - a_1 + 2 = 2 \cdot 4 - 1 + 2 = 9 \\
+			&a_4 = 2a_3 - a_2 + 2 = 2 \cdot 9 - 4 + 2 = 16 \\
+			&a_5 = 2a_4 - a_3 + 2 = 2 \cdot 16 - 9 + 2 = 25 \\
+		\end{align*}
+
+		Here, we can easily guess that $a_n = n^2$.
+	\end{scratch}
+
+	\bs
+	\underline{Base Case.} For $n = 1$, $a_1 = 1 = 1^2$ and for $n = 2$, $a_2 = 4 = 2^2$ holds.
+
+	\underline{Inductive Hypothesis.} Let $k \in \mb{N}$ and assume that $a_i = i^2$ for all $i \in \mb{N}$ with $i \leq k$.
+
+	\underline{Induction Step.} For $k+1$, we have
+	\begin{align*}
+		a_{k+1} &= 2a_{k} - a_{k-1} + 2 \\
+						&= 2k^2 - (k-1)^2 + 2 \\ 
+						&= 2k^2 - (k^2 - 2k + 1) + 2 \\
+						&= 2k^2 - k^2 + 2k - 1 + 2 \\
+						&= k^2 + 2k + 1 \\
+						&= (k+1)^2
+	\end{align*}
+
+	Hence, prove that $a_{k+1} = (k+1)^2$.
+
+	\underline{Conclusion.} By Strong Induction, $a_n = n^2$ for all $n \in \mb{N}$.
+	\es
+	
+\item Define a sequence where $a_1 = 1, a_2 = 2$, and for $n \geq 3$, $a_n = a_{n-1} + 2a_{n-2}$. 
+	Through scratch work, conjecture a formula for $a_n$ and prove that.
+	
+	\begin{scratch}
+		For the first few natural numbers, we have
+		\begin{align*}
+			&a_3 = a_2 + 2a_1 = 2 + 2 \cdot 1 = 4 \\
+			&a_4 = a_3 + 2a_2 = 4 + 2 \cdot 2 = 8 \\
+			&a_5 = a_4 + 2a_3 = 8 + 2 \cdot 4 = 16 \\
+			&a_6 = a_5 + 2a_4 = 16 + 2 \cdot 8 = 32 
+		\end{align*}
+
+		From the pattern, we can guess that $a_n = 2^{n-1}$ for all $n \in \mb{N}$.
+	\end{scratch}
+
+	\bs
+	\underline{Base Case.} For $n = 1$, $a_1 = 1 = 2^{1-1}$ and for $n = 2$, $a_2 = 2 = 2^{2-1}$. Thus, it holds for base case.
+
+	\underline{Inductive Hypothesis.} Let $k \in \mb{N}$ and assume that $a_i = 2^{i-1}$ for all $i \in \mb{N}$ with $i \leq k$.
+
+	\underline{Induction Step.} For $k+1$, we have
+	\begin{align*}
+		&a_{k+1} = a_{k} + 2a_{k-1} = 2^{k-1} + 2 \cdot 2^{k-2} \\
+		\implies &a_{k+1}	= 2^{k-1} + 2^{k-1} = 2 \cdot 2^{k-1} \\
+		\implies &a_{k+1} = 2^{k} = 2^{(k+1)-1}
+	\end{align*}
+
+	Hence, proved.
+
+	\underline{Conclusion.} By Strong Induction, $a_n = 2^{n-1}$ for all $n \in \mb{N}$.
+	\es
+\enum
+\ep
+
+\bp Skipped. \ep
+\bp Skipped. \ep
+\bp Skipped. \ep
+\bp Skipped. \ep
