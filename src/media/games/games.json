@@ -3,9 +3,33 @@
 	"keys": ["rating", "status", "genre"],
 	"entries": [
 		{
+			"title": "Baba Is You",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736260/header.jpg?t=1747950287",
+			"genre": "Puzzle",
+			"rating": "Unplayed",
+			"status": "Ongoing",
+			"year": 2024
+		},
+		{
+			"title": "Balatro",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg?t=1750960607",
+			"genre": ["Poker", "Rogue-like", "Infinite"],
+			"rating": "5⭐",
+			"status": "Finished",
+			"year": 2024
+		},
+		{
 			"title": "Black Myth: Wukong",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528",
 			"genre": "Action",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2024
+		},
+		{
+			"title": "Blue Prince",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg?t=1750173402",
+			"genre": "Puzzle",
 			"rating": "Unplayed",
 			"status": "Unplayed",
 			"year": 2024
@@ -90,6 +114,22 @@
 			"year": 2018
 		},
 		{
+			"title": "Hades",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1715722799",
+			"genre": [ "Action", "Rogue-like" ],
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2020
+		},
+		{
+			"title": "Hades II",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ae56f68e0a020df77d6cfac84bbfbb9df5bbbbe0/header.jpg?t=1750182023",
+			"genre": [ "Action", "Rogue-like" ],
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2020
+		},
+		{
 			"title": "Hollow Knight",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028",
 			"genre": [ "Action", "Adventure", "Metroidvania", "Souls-Like" ],
@@ -98,12 +138,27 @@
 			"year": 2017
 		},
 		{
+			"title": "Inscryption",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/header.jpg?t=1744166674",
+			"genre": [ "Board Games", "Horror", "Rogue-like"],
+			"rating": "5⭐",
+			"status": "Finished",
+			"year": 2021
+		},
+		{
 			"title": "It Takes Two",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg?t=1691006466",
 			"rating": "4⭐",
 			"genre": ["Co-op", "Puzzle" ],
 			"status": "Finished",
 			"year": 2021
+		},
+		{
+			"title": "Mark of the Ninja: Remastered",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/860950/header.jpg?t=1701911769",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2018
 		},
 		{
 			"title": "Omori",
@@ -121,12 +176,36 @@
 			"year": 2020
 		},
 		{
+			"title": "Partick's Parabox",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260520/header.jpg?t=1745611653",
+			"genre": "Puzzle",
+			"rating": "Unplayed",
+			"status": "Unplayed",
+			"year": 2022
+		},
+		{
 			"title": "Planet Of Lana",
 			"poster": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787",
 			"genre": "Puzzle",
 			"rating": "3⭐",
-			"status": "Ongoing",
+			"status": "Finished",
 			"year": 2023
+		},
+		{
+			"title": "Portal",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400/header.jpg?t=1745368554",
+			"genre": "Puzzle",
+			"rating": "5⭐",
+			"status": "Finished",
+			"year": 2007
+		},
+		{
+			"title": "Portal 2",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1745363004",
+			"genre": "Puzzle",
+			"rating": "5⭐",
+			"status": "Finished",
+			"year": 2011
 		},
 		{
 			"title": "Rain World",
@@ -171,8 +250,24 @@
 			"title": "The Last of Us: Part II",
 			"poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1743700473",
 			"genre": ["Action", "Adventure", "Story-Based"],
+			"rating": "5⭐",
+			"status": "Ongoing",
+			"year": 2020
+		},
+		{
+			"title": "The Stanley Parable: Ultra Deluxe",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1703340/header.jpg?t=1712065263",
+			"genre": "Puzzle",
 			"rating": "Unplayed",
 			"status": "Unplayed",
+			"year": 2022
+		},
+		{
+			"title": "Untitled Goose Game",
+			"poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/837470/header.jpg?t=1699052664",
+			"genre": "Puzzle",
+			"rating": "3⭐",
+			"status": "Finished",
 			"year": 2020
 		}
 	]

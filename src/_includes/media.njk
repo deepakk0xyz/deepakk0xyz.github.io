@@ -16,6 +16,9 @@
 			</span>
 			<span><strong>Rating:</strong> {{ item.rating }}</span>
 			<span><strong>Status:</strong> {{ item.status }}</span>
+			{% if item.director %}
+			<span><strong>Director:</strong> {{ item.director }}</span>
+			{% endif %}
 		</div>
 	</div>
 	{% endfor %}

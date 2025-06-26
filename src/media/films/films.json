@@ -1,6 +1,6 @@
 {
 	"title": "Films",
-	"keys": ["rating", "status", "genre"],
+	"keys": ["rating", "status"],
 	"entries": [
 		{
 			"title": "10 Things I Hate About You",
@@ -82,14 +82,6 @@
 			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2013
-		},
-		{
-			"title": "After Yang",
-			"poster": "https://m.media-amazon.com/images/M/MV5BMWM2MDBkMTQtYWUxNS00NmI3LTg2ZGUtNjI4MzdiM2U1NTYwXkEyXkFqcGc@._V1_SX300.jpg",
-			"url": "https://imdb.com/title/tt8633464/",
-			"rating": "Unwatched",
-			"status": "Unwatched",
-			"year": 2021
 		},
 		{
 			"title": "Aladdin",
@@ -494,7 +486,7 @@
 			"year": 2014
 		},
 		{
-			"title": "Ferris Buellers Day Off",
+			"title": "Ferris Bueller's Day Off",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDA0NjZhZWUtNmI2NC00MmFjLTgwZDYtYzVjZmNhMDVmOTBkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0091042/",
 			"genre": "Comedy",
@@ -608,7 +600,7 @@
 		},
 		{
 			"title": "Harry Potter Series",
-			"poster": "https://i.imgur.com/JWqyWSR.png",
+			"poster": "https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0241527/",
 			"genre": "Fantasy",
 			"rating": "5⭐",
@@ -638,7 +630,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BODk0MjFlY2YtOGFmMi00OTVjLTkwMzctOTdlYzYzNTZkMmRmXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt16491324/",
 			"genre": "Drama",
-			"rating": "4⭐",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -655,7 +647,7 @@
 			"title": "How to Train Your Dragon",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0892769/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2010
 		},
@@ -663,7 +655,7 @@
 			"title": "Howl's Moving Castle",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0347149/",
-			"rating": "Great",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2004
 		},
@@ -687,7 +679,7 @@
 			"title": "In Bruges",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTUwOGFiM2QtOWMxYS00MjU2LThmZDMtZDM2MWMzNzllNjdhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0780536/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2008
 		},
@@ -695,7 +687,7 @@
 			"title": "In the Heights",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzM1ZDY0YTktZTYzZi00MjZjLTllMDMtMmNlMmM5NmY4ZjllXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1321510/",
-			"rating": "Great",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -704,7 +696,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1375666/",
 			"director": "Christopher Nolan",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2010
 		},
@@ -713,7 +705,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0361748/",
 			"director": "Quentin Tarantino",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2009
 		},
@@ -721,7 +713,7 @@
 			"title": "Injustice",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYzA3ZmI1NzMtMTcxMi00ODg4LWFhMGItMTE2ZjIxODUzZTFiXkEyXkFqcGdeQXVyMTA1NzAwODMz._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5012504/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -739,7 +731,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0816692/",
 			"director": "Christopher Nolan",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -747,7 +739,7 @@
 			"title": "Into the Wild",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjQ0ODlhMWUtNmUwMS00YjExLWI4MjQtNjVmMmE2Y2E0MGRmXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0758758/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2007
 		},
@@ -772,7 +764,7 @@
 			"title": "John Wick",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2911666/",
-			"rating": "Great",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -780,7 +772,7 @@
 			"title": "Jojo Rabbit",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2584384/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2019
 		},
@@ -788,7 +780,7 @@
 			"title": "Karwaan",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYjYxZjc1YmMtNTIyOS00OGUyLWI5MTYtOWZiNzc5Yzc4MDBhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt7919680/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2018
 		},
@@ -796,7 +788,7 @@
 			"title": "Kho Gaye Hum Kahan",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYzgyZjYzYzgtZjE5YS00NTFmLWE4ODctNGU2ZDJjMjcyNTVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt15434074/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2023
 		},
@@ -804,7 +796,7 @@
 			"title": "Kiki's Delivery Service",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0097814/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1989
 		},
@@ -813,7 +805,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BZmMyYzJlZmYtY2I3NC00NjAyLTkyZWItZjdjZDI1YTYyYTEwXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0266697/",
 			"director": "Quentin Tarantino",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2003
 		},
@@ -822,7 +814,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BNmFiYmJmN2QtNWQwMi00MzliLThiOWMtZjQxNGRhZTQ1MjgyXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0378194/",
 			"director": "Quentin Tarantino",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2004
 		},
@@ -831,7 +823,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjQwOGM2YTItMGYwNC00YTM4LWI0Y2QtZjQ2ZDcyMmRjMTFhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5537002/",
 			"director": "Martin Scorsese",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2023
 		},
@@ -839,7 +831,7 @@
 			"title": "Knives Out",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt8946378/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2019
 		},
@@ -847,7 +839,7 @@
 			"title": "La La Land",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt3783958/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2016
 		},
@@ -855,7 +847,7 @@
 			"title": "Lady Bird",
 			"poster": "https://m.media-amazon.com/images/M/MV5BODhkZGE0NDQtZDc0Zi00YmQ4LWJiNmUtYTY1OGM1ODRmNGVkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt4925292/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2017
 		},
@@ -863,7 +855,7 @@
 			"title": "Last Christmas",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNTQ4ZmY0NjgtYzVhNy00NzhiLTk3YTYtNzM1MTdjM2VhZDA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt8623904/",
-			"rating": "Great",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2019
 		},
@@ -872,7 +864,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BZjgwZDIwY2MtNGZlNy00NGRlLWFmNTgtOTBkZThjMDUwMGJhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt9639470/",
 			"director": "Edgar Wright",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -880,7 +872,7 @@
 			"title": "Les Misérables",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNWZhNGM1ZTItYTg4Zi00MTE2LTg5MjYtYjdmYmZkNTVmYTQwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1707386/",
-			"rating": "Amazing",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2012
 		},
@@ -888,7 +880,7 @@
 			"title": "Look Whos Back",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjRlZTU1YzQtNzVkMC00YzI2LTk3OWQtZjVhYzQ5MzNhZGRlXkEyXkFqcGdeQXVyNDkyMjA2NjU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt4176826/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2015
 		},
@@ -896,7 +888,7 @@
 			"title": "Lootera",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTUwNTYyMzk4Ml5BMl5BanBnXkFtZTcwMTY2Mzc4OQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2224317/",
-			"rating": "Great",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -904,7 +896,7 @@
 			"title": "Love Actually",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNThkNjgxNGQtOTIxMy00ZTFmLWIwMDItYzE5YzM3ZDMzNDE3XkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0314331/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2003
 		},
@@ -912,7 +904,7 @@
 			"title": "Love Simon",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNTMyZDdiMzUtZjcxNS00Mjc3LTljY2UtYjI4YmY5NzJlYjc1XkEyXkFqcGdeQXVyMTA5OTkwNTc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5164432/",
-			"rating": "Amazing",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2018
 		},
@@ -920,7 +912,7 @@
 			"title": "Ludo",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTQwOTVlMzctM2I3MS00YzllLWJiNTctYzdhMjkzMzhhY2RkXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt7212754/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -928,7 +920,7 @@
 			"title": "Mamma Mia!",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTA2MDU0MjM0MzReQTJeQWpwZ15BbWU3MDYwNzgwNzE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0795421/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2008
 		},
@@ -936,7 +928,7 @@
 			"title": "Mamma Mia! Here We Go Again",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjEwMTM3OTI1NV5BMl5BanBnXkFtZTgwNDk5NTY0NTM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt6911608/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2018
 		},
@@ -944,7 +936,7 @@
 			"title": "Masaan",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTU4NTE0NTMyNl5BMl5BanBnXkFtZTgwNjI5MDkxNjE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt4635372/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2015
 		},
@@ -952,7 +944,7 @@
 			"title": "Me Before You",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NjE4NDE2NV5BMl5BanBnXkFtZTgwOTcwNDE5NzE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2674426/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2016
 		},
@@ -960,7 +952,8 @@
 			"title": "Memento",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0209144/",
-			"rating": "Amazing",
+			"director": "Christopher Nolan",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2000
 		},
@@ -968,15 +961,15 @@
 			"title": "Mrs",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzFlZWMwN2EtMDYyYy00YmUxLWJhZmQtNjE2MDQwZTI0M2I2XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt27032419/",
-			"rating": "Unwatched",
-			"status": "Unwatched",
+			"rating": "5⭐",
+			"status": "Watched",
 			"year": 2023
 		},
 		{
 			"title": "Mindhunters",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzU2MDQ0NTgtOTUzNC00OGM5LWE3ODUtNzNjMDlhMzc5ZmJhXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0297284/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2004
 		},
@@ -984,7 +977,7 @@
 			"title": "Mulan",
 			"poster": "https://m.media-amazon.com/images/M/MV5BODkxNGQ1NWYtNzg0Ny00Yjg3LThmZTItMjE2YjhmZTQ0ODY5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0120762/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1998
 		},
@@ -992,7 +985,7 @@
 			"title": "My Neighbour Totoro",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYWM3MDE3YjEtMzIzZC00ODE5LTgxNTItNmUyMTBkM2M2NmNiXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0096283/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1988
 		},
@@ -1000,7 +993,7 @@
 			"title": "Nobody",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjM5YTRlZmUtZGVmYi00ZjE2LWIyNzAtOWVhMDk1MDdkYzhjXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt7888964/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -1017,7 +1010,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt7131622/",
 			"director": "Quentin Tarantino",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2019
 		},
@@ -1026,7 +1019,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt15398776/",
 			"director": "Christopher Nolan",
-			"rating": "Great",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2023
 		},
@@ -1034,7 +1027,7 @@
 			"title": "Palm Springs",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYjk0MTgzMmQtZmY2My00NmE5LWExNGUtYjZkNTA3ZDkyMTJiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt9484998/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -1042,7 +1035,7 @@
 			"title": "Parasite",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt6751668/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2019
 		},
@@ -1050,7 +1043,7 @@
 			"title": "Past Lives",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt13238346/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2023
 		},
@@ -1058,7 +1051,7 @@
 			"title": "Perfect Blue",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMmMzOWNhNTYtYmY0My00OGJiLWIzNDUtZWRhNGY0NWFjNzFmXkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0156887/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1997
 		},
@@ -1066,7 +1059,7 @@
 			"title": "Pocahontas",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzc4YzhiN2ItY2Y4NC00YTA0LWEyMjEtNzllNTcxZDdjODhiXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0114148/",
-			"rating": "Great",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 1995
 		},
@@ -1074,7 +1067,7 @@
 			"title": "Predestination",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTAzODc3NjU1NzNeQTJeQWpwZ15BbWU4MDk5NTQ4NTMx._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2397535/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -1082,7 +1075,7 @@
 			"title": "Pretty Woman",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjk2ODQzNDYxNV5BMl5BanBnXkFtZTgwMTcyNDg4NjE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0100405/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1990
 		},
@@ -1090,7 +1083,7 @@
 			"title": "Pride  Prejudice",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0414387/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2005
 		},
@@ -1098,7 +1091,7 @@
 			"title": "Primer",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjc3OWVjMTItYjc0Yi00NmFlLTk2YTgtYmU0MzcxMjBkNTYxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0390384/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2004
 		},
@@ -1106,7 +1099,7 @@
 			"title": "Pulp Fiction",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0110912/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1994
 		},
@@ -1114,7 +1107,7 @@
 			"title": "Purple Hearts",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNzI4ZTAwNzEtNTk5YS00ZWJmLWI1ODMtOTU4MTM5MzQ4OWM0XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt4614584/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1122,7 +1115,7 @@
 			"title": "Qala",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOGFjYTliNzAtOTRlYi00NjNkLThmMGMtMmNhZjUyM2UyYWZhXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt14428598/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1130,7 +1123,7 @@
 			"title": "RRR",
 			"poster": "https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt8178634/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1147,7 +1140,7 @@
 			"title": "Sinners",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt31193180",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2025
 		},
@@ -1156,7 +1149,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0108052/",
 			"director": "Steven Spielberg",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1993
 		},
@@ -1164,7 +1157,7 @@
 			"title": "Scott Pilgrim vs. the World",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNWI5ODc4MTAtN2U2NC00ZDk3LWE3NjAtNjIyODE2YTlhYjYwXkEyXkFqcGdeQXVyOTA3ODI3NDA@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0446029/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2010
 		},
@@ -1172,7 +1165,7 @@
 			"title": "Sherlock Holmes",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0988045/",
-			"rating": "Special",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2009
 		},
@@ -1180,7 +1173,7 @@
 			"title": "Sherlock Holmes: A Game of Shadows",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTQwMzQ5Njk1MF5BMl5BanBnXkFtZTcwNjIxNzIxNw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1515091/",
-			"rating": "Special",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2011
 		},
@@ -1188,7 +1181,7 @@
 			"title": "Shutter Island",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1130884/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2010
 		},
@@ -1196,7 +1189,7 @@
 			"title": "Spider-Man Across the Spider-Verse",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt9362722/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2023
 		},
@@ -1204,7 +1197,7 @@
 			"title": "Spider-Man Into the Spider-Verse",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt4633694/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2018
 		},
@@ -1212,7 +1205,7 @@
 			"title": "Spirited Away",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0245429/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2001
 		},
@@ -1228,7 +1221,7 @@
 			"title": "Star Wars Episode IV - A New Hope",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0076759/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1977
 		},
@@ -1236,7 +1229,7 @@
 			"title": "Star Wars Episode V - The Empire Strikes Back",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0080684/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1980
 		},
@@ -1244,7 +1237,7 @@
 			"title": "Star Wars Episode VI - Return of the Jedi",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0086190/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1983
 		},
@@ -1252,7 +1245,7 @@
 			"title": "Submarine",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTQ5ODMxNTIyNV5BMl5BanBnXkFtZTcwNjQ1ODgyNQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1440292/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2010
 		},
@@ -1260,7 +1253,7 @@
 			"title": "Tamasha",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzA0YzQzODctMDllYi00Nzk0LWIxNjQtNjAxMTZkY2YzMjlkXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt3148502/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2015
 		},
@@ -1277,7 +1270,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzU3YWYwNTQtZTdiMC00NjY5LTlmMTMtZDFlYTEyODBjMTk5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt6723592/",
 			"director": "Christopher Nolan",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -1285,7 +1278,7 @@
 			"title": "Thappad",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYTdiZWUzMGQtNmM5ZS00NjcyLTllMzgtMTEyMWEyNzliOGJjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt10964430/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -1293,7 +1286,7 @@
 			"title": "The A-Team",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTc4ODc4NTQ1N15BMl5BanBnXkFtZTcwNDUxODUyMw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0429493/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2010
 		},
@@ -1301,7 +1294,7 @@
 			"title": "The Banshees of Inisherin",
 			"poster": "https://m.media-amazon.com/images/M/MV5BM2NlZDI0ZDktNTg5OS00ZjQ1LWI4MDEtN2I0MDE5NWRiNzA4XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt11813216/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1309,7 +1302,7 @@
 			"title": "The Batman",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1877830/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1317,7 +1310,7 @@
 			"title": "The Big Short",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1596363/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2015
 		},
@@ -1325,7 +1318,7 @@
 			"title": "The Boy and the Heron",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZjZkNThjNTMtOGU0Ni00ZDliLThmNGUtZmMxNWQ3YzAxZTQ1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt6587046/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2023
 		},
@@ -1333,7 +1326,7 @@
 			"title": "The Breakfast Club",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTM5N2ZmZTMtNjlmOS00YzlkLTk3YjEtNTU1ZmQ5OTdhODZhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0088847/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1985
 		},
@@ -1342,7 +1335,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0468569/",
 			"director": "Christopher Nolan",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2008
 		},
@@ -1351,7 +1344,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1345836/",
 			"director": "Christopher Nolan",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2012
 		},
@@ -1359,7 +1352,7 @@
 			"title": "The Devil Wears Prada",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZjQ3ZTIzOTItMGNjNC00MWRmLWJlMGEtMjJmMDM5ZDIzZGM3XkEyXkFqcGdeQXVyMTkzODUwNzk@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0458352/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2006
 		},
@@ -1367,7 +1360,7 @@
 			"title": "The Fallout",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjM2MTg0MDUtZTMwOS00MTk3LTkzZWQtOTQ0ODY4MTI3MTMxXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt11847410/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -1375,7 +1368,7 @@
 			"title": "The Florida Project",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDBhM2MxYjAtMWFiYy00MWMwLThkMDYtN2M1ZWY3NjkxNGExXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5649144/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2017
 		},
@@ -1383,7 +1376,7 @@
 			"title": "The Garden of Words",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYjdiMDdlMDItOGM4Ny00YmE4LTk0MTEtMGRhM2Y4OWZkZDZkXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2591814/",
-			"rating": "Great",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -1391,7 +1384,7 @@
 			"title": "The Girl Next Door",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTQ0ODIyMzE1N15BMl5BanBnXkFtZTcwODEwODczMw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0265208/",
-			"rating": "Great",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2004
 		},
@@ -1399,7 +1392,7 @@
 			"title": "The Girl Who Leapt Through Time",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjhiN2FjMWUtMDAyMi00ODJkLWE3MDgtODJlYTA1NDk5M2MyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0808506/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2006
 		},
@@ -1407,7 +1400,7 @@
 			"title": "The Girl with the Dragon Tattoo",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1568346/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2011
 		},
@@ -1415,7 +1408,7 @@
 			"title": "The Godfather",
 			"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0068646/",
-			"rating": "Great",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 1972
 		},
@@ -1423,7 +1416,7 @@
 			"title": "The Grand Budapest Hotel",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2278388/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -1431,7 +1424,7 @@
 			"title": "The Great Gatsby",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTkxNTk1ODcxNl5BMl5BanBnXkFtZTcwMDI1OTMzOQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1343092/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -1439,7 +1432,7 @@
 			"title": "The Hateful Eight",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt3460252/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2015
 		},
@@ -1447,7 +1440,7 @@
 			"title": "The Illusionist",
 			"poster": "https://m.media-amazon.com/images/M/MV5BY2VkMzZlZDAtNTkzNS00MDIzLWFmOTctMWQwZjQ1OWJiYzQ1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0443543/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2006
 		},
@@ -1455,7 +1448,7 @@
 			"title": "The Intern",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTUyNjE5NjI5OF5BMl5BanBnXkFtZTgwNzYzMzU3NjE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2361509/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2015
 		},
@@ -1471,7 +1464,7 @@
 			"title": "The Lion King",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0110357/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1994
 		},
@@ -1479,7 +1472,7 @@
 			"title": "The Little Mermaid",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOWUyNDA0ZmItMzg2My00YjJhLTk1N2QtYTAxYTc0NzMzNDI0XkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0097757/",
-			"rating": "Great",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 1989
 		},
@@ -1487,7 +1480,7 @@
 			"title": "The Lunchbox",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTUwMzc1NjIzMV5BMl5BanBnXkFtZTgwODUyMTIxMTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2350496/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -1495,7 +1488,7 @@
 			"title": "The Man from Earth",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzQ5NGQwOTUtNWJlZi00ZTFiLWI0ZTEtOGU3MTA2ZGU5OWZiXkEyXkFqcGdeQXVyMTczNjQwOTY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0756683/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2007
 		},
@@ -1503,7 +1496,7 @@
 			"title": "The Mask",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOWExYjI5MzktNTRhNi00Nzg2LThkZmQtYWVkYjRlYWI2MDQ4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0110475/",
-			"rating": "Great",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1994
 		},
@@ -1511,7 +1504,7 @@
 			"title": "The Menu",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMzdjNjI5MmYtODhiNS00NTcyLWEzZmUtYzVmODM5YzExNDE3XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt9764362/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1535,7 +1528,7 @@
 			"title": "The Pale Blue Eye",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZDg2YThlMTItYzhhMy00OWE3LTljYTAtYTExMDM5NzRjOGFhXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt14138650/",
-			"rating": "Great",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1543,7 +1536,7 @@
 			"title": "The Perks of Being a Wallflower",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZThjMmQ5YjktMTUyMC00MjljLWJmMTAtOWIzNDIzY2VhNzQ0XkEyXkFqcGdeQXVyMTAyNjg4NjE0._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1659337/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2012
 		},
@@ -1552,7 +1545,7 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0482571/",
 			"director": "Christopher Nolan",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2006
 		},
@@ -1560,7 +1553,7 @@
 			"title": "The Secret Life of Walter Mitty",
 			"poster": "https://m.media-amazon.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0359950/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -1568,7 +1561,7 @@
 			"title": "The Shawshank Redemption",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0111161/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1994
 		},
@@ -1576,15 +1569,15 @@
 			"title": "The Shining",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0081505/",
-			"rating": "Amazing",
-			"status": "Watched",
+			"rating": "Unwatched",
+			"status": "Unwatched",
 			"year": 1980
 		},
 		{
 			"title": "The Summit of the Gods",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNzRlY2UwYTEtMjUwMC00MjFhLWFhZTAtODBhY2U5MDhmMzY3XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt7014378/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2021
 		},
@@ -1592,7 +1585,7 @@
 			"title": "The Transporter",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTk2NDc2MDAxN15BMl5BanBnXkFtZTYwNDc1NDY2._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0293662/",
-			"rating": "Great",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2002
 		},
@@ -1600,7 +1593,7 @@
 			"title": "The Trial of the Chicago 7",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYjYzOGE1MjUtODgyMy00ZDAxLTljYTgtNzk0Njg2YWQwMTZhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1070874/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2020
 		},
@@ -1608,7 +1601,7 @@
 			"title": "The Unbearable Weight of Massive Talent",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNDM2ODNiMWItOWRkNS00ODE3LWE2OGYtNTZkMDJkOWI1ODMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt11291274/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1616,7 +1609,7 @@
 			"title": "The Usual Suspects",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0114814/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1995
 		},
@@ -1624,7 +1617,7 @@
 			"title": "The Whale",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZDQ4Njg4YTctNGZkYi00NWU1LWI4OTYtNmNjOWMyMjI1NWYzXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt13833688/",
-			"rating": "Amazing",
+			"rating": "3⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1640,7 +1633,7 @@
 			"title": "The Wolf of Wall Street",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0993846/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -1656,7 +1649,7 @@
 			"title": "Titanic",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0120338/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 1997
 		},
@@ -1664,7 +1657,7 @@
 			"title": "Transcendence",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTc1MjQ3ODAyOV5BMl5BanBnXkFtZTgwNjI1NDQ0MTE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2209764/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -1680,7 +1673,7 @@
 			"title": "Tár",
 			"poster": "https://m.media-amazon.com/images/M/MV5BM2I0ZDcyYzItMGEyNi00YWVhLTlmNTQtOWVlYjE1ZGVhNWM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt14444726/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2022
 		},
@@ -1688,7 +1681,7 @@
 			"title": "V for Vendetta",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0434409/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2005
 		},
@@ -1696,7 +1689,7 @@
 			"title": "Veronica",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMmRkMDQzYzItZDFhMS00YzM1LTk0ZGMtZmExMzdiNzEwOTE4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5862312/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2017
 		},
@@ -1704,7 +1697,7 @@
 			"title": "Watchmen",
 			"poster": "https://m.media-amazon.com/images/M/MV5BY2IzNGNiODgtOWYzOS00OTI0LTgxZTUtOTA5OTQ5YmI3NGUzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0409459/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2009
 		},
@@ -1712,7 +1705,7 @@
 			"title": "When Harry Met Sally",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjE0ODEwNjM2NF5BMl5BanBnXkFtZTcwMjU2Mzg3NA@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0098635/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -1720,7 +1713,7 @@
 			"title": "Whiplash",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2582802/",
-			"rating": "Amazing",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2014
 		},
@@ -1728,7 +1721,7 @@
 			"title": "Whisper of the Heart",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZDg0MWNmNjktMGEwZC00ZDlmLWI1MTUtMDBmNjQzMWM2NjBjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0113824/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 1995
 		},
@@ -1736,7 +1729,7 @@
 			"title": "Wolf Children",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYTcyYjQ2MTAtNmM0OC00NDhjLWE1ZGItM2NiNDEzMTZmYzdiXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2140203/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2012
 		},
@@ -1744,7 +1737,7 @@
 			"title": "Yeh Jawaani Hai Deewani",
 			"poster": "https://m.media-amazon.com/images/M/MV5BODA4MjM2ODk4OF5BMl5BanBnXkFtZTcwNDgzODk1OQ@@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2178470/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2013
 		},
@@ -1752,7 +1745,7 @@
 			"title": "Your Name",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMjI1ODZkYTgtYTY3Yy00ZTJkLWFkOTgtZDUyYWM4MzQwNjk0XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt5311514/",
-			"rating": "Special",
+			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2016
 		},
@@ -1760,7 +1753,7 @@
 			"title": "Zindagi Na Milegi Dobara",
 			"poster": "https://m.media-amazon.com/images/M/MV5BZGFmMjM5OWMtZTRiNC00ODhlLThlYTItYTcyZDMyYmMyYjFjXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt1562872/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2011
 		},
@@ -1768,7 +1761,7 @@
 			"title": "Zootopia",
 			"poster": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt2948356/",
-			"rating": "Amazing",
+			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2016
 		}
