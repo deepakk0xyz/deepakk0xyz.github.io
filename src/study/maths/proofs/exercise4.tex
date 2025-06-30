@@ -372,7 +372,7 @@ Prove that each of the following holds for every $n \in \mb{N}$.
 			$$\frac{1}{\sqrt{1}} + \frac{1}{\sqrt{2}} + \ldots + \frac{1}{\sqrt{n}} + \frac{1}{\sqrt{n+1}} \leq 2 \sqrt{n+1} - 1$$
 
 			We can show the above if we can show,
-			$$2\sqrt{n} - 1 + \frac{1}{\sqrt{n+1}} &\leq 2 \sqrt{n+1} - 1$$
+			$$2\sqrt{n} - 1 + \frac{1}{\sqrt{n+1}} \leq 2 \sqrt{n+1} - 1$$
 
 			Let's assume the above and see what we get,
 			\begin{align*}
@@ -796,7 +796,7 @@ Prove the following:
 
 	\es
 \end{enumerate}
-\ep}
+\ep
 
 \bp Skipped. \ep
 
@@ -890,3 +890,220 @@ Prove the following:
 \bp Skipped. \ep
 \bp Skipped. \ep
 \bp Skipped. \ep
+
+\bp Prove that for every $n \geq 4$, it is possible to place $n$ non-attacking rooks on the $n \times n$ chessboard so that non of the rooks are on either ( or both ) of the two diagonals. \ep
+
+\bs
+
+Two rooks are attacking each other only if they are in the same row or same column or both.
+
+Let's take the $n \times n$ chessboard with all the rooks on the diagonal with row and column $(x, x)$ for all $1 \leq x \leq n$.
+
+Now, for each rook, move it in by the following rule:
+
+If $x \leq n-2$, then move the rook at $(x, x)$ to $(x, x+2)$. 
+Otherwise, move the rook to $(x, x+2-n)$.
+
+Here, we can see that each row will only have a single rook so all rooks are non-attacking in rows.
+
+For columns, for $x \in \{1, 2\}$, the rooks will move to $(1, 3)$ and $(2, 4)$ respectively.
+Therefore, the columns $1$ and $2$ are empty.
+
+Now, for $x \in \{n-1, n\}$, the rooks will move to $(n-1, 1)$ and $(n, 2)$.
+
+Therefore, all columns will only have a single rook and all rooks are non-attacking in columns as well.
+
+Hence, proved.
+\es
+
+\bp Skipped. \ep
+\bp Skipped. \ep
+
+\bp Prove the following where the sequence $F_n$ is defined as follows:
+$$F_1 = 1, F_2 = 1, F_n = F_{n-1} + F_{n-2}$$
+
+\bnum[(a)]
+\item $F_1 + F_2 + F_3 + \cdots + F_n = F_{n+2} - 1$
+	\bs
+	\underline{Base Case.} For $n = 1$, we have $F_1 = 1$ and $F_3 = 2$ and $F_1 = F_3 - 1$ holds.
+
+	\underline{Induction Step.} Let $k \in \mb{N}$ and assume that $F_1 + F_2 + F_3 + \cdots + F_k = F_{k+2} - 1$.
+
+	Now, for $k+1$, we have
+	$$F_1 + F_2 + \cdots + F_k + F_{k+1} = F_{k+2} - 1 + F_{k+1} = F_{k+3} - 1 = F_{(k+1)+2} - 1$$
+	Hence, proved.
+
+	\underline{Conclusion.} By Induction, $F_1 + F_2 + F_3 + \cdots + F_n = F_{n+1} - 1$ for all $n \in \mb{N}$.
+	\es
+
+
+\item $F_1 + F_3 + F_5 + \cdots + F_{2n-1} = F_{2n}$
+	\bs
+	\underline{Base Case.} For $n = 1$, $F_1 = 1$ and $F_{2 \cdot 1} = F_2 = 1$. Thus, $F_1 = 1 = F_2$ holds.
+
+	\underline{Induction Step.} Let $k \in \mb{N}$ and assume that $F_1 + F_3 + F_5 + \cdots F_{2k-1} = F_{2k}$.
+
+	Now, for $k+1$, we have
+	$$F_1 + F_3 + F_5 + \cdots + F_{2k-1} + F_{2(k+1)-1}
+		= F_{2k} + F_{2k+1} = F_{2k+2} = F_{2(k+1)}$$
+	Hence, proved.
+
+	\underline{Conclusion.} By Induction, $F_1 + F_3 + F_5 + \cdots + F_{2n-1} = F_{2n}$ for all $n \in \mb{N}$.
+	\es
+
+\item $(F_{n+1})^2 - F_{n+1}F_n - (F_n)^2 = (-1)^n$
+	\bs
+	\underline{Base Case.} For $n = 1$, we have
+	$$(F_2)^2 - F_2 F_1 - (F_1)^2 = 1^2 - 1 \cdot 1 - 1 = -1 = (-1)^1$$
+	The statement holds.
+
+	\underline{Induction Step.} Let $k \in \mb{N}$ and assume that $(F_{k+1})^2 - F_{k+1} F_k - (F_k)^2 = (-1)^k$.
+
+	Now, for $k+1$, we have
+	\begin{align*}
+		&(F_{(k+1)+1})^2 - F_{(k+1)+1} F_{k+1} - (F_{k+1})^2 \\
+		&= (F_{k+2})^2 - F_{k+2} F_{k+1} - (F_{k+1})^2 \\
+		&= (F_{k+1} + F_k)^2 - (F_{k+1} + F_k) F_{k+1} - (F_{k+1})^2 \\
+		&= (F_{k+1})^2 + 2 F_{k+1} F_k + (F_{k})^2 - (F_{k+1})^2 - F_{k+1} F_k - (F_{k+1})^2 \\
+		&= (F_k)^2 + F_{k+1}F_k - (F_{k+1})^2 \\
+		&= - [(F_{k+1})^2 - F_{k+1}F_k - (F_k)^2] \\
+		&= -(-1)^k = (-1)^{k+1}
+	\end{align*}
+
+	Hence, proved.
+
+	\underline{Conclusion.} By Induction, $(F_{n+1})^2 - F_{n+1}F_n - (F_n)^2 = (-1)^n$ for all $n \in \mb{N}$.
+	\es
+
+\item If $a = F_n F_{n+3}, b = 2F_{n+1}F_{n+2}$ and $c = (F_{n+1})^2 + (F_{n+2})^2$, then $a^2 + b^2 = c^2$.
+	\bs
+	Here, we can show that 
+	$$a = F_n F_{n+3} = (F_{n+2} - F_{n+1})(F_{n+2} + F_{n+1}) = (F_{n+2})^2 - (F_{n+1})^2$$
+	Therefore, 
+	\begin{align*}
+		a^2 + b^2 &= ((F_{n+2})^2 - (F_{n+1})^2)^2 + (2F_{n+1}F_{n+2})^2 \\
+							&= (F_{n+2})^4 + (F_{n+2})^4 - 2(F_{n+1})^2 (F_{n+2})^2 + 4 (F_{n+1})^2 (F_{n+2})^2 \\
+							&= (F_{n+2})^4 + (F_{n+2})^2 + 2(F_{n+1})^2 (F_{n+2})^2 \\
+							&= ((F_{n+2})^2 + (F_{n+1})^2)^2 = c^2
+	\end{align*}
+
+	Hence, proved.
+	\es
+
+\item $\displaystyle F_n = 
+			\frac{1}{\sqrt{5}} \left( \frac{1 + \sqrt{5}}{2} \right)^n
+			- \frac{1}{\sqrt{5}} \left( \frac{1 - \sqrt{5}}{2} \right)^n$
+			
+	\bs
+	\underline{Base Case.} For $n = 1$, we have
+
+	$$F_1 = 
+			\frac{1}{\sqrt{5}} \left( \frac{1 + \sqrt{5}}{2} \right)
+			- \frac{1}{\sqrt{5}} \left( \frac{1 - \sqrt{5}}{2} \right)
+			= \frac{2 \sqrt{5}}{2 \sqrt{5}} = 1$$
+	
+	\pagebreak
+	
+	For $n = 2$, we have
+
+	\begin{align*}
+		F_2 &= 
+			\frac{1}{\sqrt{5}} \left( \frac{1 + \sqrt{5}}{2} \right)^2
+			- \frac{1}{\sqrt{5}} \left( \frac{1 - \sqrt{5}}{2} \right)^2 \\
+				&= \frac{1}{\sqrt{5}} \left( \frac{6 + 2\sqrt{5}}{4} \right)
+			- \frac{1}{\sqrt{5}} \left( \frac{6 - 2\sqrt{5}}{4} \right) \\
+				&= \frac{4 \sqrt{5}}{4 \sqrt{5}} = 1
+	\end{align*}
+
+	The statement holds.
+
+	\underline{Induction Step.} Let $k \in \mb{N}$ with $k \geq 2$ and assume that the statement is true for all $i \in \mb{N}$ with $i \leq k$.
+
+	For $k+1$, we have
+	\begin{align*}
+		F_{k+1} &= F_k + F_{k-1} \\
+						&= \frac{1}{\sqrt{5}} \left( \frac{1+\sqrt{5}}{2} \right)^k
+						- \frac{1}{\sqrt{5}} \left( \frac{1-\sqrt{5}}{2} \right)^k \\
+						&+ \frac{1}{\sqrt{5}} \left( \frac{1+\sqrt{5}}{2} \right)^{k-1}
+						- \frac{1}{\sqrt{5}} \left( \frac{1-\sqrt{5}}{2} \right)^{k-1} \\
+						&= \frac{1}{\sqrt{5}} \left( \frac{1+\sqrt{5}}{2} \right)^{k-1} 
+							\left( \frac{1+\sqrt{5}}{2} + 1 \right)
+						- \frac{1}{\sqrt{5}} \left( \frac{1-\sqrt{5}}{2} \right)^{k-1} 
+							\left( \frac{1-\sqrt{5}}{2} + 1 \right) \\
+						&= \frac{1}{\sqrt{5}} \left( \frac{1+\sqrt{5}}{2} \right)^{k-1} 
+							\left( \frac{3+\sqrt{5}}{2} \right)
+						- \frac{1}{\sqrt{5}} \left( \frac{1-\sqrt{5}}{2} \right)^{k-1} 
+							\left( \frac{3-\sqrt{5}}{2} \right) \\
+						&= \frac{1}{\sqrt{5}} \left( \frac{1+\sqrt{5}}{2} \right)^{k-1} 
+							\left( \frac{6+2\sqrt{5}}{4} \right)
+						- \frac{1}{\sqrt{5}} \left( \frac{1-\sqrt{5}}{2} \right)^{k-1} 
+							\left( \frac{6-2\sqrt{5}}{4} \right) \\
+						&= \frac{1}{\sqrt{5}} \left( \frac{1+\sqrt{5}}{2} \right)^{k-1} 
+							\left( \frac{1+\sqrt{5}}{2} \right)^2
+						- \frac{1}{\sqrt{5}} \left( \frac{1-\sqrt{5}}{2} \right)^{k-1} 
+							\left( \frac{1-\sqrt{5}}{2} \right)^2 \\
+						&= \frac{1}{\sqrt{5}} \left( \frac{1+\sqrt{5}}{2} \right)^{k+1} 
+						- \frac{1}{\sqrt{5}} \left( \frac{1-\sqrt{5}}{2} \right)^{k+1}
+	\end{align*}
+
+	Hence, proved.
+
+	\underline{Conclusion.} By Induction, for all $n \in \mb{N}$,
+	$$F_n = \frac{1}{\sqrt{5}} \left( \frac{1+\sqrt{5}}{2} \right)^n 
+				- \frac{1}{\sqrt{5}} \left( \frac{1-\sqrt{5}}{2} \right)^n$$
+	\es
+
+
+\item $F_{3n}$ is even, $F_{3n+1}$ is odd and $F_{3n+2}$ is odd.
+	\bs
+	\underline{Base Case.} For $n = 1$, $F_{3 \cdot 1} = F_3 = 2$ is even, $F_{3 \cdot 1 + 1} = F_4 = 3$ and $F_{3 \cdot 1 + 2} = F_5 = 5$ is odd.
+	
+	\underline{Induction Step.} Let $k \in \mb{N}$ and assume that $F_{3k}$ is even, $F_{3k+1}$ is odd and $F_{3k+2}$ is odd.
+
+	Now, for $k+1$, we have
+	$$F_{3(k+1)} = F_{3k+3} = F_{3k+2} + F_{3k+1}$$
+		Since $F_{3k+1}$ and $F_{3k+2}$ are odd, therefore, $F_{3(k+1)} = F_{3k+3}$ is even.
+
+	$$F_{3(k+1)+1} = F_{3k+4} = F_{3k+3} + F_{3k+2}$$
+	Since $F_{3k+2}$ is odd and $F_{3k+3}$ is even, therefore, $F_{3(k+1)+1} = F_{3k+4}$ is odd.
+
+	$$F_{3(k+1)+2} = F_{3k+5} = F_{3k+4} + F_{3k+3}$$
+	Since $F_{3k+4}$ is odd and $F_{3k+3}$ is even, therefore, $F_{3(k+1)+2} = F_{3k+5}$ is odd.
+
+	Hence, proved.
+
+	\underline{Conclusion.} By Induction, for all $n \in \mb{N}$, $F_{3n}$ is even, $F_{3n+1}$ is odd and $F_{3n+2}$ is odd.
+	\es
+
+\item $\gcd(F_n, F_{n+1}) = 1$
+	\bs
+	\underline{Base Case.} For $n = 1$, $gcd(F_1, F_2) = gcd(1, 1) = 1$ holds.
+	
+	\underline{Induction Step.} Let $k \in \mb{N}$ and assume that $\gcd(F_k, F_{k+1}) = 1$. Now, for $k+1$, we need to find $\gcd(F_{k+1}, F_{k+2}) = \gcd(F_{k+1}, F_k + F_{k+1})$
+
+	Let's assume $d = \gcd(F_{k+1}, F_k + F_{k+1})$. This implies that
+	$F_{k+1} = da, F_k + F_{k+1} = db$ for $a, b \in \mb{Z}$. 
+
+	Therefore, $F_k = db - F_{k+1} = db-da = d(b-a)$ which implies that $d \mid F_k$. And hence, $d$ is also a common divisor of $F_k$ and $F_{k+1}$.
+
+	By Definition of Greatest Common Divisor, we know that $d \leq \gcd(F_k, F_{k+1}) = 1$. This implies that $d = 1$.
+
+	Hence, proved.
+
+	\underline{Conclusion.} By Induction, $\gcd(F_n, F_{n+1}) = 1$ for all $n \in \mb{N}$.
+	\es
+
+\item $F_{n+6} = 4F_{n+3} + F_n$
+	\bs
+	\begin{align*}
+		F_{n+6} &= F_{n+5} + F_{n+4} = (F_{n+4} + F_{n+3}) + F_{n+4} \\
+						&= 2F_{n+4} + F_{n+3} = 2(F_{n+3} + F_{n+2}) + F_{n+3} \\
+						&= 3F_{n+3} + 2F_{n+2} 
+						= 3F_{n+3} + F_{n+2} + (F_{n+3} - F_{n+1}) \\
+						&= 4F_{n+3} + (F_{n+2} - F_{n+1}) \\
+						&= 4F_{n+3} + F_{n}
+	\end{align*}
+	Hence, proved.
+	\es
+\enum
+\ep
