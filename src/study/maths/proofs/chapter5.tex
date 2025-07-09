@@ -1,0 +1,67 @@
+\chapter{Logic}
+
+Logic is the process of deducing information correctly -- it is \emph{not} the proces of deducing correct information.
+
+If the logic is valid \emph{and} the statements are true, then it is called \emph{sound}.
+
+
+\begin{definition}
+	A \emph{statement} is a sentence or mathemetical expression that is either true or false.
+\end{definition}
+
+A related notion is that of an \emph{open statement}, which are sentences of mathematical expressions which (1) do not have a truth value, (2) depend on some unknown, like a variable $x$ or an arbitrary function $f$, and (3) when the unknown is specified, then the open sentence becomes a statement ( and so has a truth value ). Their truth value depends on which value of $x$ or $f$ one chooses.
+
+\begin{example}
+	Here are four examples of open sentences:
+	\bnum
+	\item $x + 7 = 12$
+	\item $f$ is continuous.
+	\item $3 \mid x$
+	\item $x$ is even.
+	\enum
+\end{example}
+
+\begin{named}[Notation]
+	Let $P$ and $Q$ be statements or open statements.
+\bnum
+	\item $P \land Q$ means "$P$ and $Q$".
+	\item $P \lor Q$ means "$P$ or $Q$".
+	\item $\lnot P$ means "not $P$".
+	\item $P \implies Q$ means "$P$ implies $Q$".
+	\item $P \iff Q$ means "$P$ if and only if $Q$".
+\enum
+\end{named}
+
+\begin{definition}
+	The \emph{converse} of $P \implies Q$ is $Q \implies P$.
+\end{definition}
+
+\begin{theorem}[De Morgan's Logic Laws]
+	If $P$ and $Q$ are statements, then
+	$$\lnot (P \land Q) \iff \lnot P \lor \lnot Q \quad \text{and} \quad
+		\lnot (P \lor Q) \iff \lnot P \land \lnot Q$$
+\end{theorem}
+
+\begin{named}[Note]
+We can say that
+\bitem
+\item $\lnot \land = \lor$
+\item $\lnot \lot = \land$
+\item $\lnot \forall = \exists$
+\item $\lnot \exists = \forall$
+\eitem
+\end{named}
+
+From the truth table, we have 
+$$\lnot (P \implies Q) \implies P \land \lnot Q$$
+
+\begin{definition}
+	The \emph{contrapositive} of $P \implies Q$ is $\lnot Q \implies \lnot P$.
+\end{definition}
+
+\begin{theorem}
+	An implication is equivalent to its contrapositive. That is,
+	$$(P \implies Q) \iff (\lnot Q \implies \lnot P)$$
+\end{theorem}
+
+
