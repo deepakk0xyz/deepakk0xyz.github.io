@@ -486,6 +486,16 @@
 			"year": 2014
 		},
 		{
+			"title": "Fallen Angels",
+			"poster": "https://m.media-amazon.com/images/M/MV5BMTc3NzI0MzQ3M15BMl5BanBnXkFtZTcwMzA0MDMzNA@@._V1_FMjpg_SX300_.jpg",
+			"url": "https://imdb.com/title/tt0112913/",
+			"director": "Wong Kar-Wai",
+			"genre": [ "Comedy", "Crime", "Drama" ],
+			"rating": "4⭐",
+			"status": "Watched",
+			"year": 1995
+		},
+		{
 			"title": "Ferris Bueller's Day Off",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMDA0NjZhZWUtNmI2NC00MmFjLTgwZDYtYzVjZmNhMDVmOTBkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 			"url": "https://imdb.com/title/tt0091042/",
@@ -690,6 +700,15 @@
 			"rating": "4⭐",
 			"status": "Watched",
 			"year": 2021
+		},
+		{
+			"title": "In the Mood for Love",
+			"poster": "https://m.media-amazon.com/images/M/MV5BN2Q4NjllMDgtOTk2Zi00YzM1LWJmOTMtNmRiZDgyZGJmMjQzXkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt0118694/",
+			"director": "Wong Kar-Wai",
+			"rating": "5⭐",
+			"status": "Watched",
+			"year": 2000
 		},
 		{
 			"title": "Inception",
