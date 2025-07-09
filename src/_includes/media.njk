@@ -3,13 +3,13 @@
 <article>
   <h1>{{ title }}</h1>
   
-	<div class="container-column">
-	{% for item in entries %}
 	<div class="container">
-		<div class="media">
+	{% for item in entries %}
+	<div class="container-column media">
+		<div class="media-poster">
 			<img src="{{ item.poster }}">
 		</div>
-		<div class="container-column" style="gap:0px">
+		<div class="container-column media-text">
 			<span>
 				<a href="{{ item.url }}" target="_blank"> {{ item.title }}</a>
 				{% if item.year %} ({{ item.year }}) {% endif %}

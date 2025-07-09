@@ -57,17 +57,35 @@ table, th, td {
     overflow-x: auto;
 }
 
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.media {
+	width: 30%;
+}
+
+.media-poster {
+}
+
+.media-text {
+	column-gap: 0px;
+}
+
 .container-column {
 	display:flex;
 	flex-direction: column;
-	align-content: start;
-	gap: .5em;
+	flex-wrap: wrap;
+	justify-content: start;
 }
 
 .container, .container-row {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	flex-wrap: wrap;
+	flex: 1;
+	justify-content: space-around;
 	align-content: start;
-	gap: 5em;
+	row-gap: 5em;
 }
