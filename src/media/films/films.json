@@ -1,6 +1,6 @@
 {
 	"title": "Films",
-	"keys": ["rating", "status"],
+	"keys": ["rating", "status", "director"],
 	"entries": [
 		{
 			"title": "10 Things I Hate About You",
@@ -109,6 +109,15 @@
 			"rating": "5⭐",
 			"status": "Watched",
 			"year": 2022
+		},
+		{
+			"title": "All We Imagine As Light",
+			"poster": "https://m.media-amazon.com/images/M/MV5BNzg5OWVkODQtNDViMS00YmFkLTg4YjctMGFmZjM4OTdlYWRhXkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt32086077/",
+			"genre": "Slice Of Life",
+			"rating": "5⭐",
+			"status": "Watched",
+			"year": 2024
 		},
 		{
 			"title": "American Beauty",
@@ -259,6 +268,15 @@
 			"rating": "Unwatched",
 			"status": "Unwatched",
 			"year": 1998
+		},
+		{
+			"title": "Casablance",
+			"poster": "https://m.media-amazon.com/images/M/MV5BNWEzN2U1YTYtYTQyMS00NTVkLWE2NGQtZWFlMmM0MDNjMmRiXkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt0034583/",
+			"genre": [ "Drama", "Romance" ],
+			"rating": "5⭐",
+			"status": "Watched",
+			"year": 1942
 		},
 		{
 			"title": "Call Me by Your Name",

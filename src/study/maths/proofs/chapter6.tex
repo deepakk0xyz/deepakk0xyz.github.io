@@ -1,0 +1,41 @@
+\chapter{The Contrapositive}
+
+\begin{theorem}
+	An implication is logically equivalent to its contrapositive. That is,
+	$$(P \implies Q) \iff (\lnot Q \implies \lnot P)$$
+\end{theorem}
+
+\section{Proofs Using Contrapositive}
+
+\begin{named}[Proposition] $P \implies Q$ \end{named}
+
+\begin{proof} We will use the contrapositive. Assume that $\lnot Q$.
+
+	An explanation of what $\lnot Q$ means.
+
+	Apply Algebra, Logic and Techniques.
+
+	Hey, look, that's what $\lnot P$ means.
+
+	Therefore, $\lnot P$.
+
+	Since $\lnot Q \implies \lnot P$, by the contrapositive $P \implies Q$.
+
+\end{proof}
+
+\begin{proposition}
+	Suppose $n \in \mb{Z}$. If $n^2$ is odd, then $n$ is odd.
+\end{proposition}
+
+\begin{proof}
+	Suppse $n \in \mb{Z}$. We will use contrapositive. Assume that $n$ is not odd, which means that $n$ is even.
+
+	By the definition of an even integer, this means that $n = 2a$ for some $a \in \mb{Z}$. Then,
+	$$n^2 = (2a)^2 = 4a^2 = 2(2a^2)$$
+
+	And note since $a \in \mb{Z}$, then $2a^2 \in \mb{Z}$ as well. Therefore, this means that $n^2$ is even. And since $n \in \mb{Z}$, we know that $n^2 \in \mb{Z}$.
+
+	Therefore, it is equivalent to say that $n^2$ is not odd.
+
+	We shave shown that if $n$ is not odd, then $n^2$ is not odd. Thus, by contrapositive, if $n^2$ is odd, then $n$ is odd.
+\end{proof}
