@@ -1,6 +1,9 @@
 {
 	"title": "Anime",
-	"keys": ["rating", "status"],
+	"keys": [
+		"rating",
+		"status"
+	],
 	"entries": [
 		{
 			"title": "Dandadan",
@@ -8,7 +11,7 @@
 			"url": "https://www.imdb.com/title/tt30217403/",
 			"status": "Ongoing",
 			"rating": "5⭐",
-			"year": "2024-"
+			"year": "2024–"
 		},
 		{
 			"title": "One Piece",
@@ -16,7 +19,7 @@
 			"url": "https://www.imdb.com/title/tt0388629/",
 			"status": "Ongoing",
 			"rating": "5⭐",
-			"year": "1998-"
+			"year": "1999–"
 		}
 	]
 }
