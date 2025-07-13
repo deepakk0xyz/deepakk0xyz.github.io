@@ -1,6 +1,7 @@
 #! /usr/bin/env nix-shell
 #! nix-shell -i python3 -p python3 python313Packages.requests
 
+import re
 import os
 import sys
 import json
@@ -25,7 +26,7 @@ class ImdbApi:
             "title": content.get("Title"),
             "poster": content.get("Poster"),
             "url": f"https://www.imdb.com/title/{imdb_id}/",
-            "genre": content.get("Genre").split(", "),
+            "genre": content.get("Genre").split(", ") if content.get("Genre") else [],
             "director": content.get("Director"),
             "rating": None,
             "status": None,
@@ -76,6 +77,16 @@ class DbApi:
             self.show_entry(new_entry)
             self.db["entries"].append(new_entry)
 
+    def refresh_all(self, imdb_api):
+        for entry in self.db.get("entries"):
+            print("Refreshing: ", entry.get("title"))
+            imdb_id = self.get_imdb_id(entry)
+            print("ID: ", imdb_id)
+            new_entry = imdb_api.get_entry(imdb_id)
+            for key, value in entry.items():
+                if key == "genre": continue
+                entry[key] = new_entry.get(key) or value
+
     def commit(self):
         if input("Confirm Commit? (y/n) ") == "n":
             print("Skipped Commit.")
@@ -86,6 +97,10 @@ class DbApi:
     def show_entry(self, entry):
         for key, value in entry.items():
             print(key, ": ", value)
+
+    def get_imdb_id(self, entry):
+        match = re.search(r'(tt\d{7,8})', entry.get("url"))
+        return match.group(1) 
 
 def parse_args():
     parser = argparse.ArgumentParser(prog="IMDB",
@@ -115,7 +130,7 @@ def main():
 
         db_api.update_entry(args.imdb_id, entry)
     elif args.command == "refresh":
-        print("Refreshing...")
+        db_api.refresh_all(imdb_api)
 
     db_api.commit()
 
