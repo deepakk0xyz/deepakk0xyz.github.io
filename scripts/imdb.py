@@ -24,7 +24,7 @@ class ImdbApi:
         content = requests.get(URL, params= {"apiKey": self.api_key, "i": imdb_id}).json()
         return {
             "title": content.get("Title"),
-            "poster": content.get("Poster"),
+            "poster": self.verify_poster(content.get("Poster")),
             "url": f"https://www.imdb.com/title/{imdb_id}/",
             "genre": content.get("Genre").split(", ") if content.get("Genre") else [],
             "director": content.get("Director"),
@@ -32,6 +32,14 @@ class ImdbApi:
             "status": None,
             "year": content.get("Year"),
         }
+
+    def verify_poster(self, poster):
+        try:
+            requests.head(poster, allow_redirects=True).raise_for_status()
+            return poster
+        except Exception as e:
+            pass
+        return None
 
 
 class DbApi:
@@ -61,7 +69,8 @@ class DbApi:
             print("Exisiting Entry:")
             self.show_entry(entry)
 
-            # Preserve rating and status if not provided.
+            # Preserve poster, rating and status if not provided or invalid.
+            new_entry["poster"] = new_entry.get("poster") or entry.get("poster")
             new_entry["status"] = new_entry.get("status") or entry.get("status")
             new_entry["rating"] = new_entry.get("rating") or entry.get("rating")
 
@@ -75,6 +84,8 @@ class DbApi:
         else:
             print("New Entry:")
             self.show_entry(new_entry)
+            if not new_entry.get("poster"): 
+                new_entry = self.fix_poster(new_entry)
             self.db["entries"].append(new_entry)
 
     def refresh_all(self, imdb_api):
@@ -83,9 +94,24 @@ class DbApi:
             imdb_id = self.get_imdb_id(entry)
             print("ID: ", imdb_id)
             new_entry = imdb_api.get_entry(imdb_id)
+
             for key, value in entry.items():
                 if key == "genre": continue
                 entry[key] = new_entry.get(key) or value
+
+    def verify_all(self):
+        for entry in self.db.get("entries"):
+            imdb_id = self.get_imdb_id(entry)
+            try:
+                requests.head(entry.get("poster"), allow_redirects=True).raise_for_status()
+            except Exception as ex:
+                print(f"Invalid Poster: {entry.get('title')} ({imdb_id}): ", ex)
+                self.fix_poster(entry)
+
+    def fix_poster(self, entry):
+        if input("Poster is Invalid. Do you want to add a custom poster? (y/n)") == "y":
+            entry["poster"] = input("Enter Poster URL: ")
+        return entry
 
     def commit(self):
         if input("Confirm Commit? (y/n) ") == "n":
@@ -116,6 +142,9 @@ def parse_args():
 
     refresh_parser = subparsers.add_parser("refresh")
     refresh_parser.set_defaults(command="refresh")
+
+    verify_parser = subparsers.add_parser("verify")
+    verify_parser.set_defaults(command="verify")
     return parser.parse_args()
 
 def main():
@@ -131,6 +160,8 @@ def main():
         db_api.update_entry(args.imdb_id, entry)
     elif args.command == "refresh":
         db_api.refresh_all(imdb_api)
+    elif args.command == "verify":
+        db_api.verify_all()
 
     db_api.commit()
 
