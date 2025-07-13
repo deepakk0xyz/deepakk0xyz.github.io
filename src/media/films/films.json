@@ -362,19 +362,6 @@
 			"year": "2019"
 		},
 		{
-			"title": "Sinners",
-			"poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_SX300.jpg",
-			"url": "https://www.imdb.com/title/tt31193180/",
-			"director": "Ryan Coogler",
-			"genre": [
-				"Romance",
-				"Slice Of Life"
-			],
-			"rating": "5⭐",
-			"status": "Watched",
-			"year": "2025"
-		},
-		{
 			"title": "Coherence",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNzQ3ODUzNDY2M15BMl5BanBnXkFtZTgwNzg0ODY2MTE@._V1_SX300.jpg",
 			"url": "https://www.imdb.com/title/tt2866360/",
@@ -471,15 +458,6 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BM2Q2YTczM2QtNDBkNC00M2I5LTkyMzgtOTMwNzQ0N2UyYWQ0XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://www.imdb.com/title/tt12361178/",
 			"genre": "Thriller",
-			"rating": "5⭐",
-			"status": "Watched",
-			"year": "2021"
-		},
-		{
-			"title": "Dune: Part One",
-			"poster": "https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_SX300.jpg",
-			"url": "https://www.imdb.com/title/tt1160419/",
-			"genre": "Science Fiction",
 			"rating": "5⭐",
 			"status": "Watched",
 			"year": "2021"
@@ -782,17 +760,17 @@
 			"year": "2004"
 		},
 		{
-			"title": "Identifying Features",
-			"poster": "https://m.media-amazon.com/images/M/MV5BMWU2MzYwNTQtNjQ0Yi00NDA0LThjYTQtNDlhNDk2NmQ0M2ZjXkEyXkFqcGc@._V1_SX300.jpg",
-			"url": "https://www.imdb.com/title/tt11394282/",
+			"title": "I'm Thinking of Ending Things",
+			"poster": "https://m.media-amazon.com/images/M/MV5BYTgxNWU0MGMtMDI1Ny00NDIwLTllYzYtZDkyOTVmYmFhZGM0XkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt7939766/",
 			"rating": "Unwatched",
 			"status": "Unwatched",
 			"year": "2020"
 		},
 		{
-			"title": "I'm Thinking of Ending Things",
-			"poster": "https://m.media-amazon.com/images/M/MV5BYTgxNWU0MGMtMDI1Ny00NDIwLTllYzYtZDkyOTVmYmFhZGM0XkEyXkFqcGc@._V1_SX300.jpg",
-			"url": "https://www.imdb.com/title/tt7939766/",
+			"title": "Identifying Features",
+			"poster": "https://m.media-amazon.com/images/M/MV5BMWU2MzYwNTQtNjQ0Yi00NDA0LThjYTQtNDlhNDk2NmQ0M2ZjXkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt11394282/",
 			"rating": "Unwatched",
 			"status": "Unwatched",
 			"year": "2020"
@@ -1014,14 +992,6 @@
 			"rating": "4⭐",
 			"status": "Watched",
 			"year": "2015"
-		},
-		{
-			"title": "Robber",
-			"poster": "https://m.media-amazon.com/images/M/MV5BOTUwNTYyMzk4Ml5BMl5BanBnXkFtZTcwMTY2Mzc4OQ@@._V1_SX300.jpg",
-			"url": "https://www.imdb.com/title/tt2224317/",
-			"rating": "4⭐",
-			"status": "Watched",
-			"year": "2013"
 		},
 		{
 			"title": "Love Actually",
@@ -1283,6 +1253,14 @@
 			"year": "1992"
 		},
 		{
+			"title": "Robber",
+			"poster": "https://m.media-amazon.com/images/M/MV5BOTUwNTYyMzk4Ml5BMl5BanBnXkFtZTcwMTY2Mzc4OQ@@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt2224317/",
+			"rating": "4⭐",
+			"status": "Watched",
+			"year": "2013"
+		},
+		{
 			"title": "Schindler's List",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://www.imdb.com/title/tt0108052/",
@@ -1327,6 +1305,11 @@
 			"title": "Sinners",
 			"poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://www.imdb.com/title/tt31193180/",
+			"director": "Ryan Coogler",
+			"genre": [
+				"Romance",
+				"Slice Of Life"
+			],
 			"rating": "5⭐",
 			"status": "Watched",
 			"year": "2025"

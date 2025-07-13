@@ -100,13 +100,22 @@ class DbApi:
                 entry[key] = new_entry.get(key) or value
 
     def verify_all(self):
-        for entry in self.db.get("entries"):
+        ids = set()
+        for index, entry in enumerate(self.db.get("entries")):
             imdb_id = self.get_imdb_id(entry)
+
+            if imdb_id in ids:
+                print(f"Found Duplicate Entry: {entry.get('title')} ({imdb_id})")
+                del self.db.get("entries")[index]
+                continue
+
+            ids.add(imdb_id)
             try:
                 requests.head(entry.get("poster"), allow_redirects=True).raise_for_status()
             except Exception as ex:
                 print(f"Invalid Poster: {entry.get('title')} ({imdb_id}): ", ex)
                 self.fix_poster(entry)
+
 
     def fix_poster(self, entry):
         if input("Poster is Invalid. Do you want to add a custom poster? (y/n)") == "y":
@@ -117,6 +126,7 @@ class DbApi:
         if input("Confirm Commit? (y/n) ") == "n":
             print("Skipped Commit.")
             return
+        self.db["entries"] = sorted(self.db.get("entries"), key=lambda entry: entry["title"])
         with open(self.filename, "w") as file:
             json.dump(self.db, file, indent="\t", ensure_ascii=False)
 
