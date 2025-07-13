@@ -6,82 +6,118 @@ import sys
 import json
 import requests
 import argparse
+import subprocess
 
 URL = "https://omdbapi.com"
 STAR = "⭐"
 
-def get_imdb(imdb_id: str, api_key: str):
-    content = requests.get(URL, params= {"apiKey": api_key, "i": imdb_id}).json()
-    return {
-        "title": content.get("Title"),
-        "poster": content.get("Poster"),
-        "url": f"https://www.imdb.com/title/{imdb_id}",
-        "genre": content.get("Genre"),
-        "director": content.get("Director"),
-        "rating": "",
-        "status": "",
-        "year": content.get("Year"),
-    }
+class ImdbApi:
+    def __init__(self):
+        self.api_key = self.get_api_key()
+
+    def get_api_key(self):
+        process = subprocess.run(["pass", "show", "api/omdb"], capture_output=True)
+        return process.stdout.decode("utf-8").split("\n")[0]
+
+    def get_entry(self, imdb_id: str):
+        content = requests.get(URL, params= {"apiKey": self.api_key, "i": imdb_id}).json()
+        return {
+            "title": content.get("Title"),
+            "poster": content.get("Poster"),
+            "url": f"https://www.imdb.com/title/{imdb_id}/",
+            "genre": content.get("Genre").split(", "),
+            "director": content.get("Director"),
+            "rating": None,
+            "status": None,
+            "year": content.get("Year"),
+        }
+
+
+class DbApi:
+    def __init__(self, db_type):
+        self.type = db_type
+        with open(self.filename) as file:
+            self.db = json.load(file)
+
+    @property
+    def filename(self):
+        dirname = os.path.dirname(__file__)
+        filepath = os.path.join(dirname, f"../src/media/{self.type}/{self.type}.json")
+        return os.path.realpath(filepath)
+
+    def get_entry(self, index):
+        return self.db.get("entries")[index]
+
+    def find_entry(self, imdb_id):
+        for index, entry in enumerate(self.db.get("entries", [])):
+            if imdb_id in entry.get("url"):
+                return index
+
+    def update_entry(self, imdb_id, new_entry):
+        index = self.find_entry(imdb_id)
+        if index:
+            entry = self.get_entry(index)
+            print("Exisiting Entry:")
+            self.show_entry(entry)
+
+            # Preserve rating and status if not provided.
+            new_entry["status"] = new_entry.get("status") or entry.get("status")
+            new_entry["rating"] = new_entry.get("rating") or entry.get("rating")
+
+            print("New Entry:")
+            self.show_entry(new_entry)
+
+            if input("Confirm Update? (y/n) ") != "n":
+                self.db.get("entries")[index] = new_entry
+            else:
+                print("Skipped Update.")
+        else:
+            print("New Entry:")
+            self.show_entry(new_entry)
+            self.db["entries"].append(new_entry)
+
+    def commit(self):
+        if input("Confirm Commit? (y/n) ") == "n":
+            print("Skipped Commit.")
+            return
+        with open(self.filename, "w") as file:
+            json.dump(self.db, file, indent="\t", ensure_ascii=False)
+
+    def show_entry(self, entry):
+        for key, value in entry.items():
+            print(key, ": ", value)
 
 def parse_args():
     parser = argparse.ArgumentParser(prog="IMDB",
-            description="Add IMDB Movie To JSON File")
-    parser.add_argument("filename")
-    parser.add_argument("imdb_id")
-    parser.add_argument("api_key")
-    parser.add_argument("-r", "--rating")
-    parser.add_argument("-s", "--status")
+            description="Add IMDB Entry To DB File")
+    parser.add_argument("type", choices=["anime", "films", "shows"])
+    subparsers = parser.add_subparsers()
+
+    add_parser = subparsers.add_parser("add")
+    add_parser.add_argument("imdb_id")
+    add_parser.add_argument("-r", "--rating")
+    add_parser.add_argument("-s", "--status")
+    add_parser.set_defaults(command="add")
+
+    refresh_parser = subparsers.add_parser("refresh")
+    refresh_parser.set_defaults(command="refresh")
     return parser.parse_args()
-
-def show_entry(entry):
-    for key, value in entry.items():
-        print(key, ": ", value)
-
-def find_entry(entries, imdb_id):
-    for index, entry in enumerate(entries):
-        if imdb_id in entry["url"]:
-            return index
-
-def update_entry(filename, entry, imdb_id):
-    with open(filename, "r") as file:
-        db = json.load(file)
-        index = find_entry(db["entries"], imdb_id)
-        if index:
-            print("Updating Existing Entry.")
-            db["entries"][index] = entry
-        else:
-            print("Creating New Entry.")
-            db["entries"].append(entry)
-        db["entries"] = sorted(db["entries"], key=lambda entry: entry["title"])
-
-    with open(filename, "w") as file:
-        json.dump(db, file, indent="\t", ensure_ascii=False)
-
-def customize(entry):
-    if input(f"Do you want to change the genre? (Y/N)").lower() == "y":
-        genre = input("Please Enter Genre:")
-        if genre:   entry["genre"] = genre.split(",")
-        else:   del entry["genre"]
-
-    if input(f"Do you want to keep the director? (Y/N)").lower() == "n":
-        del entry["director"]
-
-    return entry
 
 def main():
     args = parse_args()
-    entry = get_imdb(args.imdb_id, args.api_key)
-    entry["rating"] = f"{args.rating}{STAR}" if args.rating else "Unwatched"
-    entry["status"] = args.status or "Unwatched"
+    imdb_api = ImdbApi()
+    db_api = DbApi(args.type)
 
-    show_entry(entry)
-    entry = customize(entry)
-    print("Final Entry:")
-    show_entry(entry)
+    if args.command == "add":
+        entry = imdb_api.get_entry(args.imdb_id)
+        entry["status"] = args.status
+        entry["rating"] = args.rating + STAR if args.rating else None
 
-    if input("Confirm DB Update (Y/N):").lower() == "y":
-        update_entry(args.filename, entry, args.imdb_id)
+        db_api.update_entry(args.imdb_id, entry)
+    elif args.command == "refresh":
+        print("Refreshing...")
 
+    db_api.commit()
 
 
 if __name__ == '__main__':

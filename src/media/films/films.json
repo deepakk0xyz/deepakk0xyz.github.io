@@ -1183,8 +1183,11 @@
 		{
 			"title": "Past Lives",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYjQyMTNhNjUtN2VmYy00NWRhLTkwOTctMGVmNTBmNDIxYjZhXkEyXkFqcGc@._V1_SX300.jpg",
-			"url": "https://www.imdb.com/title/tt13238346",
-			"genre": "Drama, Romance",
+			"url": "https://www.imdb.com/title/tt13238346/",
+			"genre": [
+				"Drama",
+				"Romance"
+			],
 			"director": "Celine Song",
 			"rating": "5⭐",
 			"status": "Watched",
