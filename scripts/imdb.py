@@ -8,6 +8,7 @@ import json
 import requests
 import argparse
 import subprocess
+from typing import Optional
 
 URL = "https://omdbapi.com"
 STAR = "⭐"
@@ -20,13 +21,14 @@ class ImdbApi:
         process = subprocess.run(["pass", "show", "api/omdb"], capture_output=True)
         return process.stdout.decode("utf-8").split("\n")[0]
 
-    def get_entry(self, imdb_id: str):
+    def get_entry(self, imdb_id: str, genre: Optional[str]):
         content = requests.get(URL, params= {"apiKey": self.api_key, "i": imdb_id}).json()
+        genre = genre or content.get("Genre")
         return {
             "title": content.get("Title"),
             "poster": self.verify_poster(content.get("Poster")),
             "url": f"https://www.imdb.com/title/{imdb_id}/",
-            "genre": content.get("Genre").split(", ") if content.get("Genre") else [],
+            "genre": genre.split(", ") if genre else [],
             "director": content.get("Director"),
             "rating": None,
             "status": None,
@@ -146,8 +148,9 @@ def parse_args():
 
     add_parser = subparsers.add_parser("add")
     add_parser.add_argument("imdb_id")
-    add_parser.add_argument("-r", "--rating")
-    add_parser.add_argument("-s", "--status")
+    add_parser.add_argument("-r", "--rating", choices=["1", "2", "3", "4", "5"])
+    add_parser.add_argument("-s", "--status", choices=["Ongoing", "Watched", "Unwatched"])
+    add_parser.add_argument("-g", "--genre")
     add_parser.set_defaults(command="add")
 
     refresh_parser = subparsers.add_parser("refresh")
@@ -155,6 +158,13 @@ def parse_args():
 
     verify_parser = subparsers.add_parser("verify")
     verify_parser.set_defaults(command="verify")
+
+    update_parser = subparsers.add_parser("update")
+    update_parser.add_argument("imdb_id")
+    update_parser.add_argument("field")
+    update_parser.add_argument("value")
+    update_parser.set_defaults(command="update")
+
     return parser.parse_args()
 
 def main():
@@ -163,7 +173,7 @@ def main():
     db_api = DbApi(args.type)
 
     if args.command == "add":
-        entry = imdb_api.get_entry(args.imdb_id)
+        entry = imdb_api.get_entry(args.imdb_id, args.genre)
         entry["status"] = args.status
         entry["rating"] = args.rating + STAR if args.rating else None
 
@@ -172,6 +182,15 @@ def main():
         db_api.refresh_all(imdb_api)
     elif args.command == "verify":
         db_api.verify_all()
+    elif args.command == "update":
+        index = db_api.find_entry(args.imdb_id)
+        if not index:
+            print("Entry Not Found.")
+            return
+        entry = db_api.get_entry(index)
+        entry[args.field] = args.value.split(",") if "," in args.value else args.value
+        db_api.update_entry(args.imdb_id, entry)
+
 
     db_api.commit()
 

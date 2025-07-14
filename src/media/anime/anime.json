@@ -9,14 +9,32 @@
 			"title": "Dandadan",
 			"poster": "https://m.media-amazon.com/images/M/MV5BYWFhOWMxNTYtZThiMi00ZmQ5LTlmODktN2QwNzUyZjMyZGQzXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://www.imdb.com/title/tt30217403/",
+			"genre": [
+				"Shonen"
+			],
 			"status": "Ongoing",
 			"rating": "5⭐",
 			"year": "2024–"
 		},
 		{
+			"title": "Naruto",
+			"poster": "https://m.media-amazon.com/images/M/MV5BZTNjOWI0ZTAtOGY1OS00ZGU0LWEyOWYtMjhkYjdlYmVjMDk2XkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt0409591/",
+			"genre": [
+				"Shonen"
+			],
+			"director": "",
+			"rating": "4⭐",
+			"status": "Watched",
+			"year": "2002–2007"
+		},
+		{
 			"title": "One Piece",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://www.imdb.com/title/tt0388629/",
+			"genre": [
+				"Shonen"
+			],
 			"status": "Ongoing",
 			"rating": "5⭐",
 			"year": "1999–"
