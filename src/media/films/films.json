@@ -467,9 +467,20 @@
 			"poster": "https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://www.imdb.com/title/tt1160419/",
 			"genre": "Science Fiction",
+			"director": "Denis Villeneuve",
 			"rating": "5⭐",
 			"status": "Watched",
 			"year": "2021"
+		},
+		{
+			"title": "Dune: Part Two",
+			"poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt15239678/",
+			"genre": "Science Fiction",
+			"director": "Denis Villeneuve",
+			"rating": "5⭐",
+			"status": "Watched",
+			"year": "2024"
 		},
 		{
 			"title": "Dunkirk",
