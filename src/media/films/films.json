@@ -559,6 +559,20 @@
 			"year": "2014"
 		},
 		{
+			"title": "F1: The Movie",
+			"poster": "https://m.media-amazon.com/images/M/MV5BZTYwYjJhNzYtY2ZiZS00ZmYxLWJkZjctYjRlNGIxYjI3ZTU0XkEyXkFqcGc@._V1_SX300.jpg",
+			"url": "https://www.imdb.com/title/tt16311594/",
+			"genre": [
+				"Action",
+				"Drama",
+				"Sport"
+			],
+			"director": "Joseph Kosinski",
+			"rating": "4⭐",
+			"status": "Watched",
+			"year": "2025"
+		},
+		{
 			"title": "Fallen Angels",
 			"poster": "https://m.media-amazon.com/images/M/MV5BMWI3MDk4N2ItNzU2NS00Zjc5LWIxMDYtMGNmZmM2YzMzMDk3XkEyXkFqcGc@._V1_SX300.jpg",
 			"url": "https://www.imdb.com/title/tt0112913/",
