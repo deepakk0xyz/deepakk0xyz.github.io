@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
+const YAML = require("yaml");
 
 
 function filterEntries(entries, key, value) {
@@ -36,4 +37,7 @@ module.exports = function(eleventyConfig) {
     markdownLib.renderer.rules.table_close = () => '</table>\n</div>',
 
     eleventyConfig.setLibrary("md", markdownLib);
+	
+		// YAML Data Sources
+		eleventyConfig.addDataExtension("yml,yaml", (contents) => YAML.parse(contents));
 };

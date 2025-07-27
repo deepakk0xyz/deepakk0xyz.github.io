@@ -1,12 +1,12 @@
 {
   "name": "11ty-no-style-please",
   "description": "A template for a minimalistic blog",
-  "scripts": {
-  },
+  "scripts": {},
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "luxon": "^3.6.1",
-    "markdown-it": "^14.1.0"
+    "markdown-it": "^14.1.0",
+    "yaml": "^2.8.0"
   }
 }
