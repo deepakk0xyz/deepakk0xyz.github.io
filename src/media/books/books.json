@@ -69,6 +69,17 @@
 			],
 			"rating": "5⭐",
 			"status": "Read"
+		},
+		{
+			"title": "Trust",
+			"author": "Hernan Diaz",
+			"poster": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631246461i/58210933.jpg",
+			"genre": [
+				"Historical Fiction",
+				"Literary Fiction"
+			],
+			"rating": "Unread",
+			"status": "Currently Reading"
 		}
 	]
 }
