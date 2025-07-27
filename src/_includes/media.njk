@@ -6,7 +6,7 @@
 	<div class="container">
 
 	{% for item in entries %}
-	<div class="container-column media">
+	<div class="container-column media {{ root.replace("media/", "") }}">
 
 		<div class="media-poster">
 			<img src="{{ item.poster }}">
