@@ -1,5 +1,6 @@
 {
 	"title": "Video Games",
+	"root": "media/games",
 	"keys": ["rating", "status", "genre"],
 	"entries": [
 		{

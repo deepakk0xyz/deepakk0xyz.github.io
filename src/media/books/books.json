@@ -1,5 +1,6 @@
 {
 	"title": "Books",
+	"root": "media/books",
 	"keys": ["rating", "status"],
 	"entries": [
 		{
@@ -66,6 +67,17 @@
 			"genre": [
 				"Contemporary",
 				"Literary Fiction"
+			],
+			"rating": "5⭐",
+			"status": "Read"
+		},
+		{
+			"title": "Dune",
+			"series": "Dune",
+			"author": "Frank Herbert",
+			"poster": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
+			"genre": [
+				"Science Fiction"
 			],
 			"rating": "5⭐",
 			"status": "Read"

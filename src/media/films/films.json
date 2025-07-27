@@ -1,5 +1,6 @@
 {
 	"title": "Films",
+	"root": "media/films",
 	"keys": [
 		"rating",
 		"status",

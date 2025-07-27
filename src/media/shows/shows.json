@@ -1,5 +1,6 @@
 {
 	"title": "Shows",
+	"root": "media/shows",
 	"keys": [
 		"rating",
 		"status"

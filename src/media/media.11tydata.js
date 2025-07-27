@@ -9,7 +9,7 @@ export default {
 				if(entries == null || keys == null) {
 					return null;
 				}
-				return keys.map(key => {
+				var menu_list = keys.map(key => {
 					var subentries = [...new Set(
 						entries
 						.filter(entry => entry[key])
@@ -18,6 +18,10 @@ export default {
 
 					return {title: capitalize(key), entries: subentries};
 				});
+				
+				menu_list.unshift({title: "All", url: "all/"});
+
+				return menu_list;
 			},
 		}
 	}

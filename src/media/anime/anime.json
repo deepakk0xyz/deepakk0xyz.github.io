@@ -1,5 +1,6 @@
 {
 	"title": "Anime",
+	"root": "media/anime",
 	"keys": [
 		"rating",
 		"status"

@@ -1,27 +1,35 @@
 <a href="/{{ root }}">{{ site.back_home_text }}</a>
 
 <article>
-  <h1>{{ title }}</h1>
+  <h1>{{ title }} ({{ entries.length }})</h1>
   
 	<div class="container">
+
 	{% for item in entries %}
 	<div class="container-column media">
+
 		<div class="media-poster">
 			<img src="{{ item.poster }}">
 		</div>
+
 		<div class="container-column media-text">
 			<span>
 				<a href="{{ item.url }}" target="_blank"> {{ item.title }}</a>
 				{% if item.year %} ({{ item.year }}) {% endif %}
 			</span>
+
 			<span><strong>Rating:</strong> {{ item.rating }}</span>
+
 			<span><strong>Status:</strong> {{ item.status }}</span>
+
 			{% if item.director %}
 			<span><strong>Director:</strong> {{ item.director }}</span>
 			{% endif %}
+
 			{% if item.genre %}
 			<span><strong>Genre:</strong> {{ item.genre }}</span>
 			{% endif %}
+
 		</div>
 	</div>
 	{% endfor %}
