@@ -24,5 +24,5 @@ update:
 shell:
 	$SHELL
 
-imdb ARGS:
+imdb *ARGS:
 	python3 ./scripts/imdb.py {{ARGS}}
