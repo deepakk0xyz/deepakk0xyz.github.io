@@ -67,10 +67,12 @@ img {
 }
 
 .media-poster {
+	width: 100%;
 }
 
 .media-text {
 	column-gap: 0px;
+	text-wrap: balance;
 }
 
 .container-column {

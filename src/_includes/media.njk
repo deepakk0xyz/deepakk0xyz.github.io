@@ -27,7 +27,12 @@
 			{% endif %}
 
 			{% if item.genre %}
-			<span><strong>Genre:</strong> {{ item.genre }}</span>
+			{% set comma = joiner(",") %}
+			<span><strong>Genre:</strong> 
+				{% for genre in item.genre -%}
+					{{ comma() }} {{ genre }}
+				{%- endfor %}
+			</span>
 			{% endif %}
 
 		</div>

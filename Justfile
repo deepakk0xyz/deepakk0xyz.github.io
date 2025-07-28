@@ -1,5 +1,14 @@
 
-set shell := [ "nix-shell", "-p", "nodejs", "nodePackages.npm", "--run"]
+set shell := [ 
+	"nix-shell",
+	"-p",
+	"nodejs",
+	"nodePackages.npm",
+	"python3",
+	"python313Packages.requests",
+	"python313Packages.pyyaml",
+	"--run"
+]
 
 start:
   npx @11ty/eleventy --serve
@@ -14,3 +23,6 @@ update:
 
 shell:
 	$SHELL
+
+imdb ARGS:
+	python3 ./scripts/imdb.py {{ARGS}}

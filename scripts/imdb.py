@@ -1,10 +1,9 @@
-#! /usr/bin/env nix-shell
-#! nix-shell -i python3 -p python3 python313Packages.requests
+#!/usr/bin/env python3
 
 import re
 import os
 import sys
-import json
+import yaml
 import requests
 import argparse
 import subprocess
@@ -12,6 +11,10 @@ from typing import Optional
 
 URL = "https://omdbapi.com"
 STAR = "⭐"
+
+class IndentDumper(yaml.Dumper):
+    def increase_indent(self, flow=False, indentless=False):
+        return super().increase_indent(flow, False)
 
 class ImdbApi:
     def __init__(self):
@@ -24,12 +27,15 @@ class ImdbApi:
     def get_entry(self, imdb_id: str, genre: Optional[str]):
         content = requests.get(URL, params= {"apiKey": self.api_key, "i": imdb_id}).json()
         genre = genre or content.get("Genre")
+        director = content.get("Director")
+        if not director or director == "N/A" or input(f"Do you want to keep director ({director})? (y/n)") != "y":
+            director = None
         return {
             "title": content.get("Title"),
             "poster": self.verify_poster(content.get("Poster")),
             "url": f"https://www.imdb.com/title/{imdb_id}/",
             "genre": genre.split(", ") if genre else [],
-            "director": content.get("Director"),
+            "director": director,
             "rating": None,
             "status": None,
             "year": content.get("Year"),
@@ -48,12 +54,12 @@ class DbApi:
     def __init__(self, db_type):
         self.type = db_type
         with open(self.filename) as file:
-            self.db = json.load(file)
+            self.db = yaml.safe_load(file)
 
     @property
     def filename(self):
         dirname = os.path.dirname(__file__)
-        filepath = os.path.join(dirname, f"../src/media/{self.type}/{self.type}.json")
+        filepath = os.path.join(dirname, f"../src/media/{self.type}/{self.type}.yaml")
         return os.path.realpath(filepath)
 
     def get_entry(self, index):
@@ -130,11 +136,10 @@ class DbApi:
             return
         self.db["entries"] = sorted(self.db.get("entries"), key=lambda entry: entry["title"])
         with open(self.filename, "w") as file:
-            json.dump(self.db, file, indent="\t", ensure_ascii=False)
+            yaml.dump(self.db, file, allow_unicode=True, sort_keys=False, Dumper=IndentDumper)
 
     def show_entry(self, entry):
-        for key, value in entry.items():
-            print(key, ": ", value)
+        print(yaml.dump(entry, allow_unicode=True, sort_keys=False, Dumper=IndentDumper))
 
     def get_imdb_id(self, entry):
         match = re.search(r'(tt\d{7,8})', entry.get("url"))

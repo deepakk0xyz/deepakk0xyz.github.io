@@ -12,12 +12,23 @@ entries:
     status: Ongoing
     rating: 5⭐
     year: 2024–
+  - title: 'Frieren: Beyond Journey''s End'
+    poster: https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt22248376/
+    genre:
+      - Animation
+      - Adventure
+      - Comedy
+    director: null
+    rating: 5⭐
+    status: Watched
+    year: 2023–
   - title: Naruto
     poster: https://m.media-amazon.com/images/M/MV5BZTNjOWI0ZTAtOGY1OS00ZGU0LWEyOWYtMjhkYjdlYmVjMDk2XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0409591/
     genre:
       - Shonen
-    director: ""
+    director: ''
     rating: 4⭐
     status: Watched
     year: 2002–2007

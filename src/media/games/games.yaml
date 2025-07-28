@@ -7,7 +7,8 @@ keys:
 entries:
   - title: Baba Is You
     poster: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736260/header.jpg?t=1747950287
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: Unplayed
     status: Ongoing
     year: 2024
@@ -22,43 +23,50 @@ entries:
     year: 2024
   - title: 'Black Myth: Wukong'
     poster: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528
-    genre: Action
+    genre: 
+      - Action
     rating: Unplayed
     status: Unplayed
     year: 2024
   - title: Blue Prince
     poster: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg?t=1750173402
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: Unplayed
     status: Unplayed
     year: 2024
   - title: Celeste
     poster: https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953
-    genre: Platformer
+    genre: 
+      - Platformer
     rating: 5⭐
     status: Finished
     year: 2018
   - title: Chants of Sennaar
     poster: https://cdn.akamai.steamstatic.com/steam/apps/1931770/header.jpg?t=1695809281
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: 3⭐
     status: Finished
     year: 2023
   - title: Cuphead
     poster: https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg?t=1695655205
-    genre: Action
+    genre: 
+      - Action
     rating: 5⭐
     status: Ongoing
     year: 2017
   - title: Disco Elysium - The Final Cut
     poster: https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1727256511
-    genre: RPG
+    genre: 
+      - RPG
     rating: 5⭐
     status: Finished
     year: 2019
   - title: Endling
     poster: https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg?t=1690550090
-    genre: Survival
+    genre: 
+      - Survival
     rating: 2⭐
     status: Did Not Finish
     year: 2022
@@ -87,13 +95,15 @@ entries:
     year: 2024
   - title: Gibbon - Beyond The Trees
     poster: https://cdn.cloudflare.steamstatic.com/steam/apps/1837330/header.jpg?t=1688726905
-    genre: Arcade
+    genre: 
+      - Arcade
     rating: 2⭐
     status: Finished
     year: 2022
   - title: Gris
     poster: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: 4⭐
     status: Finished
     year: 2018
@@ -160,31 +170,36 @@ entries:
     year: 2020
   - title: Partick's Parabox
     poster: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260520/header.jpg?t=1745611653
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: Unplayed
     status: Unplayed
     year: 2022
   - title: Planet Of Lana
     poster: https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg?t=1688537787
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: 3⭐
     status: Finished
     year: 2023
   - title: Portal
     poster: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400/header.jpg?t=1745368554
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: 5⭐
     status: Finished
     year: 2007
   - title: Portal 2
     poster: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1745363004
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: 5⭐
     status: Finished
     year: 2011
   - title: Rain World
     poster: https://cdn.cloudflare.steamstatic.com/steam/apps/312520/header.jpg?t=1674137018
-    genre: Survival
+    genre: 
+      - Survival
     rating: 5⭐
     status: Finished
     year: 2017
@@ -228,13 +243,15 @@ entries:
     year: 2020
   - title: 'The Stanley Parable: Ultra Deluxe'
     poster: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1703340/header.jpg?t=1712065263
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: Unplayed
     status: Unplayed
     year: 2022
   - title: Untitled Goose Game
     poster: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/837470/header.jpg?t=1699052664
-    genre: Puzzle
+    genre: 
+      - Puzzle
     rating: 3⭐
     status: Finished
     year: 2020

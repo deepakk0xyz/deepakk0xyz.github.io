@@ -8,7 +8,8 @@ entries:
   - title: 10 Things I Hate About You
     poster: https://m.media-amazon.com/images/M/MV5BOTQwYmRhNGQtODI2Mi00ZTRlLTk0Y2QtY2NkNjE1MGNhNTgwXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0147800/
-    genre: Romantic Comedy
+    genre: 
+      - Romantic Comedy
     rating: 5⭐
     status: Watched
     year: "1999"
@@ -25,21 +26,24 @@ entries:
   - title: "21"
     poster: https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0478087/
-    genre: Thriller
+    genre: 
+      - Thriller
     rating: 5⭐
     status: Watched
     year: "2008"
   - title: "300"
     poster: https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0416449/
-    genre: Action
+    genre: 
+     - Action
     rating: 4⭐
     status: Watched
     year: "2006"
   - title: 500 Days of Summer
     poster: https://m.media-amazon.com/images/M/MV5BMTk5MjM4OTU1OV5BMl5BanBnXkFtZTcwODkzNDIzMw@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1022603/
-    genre: Romantic Comedy
+    genre: 
+      - Romantic Comedy
     rating: 4⭐
     status: Watched
     year: "2009"
@@ -73,7 +77,8 @@ entries:
   - title: About Time
     poster: https://m.media-amazon.com/images/M/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt2194499/
-    genre: Romance
+    genre: 
+      - Romance
     rating: 4⭐
     status: Watched
     year: "2013"
@@ -108,14 +113,16 @@ entries:
   - title: All We Imagine as Light
     poster: https://m.media-amazon.com/images/M/MV5BNzg5OWVkODQtNDViMS00YmFkLTg4YjctMGFmZjM4OTdlYWRhXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt32086077/
-    genre: Slice Of Life
+    genre: 
+      - Slice Of Life
     rating: 5⭐
     status: Watched
     year: "2024"
   - title: American Beauty
     poster: https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItMWExYTg5NzA1OGUzXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0169547/
-    genre: Drama
+    genre: 
+      - Drama
     rating: 4⭐
     status: Watched
     year: "1999"
@@ -132,7 +139,8 @@ entries:
   - title: An Action Hero
     poster: https://m.media-amazon.com/images/M/MV5BNWUzNzljNjMtYTdiZS00MWQ2LWFkZWItYTM0MzVmZGFhYzNjXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt15600222/
-    genre: Action
+    genre: 
+      - Action
     rating: 4⭐
     status: Watched
     year: "2022"
@@ -154,13 +162,16 @@ entries:
   - title: Arrival
     poster: https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SX300.jpg
     url: https://www.imdb.com/title/tt2543164/
-    genre: Science Fiction
+    genre: 
+      - Science Fiction
     rating: 5⭐
     status: Watched
     year: "2016"
   - title: Barbie
     poster: https://m.media-amazon.com/images/M/MV5BYjI3NDU0ZGYtYjA2YS00Y2RlLTgwZDAtYTE2YTM5ZjE1M2JlXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1517268/
+    genre:
+      - Comedy
     rating: 3⭐
     status: Watched
     year: "2023"
@@ -186,21 +197,24 @@ entries:
   - title: Before Midnight
     poster: https://m.media-amazon.com/images/M/MV5BMjA5NzgxODE2NF5BMl5BanBnXkFtZTcwNTI1NTI0OQ@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt2209418/
-    genre: Romance
+    genre: 
+      - Romance
     rating: 5⭐
     status: Watched
     year: "2013"
   - title: Before Sunrise
     poster: https://m.media-amazon.com/images/M/MV5BZDZhZmI1ZTUtYWI3NC00NTMwLTk3NWMtNDc0OGNjM2I0ZjlmXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0112471/
-    genre: Romance
+    genre: 
+      - Romance
     rating: 5⭐
     status: Watched
     year: "1995"
   - title: Before Sunset
     poster: https://m.media-amazon.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0381681/
-    genre: Romance
+    genre: 
+      - Romance
     rating: 5⭐
     status: Watched
     year: "2004"
@@ -271,7 +285,8 @@ entries:
   - title: Chhichhore
     poster: https://m.media-amazon.com/images/M/MV5BODgwYWE2MGEtYTMwYi00NTg5LWEzOWYtNTFiZDc4NWMzODcyXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt9052870/
-    genre: Drama
+    genre: 
+      - Drama
     rating: 2⭐
     status: Watched
     year: "2019"
@@ -287,21 +302,24 @@ entries:
   - title: Crazy, Stupid, Love.
     poster: https://m.media-amazon.com/images/M/MV5BMTg2MjkwMTM0NF5BMl5BanBnXkFtZTcwMzc4NDg2NQ@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1570728/
-    genre: Romantic Comedy
+    genre: 
+      - Romantic Comedy
     rating: 4⭐
     status: Watched
     year: "2011"
   - title: Dead Poets Society
     poster: https://m.media-amazon.com/images/M/MV5BMDYwNGVlY2ItMWYxMS00YjZiLWE5MTAtYWM5NWQ2ZWJjY2Q3XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0097165/
-    genre: Drama
+    genre: 
+      - Drama
     rating: 4⭐
     status: Watched
     year: "1989"
   - title: Dear Zindagi
     poster: https://m.media-amazon.com/images/M/MV5BMGVhMjczOWYtNWYyOS00MTYwLTg3OWYtNmVjYWQ0OThlOThiXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt5946128/
-    genre: Drama
+    genre: 
+      - Drama
     rating: 5⭐
     status: Watched
     year: "2016"
@@ -314,49 +332,56 @@ entries:
   - title: Decision to Leave
     poster: https://m.media-amazon.com/images/M/MV5BN2NhZjcxYjItNDhlOC00Y2U2LWE4NDktMDJhNTQ1NzNjMmNmXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt12477480/
-    genre: Mystery
+    genre: 
+      - Mystery
     rating: 3⭐
     status: Watched
     year: "2022"
   - title: Definitely, Maybe
     poster: https://m.media-amazon.com/images/M/MV5BMTc1Mzc1ODMxMF5BMl5BanBnXkFtZTcwNDY1MzU1MQ@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0832266/
-    genre: Romantic Comedy
+    genre: 
+      - Romantic Comedy
     rating: 3⭐
     status: Watched
     year: "2008"
   - title: Dirty Dancing
     poster: https://m.media-amazon.com/images/M/MV5BZmIwZjA1NzUtNTA0OS00OWMyLWE5MzctM2RjOWYxZjQyZDdmXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0092890/
-    genre: Romance
+    genre: 
+      - Romance
     rating: 5⭐
     status: Watched
     year: "1987"
   - title: Django Unchained
     poster: https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1853728/
-    genre: Action
+    genre: 
+      - Action
     rating: 5⭐
     status: Watched
     year: "2012"
   - title: Drishyam
     poster: https://m.media-amazon.com/images/M/MV5BM2MwMjNlNjctYjA2ZS00ZDA4LWJmNTYtODg5NDY1YzQzZDg2XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt3417422/
-    genre: Thriller
+    genre: 
+      - Thriller
     rating: 5⭐
     status: Watched
     year: "2013"
   - title: Drishyam 2
     poster: https://m.media-amazon.com/images/M/MV5BM2Q2YTczM2QtNDBkNC00M2I5LTkyMzgtOTMwNzQ0N2UyYWQ0XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt12361178/
-    genre: Thriller
+    genre: 
+      - Thriller
     rating: 5⭐
     status: Watched
     year: "2021"
   - title: 'Dune: Part One'
     poster: https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1160419/
-    genre: Science Fiction
+    genre: 
+      - Science Fiction
     director: Denis Villeneuve
     rating: 5⭐
     status: Watched
@@ -364,7 +389,8 @@ entries:
   - title: 'Dune: Part Two'
     poster: https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt15239678/
-    genre: Science Fiction
+    genre: 
+      - Science Fiction
     director: Denis Villeneuve
     rating: 5⭐
     status: Watched
@@ -378,7 +404,8 @@ entries:
   - title: Easy A
     poster: https://m.media-amazon.com/images/M/MV5BMjE1MzU1Mjg1OF5BMl5BanBnXkFtZTcwNDc3NDQ2Mw@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1282140/
-    genre: Romantic Comedy
+    genre: 
+      - Romantic Comedy
     rating: 4⭐
     status: Watched
     year: "2010"
@@ -404,7 +431,8 @@ entries:
   - title: EuroTrip
     poster: https://m.media-amazon.com/images/M/MV5BYzgzNWMyYjgtYjFmNi00MDdmLTk4MjAtYzMxMjI3MWU2MzcxXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0356150/
-    genre: Comedy
+    genre: 
+      - Comedy
     rating: 4⭐
     status: Watched
     year: "2004"
@@ -452,14 +480,16 @@ entries:
   - title: Ferris Bueller's Day Off
     poster: https://m.media-amazon.com/images/M/MV5BZWYwMjUxNjMtMzE0MC00NDM3LWIxMmQtYmEyNWVjNjdlZGZjXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0091042/
-    genre: Comedy
+    genre: 
+      - Comedy
     rating: 5⭐
     status: Watched
     year: "1986"
   - title: Fight Club
     poster: https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0137523/
-    genre: Action
+    genre: 
+      - Action
     rating: 5⭐
     status: Watched
     year: "1999"
@@ -493,7 +523,8 @@ entries:
   - title: Gangs of Wasseypur
     poster: https://m.media-amazon.com/images/M/MV5BMTc5NjY4MjUwNF5BMl5BanBnXkFtZTgwODM3NzM5MzE@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1954470/
-    genre: Action
+    genre: 
+      - Action
     rating: 3⭐
     status: Watched
     year: "2012"
@@ -551,7 +582,8 @@ entries:
   - title: Harry Potter and the Sorcerer's Stone
     poster: https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0241527/
-    genre: Fantasy
+    genre: 
+      - Fantasy
     rating: 5⭐
     status: Watched
     year: "2001"
@@ -567,14 +599,16 @@ entries:
   - title: He's Just Not That Into You
     poster: https://m.media-amazon.com/images/M/MV5BMTY5MTUyNDgwMF5BMl5BanBnXkFtZTcwNzYzMDQyMg@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1001508/
-    genre: Romantic Comedy
+    genre: 
+      - Romantic Comedy
     rating: 4⭐
     status: Watched
     year: "2009"
   - title: Honor Society
     poster: https://m.media-amazon.com/images/M/MV5BOTkwMTVlMjEtODFkNi00MDZiLWE4MzktZmQ1YzkwZmZlNTQxXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt16491324/
-    genre: Drama
+    genre: 
+      - Drama
     rating: 3⭐
     status: Watched
     year: "2022"
@@ -822,7 +856,9 @@ entries:
   - title: Materialists
     poster: https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt30253473/
-    genre: Comedy, Romance
+    genre: 
+      - Comedy
+      - Romance
     director: Celine Song
     rating: Unwatched
     status: Unwatched
