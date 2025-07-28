@@ -26,3 +26,7 @@ shell:
 
 imdb *ARGS:
 	python3 ./scripts/imdb.py {{ARGS}}
+
+latex:
+	find . -name "main.tex" | xargs pdflatex
+	just build
