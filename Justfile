@@ -7,6 +7,7 @@ set shell := [
 	"python3",
 	"python313Packages.requests",
 	"python313Packages.pyyaml",
+  "texliveFull",
 	"--run"
 ]
 
