@@ -12,6 +12,7 @@ entries:
     status: Ongoing
     rating: 5⭐
     year: 2024–
+    id: tt30217403
   - title: 'Frieren: Beyond Journey''s End'
     poster: https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt22248376/
@@ -23,6 +24,7 @@ entries:
     rating: 5⭐
     status: Watched
     year: 2023–
+    id: tt22248376
   - title: Naruto
     poster: https://m.media-amazon.com/images/M/MV5BZTNjOWI0ZTAtOGY1OS00ZGU0LWEyOWYtMjhkYjdlYmVjMDk2XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0409591/
@@ -32,6 +34,7 @@ entries:
     rating: 4⭐
     status: Watched
     year: 2002–2007
+    id: tt0409591
   - title: One Piece
     poster: https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0388629/
@@ -40,3 +43,16 @@ entries:
     status: Ongoing
     rating: 5⭐
     year: 1999–
+    id: tt0388629
+  - title: Steins;Gate
+    poster: https://m.media-amazon.com/images/M/MV5BZjI1YjZiMDUtZTI3MC00YTA5LWIzMmMtZmQ0NTZiYWM4NTYwXkEyXkFqcGc@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt1910272/
+    id: tt1910272
+    genre:
+      - Animation
+      - Comedy
+      - Drama
+    director: null
+    year: 2011–2015
+    status: Watched
+    rating: 5⭐

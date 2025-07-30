@@ -25,18 +25,13 @@ class ImdbApi:
     def get_entry(self, imdb_id: str, genre: Optional[str] = None):
         content = requests.get(URL, params= {"apiKey": self.api_key, "i": imdb_id}).json()
         genre = genre or content.get("Genre")
-        director = content.get("Director")
-        if not director or director == "N/A" or input(f"Do you want to keep director ({director})? (y/n)") != "y":
-            director = None
         return {
             "title": content.get("Title"),
             "poster": self.verify_poster(content.get("Poster")),
             "url": f"https://www.imdb.com/title/{imdb_id}/",
             "id": imdb_id,
             "genre": genre.split(", ") if genre else [],
-            "director": director,
-            "rating": None,
-            "status": None,
+            "director": content.get('director'),
             "year": content.get("Year"),
         }
 
@@ -63,9 +58,6 @@ def parse_args():
     add_parser.add_argument("-g", "--genre")
     add_parser.set_defaults(command="add")
 
-    refresh_parser = subparsers.add_parser("refresh")
-    refresh_parser.set_defaults(command="refresh")
-
     verify_parser = subparsers.add_parser("verify")
     verify_parser.set_defaults(command="verify")
 
@@ -83,26 +75,24 @@ def main():
     db_api = DbApi(args.type)
 
     if args.command == "add":
-        entry = imdb_api.get_entry(args.imdb_id, args.genre)
-        entry["status"] = args.status
-        entry["rating"] = args.rating + STAR if args.rating else None
-
-        db_api.update_entry(args.imdb_id, entry)
-    elif args.command == "refresh":
-        db_api.refresh_all(imdb_api)
-    elif args.command == "verify":
-        db_api.verify_all()
+        if db_api.find(args.imdb_id):
+            entry = {"id": args.imdb_id} 
+        else:
+            entry = imdb_api.get_entry(args.imdb_id, args.genre)
+        if args.status: entry["status"] = args.status
+        if args.rating: entry["rating"] = args.rating + STAR
+        db_api.upsert(args.imdb_id, entry)
+        db_api.commit(sort_key=lambda entry: entry["title"])
     elif args.command == "update":
-        index = db_api.find_entry(args.imdb_id)
-        if not index:
-            print("Entry Not Found.")
-            return
-        entry = db_api.get_entry(index)
-        entry[args.field] = args.value.split(",") if "," in args.value else args.value
-        db_api.update_entry(args.imdb_id, entry)
+        if db_api.find(args.imdb_id):
+            if args.field == 'rating': args.value += STAR
+            db_api.upsert(args.imdb_id, {"id": args.imdb_id, args.field: args.value})
+        else:
+            print(f"Entry not found for ID: {args.imdb_id}")
+        db_api.commit(sort_key=lambda entry: entry["title"])
+    elif args.command == "verify":
+        db_api.verify()
 
-
-    db_api.commit()
 
 
 if __name__ == '__main__':
