@@ -44,7 +44,7 @@ class DbApi:
             self.show(new_entry)
             self.db["entries"].append(new_entry)
 
-    def verify(self):
+    def verify(self, verify):
         ids = set()
         for index, entry in enumerate(self.db.get("entries")):
             db_id = entry.get("id")
@@ -55,10 +55,7 @@ class DbApi:
                 continue
 
             ids.add(db_id)
-            try:
-                requests.head(entry.get("poster"), allow_redirects=True).raise_for_status()
-            except Exception as ex:
-                print(f"Invalid Poster: {entry.get('title')} ({db_id}): ", ex)
+            verify(entry)
 
 
     def fix(self, entry):

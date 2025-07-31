@@ -35,12 +35,12 @@ class ImdbApi:
             "year": content.get("Year"),
         }
 
-    def verify_poster(self, poster):
+    def verify_poster(self, entry):
         try:
-            requests.head(poster, allow_redirects=True).raise_for_status()
-            return poster
+            requests.head(entry.get("poster"), allow_redirects=True).raise_for_status()
         except Exception as e:
-            pass
+            print(f"Invalid Poster: {entry.get('title')} ({entry.get('id')})")
+            
         return None
 
 
@@ -91,7 +91,7 @@ def main():
             print(f"Entry not found for ID: {args.imdb_id}")
         db_api.commit(sort_key=lambda entry: entry["title"])
     elif args.command == "verify":
-        db_api.verify()
+        db_api.verify(imdb_api.verify_poster)
 
 
 
