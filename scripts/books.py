@@ -19,6 +19,13 @@ class GoodreadsApi:
         if series:
             return series.text
 
+    def get_year(self, soup):
+        try:
+            return soup.find("p", attrs={"data-testid": "publicationInfo"}).text.split(" ")[-1]
+        except:
+            pass
+            
+
     def get_entry(self, goodreads_id: str):
         url = URL.format(id=goodreads_id)
         response = requests.get(url)
@@ -28,11 +35,12 @@ class GoodreadsApi:
             "series": self.get_series(soup),
             "author": soup.find("span", attrs={"data-testid": "name"}).text,
             "poster": soup.find("img", class_="ResponsiveImage").get("src"),
+            "type": "Fiction",
             "url": url,
-            "genre": None,
+            "genre": [],
             "rating": None,
             "status": None,
-            "year": soup.find("p", attrs={"data-testid": "publicationInfo"}).text.split(" ")[-1],
+            "year": self.get_year(soup),
             "id": goodreads_id,
         }
 
@@ -52,13 +60,15 @@ def parse_args():
     add_parser.add_argument("-r", "--rating", choices=["1", "2", "3", "4", "5"])
     add_parser.add_argument("-s", "--status", choices=["Currently Reading", "Read", "Want To Read"])
     add_parser.add_argument("-g", "--genre")
+    add_parser.add_argument("-nf", "--non-fiction", action="store_true")
+    add_parser.add_argument("-ns", "--no-series", action="store_true")
     add_parser.set_defaults(command="add")
 
     verify_parser = subparsers.add_parser("verify")
     verify_parser.set_defaults(command="verify")
 
     update_parser = subparsers.add_parser("update")
-    update_parser.add_argument("imdb_id")
+    update_parser.add_argument("goodreads_id")
     update_parser.add_argument("field")
     update_parser.add_argument("value")
     update_parser.set_defaults(command="update")
@@ -85,6 +95,8 @@ if __name__ == '__main__':
         if args.status: entry["status"] = args.status
         if args.rating: entry["rating"] = args.rating + STAR
         if args.genre: entry["genre"] = sorted([g.strip() for g in args.genre.split(",")])
+        if args.non_fiction: entry["type"] = "Non-Fiction"
+        if args.no_series: entry["series"] = None
         
         db_api.upsert(args.goodreads_id, entry)
         db_api.commit(sort_key)

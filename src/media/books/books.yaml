@@ -1,13 +1,27 @@
 title: Books
 root: media/books
 keys:
+  - type
   - rating
   - status
 entries:
+  - title: '"Surely You''re Joking, Mr. Feynman!": Adventures of a Curious Character'
+    series: null
+    author: Richard P. Feynman
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1504936953i/35167685.jpg
+    type: Non-Fiction
+    url: https://www.goodreads.com/book/show/35167685
+    genre:
+      - Memoir
+    rating: 3⭐
+    status: Read
+    year: '1985'
+    id: '35167685'
   - title: '1984'
     series: null
     author: George Orwell
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/61439040
     genre:
       - Classics
@@ -17,10 +31,159 @@ entries:
     status: Read
     year: '1949'
     id: '61439040'
+  - title: A Man Called Ove
+    series: null
+    author: Fredrik Backman
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405259930i/18774964.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/18774964
+    genre:
+      - Literary Fiction
+    rating: 4⭐
+    status: Read
+    year: '2012'
+    id: '18774964'
+  - title: A Game of Thrones
+    series: 'A Song of Ice and Fire #1'
+    author: George R.R. Martin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1562726234i/13496.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/13496
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '1996'
+    id: '13496'
+  - title: A Clash of Kings
+    series: 'A Song of Ice and Fire #2'
+    author: George R.R. Martin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1567840212i/10572.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/10572
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '1998'
+    id: '10572'
+  - title: A Storm of Swords
+    series: 'A Song of Ice and Fire #3'
+    author: George R.R. Martin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571318786i/62291.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/62291
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '2000'
+    id: '62291'
+  - title: A Feast for Crows
+    series: 'A Song of Ice and Fire #4'
+    author: George R.R. Martin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661026821i/13497.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/13497
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '2005'
+    id: '13497'
+  - title: A Dance with Dragons
+    series: 'A Song of Ice and Fire #5'
+    author: George R.R. Martin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1753059444i/10664113.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/10664113
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '2011'
+    id: '10664113'
+  - title: The Winds of Winter
+    series: 'A Song of Ice and Fire #6'
+    author: George R.R. Martin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465341854i/12111823.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/12111823
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: null
+    id: '12111823'
+  - title: A Dream of Spring
+    series: 'A Song of Ice and Fire #7'
+    author: George R.R. Martin
+    poster: https://dryofg8nmyqjw.cloudfront.net/images/no-cover.png
+    type: Fiction
+    url: https://www.goodreads.com/book/show/6382055
+    genre:
+      - Fantasy
+    rating: null
+    status: Want To Read
+    year: null
+    id: '6382055'
+  - title: A Thousand Splendid Suns
+    series: null
+    author: Khaled Hosseini
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655336738i/128029.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/128029
+    genre:
+      - Contemporary
+      - Literary Fiction
+    rating: null
+    status: Want To Read
+    year: '2007'
+    id: '128029'
+  - title: American Gods
+    series: null
+    author: Neil Gaiman
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462924585i/30165203.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/30165203
+    genre:
+      - Fantasy
+    rating: 4⭐
+    status: Read
+    year: '2001'
+    id: '30165203'
+  - title: American Psycho
+    series: null
+    author: Bret Easton Ellis
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436934349i/28676.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/28676
+    genre:
+      - Psychological Thriller
+      - Satire
+    rating: 5⭐
+    status: Read
+    year: '1991'
+    id: '28676'
+  - title: And Then There Were None
+    series: null
+    author: Agatha Christie
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1638425885i/16299.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/16299
+    genre:
+      - Classics
+      - Murder Mystery
+      - Thriller
+    rating: 5⭐
+    status: Read
+    year: '1939'
+    id: '16299'
   - title: Animal Farm
     series: null
     author: George Orwell
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1325861570i/170448.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/170448
     genre:
       - Classics
@@ -30,10 +193,52 @@ entries:
     status: Read
     year: '1945'
     id: '170448'
+  - title: Anxious People
+    series: null
+    author: Fredrik Backman
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1597575031i/49127718.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/49127718
+    genre:
+      - Contemporary
+      - Literary Fiction
+    rating: 5⭐
+    status: Read
+    year: '2019'
+    id: '49127718'
+  - title: Arsène Lupin, Gentleman-Thief
+    series: 'Arsène Lupin #1'
+    author: Maurice Leblanc
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348259825i/141270.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/141270
+    genre:
+      - Classics
+      - Crime
+      - Mystery
+    rating: null
+    status: Want To Read
+    year: '1907'
+    id: '141270'
+  - title: Babel
+    series: null
+    author: R.F. Kuang
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677361825i/57945316.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/57945316
+    genre:
+      - Dark Academia
+      - Fantasy
+      - Historical Fiction
+    rating: null
+    status: Want To Read
+    year: '2022'
+    id: '57945316'
   - title: Beartown
     series: 'Beartown #1'
     author: Fredrik Backman
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482108618i/33413128.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/33413128
     genre:
       - Contemporary
@@ -46,6 +251,7 @@ entries:
     series: 'Beartown #2'
     author: Fredrik Backman
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1516019348i/36373463.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/36373463
     genre:
       - Contemporary
@@ -58,6 +264,7 @@ entries:
     series: 'Beartown #3'
     author: Fredrik Backman
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1645483248i/60318890.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/60318890
     genre:
       - Contemporary
@@ -66,10 +273,24 @@ entries:
     status: Read
     year: '2022'
     id: '60318890'
+  - title: 'Black Holes: The Key to Understanding the Universe'
+    series: null
+    author: Brian Cox
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1647803261i/58587868.jpg
+    type: Non-Fiction
+    url: https://www.goodreads.com/book/show/58587868
+    genre:
+      - Physics
+      - Science
+    rating: 5⭐
+    status: Read
+    year: '2022'
+    id: '58587868'
   - title: Brave New World
     series: null
     author: Aldous Huxley
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1575509280i/5129.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/5129
     genre:
       - Classics
@@ -78,10 +299,160 @@ entries:
     status: Read
     year: '1932'
     id: '5129'
+  - title: Britt-Marie Was Here
+    series: null
+    author: Fredrik Backman
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1460442061i/27406704.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/27406704
+    genre:
+      - Literary Fiction
+    rating: 4⭐
+    status: Read
+    year: '2014'
+    id: '27406704'
+  - title: Children of Time
+    series: 'Children of Time #1'
+    author: Adrian Tchaikovsky
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1431014197i/25499718.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/25499718
+    genre:
+      - Science Fiction
+    rating: 5⭐
+    status: Read
+    year: '2015'
+    id: '25499718'
+  - title: Children of Ruin
+    series: 'Children of Time #2'
+    author: Adrian Tchaikovsky
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1693752895i/40376072.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/40376072
+    genre:
+      - Science Fiction
+    rating: null
+    status: Want To Read
+    year: '2019'
+    id: '40376072'
+  - title: Children of Memory
+    series: 'Children of Time #3'
+    author: Adrian Tchaikovsky
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655929460i/60850767.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/60850767
+    genre:
+      - Science Fiction
+    rating: null
+    status: Want To Read
+    year: '2022'
+    id: '60850767'
+  - title: Coding Machines
+    series: null
+    author: Lawrence Kesteloot
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1512840224i/37153698.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/37153698
+    genre:
+      - Science Fiction
+      - Short Story
+    rating: 5⭐
+    status: Read
+    year: '2017'
+    id: '37153698'
+  - title: Coraline
+    series: null
+    author: Neil Gaiman
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1493497435i/17061.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/17061
+    genre:
+      - Fantasy
+      - Horror
+    rating: 5⭐
+    status: Read
+    year: '2002'
+    id: '17061'
+  - title: Crime and Punishment
+    series: null
+    author: Fyodor Dostoevsky
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1382846449i/7144.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/7144
+    genre:
+      - Classics
+    rating: 5⭐
+    status: Read
+    year: '1866'
+    id: '7144'
+  - title: Deception Point
+    series: null
+    author: Dan    Brown
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1551277487i/976.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/976
+    genre:
+      - Science Fiction
+      - Thriller
+    rating: 5⭐
+    status: Read
+    year: '2001'
+    id: '976'
+  - title: Digital Fortress
+    series: null
+    author: Dan    Brown
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1360095966i/11125.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/11125
+    genre:
+      - Science Fiction
+    rating: 3⭐
+    status: Read
+    year: '1998'
+    id: '11125'
+  - title: The Color of Magic
+    series: 'Discworld #1'
+    author: Terry Pratchett
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1407111017i/34497.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/34497
+    genre:
+      - Comedy
+      - Fantasy
+    rating: 4⭐
+    status: Read
+    year: '1983'
+    id: '34497'
+  - title: The Truth
+    series: 'Discworld #25'
+    author: Terry Pratchett
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327936323i/288680.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/288680
+    genre:
+      - Comedy
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '2000'
+    id: '288680'
+  - title: Don Quixote
+    series: null
+    author: Miguel de Cervantes Saavedra
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546112331i/3836.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/3836
+    genre:
+      - Classics
+    rating: null
+    status: Want To Read
+    year: '1615'
+    id: '3836'
   - title: Dune
     series: 'Dune #1'
     author: Frank Herbert
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/44767458
     genre:
       - Classics
@@ -94,6 +465,7 @@ entries:
     series: 'Dune #2'
     author: Frank Herbert
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1577043824i/44492285.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/44492285
     genre:
       - Classics
@@ -102,10 +474,951 @@ entries:
     status: Read
     year: '1969'
     id: '44492285'
+  - title: Extremely Loud & Incredibly Close
+    series: null
+    author: Jonathan Safran Foer
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327879967i/4588.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/4588
+    genre:
+      - Literary Fiction
+    rating: 4⭐
+    status: Read
+    year: '2005'
+    id: '4588'
+  - title: Fahrenheit 451
+    series: null
+    author: Ray Bradbury
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1739975305i/28502000.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/28502000
+    genre:
+      - Science Fiction
+    rating: 4⭐
+    status: Read
+    year: '1953'
+    id: '28502000'
+  - title: 'Frankenstein: The 1818 Text'
+    series: null
+    author: Mary Wollstonecraft Shelley
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631088473i/35031085.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/35031085
+    genre:
+      - Horror
+      - Science Fiction
+    rating: null
+    status: Want To Read
+    year: '1818'
+    id: '35031085'
+  - title: The Lies of Locke Lamora
+    series: 'Gentleman Bastard #1'
+    author: Scott Lynch
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1458646334i/29588376.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/29588376
+    genre:
+      - Fantasy
+    rating: 3⭐
+    status: Read
+    year: '2006'
+    id: '29588376'
+  - title: Harry Potter and the Sorcerer's Stone
+    series: 'Harry Potter #1'
+    author: J.K. Rowling
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1474154022i/3.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/3
+    genre:
+      - Fantasy
+      - Young Adult
+    rating: 4⭐
+    status: Read
+    year: '1997'
+    id: '3'
+  - title: Harry Potter and the Chamber of Secrets
+    series: 'Harry Potter #2'
+    author: J.K. Rowling
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1474169725i/15881.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/15881
+    genre:
+      - Fantasy
+      - Young Adult
+    rating: 4⭐
+    status: Read
+    year: '1998'
+    id: '15881'
+  - title: Harry Potter and the Prisoner of Azkaban
+    series: 'Harry Potter #3'
+    author: J.K. Rowling
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630547330i/5.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/5
+    genre:
+      - Fantasy
+      - Young Adult
+    rating: 4⭐
+    status: Read
+    year: '1999'
+    id: '5'
+  - title: Harry Potter and the Goblet of Fire
+    series: 'Harry Potter #4'
+    author: J.K. Rowling
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554006152i/6.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/6
+    genre:
+      - Fantasy
+      - Young Adult
+    rating: 4⭐
+    status: Read
+    year: '2000'
+    id: '6'
+  - title: Harry Potter and the Order of the Phoenix
+    series: 'Harry Potter #5'
+    author: J.K. Rowling
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/2
+    genre:
+      - Fantasy
+      - Young Adult
+    rating: 4⭐
+    status: Read
+    year: '2003'
+    id: '2'
+  - title: Harry Potter and the Half-Blood Prince
+    series: 'Harry Potter #6'
+    author: J.K. Rowling
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1587697303i/1.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/1
+    genre:
+      - Fantasy
+      - Young Adult
+    rating: 4⭐
+    status: Read
+    year: '2005'
+    id: '1'
+  - title: Harry Potter and the Deathly Hallows
+    series: 'Harry Potter #7'
+    author: J.K. Rowling
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1663805647i/136251.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/136251
+    genre:
+      - Fantasy
+      - Young Adult
+    rating: 4⭐
+    status: Read
+    year: '2007'
+    id: '136251'
+  - title: Harry Potter and the Methods of Rationality
+    series: null
+    author: Eliezer Yudkowsky
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659761696i/10016013.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/10016013
+    genre:
+      - Fantasy
+      - Young Adult
+    rating: 5⭐
+    status: Read
+    year: '2015'
+    id: '10016013'
+  - title: The Mysterious Affair at Styles
+    series: 'Hercule Poirot #1'
+    author: Agatha Christie
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386922393i/16343.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/16343
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1920'
+    id: '16343'
+  - title: Murder on the Orient Express
+    series: 'Hercule Poirot #10'
+    author: Agatha Christie
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1733926500i/853510.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/853510
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1934'
+    id: '853510'
+  - title: The A.B.C. Murders
+    series: 'Hercule Poirot #13'
+    author: Agatha Christie
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389733983i/16322.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/16322
+    genre:
+      - Classics
+      - Murder Mystery
+    rating: 4⭐
+    status: Read
+    year: '1936'
+    id: '16322'
+  - title: The Murder of Roger Ackroyd
+    series: 'Hercule Poirot #4'
+    author: Agatha Christie
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389734015i/16328.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/16328
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1926'
+    id: '16328'
+  - title: The House of Silk
+    series: 'Horowitz''s Holmes #1'
+    author: Anthony Horowitz
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327877129i/11093329.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/11093329
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '2011'
+    id: '11093329'
+  - title: Moriarty
+    series: 'Horowitz''s Holmes #2'
+    author: Anthony Horowitz
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404412525i/22535533.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/22535533
+    genre:
+      - Mystery
+      - Thriller
+    rating: 4⭐
+    status: Read
+    year: '2014'
+    id: '22535533'
+  - title: 'Humble Pi: A Comedy of Maths Errors'
+    series: null
+    author: Matt    Parker
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1552885037i/39074550.jpg
+    type: Non-Fiction
+    url: https://www.goodreads.com/book/show/39074550
+    genre:
+      - Comedy
+      - Mathematics
+    rating: 4⭐
+    status: Read
+    year: '2019'
+    id: '39074550'
+  - title: I'm Glad My Mom Died
+    series: null
+    author: Jennette McCurdy
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649286799i/59364173.jpg
+    type: Non-Fiction
+    url: https://www.goodreads.com/book/show/59364173
+    genre:
+      - Memoir
+    rating: 5⭐
+    status: Read
+    year: '2022'
+    id: '59364173'
+  - title: Killing Floor
+    series: 'Jack Reacher #1'
+    author: Lee Child
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1399313258i/78129.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/78129
+    genre:
+      - Mystery
+      - Thriller
+    rating: 4⭐
+    status: Read
+    year: '1997'
+    id: '78129'
+  - title: 61 Hours
+    series: 'Jack Reacher #14'
+    author: Lee Child
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320512665i/6977769.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/6977769
+    genre:
+      - Crime
+      - Mystery
+      - Thriller
+    rating: 4⭐
+    status: Read
+    year: '2010'
+    id: '6977769'
+  - title: Die Trying
+    series: 'Jack Reacher #2'
+    author: Lee Child
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1377633008i/220969.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/220969
+    genre:
+      - Mystery
+      - Thriller
+    rating: 3⭐
+    status: Read
+    year: '1998'
+    id: '220969'
+  - title: Kafka on the Shore
+    series: null
+    author: Haruki Murakami
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1429638085i/4929.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/4929
+    genre:
+      - Fantasy
+      - Literary Fiction
+    rating: 5⭐
+    status: Read
+    year: '2002'
+    id: '4929'
+  - title: 'Life is What You Make It: A Story of Love, Hope and How Determination
+      Can Overcome Even Destiny'
+    series: null
+    author: Preeti Shenoy
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1308754493i/11256293.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/11256293
+    genre:
+      - Mental Health
+      - Romance
+    rating: 4⭐
+    status: Read
+    year: '2011'
+    id: '11256293'
+  - title: Magpie Murders
+    series: null
+    author: Anthony Horowitz
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1504599398i/32075854.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/32075854
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '2016'
+    id: '32075854'
+  - title: Gardens of the Moon
+    series: 'Malazan Book of the Fallen #1'
+    author: Steven Erikson
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1548497031i/55399.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/55399
+    genre:
+      - Fantasy
+    rating: null
+    status: Want To Read
+    year: '1999'
+    id: '55399'
+  - title: Murder at the Vicarage
+    series: 'Miss Marple #1'
+    author: Agatha Christie
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388386575i/16331.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/16331
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1930'
+    id: '16331'
+  - title: Normal People
+    series: null
+    author: Sally Rooney
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571423190i/41057294.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/41057294
+    genre:
+      - Romance
+    rating: null
+    status: Want To Read
+    year: '2018'
+    id: '41057294'
+  - title: Of Mice and Men
+    series: null
+    author: John Steinbeck
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1511302904i/890.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/890
+    genre:
+      - Classics
+    rating: 3⭐
+    status: Read
+    year: '1937'
+    id: '890'
+  - title: Recursion
+    series: null
+    author: Blake Crouch
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1750526564i/42046112.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/42046112
+    genre:
+      - Science Fiction
+    rating: 3⭐
+    status: Read
+    year: '2019'
+    id: '42046112'
+  - title: The Three-Body Problem
+    series: 'Remembrance of Earth''s Past #1'
+    author: Liu Cixin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415428227i/20518872.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/20518872
+    genre:
+      - Science Fiction
+    rating: 5⭐
+    status: Read
+    year: '2006'
+    id: '20518872'
+  - title: The Dark Forest
+    series: 'Remembrance of Earth''s Past #2'
+    author: Liu Cixin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1412064931i/23168817.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/23168817
+    genre:
+      - Science Fiction
+    rating: 5⭐
+    status: Read
+    year: '2008'
+    id: '23168817'
+  - title: Death's End
+    series: 'Remembrance of Earth''s Past #3'
+    author: Liu Cixin
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1430330507i/25451264.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/25451264
+    genre:
+      - Science Fiction
+    rating: 5⭐
+    status: Read
+    year: '2010'
+    id: '25451264'
+  - title: Angels & Demons
+    series: 'Robert Langdon #1'
+    author: Dan Brown
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1696691404i/960.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/960
+    genre:
+      - Mystery
+      - Thriller
+    rating: 5⭐
+    status: Read
+    year: '2000'
+    id: '960'
+  - title: The da Vinci Code
+    series: 'Robert Langdon #2'
+    author: Dan Brown
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1720313229i/968.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/968
+    genre:
+      - Mystery
+      - Thriller
+    rating: 5⭐
+    status: Read
+    year: '2003'
+    id: '968'
+  - title: The Lost Symbol
+    series: 'Robert Langdon #3'
+    author: Dan    Brown
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1534070883i/6411961.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/6411961
+    genre:
+      - Mystery
+      - Thriller
+    rating: 5⭐
+    status: Read
+    year: '2009'
+    id: '6411961'
+  - title: Inferno
+    series: 'Robert Langdon #4'
+    author: Dan    Brown
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1534070896i/17212231.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/17212231
+    genre:
+      - Mystery
+      - Thriller
+    rating: 5⭐
+    status: Read
+    year: '2013'
+    id: '17212231'
+  - title: Origin
+    series: 'Robert Langdon #5'
+    author: Dan    Brown
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1751463186i/32307358.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/32307358
+    genre:
+      - Mystery
+      - Science Fiction
+      - Thriller
+    rating: 5⭐
+    status: Read
+    year: '2017'
+    id: '32307358'
+  - title: The Secret of Secrets
+    series: 'Robert Langdon #6'
+    author: Dan    Brown
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1738135066i/223889699.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/223889699
+    genre:
+      - Mystery
+      - Thriller
+    rating: null
+    status: Want To Read
+    year: '2025'
+    id: '223889699'
+  - title: A Study in Scarlet
+    series: 'Sherlock Holmes #1'
+    author: Arthur Conan Doyle
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1519031842i/102868.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/102868
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1887'
+    id: '102868'
+  - title: The Sign of Four
+    series: 'Sherlock Holmes #2'
+    author: Arthur Conan Doyle
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1739306203i/608474.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/608474
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1890'
+    id: '608474'
+  - title: The Adventures of Sherlock Holmes
+    series: 'Sherlock Holmes #3'
+    author: Arthur Conan Doyle
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1164045516i/3590.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/3590
+    genre:
+      - Classics
+      - Murder Mystery
+    rating: 4⭐
+    status: Read
+    year: '1892'
+    id: '3590'
+  - title: The Memoirs of Sherlock Holmes
+    series: 'Sherlock Holmes #4'
+    author: Arthur Conan Doyle
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1529973409i/194373.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/194373
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1893'
+    id: '194373'
+  - title: The Hound of the Baskervilles
+    series: 'Sherlock Holmes #5'
+    author: Arthur Conan Doyle
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1355929358i/8921.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/8921
+    genre:
+      - Classics
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1902'
+    id: '8921'
+  - title: The Return of Sherlock Holmes
+    series: 'Sherlock Holmes #6'
+    author: Arthur Conan Doyle
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1529973503i/194366.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/194366
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1905'
+    id: '194366'
+  - title: The Valley of Fear
+    series: 'Sherlock Holmes #7'
+    author: Arthur Conan Doyle
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390250081i/736131.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/736131
+    genre:
+      - Murder Mystery
+    rating: 5⭐
+    status: Read
+    year: '1914'
+    id: '736131'
+  - title: His Last Bow
+    series: 'Sherlock Holmes #8'
+    author: Arthur Conan Doyle
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1368588782i/754713.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/754713
+    genre:
+      - Murder Mystery
+    rating: null
+    status: Want To Read
+    year: '1917'
+    id: '754713'
+  - title: Stories of Your Life and Others
+    series: null
+    author: Ted Chiang
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356138316i/223380.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/223380
+    genre:
+      - Science Fiction
+      - Short Stories
+    rating: 5⭐
+    status: Read
+    year: '2002'
+    id: '223380'
+  - title: The 7 1/2 Deaths of Evelyn Hardcastle
+    series: null
+    author: Stuart Turton
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1506896221i/36337550.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/36337550
+    genre:
+      - Mystery
+      - Thriller
+    rating: 3⭐
+    status: Read
+    year: '2018'
+    id: '36337550'
+  - title: The Alchemist
+    series: null
+    author: Paulo Coelho
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1483412266i/865.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/865
+    genre:
+      - Fantasy
+    rating: 3⭐
+    status: Read
+    year: '1988'
+    id: '865'
+  - title: The Book Thief
+    series: null
+    author: Markus Zusak
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522157426i/19063.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/19063
+    genre:
+      - Historical Fiction
+    rating: 5⭐
+    status: Read
+    year: '2005'
+    id: '19063'
+  - title: The Brothers Karmazov
+    series: null
+    author: Fyodor Dostoevsky
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677801642i/11754647.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/11754647
+    genre:
+      - Classics
+    rating: null
+    status: Want To Read
+    year: '1880'
+    id: '11754647'
+  - title: The Count of Monte Cristo
+    series: null
+    author: Alexandre Dumas
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1724863997i/7126.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/7126
+    genre:
+      - Classics
+      - Historical Fiction
+    rating: null
+    status: Want To Read
+    year: '1846'
+    id: '7126'
+  - title: The Bone Shard Daughter
+    series: 'The Drowning Empire #1'
+    author: Andrea Stewart
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586229099i/50706646.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/50706646
+    genre:
+      - Fantasy
+    rating: null
+    status: Want To Read
+    year: '2020'
+    id: '50706646'
+  - title: The Great Gatsby
+    series: null
+    author: F. Scott Fitzgerald
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1738790966i/4671.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/4671
+    genre:
+      - Classics
+    rating: 5⭐
+    status: Read
+    year: '1925'
+    id: '4671'
+  - title: Jade City
+    series: 'The Green Bone Saga #1'
+    author: Fonda Lee
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1547625704i/43587154.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/43587154
+    genre:
+      - Fantasy
+    rating: null
+    status: Want To Read
+    year: '2017'
+    id: '43587154'
+  - title: The Handmaid’s Tale
+    series: 'The Handmaid’s Tale  #1'
+    author: Margaret Atwood
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1578028274i/38447.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/38447
+    genre:
+      - Science Fiction
+    rating: null
+    status: Want To Read
+    year: '1985'
+    id: '38447'
+  - title: The Hitchhiker’s Guide to the Galaxy
+    series: null
+    author: Douglas Adams
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559986152l/386162.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/386162
+    genre:
+      - Classics
+      - Comedy
+      - Science Fiction
+    rating: 5⭐
+    status: Read
+    year: '1979'
+    id: '386162'
+  - title: The Institute
+    series: null
+    author: Stephen        King
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1753849314i/43799634.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/43799634
+    genre:
+      - Horror
+      - Science Fiction
+      - Thriller
+    rating: 3⭐
+    status: Read
+    year: '2019'
+    id: '43799634'
+  - title: The Kite Runner
+    series: null
+    author: Khaled Hosseini
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1579036753i/77203.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/77203
+    genre:
+      - Literary Fiction
+    rating: 5⭐
+    status: Read
+    year: '2003'
+    id: '77203'
+  - title: The Metamorphosis
+    series: null
+    author: Franz Kafka
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1646444605i/485894.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/485894
+    genre:
+      - Fantasy
+    rating: null
+    status: Want To Read
+    year: '1915'
+    id: '485894'
+  - title: The Miracles of the Namiya General Store
+    series: null
+    author: Keigo Higashino
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1564085721i/44287550.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/44287550
+    genre:
+      - Fantasy
+      - Literary Fiction
+    rating: 5⭐
+    status: Read
+    year: '2012'
+    id: '44287550'
+  - title: 'Mistborn: The Final Empire'
+    series: 'The Mistborn Saga #1'
+    author: Brandon Sanderson
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1617768316i/68428.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/68428
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '2006'
+    id: '68428'
+  - title: The Well of Ascension
+    series: 'The Mistborn Saga #2'
+    author: Brandon Sanderson
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1619538925i/68429.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/68429
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '2007'
+    id: '68429'
+  - title: The Hero of Ages
+    series: 'The Mistborn Saga #3'
+    author: Brandon Sanderson
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628563911i/2767793.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/2767793
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '2008'
+    id: '2767793'
+  - title: The Ocean at the End of the Lane
+    series: null
+    author: Neil Gaiman
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1497098563i/15783514.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/15783514
+    genre:
+      - Fantasy
+    rating: 5⭐
+    status: Read
+    year: '2013'
+    id: '15783514'
+  - title: The Outsider
+    series: null
+    author: Albert Camus
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1435772042i/15686.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/15686
+    genre:
+      - Philosopy
+    rating: 5⭐
+    status: Read
+    year: '1942'
+    id: '15686'
+  - title: The Palace of Illusions
+    series: null
+    author: Chitra Banerjee Divakaruni
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1679444666i/1774836.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/1774836
+    genre:
+      - Mythology
+    rating: null
+    status: Want To Read
+    year: '2008'
+    id: '1774836'
+  - title: The Perks of Being a Wallflower
+    series: null
+    author: Stephen Chbosky
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1650033115i/22628.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/22628
+    genre:
+      - Mental Health
+      - Romance
+      - Young Adult
+    rating: 5⭐
+    status: Read
+    year: '1999'
+    id: '22628'
+  - title: The Picture of Dorian Gray
+    series: null
+    author: Oscar Wilde
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1454087681i/489732.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/489732
+    genre:
+      - Classics
+    rating: null
+    status: Want To Read
+    year: '1890'
+    id: '489732'
+  - title: The Secret History
+    series: null
+    author: Donna Tartt
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1751820530i/29044.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/29044
+    genre:
+      - Classics
+      - Literary Fiction
+    rating: 5⭐
+    status: Read
+    year: '1992'
+    id: '29044'
+  - title: The Silent Patient
+    series: null
+    author: Alex Michaelides
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1668782119i/40097951.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/40097951
+    genre:
+      - Mystery
+      - Thriller
+    rating: 2⭐
+    status: Read
+    year: '2019'
+    id: '40097951'
+  - title: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living
+      a Good Life'
+    series: null
+    author: Mark Manson
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465761302i/28257707.jpg
+    type: Non-Fiction
+    url: https://www.goodreads.com/book/show/28257707
+    genre:
+      - Self Help
+    rating: 4⭐
+    status: Read
+    year: '2016'
+    id: '28257707'
+  - title: Things My Son Needs to Know About the World
+    series: null
+    author: Fredrik Backman
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555270325i/42833687.jpg
+    type: Non-Fiction
+    url: https://www.goodreads.com/book/show/42833687
+    genre: []
+    rating: 3⭐
+    status: Read
+    year: '2012'
+    id: '42833687'
   - title: Trust
     series: null
     author: Hernan Diaz
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631246461i/58210933.jpg
+    type: Fiction
     url: https://www.goodreads.com/book/show/58210933
     genre:
       - Historical Fiction
@@ -114,3 +1427,43 @@ entries:
     status: Read
     year: '2022'
     id: '58210933'
+  - title: 'What If?: Serious Scientific Answers to Absurd Hypothetical Questions'
+    series: 'What If? #1'
+    author: Randall Munroe
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1451351509i/21413662.jpg
+    type: Non-Fiction
+    url: https://www.goodreads.com/book/show/21413662
+    genre:
+      - Comedy
+      - Science
+    rating: 4⭐
+    status: Read
+    year: '2014'
+    id: '21413662'
+  - title: 'What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical
+      Questions'
+    series: 'What If? #2'
+    author: Randall Munroe
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1643644004i/60190659.jpg
+    type: Non-Fiction
+    url: https://www.goodreads.com/book/show/60190659
+    genre:
+      - Comedy
+      - Science
+    rating: 4⭐
+    status: Read
+    year: '2022'
+    id: '60190659'
+  - title: Wuthering Heights
+    series: null
+    author: Emily Brontë
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388212715i/6185.jpg
+    type: Fiction
+    url: https://www.goodreads.com/book/show/6185
+    genre:
+      - Classics
+      - Romance
+    rating: null
+    status: Want To Read
+    year: '1847'
+    id: '6185'

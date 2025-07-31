@@ -18,6 +18,14 @@
 				{% if item.year %} ({{ item.year }}) {% endif %}
 			</span>
 
+			{% if item.series %}
+			<span><strong>Series:</strong> {{ item.series }}</span>
+			{% endif %}
+
+			{% if item.author %}
+			<span><strong>Author:</strong> {{ item.author }}</span>
+			{% endif %}
+
 			<span><strong>Rating:</strong> {{ item.rating }}</span>
 
 			<span><strong>Status:</strong> {{ item.status }}</span>
@@ -26,10 +34,15 @@
 			<span><strong>Director:</strong> {{ item.director }}</span>
 			{% endif %}
 
-			{% if item.genre %}
+			{% set genres = item.genre %}
+			{% if item.type %}
+				{% set genres = item.genre.concat([item.type]) %}
+			{% endif %}
+
+			{% if genres %}
 			{% set comma = joiner(",") %}
 			<span><strong>Genre:</strong> 
-				{% for genre in item.genre -%}
+				{% for genre in genres -%}
 					{{ comma() }} {{ genre }}
 				{%- endfor %}
 			</span>

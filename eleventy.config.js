@@ -6,7 +6,7 @@ const YAML = require("yaml");
 function filterEntries(entries, key, value) {
 	return entries
 		.filter(entry => entry[key])
-		.filter(entry => entry[key] === value || entry[key].includes(value));
+		.filter(entry => entry[key] === value || (Array.isArray(entry[key]) && entry[key].includes(value)));
 }
 
 module.exports = function(eleventyConfig) {
