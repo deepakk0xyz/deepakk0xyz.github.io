@@ -30,7 +30,9 @@ class ImdbApi:
             "poster": self.verify_poster(content.get("Poster")),
             "url": f"https://www.imdb.com/title/{imdb_id}/",
             "id": imdb_id,
-            "genre": genre.split(", ") if genre else [],
+            "genre": None,
+            "rating": None,
+            "status": None,
             "director": content.get('director'),
             "year": content.get("Year"),
         }
@@ -40,9 +42,6 @@ class ImdbApi:
             requests.head(entry.get("poster"), allow_redirects=True).raise_for_status()
         except Exception as e:
             print(f"Invalid Poster: {entry.get('title')} ({entry.get('id')})")
-            
-        return None
-
 
 
 def parse_args():
@@ -75,16 +74,17 @@ def main():
     db_api = DbApi(args.type)
 
     if args.command == "add":
-        if db_api.find(args.imdb_id):
+        if db_api.exists(args.imdb_id):
             entry = {"id": args.imdb_id} 
         else:
             entry = imdb_api.get_entry(args.imdb_id, args.genre)
         if args.status: entry["status"] = args.status
         if args.rating: entry["rating"] = args.rating + STAR
+        if args.genre: entry["genre"] = sorted([g.strip() for g in args.genre.split(",")])
         db_api.upsert(args.imdb_id, entry)
         db_api.commit(sort_key=lambda entry: entry["title"])
     elif args.command == "update":
-        if db_api.find(args.imdb_id):
+        if db_api.exists(args.imdb_id):
             if args.field == 'rating': args.value += STAR
             db_api.upsert(args.imdb_id, {"id": args.imdb_id, args.field: args.value})
         else:

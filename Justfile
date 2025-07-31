@@ -7,6 +7,7 @@ set shell := [
 	"python3",
 	"python313Packages.requests",
 	"python313Packages.pyyaml",
+	"python313Packages.beautifulsoup4",
   "texliveFull",
 	"--run"
 ]
@@ -27,6 +28,9 @@ shell:
 
 imdb *ARGS:
 	python3 ./scripts/imdb.py {{ARGS}}
+
+books *ARGS:
+	python3 ./scripts/books.py {{ARGS}}
 
 latex:
 	find . -name "main.tex" | xargs pdflatex

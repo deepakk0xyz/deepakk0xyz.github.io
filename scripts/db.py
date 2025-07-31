@@ -1,7 +1,7 @@
-import re
 import os
-import yaml
+import re
 import requests
+import yaml
 
 class IndentDumper(yaml.Dumper):
     def increase_indent(self, flow=False, indentless=False):
@@ -24,13 +24,18 @@ class DbApi:
 
     def find(self, db_id):
         for index, entry in enumerate(self.db.get("entries", [])):
-            if db_id in entry.get("id"):
+            if db_id == entry.get("id"):
                 return index
 
+    def exists(self, db_id):
+        for index, entry in enumerate(self.db.get("entries", [])):
+            if db_id == entry.get("id"):
+                return True
+        return False
+
     def upsert(self, db_id, new_entry):
-        index = self.find(db_id)
-        if index:
-            entry = self.get(index)
+        if self.exists(db_id):
+            entry = self.get(self.find(db_id))
             print("Exisiting Entry:")
             self.show(entry)
 

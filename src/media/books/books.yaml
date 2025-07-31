@@ -4,69 +4,113 @@ keys:
   - rating
   - status
 entries:
-  - title: "1984"
+  - title: '1984'
+    series: null
     author: George Orwell
-    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348990566i/5470.jpg
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg
+    url: https://www.goodreads.com/book/show/61439040
     genre:
+      - Classics
       - Dystopian
       - Science Fiction
     rating: 5⭐
     status: Read
+    year: '1949'
+    id: '61439040'
   - title: Animal Farm
+    series: null
     author: George Orwell
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1325861570i/170448.jpg
+    url: https://www.goodreads.com/book/show/170448
     genre:
       - Classics
+      - Fantasy
+      - Politics
     rating: 5⭐
     status: Read
-  - title: Brave New World
-    author: Aldous Huxley
-    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1575509280i/5129.jpg
-    genre:
-      - Classics
-      - Science Fiction
-    rating: 5⭐
-    status: Read
+    year: '1945'
+    id: '170448'
   - title: Beartown
     series: 'Beartown #1'
-    author: Frederik Backman
+    author: Fredrik Backman
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482108618i/33413128.jpg
+    url: https://www.goodreads.com/book/show/33413128
     genre:
       - Contemporary
       - Literary Fiction
     rating: 5⭐
     status: Read
+    year: '2016'
+    id: '33413128'
   - title: Us Against You
     series: 'Beartown #2'
-    author: Frederik Backman
+    author: Fredrik Backman
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1516019348i/36373463.jpg
+    url: https://www.goodreads.com/book/show/36373463
     genre:
       - Contemporary
       - Literary Fiction
     rating: 5⭐
     status: Read
+    year: '2017'
+    id: '36373463'
   - title: The Winners
     series: 'Beartown #3'
-    author: Frederik Backman
+    author: Fredrik Backman
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1645483248i/60318890.jpg
+    url: https://www.goodreads.com/book/show/60318890
     genre:
       - Contemporary
       - Literary Fiction
     rating: 5⭐
     status: Read
-  - title: Dune
-    series: Dune
-    author: Frank Herbert
-    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg
+    year: '2022'
+    id: '60318890'
+  - title: Brave New World
+    series: null
+    author: Aldous Huxley
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1575509280i/5129.jpg
+    url: https://www.goodreads.com/book/show/5129
     genre:
+      - Classics
       - Science Fiction
     rating: 5⭐
     status: Read
+    year: '1932'
+    id: '5129'
+  - title: Dune
+    series: 'Dune #1'
+    author: Frank Herbert
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg
+    url: https://www.goodreads.com/book/show/44767458
+    genre:
+      - Classics
+      - Science Fiction
+    rating: 5⭐
+    status: Read
+    year: '1965'
+    id: '44767458'
+  - title: Dune Messiah
+    series: 'Dune #2'
+    author: Frank Herbert
+    poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1577043824i/44492285.jpg
+    url: https://www.goodreads.com/book/show/44492285
+    genre:
+      - Classics
+      - Science Fiction
+    rating: 5⭐
+    status: Read
+    year: '1969'
+    id: '44492285'
   - title: Trust
+    series: null
     author: Hernan Diaz
     poster: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631246461i/58210933.jpg
+    url: https://www.goodreads.com/book/show/58210933
     genre:
       - Historical Fiction
       - Literary Fiction
-    rating: Unread
-    status: Currently Reading
+    rating: 5⭐
+    status: Read
+    year: '2022'
+    id: '58210933'
