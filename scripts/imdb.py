@@ -27,7 +27,7 @@ class ImdbApi:
         genre = genre or content.get("Genre")
         return {
             "title": content.get("Title"),
-            "poster": self.verify_poster(content.get("Poster")),
+            "poster": content.get("Poster"),
             "url": f"https://www.imdb.com/title/{imdb_id}/",
             "id": imdb_id,
             "genre": None,

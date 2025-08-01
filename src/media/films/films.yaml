@@ -395,6 +395,16 @@ entries:
     status: Watched
     year: '1987'
     id: tt0092890
+  - title: District 9
+    poster: https://m.media-amazon.com/images/M/MV5BMTM4OTI1OTM5NF5BMl5BanBnXkFtZTcwMzk5MTU1Mg@@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt1136608/
+    id: tt1136608
+    genre:
+      - Science Fiction
+    rating: null
+    status: Unwatched
+    director: null
+    year: '2009'
   - title: Django Unchained
     poster: https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1853728/
