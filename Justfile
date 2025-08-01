@@ -8,12 +8,17 @@ set shell := [
 ]
 
 start:
-  npx @11ty/eleventy --serve
+	just install
+	npx @11ty/eleventy --serve
 
 alias run := start
 
 build:
-  npx @11ty/eleventy
+	just install
+	npx @11ty/eleventy
+
+install:
+	npm install
 
 update:
 	npm update
