@@ -1,15 +1,10 @@
 
 set shell := [ 
-	"nix-shell",
-	"-p",
-	"nodejs",
-	"nodePackages.npm",
-	"python3",
-	"python313Packages.requests",
-	"python313Packages.pyyaml",
-	"python313Packages.beautifulsoup4",
-  "texliveFull",
-	"--run"
+	"nix",
+	"develop",
+	"--command",
+	"bash", 
+	"-c",
 ]
 
 start:
