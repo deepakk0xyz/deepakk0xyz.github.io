@@ -186,6 +186,17 @@ entries:
     status: Watched
     year: '2016'
     id: tt2543164
+  - title: Baby Face
+    poster: https://m.media-amazon.com/images/M/MV5BMTc1MDQ4MDkzNl5BMl5BanBnXkFtZTgwODY0NTgyMjE@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt0023775/
+    id: tt0023775
+    genre:
+      - Drama
+      - Romance
+    rating: null
+    status: Unwatched
+    director: null
+    year: '1933'
   - title: Barbie
     poster: https://m.media-amazon.com/images/M/MV5BYjI3NDU0ZGYtYjA2YS00Y2RlLTgwZDAtYTE2YTM5ZjE1M2JlXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1517268/
@@ -607,6 +618,17 @@ entries:
     status: Unwatched
     year: '2012'
     id: tt2284926
+  - title: Gentlemen Prefer Blondes
+    poster: https://m.media-amazon.com/images/M/MV5BZjQ4MDJhZGMtNDliZS00ZTYwLWJmN2ItZWY3NDc2NTFjN2VmXkEyXkFqcGc@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt0045810/
+    id: tt0045810
+    genre:
+      - Comedy
+      - Romance
+    rating: null
+    status: Unwatched
+    director: null
+    year: '1953'
   - title: Ghost in the Shell
     poster: https://m.media-amazon.com/images/M/MV5BNzljMjA3MTQtMjM1OS00OGJjLWJiYzctZDRiMTk1NWI5YzQ5XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0113568/
@@ -705,6 +727,18 @@ entries:
     status: Watched
     year: '2012'
     id: tt0837562
+  - title: How to Marry a Millionaire
+    poster: https://m.media-amazon.com/images/M/MV5BNWFmMTc2NzktZTQ0OS00YmM3LTk1ZTktMDhmNzZlNDA3ZGRkXkEyXkFqcGc@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt0045891/
+    id: tt0045891
+    genre:
+      - Comedy
+      - Drama
+      - Romance
+    rating: null
+    status: Unwatched
+    director: null
+    year: '1953'
   - title: How to Train Your Dragon
     poster: https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0892769/
