@@ -19,12 +19,12 @@ class ImdbApi:
         self.api_key = self.get_api_key()
 
     def get_api_key(self):
-        process = subprocess.run(["pass", "show", "api/omdb"], capture_output=True)
-        return process.stdout.decode("utf-8").split("\n")[0]
+        return os.environ.get("API_KEY")
 
     def get_entry(self, imdb_id: str, genre: Optional[str] = None):
         content = requests.get(URL, params= {"apiKey": self.api_key, "i": imdb_id}).json()
         genre = genre or content.get("Genre")
+        print(content)
         return {
             "title": content.get("Title"),
             "poster": content.get("Poster"),

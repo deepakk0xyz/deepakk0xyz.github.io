@@ -625,8 +625,8 @@ entries:
     genre:
       - Comedy
       - Romance
-    rating: null
-    status: Unwatched
+    rating: 3⭐
+    status: Watched
     director: null
     year: '1953'
   - title: Ghost in the Shell
@@ -1062,6 +1062,16 @@ entries:
     status: Watched
     year: '1988'
     id: tt0096283
+  - title: 'National Theatre Live: Yerma'
+    poster: https://m.media-amazon.com/images/M/MV5BZTE1ZGU5NjYtMDgwNy00NjIzLTg3ZmMtNTJkYWJmZTQzODkzXkEyXkFqcGdeQXVyNTA5MDAwNDQ@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt6847880/
+    id: tt6847880
+    genre:
+      - Drama
+    rating: 5⭐
+    status: Watched
+    director: null
+    year: '2017'
   - title: Nobody
     poster: https://m.media-amazon.com/images/M/MV5BYmIzOWViNDEtOWRiZS00ZWM4LWFiMmEtNGJjMmQ3NTIxN2U0XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt7888964/
