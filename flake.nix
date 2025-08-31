@@ -20,6 +20,9 @@
 					python313Packages.beautifulsoup4
 					texliveFull
 				];
+				shellHook = ''
+					export OMDB_API_KEY="$(sops -d --extract '["OMDB_API_KEY"]' ${./secrets.yaml})"
+				'';
 			};
     };
 }

@@ -88,6 +88,15 @@ entries:
     status: Watched
     year: '2023'
     id: tt18347622
+  - title: Bodyguard
+    poster: https://m.media-amazon.com/images/M/MV5BN2I0NWE2Y2QtM2I3YS00MzRlLThlMjAtMDViNGMwNjRhZjVlXkEyXkFqcGc@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt7493974/
+    id: tt7493974
+    genre: null
+    rating: 5⭐
+    status: Watched
+    director: null
+    year: '2018'
   - title: Breaking Bad
     poster: https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0903747/
