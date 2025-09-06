@@ -62,7 +62,7 @@ entries:
     status: Watched
     year: '1992'
     id: tt0104257
-  - title: 'A Silent Voice: The Movie'
+  - title: A Silent Voice
     poster: https://m.media-amazon.com/images/M/MV5BOTFiNzRiOWEtYTQwNy00NmRiLWE0ZWYtNTE0YjExZjFmZjkwXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt5323662/
     genre:
@@ -78,7 +78,7 @@ entries:
     genre:
       - Thriller
       - Dark Comedy
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: '2020'
     id: tt11651796
@@ -108,7 +108,7 @@ entries:
     genre:
       - Animation
       - Action
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: '2019'
     id: tt0437086
@@ -193,7 +193,7 @@ entries:
     genre:
       - Drama
       - Romance
-    rating: null
+    rating: Unwatched
     status: Unwatched
     director: null
     year: '1933'
@@ -207,6 +207,7 @@ entries:
     year: '2023'
     id: tt1517268
   - title: Batman Begins
+    series: Batman
     poster: https://m.media-amazon.com/images/M/MV5BODIyMDdhNTgtNDlmOC00MjUxLWE2NDItODA5MTdkNzY3ZTdhXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0372784/
     director: Christopher Nolan
@@ -228,6 +229,7 @@ entries:
     year: '1991'
     id: tt0101414
   - title: Before Midnight
+    series: Before Trilogy
     poster: https://m.media-amazon.com/images/M/MV5BMjA5NzgxODE2NF5BMl5BanBnXkFtZTcwNTI1NTI0OQ@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt2209418/
     genre:
@@ -237,6 +239,7 @@ entries:
     year: '2013'
     id: tt2209418
   - title: Before Sunrise
+    series: Before Trilogy
     poster: https://m.media-amazon.com/images/M/MV5BZDZhZmI1ZTUtYWI3NC00NTMwLTk3NWMtNDc0OGNjM2I0ZjlmXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0112471/
     genre:
@@ -246,6 +249,7 @@ entries:
     year: '1995'
     id: tt0112471
   - title: Before Sunset
+    series: Before Trilogy
     poster: https://m.media-amazon.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0381681/
     genre:
@@ -260,7 +264,7 @@ entries:
     genre:
       - Animation
       - Superhero
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: '2014'
     id: tt2245084
@@ -316,13 +320,22 @@ entries:
     status: Watched
     year: '1942'
     id: tt0034583
+  - title: Challengers
+    poster: https://m.media-amazon.com/images/M/MV5BZTcyZGIyODctZGJhOS00MWUyLWI5ZWEtMjg4YzhkMDczMDBhXkEyXkFqcGc@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt16426418/
+    id: tt16426418
+    genre: null
+    rating: 5⭐
+    status: Watched
+    director: null
+    year: '2024'
   - title: Chhapaak
     poster: https://m.media-amazon.com/images/M/MV5BMzQxZWIxZTItYjcwZi00N2YyLTgzNjAtZDliYTc4MzQ3ZWIzXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg
     url: https://www.imdb.com/title/tt9614460/
     genre:
       - Real Life
       - Drama
-    rating: 2⭐
+    rating: 3⭐
     status: Watched
     year: '2020'
     id: tt9614460
@@ -331,7 +344,7 @@ entries:
     url: https://www.imdb.com/title/tt9052870/
     genre:
       - Drama
-    rating: 2⭐
+    rating: 3⭐
     status: Watched
     year: '2019'
     id: tt9052870
@@ -412,7 +425,7 @@ entries:
     id: tt1136608
     genre:
       - Science Fiction
-    rating: null
+    rating: 4⭐
     status: Watched
     director: null
     year: '2009'
@@ -559,7 +572,7 @@ entries:
     url: https://www.imdb.com/title/tt0091042/
     genre:
       - Comedy
-    rating: 5⭐
+    rating: 4⭐
     status: Watched
     year: '1986'
     id: tt0091042
@@ -577,7 +590,7 @@ entries:
     url: https://www.imdb.com/title/tt3142688/
     genre:
       - Slice Of Life
-    rating: 2⭐
+    rating: 3⭐
     status: Watched
     year: '2014'
     id: tt3142688
@@ -666,7 +679,7 @@ entries:
     genre:
       - Real Life
       - War
-    rating: 5⭐
+    rating: 4⭐
     status: Watched
     year: '2016'
     id: tt2119532
@@ -735,21 +748,20 @@ entries:
       - Comedy
       - Drama
       - Romance
-    rating: null
+    rating: Unwatched
     status: Unwatched
-    director: null
     year: '1953'
   - title: How to Train Your Dragon
     poster: https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0892769/
-    rating: 5⭐
+    rating: 4⭐
     status: Watched
     year: '2010'
     id: tt0892769
   - title: Howl's Moving Castle
     poster: https://m.media-amazon.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0347149/
-    rating: 5⭐
+    rating: 4⭐
     status: Watched
     year: '2004'
     id: tt0347149
@@ -777,7 +789,7 @@ entries:
   - title: In the Heights
     poster: https://m.media-amazon.com/images/M/MV5BOGUwODk5ZmItMjUzMi00YmYyLTk3NzgtNGVmYTI3MmJhYmY1XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1321510/
-    rating: 4⭐
+    rating: 3⭐
     status: Watched
     year: '2021'
     id: tt1321510
@@ -1015,8 +1027,8 @@ entries:
       - Comedy
       - Romance
     director: Celine Song
-    rating: Unwatched
-    status: Unwatched
+    rating: 4⭐
+    status: Watched
     year: '2025'
     id: tt30253473
   - title: Me Before You
@@ -1062,16 +1074,6 @@ entries:
     status: Watched
     year: '1988'
     id: tt0096283
-  - title: 'National Theatre Live: Yerma'
-    poster: https://m.media-amazon.com/images/M/MV5BYmY2NGNjYTgtYWZjMS00MDgwLWJhNjktNTQ4MTE4NzhmZTA3XkEyXkFqcGc@._V1_FMjpg_UX722_.jpg
-    url: https://www.imdb.com/title/tt6847880/
-    id: tt6847880
-    genre:
-      - Drama
-    rating: 5⭐
-    status: Watched
-    director: null
-    year: '2017'
   - title: Nobody
     poster: https://m.media-amazon.com/images/M/MV5BYmIzOWViNDEtOWRiZS00ZWM4LWFiMmEtNGJjMmQ3NTIxN2U0XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt7888964/
@@ -1098,7 +1100,7 @@ entries:
     poster: https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt15398776/
     director: Christopher Nolan
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: '2023'
     id: tt15398776
@@ -1391,6 +1393,7 @@ entries:
     year: '2007'
     id: tt0838221
   - title: The Dark Knight
+    series: Batman
     poster: https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0468569/
     director: Christopher Nolan
@@ -1399,10 +1402,11 @@ entries:
     year: '2008'
     id: tt0468569
   - title: The Dark Knight Rises
+    series: Batman
     poster: https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1345836/
     director: Christopher Nolan
-    rating: 5⭐
+    rating: 4⭐
     status: Watched
     year: '2012'
     id: tt1345836
@@ -1514,7 +1518,7 @@ entries:
   - title: The Little Mermaid
     poster: https://m.media-amazon.com/images/M/MV5BNmQ3ODcyZGMtMjNlOS00YzhlLTg0YzAtZGVjNmQ0OTYyNDg0XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0097757/
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: '1989'
     id: tt0097757
@@ -1542,7 +1546,7 @@ entries:
   - title: The Menu
     poster: https://m.media-amazon.com/images/M/MV5BN2Q0YWE1MjktODJlMi00NTRiLWI2ZTctZTAxNjkyODVjM2EyXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt9764362/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: '2022'
     id: tt9764362
@@ -1659,13 +1663,6 @@ entries:
     status: Watched
     year: '2013'
     id: tt0993846
-  - title: Thirteen Lives
-    poster: https://m.media-amazon.com/images/M/MV5BMGRmYzg2NTUtMjc3Yy00Njc4LTliNTktM2I1NjVkNGIzYTU2XkEyXkFqcGc@._V1_SX300.jpg
-    url: https://www.imdb.com/title/tt12262116/
-    rating: Unwatched
-    status: Unwatched
-    year: '2022'
-    id: tt12262116
   - title: Titanic
     poster: https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0120338/
@@ -1680,13 +1677,6 @@ entries:
     status: Watched
     year: '2014'
     id: tt2209764
-  - title: Turning Red
-    poster: https://m.media-amazon.com/images/M/MV5BODY2NjExYmUtZTQ4NS00NzM2LWE2NWYtZWY2NGIyOTBmNzI3XkEyXkFqcGc@._V1_SX300.jpg
-    url: https://www.imdb.com/title/tt8097030/
-    rating: Unwatched
-    status: Unwatched
-    year: '2022'
-    id: tt8097030
   - title: Tár
     poster: https://m.media-amazon.com/images/M/MV5BYWY5YThhOGUtNDU4OS00NTk3LWI0ODQtNmRiYTk0ZjVkZWU2XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt14444726/
@@ -1750,6 +1740,15 @@ entries:
     status: Watched
     year: '2013'
     id: tt2178470
+  - title: Yerma
+    poster: https://m.media-amazon.com/images/M/MV5BYmY2NGNjYTgtYWZjMS00MDgwLWJhNjktNTQ4MTE4NzhmZTA3XkEyXkFqcGc@._V1_FMjpg_UX722_.jpg
+    url: https://www.imdb.com/title/tt6847880/
+    id: tt6847880
+    genre:
+      - Drama
+    rating: 5⭐
+    status: Watched
+    year: '2017'
   - title: Your Name.
     poster: https://m.media-amazon.com/images/M/MV5BMjI1ODZkYTgtYTY3Yy00ZTJkLWFkOTgtZDUyYWM4MzQwNjk0XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt5311514/

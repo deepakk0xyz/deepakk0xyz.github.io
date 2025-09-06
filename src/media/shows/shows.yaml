@@ -7,7 +7,7 @@ entries:
   - title: A Suitable Boy
     poster: https://m.media-amazon.com/images/M/MV5BMjhkZDhmMjYtMzU4Ny00ZGViLWIwNzAtNWJiZTRkNTUyYTk3XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt10795574/
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: '2020'
     id: tt10795574
@@ -35,7 +35,7 @@ entries:
   - title: Atypical
     poster: https://m.media-amazon.com/images/M/MV5BMTJiY2ZiNjEtMjk1MS00Yzk0LThiNGMtMGUzZjRlNjc1OTU2XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt6315640/
-    rating: 4⭐
+    rating: 3⭐
     status: Watched
     year: 2017–2021
     id: tt6315640
@@ -107,7 +107,7 @@ entries:
   - title: Brooklyn Nine-Nine
     poster: https://m.media-amazon.com/images/M/MV5BNzBiODQxZTUtNjc0MC00Yzc1LThmYTMtN2YwYTU3NjgxMmI4XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt2467372/
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: 2013–2021
     id: tt2467372
@@ -184,35 +184,35 @@ entries:
   - title: Friends
     poster: https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0108778/
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: 1994–2004
     id: tt0108778
   - title: How I Met Your Mother
     poster: https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_SX300.jpg
     url: https://www.imdb.com/title/tt0460649/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: 2005–2014
     id: tt0460649
   - title: It's Okay to Not Be Okay
     poster: https://m.media-amazon.com/images/M/MV5BNzZmOWMwNjktNzdkOC00MDcxLWE3YTItNzIwOTRjOGFlYWZlXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt12451520/
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: '2020'
     id: tt12451520
   - title: Itaewon Class
     poster: https://m.media-amazon.com/images/M/MV5BODEyZmVlMWEtYjNmNS00MTQ5LThlMzgtZjM4YjNhMGVkZWI4XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt11239552/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: '2020'
     id: tt11239552
   - title: Kaleidoscope
     poster: https://m.media-amazon.com/images/M/MV5BZmE4ZGMzMzktYzkwMy00NTZiLWFjYzktNzA4MmI4NGEyZTkzXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt15438246/
-    rating: 3⭐
+    rating: 4⭐
     status: Watched
     year: '2023'
     id: tt15438246
@@ -255,20 +255,20 @@ entries:
     poster: https://m.media-amazon.com/images/M/MV5BYzFlOWFjNzQtODViNC00NzgzLThhZmItZTc1N2VlZDgwODUwXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1442437/
     rating: 4⭐
-    status: Unwatched
+    status: Unfinished
     year: 2009–2020
     id: tt1442437
   - title: Modern Love
     poster: https://m.media-amazon.com/images/M/MV5BZjA0OGMxYTktOTY5MC00YzdmLWI4MWMtNWI1NzkzOWZkMjg4XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt8543390/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: 2019–2021
     id: tt8543390
   - title: Money Heist
     poster: https://m.media-amazon.com/images/M/MV5BZjkxZWJiNTUtYjQwYS00MTBlLTgwODQtM2FkNWMyMjMwOGZiXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt6468322/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: 2017–2021
     id: tt6468322
@@ -289,7 +289,7 @@ entries:
   - title: Pantheon
     poster: https://m.media-amazon.com/images/M/MV5BNGM2NjRjMzAtZjY5Ni00MWVkLWJlMTQtMWVmOWE1N2M2ZWM0XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt11680642/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: 2022–2023
     id: tt11680642
@@ -303,7 +303,7 @@ entries:
   - title: Rick and Morty
     poster: https://m.media-amazon.com/images/M/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt2861424/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: 2013–
     id: tt2861424
@@ -359,14 +359,14 @@ entries:
   - title: The Boys
     poster: https://m.media-amazon.com/images/M/MV5BMWJlN2U5MzItNjU4My00NTM2LWFjOWUtOWFiNjg3ZTMxZDY1XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1190634/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: 2019–
     id: tt1190634
   - title: The Good Place
     poster: https://m.media-amazon.com/images/M/MV5BNjI3ZGRhNDYtNDFjOS00OGFlLTg4NTEtYjZjYTViY2ZiMzBkXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt4955642/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: 2016–2020
     id: tt4955642
@@ -380,7 +380,7 @@ entries:
   - title: The Newsroom
     poster: https://m.media-amazon.com/images/M/MV5BNzk4ZjllMjktY2MyMy00N2M3LWFhYjYtM2FkY2YxMzkyNzgyXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1870479/
-    rating: 4⭐
+    rating: 5⭐
     status: Watched
     year: 2012–2014
     id: tt1870479

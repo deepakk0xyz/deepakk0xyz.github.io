@@ -52,7 +52,7 @@ def parse_args():
     add_parser = subparsers.add_parser("add")
     add_parser.add_argument("imdb_id")
     add_parser.add_argument("-r", "--rating", choices=["1", "2", "3", "4", "5"])
-    add_parser.add_argument("-s", "--status", choices=["Ongoing", "Watched", "Unwatched"])
+    add_parser.add_argument("-s", "--status", choices=["Ongoing", "Watched", "Unwatched", "Unfinished"])
     add_parser.add_argument("-g", "--genre")
     add_parser.set_defaults(command="add")
 
