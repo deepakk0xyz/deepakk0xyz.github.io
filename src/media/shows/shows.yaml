@@ -251,6 +251,15 @@ entries:
     status: Unwatched
     year: 2007–2015
     id: tt0804503
+  - title: Midnight Mass
+    poster: https://m.media-amazon.com/images/M/MV5BYWFjMDM5MzgtZWI3OC00ZWRmLThlNTktN2ZkMTc3ZTA5NGEzXkEyXkFqcGc@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt10574558/
+    id: tt10574558
+    genre: null
+    rating: 4⭐
+    status: Watched
+    director: null
+    year: '2021'
   - title: Modern Family
     poster: https://m.media-amazon.com/images/M/MV5BYzFlOWFjNzQtODViNC00NzgzLThhZmItZTc1N2VlZDgwODUwXkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt1442437/

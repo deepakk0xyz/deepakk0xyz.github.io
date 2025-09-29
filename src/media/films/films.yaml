@@ -1096,6 +1096,16 @@ entries:
     status: Watched
     year: '2019'
     id: tt7131622
+  - title: One Battle After Another
+    poster: https://m.media-amazon.com/images/M/MV5BYzA5ZTMyMWYtMWEwZS00MTU4LTgwMjktYTE5OTU1YzFjMGRiXkEyXkFqcGc@._V1_SX300.jpg
+    url: https://www.imdb.com/title/tt30144839/
+    id: tt30144839
+    genre:
+      - Dark Comedy
+    rating: 4⭐
+    status: Watched
+    director: null
+    year: '2025'
   - title: Oppenheimer
     poster: https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_SX300.jpg
     url: https://www.imdb.com/title/tt15398776/
